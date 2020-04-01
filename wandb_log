@@ -1,0 +1,1170 @@
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From wandb.py:31: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+Seed:  10
+Enviroment_id SpaceInvaders-v0
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:41: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:44: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-01 19:58:02.752817: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-01 19:58:02.760340: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-04-01 19:58:02.898359: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ebc3105610 executing computations on platform CUDA. Devices:
+2020-04-01 19:58:02.898437: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+2020-04-01 19:58:02.920307: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3493035000 Hz
+2020-04-01 19:58:02.924880: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ebc31dc110 executing computations on platform Host. Devices:
+2020-04-01 19:58:02.925024: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-01 19:58:02.927421: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-04-01 19:58:02.927954: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-01 19:58:02.931695: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-01 19:58:02.933710: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-01 19:58:02.934246: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-01 19:58:02.936426: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-01 19:58:02.937801: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-01 19:58:02.937978: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2020-04-01 19:58:02.938006: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
+2020-04-01 19:58:02.938107: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-01 19:58:02.938159: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-01 19:58:02.938220: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:47: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/neural_network.py:31: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/neural_network.py:14: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/neural_network.py:35: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/neural_network.py:19: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:286: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:66: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From /home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2020-04-01 19:58:04.420631: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+{'reward': -1, 'episode_length': -1, 'total_reward': 1635.0, 'total_episode_length': 472}
+Episode: 1
+{'reward': -1, 'episode_length': -1, 'total_reward': 2250.0, 'total_episode_length': 873}
+Episode: 2
+{'reward': -1, 'episode_length': -1, 'total_reward': 845.0, 'total_episode_length': 419}
+Episode: 3
+{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 537}
+Episode: 4
+{'reward': -1, 'episode_length': -1, 'total_reward': 1955.0, 'total_episode_length': 805}
+Episode: 5
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 265}
+Episode: 6
+{'reward': -1, 'episode_length': -1, 'total_reward': 1865.0, 'total_episode_length': 732}
+Episode: 7
+{'reward': -1, 'episode_length': -1, 'total_reward': 2090.0, 'total_episode_length': 657}
+Episode: 8
+{'reward': -1, 'episode_length': -1, 'total_reward': 2260.0, 'total_episode_length': 774}
+Episode: 9
+{'reward': -1, 'episode_length': -1, 'total_reward': 2165.0, 'total_episode_length': 850}
+Episode: 10
+{'reward': -1, 'episode_length': -1, 'total_reward': 2265.0, 'total_episode_length': 897}
+Episode: 11
+{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 528}
+Episode: 12
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 513}
+Episode: 13
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 522}
+Episode: 14
+{'reward': -1, 'episode_length': -1, 'total_reward': 1430.0, 'total_episode_length': 536}
+Episode: 15
+{'reward': -1, 'episode_length': -1, 'total_reward': 2460.0, 'total_episode_length': 894}
+Episode: 16
+{'reward': -1, 'episode_length': -1, 'total_reward': 2090.0, 'total_episode_length': 707}
+Episode: 17
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 529}
+Episode: 18
+{'reward': -1, 'episode_length': -1, 'total_reward': 2745.0, 'total_episode_length': 1004}
+Episode: 19
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 250}
+Episode: 20
+{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 255}
+Episode: 21
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 305}
+Episode: 22
+{'reward': -1, 'episode_length': -1, 'total_reward': 545.0, 'total_episode_length': 218}
+Episode: 23
+{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 511}
+Episode: 24
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 512}
+Episode: 25
+{'reward': -1, 'episode_length': -1, 'total_reward': 520.0, 'total_episode_length': 340}
+Episode: 26
+{'reward': -1, 'episode_length': -1, 'total_reward': 3320.0, 'total_episode_length': 1150}
+Episode: 27
+{'reward': -1, 'episode_length': -1, 'total_reward': 1600.0, 'total_episode_length': 696}
+Episode: 28
+{'reward': -1, 'episode_length': -1, 'total_reward': 1720.0, 'total_episode_length': 719}
+Episode: 29
+{'reward': -1, 'episode_length': -1, 'total_reward': 2490.0, 'total_episode_length': 1014}
+Episode: 30
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 288}
+Episode: 31
+{'reward': -1, 'episode_length': -1, 'total_reward': 2660.0, 'total_episode_length': 1016}
+Episode: 32
+{'reward': -1, 'episode_length': -1, 'total_reward': 3445.0, 'total_episode_length': 1242}
+Episode: 33
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 521}
+Episode: 34
+{'reward': -1, 'episode_length': -1, 'total_reward': 630.0, 'total_episode_length': 326}
+Episode: 35
+{'reward': -1, 'episode_length': -1, 'total_reward': 3265.0, 'total_episode_length': 1175}
+Episode: 36
+{'reward': -1, 'episode_length': -1, 'total_reward': 1120.0, 'total_episode_length': 453}
+Episode: 37
+{'reward': -1, 'episode_length': -1, 'total_reward': 2495.0, 'total_episode_length': 998}
+Episode: 38
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 454}
+Episode: 39
+{'reward': -1, 'episode_length': -1, 'total_reward': 1685.0, 'total_episode_length': 671}
+Episode: 40
+{'reward': -1, 'episode_length': -1, 'total_reward': 980.0, 'total_episode_length': 231}
+Episode: 41
+{'reward': -1, 'episode_length': -1, 'total_reward': 610.0, 'total_episode_length': 302}
+Episode: 42
+{'reward': -1, 'episode_length': -1, 'total_reward': 2270.0, 'total_episode_length': 796}
+Episode: 43
+{'reward': -1, 'episode_length': -1, 'total_reward': 2630.0, 'total_episode_length': 978}
+Episode: 44
+{'reward': -1, 'episode_length': -1, 'total_reward': 4150.0, 'total_episode_length': 1397}
+Episode: 45
+{'reward': -1, 'episode_length': -1, 'total_reward': 2225.0, 'total_episode_length': 838}
+Episode: 46
+{'reward': -1, 'episode_length': -1, 'total_reward': 550.0, 'total_episode_length': 227}
+Episode: 47
+{'reward': -1, 'episode_length': -1, 'total_reward': 2490.0, 'total_episode_length': 912}
+Episode: 48
+{'reward': -1, 'episode_length': -1, 'total_reward': 3095.0, 'total_episode_length': 1104}
+Episode: 49
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 501}
+Episode: 50
+{'reward': -1, 'episode_length': -1, 'total_reward': 2695.0, 'total_episode_length': 886}
+Episode: 51
+{'reward': -1, 'episode_length': -1, 'total_reward': 1840.0, 'total_episode_length': 783}
+Episode: 52
+{'reward': -1, 'episode_length': -1, 'total_reward': 800.0, 'total_episode_length': 236}
+Episode: 53
+{'reward': -1, 'episode_length': -1, 'total_reward': 2225.0, 'total_episode_length': 818}
+Episode: 54
+{'reward': -1, 'episode_length': -1, 'total_reward': 495.0, 'total_episode_length': 201}
+Episode: 55
+{'reward': -1, 'episode_length': -1, 'total_reward': 945.0, 'total_episode_length': 416}
+Episode: 56
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 278}
+Episode: 57
+{'reward': -1, 'episode_length': -1, 'total_reward': 1645.0, 'total_episode_length': 681}
+Episode: 58
+{'reward': -1, 'episode_length': -1, 'total_reward': 1170.0, 'total_episode_length': 596}
+Episode: 59
+{'reward': -1, 'episode_length': -1, 'total_reward': 1980.0, 'total_episode_length': 841}
+Episode: 60
+{'reward': -1, 'episode_length': -1, 'total_reward': 1085.0, 'total_episode_length': 468}
+Episode: 61
+{'reward': -1, 'episode_length': -1, 'total_reward': 1800.0, 'total_episode_length': 732}
+Episode: 62
+{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 560}
+Episode: 63
+{'reward': -1, 'episode_length': -1, 'total_reward': 2065.0, 'total_episode_length': 857}
+Episode: 64
+{'reward': -1, 'episode_length': -1, 'total_reward': 1225.0, 'total_episode_length': 426}
+Episode: 65
+{'reward': -1, 'episode_length': -1, 'total_reward': 1170.0, 'total_episode_length': 515}
+Episode: 66
+{'reward': -1, 'episode_length': -1, 'total_reward': 1805.0, 'total_episode_length': 785}
+Episode: 67
+{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 823}
+Episode: 68
+{'reward': -1, 'episode_length': -1, 'total_reward': 2280.0, 'total_episode_length': 769}
+Episode: 69
+{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 226}
+Episode: 70
+{'reward': -1, 'episode_length': -1, 'total_reward': 515.0, 'total_episode_length': 241}
+Episode: 71
+{'reward': -1, 'episode_length': -1, 'total_reward': 3320.0, 'total_episode_length': 1188}
+Episode: 72
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 300}
+Episode: 73
+{'reward': -1, 'episode_length': -1, 'total_reward': 2040.0, 'total_episode_length': 818}
+Episode: 74
+{'reward': -1, 'episode_length': -1, 'total_reward': 2560.0, 'total_episode_length': 961}
+Episode: 75
+{'reward': -1, 'episode_length': -1, 'total_reward': 610.0, 'total_episode_length': 246}
+Episode: 76
+{'reward': -1, 'episode_length': -1, 'total_reward': 800.0, 'total_episode_length': 266}
+Episode: 77
+{'reward': -1, 'episode_length': -1, 'total_reward': 2875.0, 'total_episode_length': 1058}
+Episode: 78
+{'reward': -1, 'episode_length': -1, 'total_reward': 2180.0, 'total_episode_length': 833}
+Episode: 79
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 558}
+Episode: 80
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 488}
+Episode: 81
+{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 685}
+Episode: 82
+{'reward': -1, 'episode_length': -1, 'total_reward': 1845.0, 'total_episode_length': 787}
+Episode: 83
+{'reward': -1, 'episode_length': -1, 'total_reward': 2535.0, 'total_episode_length': 884}
+Episode: 84
+{'reward': -1, 'episode_length': -1, 'total_reward': 540.0, 'total_episode_length': 278}
+Episode: 85
+{'reward': -1, 'episode_length': -1, 'total_reward': 3560.0, 'total_episode_length': 1288}
+Episode: 86
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 303}
+Episode: 87
+{'reward': -1, 'episode_length': -1, 'total_reward': 580.0, 'total_episode_length': 272}
+Episode: 88
+{'reward': -1, 'episode_length': -1, 'total_reward': 230.0, 'total_episode_length': 160}
+Episode: 89
+{'reward': -1, 'episode_length': -1, 'total_reward': 975.0, 'total_episode_length': 439}
+Episode: 90
+{'reward': -1, 'episode_length': -1, 'total_reward': 4195.0, 'total_episode_length': 1453}
+Episode: 91
+{'reward': -1, 'episode_length': -1, 'total_reward': 1210.0, 'total_episode_length': 472}
+Episode: 92
+{'reward': -1, 'episode_length': -1, 'total_reward': 1935.0, 'total_episode_length': 803}
+Episode: 93
+{'reward': -1, 'episode_length': -1, 'total_reward': 2465.0, 'total_episode_length': 980}
+Episode: 94
+{'reward': -1, 'episode_length': -1, 'total_reward': 1915.0, 'total_episode_length': 633}
+Episode: 95
+{'reward': -1, 'episode_length': -1, 'total_reward': 1430.0, 'total_episode_length': 559}
+Episode: 96
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 538}
+Episode: 97
+{'reward': -1, 'episode_length': -1, 'total_reward': 1865.0, 'total_episode_length': 792}
+Episode: 98
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 301}
+Episode: 99
+{'reward': -1, 'episode_length': -1, 'total_reward': 1175.0, 'total_episode_length': 484}
+Episode: 100
+*************************************************************
+CUMULATIVE_AVG_REWARD 1641.0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Seed:  50
+Enviroment_id SpaceInvaders-v0
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-04-01 20:04:28.650262: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-04-01 20:04:28.650389: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-01 20:04:28.650407: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-01 20:04:28.650422: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-01 20:04:28.650435: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-01 20:04:28.650446: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-01 20:04:28.650458: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-01 20:04:28.650540: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2020-04-01 20:04:28.650549: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
+2020-04-01 20:04:28.650565: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-01 20:04:28.650571: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-01 20:04:28.650576: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+{'reward': -1, 'episode_length': -1, 'total_reward': 3490.0, 'total_episode_length': 1210}
+Episode: 1
+{'reward': -1, 'episode_length': -1, 'total_reward': 950.0, 'total_episode_length': 269}
+Episode: 2
+{'reward': -1, 'episode_length': -1, 'total_reward': 1375.0, 'total_episode_length': 451}
+Episode: 3
+{'reward': -1, 'episode_length': -1, 'total_reward': 1265.0, 'total_episode_length': 535}
+Episode: 4
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 755}
+Episode: 5
+{'reward': -1, 'episode_length': -1, 'total_reward': 1905.0, 'total_episode_length': 783}
+Episode: 6
+{'reward': -1, 'episode_length': -1, 'total_reward': 1835.0, 'total_episode_length': 686}
+Episode: 7
+{'reward': -1, 'episode_length': -1, 'total_reward': 1960.0, 'total_episode_length': 724}
+Episode: 8
+{'reward': -1, 'episode_length': -1, 'total_reward': 2135.0, 'total_episode_length': 853}
+Episode: 9
+{'reward': -1, 'episode_length': -1, 'total_reward': 1815.0, 'total_episode_length': 786}
+Episode: 10
+{'reward': -1, 'episode_length': -1, 'total_reward': 975.0, 'total_episode_length': 389}
+Episode: 11
+{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 245}
+Episode: 12
+{'reward': -1, 'episode_length': -1, 'total_reward': 1695.0, 'total_episode_length': 669}
+Episode: 13
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 290}
+Episode: 14
+{'reward': -1, 'episode_length': -1, 'total_reward': 1375.0, 'total_episode_length': 535}
+Episode: 15
+{'reward': -1, 'episode_length': -1, 'total_reward': 1585.0, 'total_episode_length': 701}
+Episode: 16
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 806}
+Episode: 17
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 291}
+Episode: 18
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 257}
+Episode: 19
+{'reward': -1, 'episode_length': -1, 'total_reward': 1155.0, 'total_episode_length': 568}
+Episode: 20
+{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 521}
+Episode: 21
+{'reward': -1, 'episode_length': -1, 'total_reward': 3430.0, 'total_episode_length': 1215}
+Episode: 22
+{'reward': -1, 'episode_length': -1, 'total_reward': 2695.0, 'total_episode_length': 1062}
+Episode: 23
+{'reward': -1, 'episode_length': -1, 'total_reward': 1290.0, 'total_episode_length': 478}
+Episode: 24
+{'reward': -1, 'episode_length': -1, 'total_reward': 2280.0, 'total_episode_length': 820}
+Episode: 25
+{'reward': -1, 'episode_length': -1, 'total_reward': 2790.0, 'total_episode_length': 1085}
+Episode: 26
+{'reward': -1, 'episode_length': -1, 'total_reward': 2465.0, 'total_episode_length': 999}
+Episode: 27
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 532}
+Episode: 28
+{'reward': -1, 'episode_length': -1, 'total_reward': 1440.0, 'total_episode_length': 504}
+Episode: 29
+{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 710}
+Episode: 30
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 545}
+Episode: 31
+{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 777}
+Episode: 32
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 307}
+Episode: 33
+{'reward': -1, 'episode_length': -1, 'total_reward': 895.0, 'total_episode_length': 428}
+Episode: 34
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 232}
+Episode: 35
+{'reward': -1, 'episode_length': -1, 'total_reward': 1780.0, 'total_episode_length': 709}
+Episode: 36
+{'reward': -1, 'episode_length': -1, 'total_reward': 2380.0, 'total_episode_length': 983}
+Episode: 37
+{'reward': -1, 'episode_length': -1, 'total_reward': 3430.0, 'total_episode_length': 1164}
+Episode: 38
+{'reward': -1, 'episode_length': -1, 'total_reward': 2650.0, 'total_episode_length': 1057}
+Episode: 39
+{'reward': -1, 'episode_length': -1, 'total_reward': 1560.0, 'total_episode_length': 632}
+Episode: 40
+{'reward': -1, 'episode_length': -1, 'total_reward': 2460.0, 'total_episode_length': 973}
+Episode: 41
+{'reward': -1, 'episode_length': -1, 'total_reward': 1670.0, 'total_episode_length': 691}
+Episode: 42
+{'reward': -1, 'episode_length': -1, 'total_reward': 1350.0, 'total_episode_length': 573}
+Episode: 43
+{'reward': -1, 'episode_length': -1, 'total_reward': 1420.0, 'total_episode_length': 590}
+Episode: 44
+{'reward': -1, 'episode_length': -1, 'total_reward': 1410.0, 'total_episode_length': 677}
+Episode: 45
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 224}
+Episode: 46
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 547}
+Episode: 47
+{'reward': -1, 'episode_length': -1, 'total_reward': 1305.0, 'total_episode_length': 445}
+Episode: 48
+{'reward': -1, 'episode_length': -1, 'total_reward': 2065.0, 'total_episode_length': 711}
+Episode: 49
+{'reward': -1, 'episode_length': -1, 'total_reward': 2230.0, 'total_episode_length': 808}
+Episode: 50
+{'reward': -1, 'episode_length': -1, 'total_reward': 475.0, 'total_episode_length': 242}
+Episode: 51
+{'reward': -1, 'episode_length': -1, 'total_reward': 2410.0, 'total_episode_length': 889}
+Episode: 52
+{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 208}
+Episode: 53
+{'reward': -1, 'episode_length': -1, 'total_reward': 615.0, 'total_episode_length': 212}
+Episode: 54
+{'reward': -1, 'episode_length': -1, 'total_reward': 1765.0, 'total_episode_length': 649}
+Episode: 55
+{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 546}
+Episode: 56
+{'reward': -1, 'episode_length': -1, 'total_reward': 1965.0, 'total_episode_length': 695}
+Episode: 57
+{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 392}
+Episode: 58
+{'reward': -1, 'episode_length': -1, 'total_reward': 2140.0, 'total_episode_length': 898}
+Episode: 59
+{'reward': -1, 'episode_length': -1, 'total_reward': 2605.0, 'total_episode_length': 965}
+Episode: 60
+{'reward': -1, 'episode_length': -1, 'total_reward': 2345.0, 'total_episode_length': 778}
+Episode: 61
+{'reward': -1, 'episode_length': -1, 'total_reward': 2690.0, 'total_episode_length': 950}
+Episode: 62
+{'reward': -1, 'episode_length': -1, 'total_reward': 770.0, 'total_episode_length': 215}
+Episode: 63
+{'reward': -1, 'episode_length': -1, 'total_reward': 2080.0, 'total_episode_length': 843}
+Episode: 64
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 254}
+Episode: 65
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 810}
+Episode: 66
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 749}
+Episode: 67
+{'reward': -1, 'episode_length': -1, 'total_reward': 1580.0, 'total_episode_length': 646}
+Episode: 68
+{'reward': -1, 'episode_length': -1, 'total_reward': 2260.0, 'total_episode_length': 777}
+Episode: 69
+{'reward': -1, 'episode_length': -1, 'total_reward': 1145.0, 'total_episode_length': 518}
+Episode: 70
+{'reward': -1, 'episode_length': -1, 'total_reward': 515.0, 'total_episode_length': 270}
+Episode: 71
+{'reward': -1, 'episode_length': -1, 'total_reward': 1265.0, 'total_episode_length': 567}
+Episode: 72
+{'reward': -1, 'episode_length': -1, 'total_reward': 3360.0, 'total_episode_length': 1195}
+Episode: 73
+{'reward': -1, 'episode_length': -1, 'total_reward': 1075.0, 'total_episode_length': 418}
+Episode: 74
+{'reward': -1, 'episode_length': -1, 'total_reward': 1935.0, 'total_episode_length': 864}
+Episode: 75
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 303}
+Episode: 76
+{'reward': -1, 'episode_length': -1, 'total_reward': 610.0, 'total_episode_length': 273}
+Episode: 77
+{'reward': -1, 'episode_length': -1, 'total_reward': 2395.0, 'total_episode_length': 848}
+Episode: 78
+{'reward': -1, 'episode_length': -1, 'total_reward': 1210.0, 'total_episode_length': 544}
+Episode: 79
+{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 267}
+Episode: 80
+{'reward': -1, 'episode_length': -1, 'total_reward': 1800.0, 'total_episode_length': 771}
+Episode: 81
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 488}
+Episode: 82
+{'reward': -1, 'episode_length': -1, 'total_reward': 1570.0, 'total_episode_length': 678}
+Episode: 83
+{'reward': -1, 'episode_length': -1, 'total_reward': 1835.0, 'total_episode_length': 767}
+Episode: 84
+{'reward': -1, 'episode_length': -1, 'total_reward': 1670.0, 'total_episode_length': 622}
+Episode: 85
+{'reward': -1, 'episode_length': -1, 'total_reward': 545.0, 'total_episode_length': 230}
+Episode: 86
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 777}
+Episode: 87
+{'reward': -1, 'episode_length': -1, 'total_reward': 540.0, 'total_episode_length': 243}
+Episode: 88
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 492}
+Episode: 89
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 293}
+Episode: 90
+{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 806}
+Episode: 91
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 555}
+Episode: 92
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 298}
+Episode: 93
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 496}
+Episode: 94
+{'reward': -1, 'episode_length': -1, 'total_reward': 2375.0, 'total_episode_length': 941}
+Episode: 95
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 791}
+Episode: 96
+{'reward': -1, 'episode_length': -1, 'total_reward': 2305.0, 'total_episode_length': 898}
+Episode: 97
+{'reward': -1, 'episode_length': -1, 'total_reward': 1400.0, 'total_episode_length': 461}
+Episode: 98
+{'reward': -1, 'episode_length': -1, 'total_reward': 2630.0, 'total_episode_length': 996}
+Episode: 99
+{'reward': -1, 'episode_length': -1, 'total_reward': 1835.0, 'total_episode_length': 834}
+Episode: 100
+*************************************************************
+CUMULATIVE_AVG_REWARD 1590.15
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Seed:  100
+Enviroment_id SpaceInvaders-v0
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-04-01 20:10:51.551324: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-04-01 20:10:51.551504: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-01 20:10:51.551533: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-01 20:10:51.551555: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-01 20:10:51.551575: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-01 20:10:51.551593: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-01 20:10:51.551613: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-01 20:10:51.551719: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2020-04-01 20:10:51.551735: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
+2020-04-01 20:10:51.551756: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-01 20:10:51.551766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-01 20:10:51.551774: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+{'reward': -1, 'episode_length': -1, 'total_reward': 770.0, 'total_episode_length': 292}
+Episode: 1
+{'reward': -1, 'episode_length': -1, 'total_reward': 1835.0, 'total_episode_length': 724}
+Episode: 2
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 526}
+Episode: 3
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 568}
+Episode: 4
+{'reward': -1, 'episode_length': -1, 'total_reward': 1565.0, 'total_episode_length': 582}
+Episode: 5
+{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 256}
+Episode: 6
+{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 446}
+Episode: 7
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 798}
+Episode: 8
+{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 532}
+Episode: 9
+{'reward': -1, 'episode_length': -1, 'total_reward': 1360.0, 'total_episode_length': 581}
+Episode: 10
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 534}
+Episode: 11
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 316}
+Episode: 12
+{'reward': -1, 'episode_length': -1, 'total_reward': 1325.0, 'total_episode_length': 584}
+Episode: 13
+{'reward': -1, 'episode_length': -1, 'total_reward': 1150.0, 'total_episode_length': 518}
+Episode: 14
+{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 826}
+Episode: 15
+{'reward': -1, 'episode_length': -1, 'total_reward': 1345.0, 'total_episode_length': 598}
+Episode: 16
+{'reward': -1, 'episode_length': -1, 'total_reward': 580.0, 'total_episode_length': 294}
+Episode: 17
+{'reward': -1, 'episode_length': -1, 'total_reward': 2860.0, 'total_episode_length': 898}
+Episode: 18
+{'reward': -1, 'episode_length': -1, 'total_reward': 1865.0, 'total_episode_length': 781}
+Episode: 19
+{'reward': -1, 'episode_length': -1, 'total_reward': 1535.0, 'total_episode_length': 550}
+Episode: 20
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 270}
+Episode: 21
+{'reward': -1, 'episode_length': -1, 'total_reward': 1965.0, 'total_episode_length': 567}
+Episode: 22
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 726}
+Episode: 23
+{'reward': -1, 'episode_length': -1, 'total_reward': 3235.0, 'total_episode_length': 1128}
+Episode: 24
+{'reward': -1, 'episode_length': -1, 'total_reward': 3125.0, 'total_episode_length': 1153}
+Episode: 25
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 207}
+Episode: 26
+{'reward': -1, 'episode_length': -1, 'total_reward': 3790.0, 'total_episode_length': 1274}
+Episode: 27
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 500}
+Episode: 28
+{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 258}
+Episode: 29
+{'reward': -1, 'episode_length': -1, 'total_reward': 1935.0, 'total_episode_length': 782}
+Episode: 30
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 252}
+Episode: 31
+{'reward': -1, 'episode_length': -1, 'total_reward': 1150.0, 'total_episode_length': 488}
+Episode: 32
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 288}
+Episode: 33
+{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 227}
+Episode: 34
+{'reward': -1, 'episode_length': -1, 'total_reward': 2165.0, 'total_episode_length': 811}
+Episode: 35
+{'reward': -1, 'episode_length': -1, 'total_reward': 1805.0, 'total_episode_length': 709}
+Episode: 36
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 338}
+Episode: 37
+{'reward': -1, 'episode_length': -1, 'total_reward': 1270.0, 'total_episode_length': 462}
+Episode: 38
+{'reward': -1, 'episode_length': -1, 'total_reward': 1270.0, 'total_episode_length': 546}
+Episode: 39
+{'reward': -1, 'episode_length': -1, 'total_reward': 2335.0, 'total_episode_length': 884}
+Episode: 40
+{'reward': -1, 'episode_length': -1, 'total_reward': 1485.0, 'total_episode_length': 540}
+Episode: 41
+{'reward': -1, 'episode_length': -1, 'total_reward': 1175.0, 'total_episode_length': 536}
+Episode: 42
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 278}
+Episode: 43
+{'reward': -1, 'episode_length': -1, 'total_reward': 800.0, 'total_episode_length': 316}
+Episode: 44
+{'reward': -1, 'episode_length': -1, 'total_reward': 1300.0, 'total_episode_length': 622}
+Episode: 45
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 522}
+Episode: 46
+{'reward': -1, 'episode_length': -1, 'total_reward': 2165.0, 'total_episode_length': 889}
+Episode: 47
+{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 507}
+Episode: 48
+{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 772}
+Episode: 49
+{'reward': -1, 'episode_length': -1, 'total_reward': 2205.0, 'total_episode_length': 768}
+Episode: 50
+{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 526}
+Episode: 51
+{'reward': -1, 'episode_length': -1, 'total_reward': 2040.0, 'total_episode_length': 816}
+Episode: 52
+{'reward': -1, 'episode_length': -1, 'total_reward': 2385.0, 'total_episode_length': 983}
+Episode: 53
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 793}
+Episode: 54
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 239}
+Episode: 55
+{'reward': -1, 'episode_length': -1, 'total_reward': 2220.0, 'total_episode_length': 905}
+Episode: 56
+{'reward': -1, 'episode_length': -1, 'total_reward': 1400.0, 'total_episode_length': 537}
+Episode: 57
+{'reward': -1, 'episode_length': -1, 'total_reward': 545.0, 'total_episode_length': 208}
+Episode: 58
+{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 550}
+Episode: 59
+{'reward': -1, 'episode_length': -1, 'total_reward': 2435.0, 'total_episode_length': 902}
+Episode: 60
+{'reward': -1, 'episode_length': -1, 'total_reward': 1805.0, 'total_episode_length': 672}
+Episode: 61
+{'reward': -1, 'episode_length': -1, 'total_reward': 2010.0, 'total_episode_length': 732}
+Episode: 62
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 537}
+Episode: 63
+{'reward': -1, 'episode_length': -1, 'total_reward': 1550.0, 'total_episode_length': 670}
+Episode: 64
+{'reward': -1, 'episode_length': -1, 'total_reward': 2350.0, 'total_episode_length': 958}
+Episode: 65
+{'reward': -1, 'episode_length': -1, 'total_reward': 1785.0, 'total_episode_length': 679}
+Episode: 66
+{'reward': -1, 'episode_length': -1, 'total_reward': 3720.0, 'total_episode_length': 1215}
+Episode: 67
+{'reward': -1, 'episode_length': -1, 'total_reward': 2550.0, 'total_episode_length': 876}
+Episode: 68
+{'reward': -1, 'episode_length': -1, 'total_reward': 1995.0, 'total_episode_length': 811}
+Episode: 69
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 269}
+Episode: 70
+{'reward': -1, 'episode_length': -1, 'total_reward': 1940.0, 'total_episode_length': 673}
+Episode: 71
+{'reward': -1, 'episode_length': -1, 'total_reward': 3065.0, 'total_episode_length': 1120}
+Episode: 72
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 269}
+Episode: 73
+{'reward': -1, 'episode_length': -1, 'total_reward': 2285.0, 'total_episode_length': 769}
+Episode: 74
+{'reward': -1, 'episode_length': -1, 'total_reward': 410.0, 'total_episode_length': 192}
+Episode: 75
+{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 843}
+Episode: 76
+{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 526}
+Episode: 77
+{'reward': -1, 'episode_length': -1, 'total_reward': 805.0, 'total_episode_length': 306}
+Episode: 78
+{'reward': -1, 'episode_length': -1, 'total_reward': 770.0, 'total_episode_length': 252}
+Episode: 79
+{'reward': -1, 'episode_length': -1, 'total_reward': 2030.0, 'total_episode_length': 772}
+Episode: 80
+{'reward': -1, 'episode_length': -1, 'total_reward': 2450.0, 'total_episode_length': 867}
+Episode: 81
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 272}
+Episode: 82
+{'reward': -1, 'episode_length': -1, 'total_reward': 1370.0, 'total_episode_length': 587}
+Episode: 83
+{'reward': -1, 'episode_length': -1, 'total_reward': 2690.0, 'total_episode_length': 999}
+Episode: 84
+{'reward': -1, 'episode_length': -1, 'total_reward': 1125.0, 'total_episode_length': 501}
+Episode: 85
+{'reward': -1, 'episode_length': -1, 'total_reward': 3095.0, 'total_episode_length': 1100}
+Episode: 86
+{'reward': -1, 'episode_length': -1, 'total_reward': 1040.0, 'total_episode_length': 404}
+Episode: 87
+{'reward': -1, 'episode_length': -1, 'total_reward': 2885.0, 'total_episode_length': 1090}
+Episode: 88
+{'reward': -1, 'episode_length': -1, 'total_reward': 1530.0, 'total_episode_length': 622}
+Episode: 89
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 503}
+Episode: 90
+{'reward': -1, 'episode_length': -1, 'total_reward': 1115.0, 'total_episode_length': 418}
+Episode: 91
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 526}
+Episode: 92
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 510}
+Episode: 93
+{'reward': -1, 'episode_length': -1, 'total_reward': 2345.0, 'total_episode_length': 869}
+Episode: 94
+{'reward': -1, 'episode_length': -1, 'total_reward': 1115.0, 'total_episode_length': 488}
+Episode: 95
+{'reward': -1, 'episode_length': -1, 'total_reward': 1365.0, 'total_episode_length': 596}
+Episode: 96
+{'reward': -1, 'episode_length': -1, 'total_reward': 1150.0, 'total_episode_length': 571}
+Episode: 97
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 296}
+Episode: 98
+{'reward': -1, 'episode_length': -1, 'total_reward': 2040.0, 'total_episode_length': 887}
+Episode: 99
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 541}
+Episode: 100
+*************************************************************
+CUMULATIVE_AVG_REWARD 1545.2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Seed:  200
+Enviroment_id SpaceInvaders-v0
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-04-01 20:17:05.149472: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-04-01 20:17:05.149573: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-01 20:17:05.149592: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-01 20:17:05.149605: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-01 20:17:05.149618: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-01 20:17:05.149631: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-01 20:17:05.149643: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-01 20:17:05.149720: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2020-04-01 20:17:05.149730: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
+2020-04-01 20:17:05.149746: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-01 20:17:05.149754: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-01 20:17:05.149760: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+{'reward': -1, 'episode_length': -1, 'total_reward': 220.0, 'total_episode_length': 154}
+Episode: 1
+{'reward': -1, 'episode_length': -1, 'total_reward': 1210.0, 'total_episode_length': 425}
+Episode: 2
+{'reward': -1, 'episode_length': -1, 'total_reward': 2010.0, 'total_episode_length': 837}
+Episode: 3
+{'reward': -1, 'episode_length': -1, 'total_reward': 2440.0, 'total_episode_length': 978}
+Episode: 4
+{'reward': -1, 'episode_length': -1, 'total_reward': 580.0, 'total_episode_length': 244}
+Episode: 5
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 249}
+Episode: 6
+{'reward': -1, 'episode_length': -1, 'total_reward': 1990.0, 'total_episode_length': 809}
+Episode: 7
+{'reward': -1, 'episode_length': -1, 'total_reward': 2075.0, 'total_episode_length': 830}
+Episode: 8
+{'reward': -1, 'episode_length': -1, 'total_reward': 2410.0, 'total_episode_length': 989}
+Episode: 9
+{'reward': -1, 'episode_length': -1, 'total_reward': 1405.0, 'total_episode_length': 577}
+Episode: 10
+{'reward': -1, 'episode_length': -1, 'total_reward': 1820.0, 'total_episode_length': 711}
+Episode: 11
+{'reward': -1, 'episode_length': -1, 'total_reward': 3065.0, 'total_episode_length': 1061}
+Episode: 12
+{'reward': -1, 'episode_length': -1, 'total_reward': 2690.0, 'total_episode_length': 977}
+Episode: 13
+{'reward': -1, 'episode_length': -1, 'total_reward': 2435.0, 'total_episode_length': 933}
+Episode: 14
+{'reward': -1, 'episode_length': -1, 'total_reward': 2700.0, 'total_episode_length': 855}
+Episode: 15
+{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 862}
+Episode: 16
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 481}
+Episode: 17
+{'reward': -1, 'episode_length': -1, 'total_reward': 1285.0, 'total_episode_length': 601}
+Episode: 18
+{'reward': -1, 'episode_length': -1, 'total_reward': 2635.0, 'total_episode_length': 899}
+Episode: 19
+{'reward': -1, 'episode_length': -1, 'total_reward': 890.0, 'total_episode_length': 422}
+Episode: 20
+{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 439}
+Episode: 21
+{'reward': -1, 'episode_length': -1, 'total_reward': 2055.0, 'total_episode_length': 810}
+Episode: 22
+{'reward': -1, 'episode_length': -1, 'total_reward': 2625.0, 'total_episode_length': 1083}
+Episode: 23
+{'reward': -1, 'episode_length': -1, 'total_reward': 705.0, 'total_episode_length': 324}
+Episode: 24
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 452}
+Episode: 25
+{'reward': -1, 'episode_length': -1, 'total_reward': 1965.0, 'total_episode_length': 813}
+Episode: 26
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 503}
+Episode: 27
+{'reward': -1, 'episode_length': -1, 'total_reward': 1925.0, 'total_episode_length': 821}
+Episode: 28
+{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 243}
+Episode: 29
+{'reward': -1, 'episode_length': -1, 'total_reward': 495.0, 'total_episode_length': 230}
+Episode: 30
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 279}
+Episode: 31
+{'reward': -1, 'episode_length': -1, 'total_reward': 2465.0, 'total_episode_length': 1002}
+Episode: 32
+{'reward': -1, 'episode_length': -1, 'total_reward': 2355.0, 'total_episode_length': 873}
+Episode: 33
+{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 252}
+Episode: 34
+{'reward': -1, 'episode_length': -1, 'total_reward': 1360.0, 'total_episode_length': 582}
+Episode: 35
+{'reward': -1, 'episode_length': -1, 'total_reward': 2070.0, 'total_episode_length': 809}
+Episode: 36
+{'reward': -1, 'episode_length': -1, 'total_reward': 3205.0, 'total_episode_length': 1159}
+Episode: 37
+{'reward': -1, 'episode_length': -1, 'total_reward': 2290.0, 'total_episode_length': 831}
+Episode: 38
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 260}
+Episode: 39
+{'reward': -1, 'episode_length': -1, 'total_reward': 1935.0, 'total_episode_length': 737}
+Episode: 40
+{'reward': -1, 'episode_length': -1, 'total_reward': 2065.0, 'total_episode_length': 826}
+Episode: 41
+{'reward': -1, 'episode_length': -1, 'total_reward': 1800.0, 'total_episode_length': 694}
+Episode: 42
+{'reward': -1, 'episode_length': -1, 'total_reward': 3885.0, 'total_episode_length': 1347}
+Episode: 43
+{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 814}
+Episode: 44
+{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 292}
+Episode: 45
+{'reward': -1, 'episode_length': -1, 'total_reward': 1270.0, 'total_episode_length': 586}
+Episode: 46
+{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 235}
+Episode: 47
+{'reward': -1, 'episode_length': -1, 'total_reward': 2350.0, 'total_episode_length': 847}
+Episode: 48
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 239}
+Episode: 49
+{'reward': -1, 'episode_length': -1, 'total_reward': 2490.0, 'total_episode_length': 964}
+Episode: 50
+{'reward': -1, 'episode_length': -1, 'total_reward': 985.0, 'total_episode_length': 431}
+Episode: 51
+{'reward': -1, 'episode_length': -1, 'total_reward': 2725.0, 'total_episode_length': 865}
+Episode: 52
+{'reward': -1, 'episode_length': -1, 'total_reward': 1780.0, 'total_episode_length': 698}
+Episode: 53
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 746}
+Episode: 54
+{'reward': -1, 'episode_length': -1, 'total_reward': 2065.0, 'total_episode_length': 691}
+Episode: 55
+{'reward': -1, 'episode_length': -1, 'total_reward': 1040.0, 'total_episode_length': 428}
+Episode: 56
+{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 541}
+Episode: 57
+{'reward': -1, 'episode_length': -1, 'total_reward': 1805.0, 'total_episode_length': 758}
+Episode: 58
+{'reward': -1, 'episode_length': -1, 'total_reward': 1170.0, 'total_episode_length': 548}
+Episode: 59
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 483}
+Episode: 60
+{'reward': -1, 'episode_length': -1, 'total_reward': 2895.0, 'total_episode_length': 1027}
+Episode: 61
+{'reward': -1, 'episode_length': -1, 'total_reward': 3045.0, 'total_episode_length': 1069}
+Episode: 62
+{'reward': -1, 'episode_length': -1, 'total_reward': 1685.0, 'total_episode_length': 675}
+Episode: 63
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 278}
+Episode: 64
+{'reward': -1, 'episode_length': -1, 'total_reward': 2000.0, 'total_episode_length': 802}
+Episode: 65
+{'reward': -1, 'episode_length': -1, 'total_reward': 1940.0, 'total_episode_length': 661}
+Episode: 66
+{'reward': -1, 'episode_length': -1, 'total_reward': 580.0, 'total_episode_length': 308}
+Episode: 67
+{'reward': -1, 'episode_length': -1, 'total_reward': 2950.0, 'total_episode_length': 1152}
+Episode: 68
+{'reward': -1, 'episode_length': -1, 'total_reward': 2335.0, 'total_episode_length': 931}
+Episode: 69
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 253}
+Episode: 70
+{'reward': -1, 'episode_length': -1, 'total_reward': 995.0, 'total_episode_length': 444}
+Episode: 71
+{'reward': -1, 'episode_length': -1, 'total_reward': 2465.0, 'total_episode_length': 941}
+Episode: 72
+{'reward': -1, 'episode_length': -1, 'total_reward': 805.0, 'total_episode_length': 319}
+Episode: 73
+{'reward': -1, 'episode_length': -1, 'total_reward': 2835.0, 'total_episode_length': 955}
+Episode: 74
+{'reward': -1, 'episode_length': -1, 'total_reward': 545.0, 'total_episode_length': 203}
+Episode: 75
+{'reward': -1, 'episode_length': -1, 'total_reward': 715.0, 'total_episode_length': 246}
+Episode: 76
+{'reward': -1, 'episode_length': -1, 'total_reward': 2000.0, 'total_episode_length': 694}
+Episode: 77
+{'reward': -1, 'episode_length': -1, 'total_reward': 2700.0, 'total_episode_length': 1054}
+Episode: 78
+{'reward': -1, 'episode_length': -1, 'total_reward': 1800.0, 'total_episode_length': 795}
+Episode: 79
+{'reward': -1, 'episode_length': -1, 'total_reward': 2360.0, 'total_episode_length': 845}
+Episode: 80
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 510}
+Episode: 81
+{'reward': -1, 'episode_length': -1, 'total_reward': 1985.0, 'total_episode_length': 685}
+Episode: 82
+{'reward': -1, 'episode_length': -1, 'total_reward': 2240.0, 'total_episode_length': 843}
+Episode: 83
+{'reward': -1, 'episode_length': -1, 'total_reward': 1185.0, 'total_episode_length': 496}
+Episode: 84
+{'reward': -1, 'episode_length': -1, 'total_reward': 2250.0, 'total_episode_length': 827}
+Episode: 85
+{'reward': -1, 'episode_length': -1, 'total_reward': 1620.0, 'total_episode_length': 701}
+Episode: 86
+{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 216}
+Episode: 87
+{'reward': -1, 'episode_length': -1, 'total_reward': 800.0, 'total_episode_length': 272}
+Episode: 88
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 517}
+Episode: 89
+{'reward': -1, 'episode_length': -1, 'total_reward': 1505.0, 'total_episode_length': 558}
+Episode: 90
+{'reward': -1, 'episode_length': -1, 'total_reward': 1865.0, 'total_episode_length': 843}
+Episode: 91
+{'reward': -1, 'episode_length': -1, 'total_reward': 2015.0, 'total_episode_length': 795}
+Episode: 92
+{'reward': -1, 'episode_length': -1, 'total_reward': 2185.0, 'total_episode_length': 839}
+Episode: 93
+{'reward': -1, 'episode_length': -1, 'total_reward': 2035.0, 'total_episode_length': 728}
+Episode: 94
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 525}
+Episode: 95
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 292}
+Episode: 96
+{'reward': -1, 'episode_length': -1, 'total_reward': 3035.0, 'total_episode_length': 1126}
+Episode: 97
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 272}
+Episode: 98
+{'reward': -1, 'episode_length': -1, 'total_reward': 1635.0, 'total_episode_length': 559}
+Episode: 99
+{'reward': -1, 'episode_length': -1, 'total_reward': 2610.0, 'total_episode_length': 979}
+Episode: 100
+*************************************************************
+CUMULATIVE_AVG_REWARD 1690.5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Seed:  500
+Enviroment_id SpaceInvaders-v0
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-04-01 20:23:45.689743: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-04-01 20:23:45.689912: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-01 20:23:45.689930: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-01 20:23:45.689946: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-01 20:23:45.689959: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-01 20:23:45.689971: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-01 20:23:45.689982: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-01 20:23:45.690062: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2020-04-01 20:23:45.690071: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
+2020-04-01 20:23:45.690086: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-01 20:23:45.690093: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-01 20:23:45.690100: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+{'reward': -1, 'episode_length': -1, 'total_reward': 805.0, 'total_episode_length': 235}
+Episode: 1
+{'reward': -1, 'episode_length': -1, 'total_reward': 3120.0, 'total_episode_length': 1169}
+Episode: 2
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 565}
+Episode: 3
+{'reward': -1, 'episode_length': -1, 'total_reward': 610.0, 'total_episode_length': 310}
+Episode: 4
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 541}
+Episode: 5
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 546}
+Episode: 6
+{'reward': -1, 'episode_length': -1, 'total_reward': 3145.0, 'total_episode_length': 1086}
+Episode: 7
+{'reward': -1, 'episode_length': -1, 'total_reward': 3015.0, 'total_episode_length': 1008}
+Episode: 8
+{'reward': -1, 'episode_length': -1, 'total_reward': 2595.0, 'total_episode_length': 1040}
+Episode: 9
+{'reward': -1, 'episode_length': -1, 'total_reward': 1320.0, 'total_episode_length': 509}
+Episode: 10
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 524}
+Episode: 11
+{'reward': -1, 'episode_length': -1, 'total_reward': 875.0, 'total_episode_length': 349}
+Episode: 12
+{'reward': -1, 'episode_length': -1, 'total_reward': 1865.0, 'total_episode_length': 762}
+Episode: 13
+{'reward': -1, 'episode_length': -1, 'total_reward': 705.0, 'total_episode_length': 360}
+Episode: 14
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 263}
+Episode: 15
+{'reward': -1, 'episode_length': -1, 'total_reward': 2425.0, 'total_episode_length': 1002}
+Episode: 16
+{'reward': -1, 'episode_length': -1, 'total_reward': 2425.0, 'total_episode_length': 966}
+Episode: 17
+{'reward': -1, 'episode_length': -1, 'total_reward': 1480.0, 'total_episode_length': 637}
+Episode: 18
+{'reward': -1, 'episode_length': -1, 'total_reward': 1210.0, 'total_episode_length': 430}
+Episode: 19
+{'reward': -1, 'episode_length': -1, 'total_reward': 2120.0, 'total_episode_length': 935}
+Episode: 20
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 759}
+Episode: 21
+{'reward': -1, 'episode_length': -1, 'total_reward': 1430.0, 'total_episode_length': 474}
+Episode: 22
+{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 207}
+Episode: 23
+{'reward': -1, 'episode_length': -1, 'total_reward': 1620.0, 'total_episode_length': 658}
+Episode: 24
+{'reward': -1, 'episode_length': -1, 'total_reward': 515.0, 'total_episode_length': 246}
+Episode: 25
+{'reward': -1, 'episode_length': -1, 'total_reward': 1375.0, 'total_episode_length': 515}
+Episode: 26
+{'reward': -1, 'episode_length': -1, 'total_reward': 2925.0, 'total_episode_length': 1090}
+Episode: 27
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 564}
+Episode: 28
+{'reward': -1, 'episode_length': -1, 'total_reward': 1405.0, 'total_episode_length': 587}
+Episode: 29
+{'reward': -1, 'episode_length': -1, 'total_reward': 1955.0, 'total_episode_length': 797}
+Episode: 30
+{'reward': -1, 'episode_length': -1, 'total_reward': 3095.0, 'total_episode_length': 1142}
+Episode: 31
+{'reward': -1, 'episode_length': -1, 'total_reward': 2390.0, 'total_episode_length': 1002}
+Episode: 32
+{'reward': -1, 'episode_length': -1, 'total_reward': 1435.0, 'total_episode_length': 524}
+Episode: 33
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 816}
+Episode: 34
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 243}
+Episode: 35
+{'reward': -1, 'episode_length': -1, 'total_reward': 1435.0, 'total_episode_length': 604}
+Episode: 36
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 257}
+Episode: 37
+{'reward': -1, 'episode_length': -1, 'total_reward': 2260.0, 'total_episode_length': 882}
+Episode: 38
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 455}
+Episode: 39
+{'reward': -1, 'episode_length': -1, 'total_reward': 2625.0, 'total_episode_length': 1067}
+Episode: 40
+{'reward': -1, 'episode_length': -1, 'total_reward': 2210.0, 'total_episode_length': 768}
+Episode: 41
+{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 254}
+Episode: 42
+{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 740}
+Episode: 43
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 505}
+Episode: 44
+{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 551}
+Episode: 45
+{'reward': -1, 'episode_length': -1, 'total_reward': 1950.0, 'total_episode_length': 717}
+Episode: 46
+{'reward': -1, 'episode_length': -1, 'total_reward': 1945.0, 'total_episode_length': 783}
+Episode: 47
+{'reward': -1, 'episode_length': -1, 'total_reward': 950.0, 'total_episode_length': 260}
+Episode: 48
+{'reward': -1, 'episode_length': -1, 'total_reward': 2520.0, 'total_episode_length': 887}
+Episode: 49
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 507}
+Episode: 50
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 516}
+Episode: 51
+{'reward': -1, 'episode_length': -1, 'total_reward': 1750.0, 'total_episode_length': 786}
+Episode: 52
+{'reward': -1, 'episode_length': -1, 'total_reward': 1375.0, 'total_episode_length': 594}
+Episode: 53
+{'reward': -1, 'episode_length': -1, 'total_reward': 2425.0, 'total_episode_length': 856}
+Episode: 54
+{'reward': -1, 'episode_length': -1, 'total_reward': 1815.0, 'total_episode_length': 664}
+Episode: 55
+{'reward': -1, 'episode_length': -1, 'total_reward': 1985.0, 'total_episode_length': 783}
+Episode: 56
+{'reward': -1, 'episode_length': -1, 'total_reward': 2845.0, 'total_episode_length': 941}
+Episode: 57
+{'reward': -1, 'episode_length': -1, 'total_reward': 2095.0, 'total_episode_length': 788}
+Episode: 58
+{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 744}
+Episode: 59
+{'reward': -1, 'episode_length': -1, 'total_reward': 2030.0, 'total_episode_length': 743}
+Episode: 60
+{'reward': -1, 'episode_length': -1, 'total_reward': 610.0, 'total_episode_length': 230}
+Episode: 61
+{'reward': -1, 'episode_length': -1, 'total_reward': 545.0, 'total_episode_length': 221}
+Episode: 62
+{'reward': -1, 'episode_length': -1, 'total_reward': 2580.0, 'total_episode_length': 889}
+Episode: 63
+{'reward': -1, 'episode_length': -1, 'total_reward': 1790.0, 'total_episode_length': 536}
+Episode: 64
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 690}
+Episode: 65
+{'reward': -1, 'episode_length': -1, 'total_reward': 2035.0, 'total_episode_length': 722}
+Episode: 66
+{'reward': -1, 'episode_length': -1, 'total_reward': 1160.0, 'total_episode_length': 497}
+Episode: 67
+{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 252}
+Episode: 68
+{'reward': -1, 'episode_length': -1, 'total_reward': 2035.0, 'total_episode_length': 843}
+Episode: 69
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 255}
+Episode: 70
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 250}
+Episode: 71
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 570}
+Episode: 72
+{'reward': -1, 'episode_length': -1, 'total_reward': 1350.0, 'total_episode_length': 513}
+Episode: 73
+{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 527}
+Episode: 74
+{'reward': -1, 'episode_length': -1, 'total_reward': 1270.0, 'total_episode_length': 565}
+Episode: 75
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 523}
+Episode: 76
+{'reward': -1, 'episode_length': -1, 'total_reward': 1270.0, 'total_episode_length': 553}
+Episode: 77
+{'reward': -1, 'episode_length': -1, 'total_reward': 1715.0, 'total_episode_length': 754}
+Episode: 78
+{'reward': -1, 'episode_length': -1, 'total_reward': 1650.0, 'total_episode_length': 722}
+Episode: 79
+{'reward': -1, 'episode_length': -1, 'total_reward': 800.0, 'total_episode_length': 306}
+Episode: 80
+{'reward': -1, 'episode_length': -1, 'total_reward': 2435.0, 'total_episode_length': 948}
+Episode: 81
+{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 598}
+Episode: 82
+{'reward': -1, 'episode_length': -1, 'total_reward': 2130.0, 'total_episode_length': 838}
+Episode: 83
+{'reward': -1, 'episode_length': -1, 'total_reward': 1955.0, 'total_episode_length': 724}
+Episode: 84
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 530}
+Episode: 85
+{'reward': -1, 'episode_length': -1, 'total_reward': 2155.0, 'total_episode_length': 851}
+Episode: 86
+{'reward': -1, 'episode_length': -1, 'total_reward': 1985.0, 'total_episode_length': 822}
+Episode: 87
+{'reward': -1, 'episode_length': -1, 'total_reward': 2870.0, 'total_episode_length': 1057}
+Episode: 88
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 313}
+Episode: 89
+{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 235}
+Episode: 90
+{'reward': -1, 'episode_length': -1, 'total_reward': 2575.0, 'total_episode_length': 962}
+Episode: 91
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 559}
+Episode: 92
+{'reward': -1, 'episode_length': -1, 'total_reward': 550.0, 'total_episode_length': 217}
+Episode: 93
+{'reward': -1, 'episode_length': -1, 'total_reward': 2615.0, 'total_episode_length': 1050}
+Episode: 94
+{'reward': -1, 'episode_length': -1, 'total_reward': 820.0, 'total_episode_length': 400}
+Episode: 95
+{'reward': -1, 'episode_length': -1, 'total_reward': 3105.0, 'total_episode_length': 1002}
+Episode: 96
+{'reward': -1, 'episode_length': -1, 'total_reward': 2105.0, 'total_episode_length': 823}
+Episode: 97
+{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 271}
+Episode: 98
+{'reward': -1, 'episode_length': -1, 'total_reward': 2185.0, 'total_episode_length': 904}
+Episode: 99
+{'reward': -1, 'episode_length': -1, 'total_reward': 2240.0, 'total_episode_length': 817}
+Episode: 100
+*************************************************************
+CUMULATIVE_AVG_REWARD 1621.75
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Final score:  1617.72
