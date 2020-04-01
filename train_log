@@ -1,0 +1,7147 @@
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:168: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:10: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:41: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:44: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:47: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/neural_network.py:14: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/neural_network.py:35: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/neural_network.py:19: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:286: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:66: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From /home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+ - - - - - - - 
+nupdates 1
+total_timesteps 80
+fps 217
+policy_entropy 1.4394032955169678
+value_loss 0.043143413960933685
+ - - - - - - - 
+nupdates 1000
+total_timesteps 80000
+fps 536
+policy_entropy 1.4467328786849976
+value_loss 0.38801702857017517
+avg reward (last 100): 3.56
+avg total reward (last 100): 14.09
+max (last 100): 30.0
+ - - - - - - - 
+nupdates 2000
+total_timesteps 160000
+fps 536
+policy_entropy 1.4933348894119263
+value_loss 0.09664875268936157
+avg reward (last 100): 4.1
+avg total reward (last 100): 12.98
+max (last 100): 34.0
+ - - - - - - - 
+nupdates 3000
+total_timesteps 240000
+fps 533
+policy_entropy 1.4600465297698975
+value_loss 0.09572406113147736
+avg reward (last 100): 4.36
+avg total reward (last 100): 13.46
+max (last 100): 26.0
+ - - - - - - - 
+nupdates 4000
+total_timesteps 320000
+fps 529
+policy_entropy 1.2285032272338867
+value_loss 0.09118280559778214
+avg reward (last 100): 4.84
+avg total reward (last 100): 13.82
+max (last 100): 24.0
+ - - - - - - - 
+nupdates 5000
+total_timesteps 400000
+fps 527
+policy_entropy 1.3117843866348267
+value_loss 0.022734565660357475
+avg reward (last 100): 4.31
+avg total reward (last 100): 13.67
+max (last 100): 25.0
+ - - - - - - - 
+nupdates 6000
+total_timesteps 480000
+fps 526
+policy_entropy 1.172874093055725
+value_loss 0.07667241990566254
+avg reward (last 100): 4.52
+avg total reward (last 100): 13.89
+max (last 100): 21.0
+ - - - - - - - 
+nupdates 7000
+total_timesteps 560000
+fps 528
+policy_entropy 1.3490638732910156
+value_loss 0.14548790454864502
+avg reward (last 100): 5.81
+avg total reward (last 100): 16.04
+max (last 100): 27.0
+ - - - - - - - 
+nupdates 8000
+total_timesteps 640000
+fps 530
+policy_entropy 1.3218306303024292
+value_loss 0.057529669255018234
+avg reward (last 100): 5.32
+avg total reward (last 100): 16.04
+max (last 100): 27.0
+ - - - - - - - 
+nupdates 9000
+total_timesteps 720000
+fps 532
+policy_entropy 1.415820837020874
+value_loss 0.0637868344783783
+avg reward (last 100): 4.89
+avg total reward (last 100): 14.89
+max (last 100): 26.0
+ - - - - - - - 
+nupdates 10000
+total_timesteps 800000
+fps 534
+policy_entropy 1.2566757202148438
+value_loss 0.046087875962257385
+avg reward (last 100): 6.02
+avg total reward (last 100): 18.18
+max (last 100): 32.0
+ - - - - - - - 
+nupdates 11000
+total_timesteps 880000
+fps 536
+policy_entropy 1.1998506784439087
+value_loss 0.10226289927959442
+avg reward (last 100): 6.02
+avg total reward (last 100): 17.99
+max (last 100): 27.0
+ - - - - - - - 
+nupdates 12000
+total_timesteps 960000
+fps 537
+policy_entropy 1.1471831798553467
+value_loss 0.04933570325374603
+avg reward (last 100): 7.01
+avg total reward (last 100): 19.9
+max (last 100): 37.0
+ - - - - - - - 
+nupdates 13000
+total_timesteps 1040000
+fps 538
+policy_entropy 0.9654155969619751
+value_loss 0.35473212599754333
+avg reward (last 100): 6.62
+avg total reward (last 100): 18.38
+max (last 100): 35.0
+ - - - - - - - 
+nupdates 14000
+total_timesteps 1120000
+fps 539
+policy_entropy 0.8999341726303101
+value_loss 0.0639529675245285
+avg reward (last 100): 6.91
+avg total reward (last 100): 19.87
+max (last 100): 33.0
+ - - - - - - - 
+nupdates 15000
+total_timesteps 1200000
+fps 539
+policy_entropy 0.6124511957168579
+value_loss 0.17495942115783691
+avg reward (last 100): 8.17
+avg total reward (last 100): 25.75
+max (last 100): 35.0
+ - - - - - - - 
+nupdates 16000
+total_timesteps 1280000
+fps 539
+policy_entropy 1.1398566961288452
+value_loss 0.022493606433272362
+avg reward (last 100): 5.8
+avg total reward (last 100): 18.32
+max (last 100): 32.0
+ - - - - - - - 
+nupdates 17000
+total_timesteps 1360000
+fps 540
+policy_entropy 0.7231934666633606
+value_loss 0.5376706123352051
+avg reward (last 100): 6.51
+avg total reward (last 100): 19.88
+max (last 100): 33.0
+ - - - - - - - 
+nupdates 18000
+total_timesteps 1440000
+fps 540
+policy_entropy 0.6333049535751343
+value_loss 0.26721280813217163
+avg reward (last 100): 8.44
+avg total reward (last 100): 21.95
+max (last 100): 36.0
+ - - - - - - - 
+nupdates 19000
+total_timesteps 1520000
+fps 540
+policy_entropy 0.7100076675415039
+value_loss 0.18929044902324677
+avg reward (last 100): 7.51
+avg total reward (last 100): 23.15
+max (last 100): 36.0
+ - - - - - - - 
+nupdates 20000
+total_timesteps 1600000
+fps 541
+policy_entropy 0.482679545879364
+value_loss 0.41689205169677734
+avg reward (last 100): 7.55
+avg total reward (last 100): 23.84
+max (last 100): 41.0
+ - - - - - - - 
+nupdates 21000
+total_timesteps 1680000
+fps 541
+policy_entropy 0.8234416842460632
+value_loss 0.20321190357208252
+avg reward (last 100): 6.94
+avg total reward (last 100): 22.13
+max (last 100): 37.0
+ - - - - - - - 
+nupdates 22000
+total_timesteps 1760000
+fps 542
+policy_entropy 0.4861878454685211
+value_loss 0.08760781586170197
+avg reward (last 100): 8.6
+avg total reward (last 100): 24.46
+max (last 100): 50.0
+ - - - - - - - 
+nupdates 23000
+total_timesteps 1840000
+fps 542
+policy_entropy 0.6943494081497192
+value_loss 0.17972026765346527
+avg reward (last 100): 7.04
+avg total reward (last 100): 23.41
+max (last 100): 36.0
+ - - - - - - - 
+nupdates 24000
+total_timesteps 1920000
+fps 542
+policy_entropy 0.6680461168289185
+value_loss 0.11190955340862274
+avg reward (last 100): 8.38
+avg total reward (last 100): 23.07
+max (last 100): 36.0
+ - - - - - - - 
+nupdates 25000
+total_timesteps 2000000
+fps 542
+policy_entropy 0.6731547117233276
+value_loss 0.19764581322669983
+avg reward (last 100): 7.67
+avg total reward (last 100): 23.66
+max (last 100): 34.0
+ - - - - - - - 
+nupdates 26000
+total_timesteps 2080000
+fps 542
+policy_entropy 0.9587959051132202
+value_loss 0.1894454061985016
+avg reward (last 100): 6.9
+avg total reward (last 100): 21.72
+max (last 100): 35.0
+ - - - - - - - 
+nupdates 27000
+total_timesteps 2160000
+fps 543
+policy_entropy 0.9917869567871094
+value_loss 0.3883484899997711
+avg reward (last 100): 8.17
+avg total reward (last 100): 23.61
+max (last 100): 36.0
+ - - - - - - - 
+nupdates 28000
+total_timesteps 2240000
+fps 543
+policy_entropy 0.9194095730781555
+value_loss 0.9148569107055664
+avg reward (last 100): 7.93
+avg total reward (last 100): 24.2
+max (last 100): 36.0
+ - - - - - - - 
+nupdates 29000
+total_timesteps 2320000
+fps 543
+policy_entropy 1.0076076984405518
+value_loss 1.2903852462768555
+avg reward (last 100): 8.58
+avg total reward (last 100): 25.55
+max (last 100): 41.0
+ - - - - - - - 
+nupdates 30000
+total_timesteps 2400000
+fps 543
+policy_entropy 0.7902271747589111
+value_loss 0.41962313652038574
+avg reward (last 100): 8.72
+avg total reward (last 100): 25.91
+max (last 100): 41.0
+ - - - - - - - 
+nupdates 31000
+total_timesteps 2480000
+fps 544
+policy_entropy 0.9909392595291138
+value_loss 0.4498496651649475
+avg reward (last 100): 8.95
+avg total reward (last 100): 25.24
+max (last 100): 36.0
+ - - - - - - - 
+nupdates 32000
+total_timesteps 2560000
+fps 547
+policy_entropy 1.024898886680603
+value_loss 0.5453500151634216
+avg reward (last 100): 7.26
+avg total reward (last 100): 24.58
+max (last 100): 38.0
+ - - - - - - - 
+nupdates 33000
+total_timesteps 2640000
+fps 551
+policy_entropy 0.7174918055534363
+value_loss 0.358855664730072
+avg reward (last 100): 9.32
+avg total reward (last 100): 25.05
+max (last 100): 36.0
+ - - - - - - - 
+nupdates 34000
+total_timesteps 2720000
+fps 556
+policy_entropy 0.6767751574516296
+value_loss 0.08369502425193787
+avg reward (last 100): 9.19
+avg total reward (last 100): 25.69
+max (last 100): 57.0
+ - - - - - - - 
+nupdates 35000
+total_timesteps 2800000
+fps 559
+policy_entropy 0.8461315035820007
+value_loss 0.9683693051338196
+avg reward (last 100): 9.36
+avg total reward (last 100): 26.0
+max (last 100): 36.0
+ - - - - - - - 
+nupdates 36000
+total_timesteps 2880000
+fps 563
+policy_entropy 0.5525034070014954
+value_loss 0.8548582792282104
+avg reward (last 100): 8.94
+avg total reward (last 100): 27.92
+max (last 100): 52.0
+ - - - - - - - 
+nupdates 37000
+total_timesteps 2960000
+fps 566
+policy_entropy 0.7207139134407043
+value_loss 0.27867114543914795
+avg reward (last 100): 10.72
+avg total reward (last 100): 28.35
+max (last 100): 59.0
+ - - - - - - - 
+nupdates 38000
+total_timesteps 3040000
+fps 569
+policy_entropy 0.8238803744316101
+value_loss 0.10893293470144272
+avg reward (last 100): 10.02
+avg total reward (last 100): 27.95
+max (last 100): 48.0
+ - - - - - - - 
+nupdates 39000
+total_timesteps 3120000
+fps 572
+policy_entropy 0.4449165463447571
+value_loss 1.7742643356323242
+avg reward (last 100): 9.3
+avg total reward (last 100): 28.34
+max (last 100): 53.0
+ - - - - - - - 
+nupdates 40000
+total_timesteps 3200000
+fps 575
+policy_entropy 0.8535722494125366
+value_loss 0.06790706515312195
+avg reward (last 100): 9.25
+avg total reward (last 100): 29.26
+max (last 100): 51.0
+ - - - - - - - 
+nupdates 41000
+total_timesteps 3280000
+fps 578
+policy_entropy 0.7591269612312317
+value_loss 0.163859561085701
+avg reward (last 100): 11.12
+avg total reward (last 100): 30.83
+max (last 100): 57.0
+ - - - - - - - 
+nupdates 42000
+total_timesteps 3360000
+fps 581
+policy_entropy 0.9024734497070312
+value_loss 0.28710106015205383
+avg reward (last 100): 10.82
+avg total reward (last 100): 31.18
+max (last 100): 68.0
+ - - - - - - - 
+nupdates 43000
+total_timesteps 3440000
+fps 584
+policy_entropy 0.6249645352363586
+value_loss 0.13808709383010864
+avg reward (last 100): 12.03
+avg total reward (last 100): 30.05
+max (last 100): 58.0
+ - - - - - - - 
+nupdates 44000
+total_timesteps 3520000
+fps 586
+policy_entropy 0.6152427792549133
+value_loss 0.08285392820835114
+avg reward (last 100): 12.38
+avg total reward (last 100): 32.75
+max (last 100): 68.0
+ - - - - - - - 
+nupdates 45000
+total_timesteps 3600000
+fps 589
+policy_entropy 0.5681797862052917
+value_loss 0.13284502923488617
+avg reward (last 100): 12.68
+avg total reward (last 100): 32.47
+max (last 100): 60.0
+ - - - - - - - 
+nupdates 46000
+total_timesteps 3680000
+fps 592
+policy_entropy 0.7855352759361267
+value_loss 0.5996797680854797
+avg reward (last 100): 11.96
+avg total reward (last 100): 32.4
+max (last 100): 58.0
+ - - - - - - - 
+nupdates 47000
+total_timesteps 3760000
+fps 594
+policy_entropy 0.7810200452804565
+value_loss 0.29359835386276245
+avg reward (last 100): 10.42
+avg total reward (last 100): 32.88
+max (last 100): 62.0
+ - - - - - - - 
+nupdates 48000
+total_timesteps 3840000
+fps 596
+policy_entropy 0.615392804145813
+value_loss 0.21198424696922302
+avg reward (last 100): 12.82
+avg total reward (last 100): 32.99
+max (last 100): 65.0
+ - - - - - - - 
+nupdates 49000
+total_timesteps 3920000
+fps 599
+policy_entropy 0.7352820038795471
+value_loss 1.2563875913619995
+avg reward (last 100): 12.96
+avg total reward (last 100): 33.66
+max (last 100): 63.0
+ - - - - - - - 
+nupdates 50000
+total_timesteps 4000000
+fps 601
+policy_entropy 0.4179794192314148
+value_loss 0.1426793485879898
+avg reward (last 100): 13.6
+avg total reward (last 100): 32.81
+max (last 100): 66.0
+ - - - - - - - 
+nupdates 51000
+total_timesteps 4080000
+fps 603
+policy_entropy 0.47664475440979004
+value_loss 2.1175649166107178
+avg reward (last 100): 13.98
+avg total reward (last 100): 35.45
+max (last 100): 69.0
+ - - - - - - - 
+nupdates 52000
+total_timesteps 4160000
+fps 605
+policy_entropy 0.6420902013778687
+value_loss 1.754058837890625
+avg reward (last 100): 12.51
+avg total reward (last 100): 34.1
+max (last 100): 72.0
+ - - - - - - - 
+nupdates 53000
+total_timesteps 4240000
+fps 607
+policy_entropy 0.6024150848388672
+value_loss 1.2042566537857056
+avg reward (last 100): 15.03
+avg total reward (last 100): 35.32
+max (last 100): 96.0
+ - - - - - - - 
+nupdates 54000
+total_timesteps 4320000
+fps 608
+policy_entropy 0.7460485100746155
+value_loss 0.08765486627817154
+avg reward (last 100): 12.01
+avg total reward (last 100): 33.35
+max (last 100): 71.0
+ - - - - - - - 
+nupdates 55000
+total_timesteps 4400000
+fps 610
+policy_entropy 0.7407744526863098
+value_loss 2.2557246685028076
+avg reward (last 100): 13.05
+avg total reward (last 100): 34.56
+max (last 100): 71.0
+ - - - - - - - 
+nupdates 56000
+total_timesteps 4480000
+fps 612
+policy_entropy 0.5336616635322571
+value_loss 0.7408607602119446
+avg reward (last 100): 13.81
+avg total reward (last 100): 35.74
+max (last 100): 101.0
+ - - - - - - - 
+nupdates 57000
+total_timesteps 4560000
+fps 614
+policy_entropy 0.513500452041626
+value_loss 4.2720947265625
+avg reward (last 100): 15.33
+avg total reward (last 100): 36.51
+max (last 100): 71.0
+ - - - - - - - 
+nupdates 58000
+total_timesteps 4640000
+fps 616
+policy_entropy 0.505656361579895
+value_loss 0.10402385145425797
+avg reward (last 100): 14.61
+avg total reward (last 100): 36.48
+max (last 100): 71.0
+ - - - - - - - 
+nupdates 59000
+total_timesteps 4720000
+fps 618
+policy_entropy 0.5010944604873657
+value_loss 0.14732742309570312
+avg reward (last 100): 13.69
+avg total reward (last 100): 34.34
+max (last 100): 65.0
+ - - - - - - - 
+nupdates 60000
+total_timesteps 4800000
+fps 619
+policy_entropy 0.4600663185119629
+value_loss 0.3009231984615326
+avg reward (last 100): 13.6
+avg total reward (last 100): 36.41
+max (last 100): 70.0
+ - - - - - - - 
+nupdates 61000
+total_timesteps 4880000
+fps 621
+policy_entropy 0.8956352472305298
+value_loss 0.15661835670471191
+avg reward (last 100): 15.0
+avg total reward (last 100): 36.52
+max (last 100): 72.0
+ - - - - - - - 
+nupdates 62000
+total_timesteps 4960000
+fps 623
+policy_entropy 0.688937783241272
+value_loss 0.1253935545682907
+avg reward (last 100): 16.41
+avg total reward (last 100): 36.82
+max (last 100): 69.0
+ - - - - - - - 
+nupdates 63000
+total_timesteps 5040000
+fps 624
+policy_entropy 0.5906140208244324
+value_loss 0.20609907805919647
+avg reward (last 100): 13.88
+avg total reward (last 100): 37.72
+max (last 100): 85.0
+ - - - - - - - 
+nupdates 64000
+total_timesteps 5120000
+fps 625
+policy_entropy 0.5499078035354614
+value_loss 0.5016811490058899
+avg reward (last 100): 15.32
+avg total reward (last 100): 38.61
+max (last 100): 68.0
+ - - - - - - - 
+nupdates 65000
+total_timesteps 5200000
+fps 627
+policy_entropy 0.553565502166748
+value_loss 0.5349353551864624
+avg reward (last 100): 14.3
+avg total reward (last 100): 34.15
+max (last 100): 68.0
+ - - - - - - - 
+nupdates 66000
+total_timesteps 5280000
+fps 628
+policy_entropy 0.7437648773193359
+value_loss 0.12099139392375946
+avg reward (last 100): 13.94
+avg total reward (last 100): 36.39
+max (last 100): 84.0
+ - - - - - - - 
+nupdates 67000
+total_timesteps 5360000
+fps 629
+policy_entropy 0.6387014389038086
+value_loss 0.24822647869586945
+avg reward (last 100): 17.36
+avg total reward (last 100): 35.53
+max (last 100): 72.0
+ - - - - - - - 
+nupdates 68000
+total_timesteps 5440000
+fps 630
+policy_entropy 0.5080133676528931
+value_loss 0.1560228168964386
+avg reward (last 100): 15.82
+avg total reward (last 100): 36.62
+max (last 100): 73.0
+ - - - - - - - 
+nupdates 69000
+total_timesteps 5520000
+fps 632
+policy_entropy 0.7346786260604858
+value_loss 0.2315901815891266
+avg reward (last 100): 14.36
+avg total reward (last 100): 36.53
+max (last 100): 70.0
+ - - - - - - - 
+nupdates 70000
+total_timesteps 5600000
+fps 632
+policy_entropy 0.7354943752288818
+value_loss 0.26200801134109497
+avg reward (last 100): 13.92
+avg total reward (last 100): 37.05
+max (last 100): 97.0
+ - - - - - - - 
+nupdates 71000
+total_timesteps 5680000
+fps 633
+policy_entropy 0.7105973362922668
+value_loss 0.21397177875041962
+avg reward (last 100): 16.66
+avg total reward (last 100): 36.75
+max (last 100): 70.0
+ - - - - - - - 
+nupdates 72000
+total_timesteps 5760000
+fps 634
+policy_entropy 0.7613816857337952
+value_loss 0.09080920368432999
+avg reward (last 100): 14.22
+avg total reward (last 100): 37.59
+max (last 100): 70.0
+ - - - - - - - 
+nupdates 73000
+total_timesteps 5840000
+fps 635
+policy_entropy 0.6880553960800171
+value_loss 0.07914028316736221
+avg reward (last 100): 15.13
+avg total reward (last 100): 37.36
+max (last 100): 72.0
+ - - - - - - - 
+nupdates 74000
+total_timesteps 5920000
+fps 636
+policy_entropy 0.6539567708969116
+value_loss 0.09051859378814697
+avg reward (last 100): 14.95
+avg total reward (last 100): 38.04
+max (last 100): 72.0
+ - - - - - - - 
+nupdates 75000
+total_timesteps 6000000
+fps 637
+policy_entropy 0.9750789403915405
+value_loss 0.8878681063652039
+avg reward (last 100): 15.76
+avg total reward (last 100): 37.72
+max (last 100): 80.0
+ - - - - - - - 
+nupdates 76000
+total_timesteps 6080000
+fps 638
+policy_entropy 0.892086386680603
+value_loss 0.13220667839050293
+avg reward (last 100): 15.47
+avg total reward (last 100): 37.73
+max (last 100): 71.0
+ - - - - - - - 
+nupdates 77000
+total_timesteps 6160000
+fps 640
+policy_entropy 0.8191391229629517
+value_loss 0.1212272197008133
+avg reward (last 100): 17.02
+avg total reward (last 100): 39.76
+max (last 100): 72.0
+ - - - - - - - 
+nupdates 78000
+total_timesteps 6240000
+fps 641
+policy_entropy 0.6411275863647461
+value_loss 1.2136503458023071
+avg reward (last 100): 14.12
+avg total reward (last 100): 37.06
+max (last 100): 106.0
+ - - - - - - - 
+nupdates 79000
+total_timesteps 6320000
+fps 642
+policy_entropy 0.6557197570800781
+value_loss 2.200608015060425
+avg reward (last 100): 15.41
+avg total reward (last 100): 40.72
+max (last 100): 111.0
+ - - - - - - - 
+nupdates 80000
+total_timesteps 6400000
+fps 643
+policy_entropy 0.7309833765029907
+value_loss 0.20402590930461884
+avg reward (last 100): 17.1
+avg total reward (last 100): 40.6
+max (last 100): 71.0
+ - - - - - - - 
+nupdates 81000
+total_timesteps 6480000
+fps 643
+policy_entropy 0.6677437424659729
+value_loss 0.13050320744514465
+avg reward (last 100): 16.9
+avg total reward (last 100): 40.52
+max (last 100): 71.0
+ - - - - - - - 
+nupdates 82000
+total_timesteps 6560000
+fps 644
+policy_entropy 0.5624426603317261
+value_loss 0.1436121165752411
+avg reward (last 100): 18.12
+avg total reward (last 100): 43.69
+max (last 100): 107.0
+ - - - - - - - 
+nupdates 83000
+total_timesteps 6640000
+fps 644
+policy_entropy 0.6006203889846802
+value_loss 0.08522962778806686
+avg reward (last 100): 15.37
+avg total reward (last 100): 38.48
+max (last 100): 79.0
+ - - - - - - - 
+nupdates 84000
+total_timesteps 6720000
+fps 645
+policy_entropy 0.6088303327560425
+value_loss 0.09058938920497894
+avg reward (last 100): 17.54
+avg total reward (last 100): 41.21
+max (last 100): 74.0
+ - - - - - - - 
+nupdates 85000
+total_timesteps 6800000
+fps 646
+policy_entropy 0.7973452806472778
+value_loss 1.372656226158142
+avg reward (last 100): 16.0
+avg total reward (last 100): 38.59
+max (last 100): 70.0
+ - - - - - - - 
+nupdates 86000
+total_timesteps 6880000
+fps 646
+policy_entropy 1.0212706327438354
+value_loss 0.07133255153894424
+avg reward (last 100): 13.9
+avg total reward (last 100): 34.9
+max (last 100): 72.0
+ - - - - - - - 
+nupdates 87000
+total_timesteps 6960000
+fps 647
+policy_entropy 0.8355430364608765
+value_loss 0.12357167899608612
+avg reward (last 100): 15.47
+avg total reward (last 100): 40.54
+max (last 100): 97.0
+ - - - - - - - 
+nupdates 88000
+total_timesteps 7040000
+fps 647
+policy_entropy 0.7989236116409302
+value_loss 0.05525194853544235
+avg reward (last 100): 17.04
+avg total reward (last 100): 40.21
+max (last 100): 91.0
+ - - - - - - - 
+nupdates 89000
+total_timesteps 7120000
+fps 648
+policy_entropy 0.7777307629585266
+value_loss 0.3229921758174896
+avg reward (last 100): 17.04
+avg total reward (last 100): 37.92
+max (last 100): 95.0
+ - - - - - - - 
+nupdates 90000
+total_timesteps 7200000
+fps 649
+policy_entropy 0.6288500428199768
+value_loss 0.09929529577493668
+avg reward (last 100): 16.82
+avg total reward (last 100): 39.11
+max (last 100): 92.0
+ - - - - - - - 
+nupdates 91000
+total_timesteps 7280000
+fps 649
+policy_entropy 0.7477288246154785
+value_loss 0.14499600231647491
+avg reward (last 100): 20.33
+avg total reward (last 100): 41.56
+max (last 100): 104.0
+ - - - - - - - 
+nupdates 92000
+total_timesteps 7360000
+fps 650
+policy_entropy 0.5977219343185425
+value_loss 0.139593243598938
+avg reward (last 100): 16.18
+avg total reward (last 100): 39.2
+max (last 100): 72.0
+ - - - - - - - 
+nupdates 93000
+total_timesteps 7440000
+fps 651
+policy_entropy 0.8112757802009583
+value_loss 0.13920548558235168
+avg reward (last 100): 18.12
+avg total reward (last 100): 40.86
+max (last 100): 72.0
+ - - - - - - - 
+nupdates 94000
+total_timesteps 7520000
+fps 651
+policy_entropy 0.686004102230072
+value_loss 0.14548209309577942
+avg reward (last 100): 18.03
+avg total reward (last 100): 38.84
+max (last 100): 71.0
+ - - - - - - - 
+nupdates 95000
+total_timesteps 7600000
+fps 652
+policy_entropy 0.8198556900024414
+value_loss 0.17034073173999786
+avg reward (last 100): 20.32
+avg total reward (last 100): 46.32
+max (last 100): 113.0
+ - - - - - - - 
+nupdates 96000
+total_timesteps 7680000
+fps 652
+policy_entropy 0.8373133540153503
+value_loss 0.10766054689884186
+avg reward (last 100): 18.25
+avg total reward (last 100): 41.05
+max (last 100): 105.0
+ - - - - - - - 
+nupdates 97000
+total_timesteps 7760000
+fps 653
+policy_entropy 0.7281387448310852
+value_loss 1.5506482124328613
+avg reward (last 100): 17.95
+avg total reward (last 100): 38.81
+max (last 100): 105.0
+ - - - - - - - 
+nupdates 98000
+total_timesteps 7840000
+fps 653
+policy_entropy 0.4906094968318939
+value_loss 0.10020424425601959
+avg reward (last 100): 16.94
+avg total reward (last 100): 40.85
+max (last 100): 79.0
+ - - - - - - - 
+nupdates 99000
+total_timesteps 7920000
+fps 654
+policy_entropy 0.5340301394462585
+value_loss 0.09298393875360489
+avg reward (last 100): 17.36
+avg total reward (last 100): 37.33
+max (last 100): 82.0
+ - - - - - - - 
+nupdates 100000
+total_timesteps 8000000
+fps 654
+policy_entropy 0.7491840124130249
+value_loss 0.5231934785842896
+avg reward (last 100): 18.26
+avg total reward (last 100): 42.06
+max (last 100): 103.0
+ - - - - - - - 
+nupdates 101000
+total_timesteps 8080000
+fps 654
+policy_entropy 0.7997757792472839
+value_loss 0.06750652939081192
+avg reward (last 100): 15.26
+avg total reward (last 100): 37.79
+max (last 100): 72.0
+ - - - - - - - 
+nupdates 102000
+total_timesteps 8160000
+fps 655
+policy_entropy 0.7929055094718933
+value_loss 0.2527296543121338
+avg reward (last 100): 18.1
+avg total reward (last 100): 39.54
+max (last 100): 86.0
+ - - - - - - - 
+nupdates 103000
+total_timesteps 8240000
+fps 655
+policy_entropy 0.7450236678123474
+value_loss 0.6373823285102844
+avg reward (last 100): 13.46
+avg total reward (last 100): 39.66
+max (last 100): 80.0
+ - - - - - - - 
+nupdates 104000
+total_timesteps 8320000
+fps 656
+policy_entropy 0.5365897417068481
+value_loss 1.8890936374664307
+avg reward (last 100): 16.81
+avg total reward (last 100): 36.88
+max (last 100): 101.0
+ - - - - - - - 
+nupdates 105000
+total_timesteps 8400000
+fps 656
+policy_entropy 0.8187923431396484
+value_loss 0.21116387844085693
+avg reward (last 100): 17.54
+avg total reward (last 100): 38.46
+max (last 100): 92.0
+ - - - - - - - 
+nupdates 106000
+total_timesteps 8480000
+fps 656
+policy_entropy 0.8125841021537781
+value_loss 1.0945541858673096
+avg reward (last 100): 18.35
+avg total reward (last 100): 38.32
+max (last 100): 106.0
+ - - - - - - - 
+nupdates 107000
+total_timesteps 8560000
+fps 657
+policy_entropy 0.7110642194747925
+value_loss 0.17421412467956543
+avg reward (last 100): 17.23
+avg total reward (last 100): 37.81
+max (last 100): 71.0
+ - - - - - - - 
+nupdates 108000
+total_timesteps 8640000
+fps 657
+policy_entropy 0.5113794207572937
+value_loss 0.15750782191753387
+avg reward (last 100): 18.21
+avg total reward (last 100): 41.7
+max (last 100): 107.0
+ - - - - - - - 
+nupdates 109000
+total_timesteps 8720000
+fps 657
+policy_entropy 0.6978985667228699
+value_loss 0.11161655187606812
+avg reward (last 100): 17.32
+avg total reward (last 100): 41.38
+max (last 100): 86.0
+ - - - - - - - 
+nupdates 110000
+total_timesteps 8800000
+fps 658
+policy_entropy 0.8654361963272095
+value_loss 1.3038995265960693
+avg reward (last 100): 18.51
+avg total reward (last 100): 42.02
+max (last 100): 87.0
+ - - - - - - - 
+nupdates 111000
+total_timesteps 8880000
+fps 658
+policy_entropy 0.9163092374801636
+value_loss 1.7366201877593994
+avg reward (last 100): 19.05
+avg total reward (last 100): 43.37
+max (last 100): 107.0
+ - - - - - - - 
+nupdates 112000
+total_timesteps 8960000
+fps 658
+policy_entropy 0.647365927696228
+value_loss 0.12650151550769806
+avg reward (last 100): 17.06
+avg total reward (last 100): 43.21
+max (last 100): 94.0
+ - - - - - - - 
+nupdates 113000
+total_timesteps 9040000
+fps 658
+policy_entropy 0.6467726826667786
+value_loss 0.10040006786584854
+avg reward (last 100): 19.09
+avg total reward (last 100): 43.78
+max (last 100): 103.0
+ - - - - - - - 
+nupdates 114000
+total_timesteps 9120000
+fps 659
+policy_entropy 0.7986183762550354
+value_loss 0.05070380121469498
+avg reward (last 100): 18.31
+avg total reward (last 100): 39.56
+max (last 100): 81.0
+ - - - - - - - 
+nupdates 115000
+total_timesteps 9200000
+fps 659
+policy_entropy 0.7717875242233276
+value_loss 0.12300102412700653
+avg reward (last 100): 17.15
+avg total reward (last 100): 38.48
+max (last 100): 72.0
+ - - - - - - - 
+nupdates 116000
+total_timesteps 9280000
+fps 659
+policy_entropy 0.8712393045425415
+value_loss 0.12658171355724335
+avg reward (last 100): 20.09
+avg total reward (last 100): 47.32
+max (last 100): 93.0
+ - - - - - - - 
+nupdates 117000
+total_timesteps 9360000
+fps 660
+policy_entropy 0.5923469066619873
+value_loss 0.06253683567047119
+avg reward (last 100): 18.49
+avg total reward (last 100): 41.61
+max (last 100): 104.0
+ - - - - - - - 
+nupdates 118000
+total_timesteps 9440000
+fps 660
+policy_entropy 0.760833203792572
+value_loss 0.040902797132730484
+avg reward (last 100): 18.05
+avg total reward (last 100): 44.79
+max (last 100): 118.0
+ - - - - - - - 
+nupdates 119000
+total_timesteps 9520000
+fps 660
+policy_entropy 0.6411696672439575
+value_loss 0.05922301858663559
+avg reward (last 100): 19.1
+avg total reward (last 100): 41.92
+max (last 100): 140.0
+ - - - - - - - 
+nupdates 120000
+total_timesteps 9600000
+fps 660
+policy_entropy 0.7531388998031616
+value_loss 0.11334173381328583
+avg reward (last 100): 20.43
+avg total reward (last 100): 43.14
+max (last 100): 107.0
+ - - - - - - - 
+nupdates 121000
+total_timesteps 9680000
+fps 661
+policy_entropy 0.4640527665615082
+value_loss 0.11945471912622452
+avg reward (last 100): 18.44
+avg total reward (last 100): 43.77
+max (last 100): 106.0
+ - - - - - - - 
+nupdates 122000
+total_timesteps 9760000
+fps 661
+policy_entropy 0.516633927822113
+value_loss 0.1370226889848709
+avg reward (last 100): 18.25
+avg total reward (last 100): 40.11
+max (last 100): 104.0
+ - - - - - - - 
+nupdates 123000
+total_timesteps 9840000
+fps 661
+policy_entropy 0.6781935095787048
+value_loss 0.1266406923532486
+avg reward (last 100): 20.01
+avg total reward (last 100): 40.89
+max (last 100): 75.0
+ - - - - - - - 
+nupdates 124000
+total_timesteps 9920000
+fps 661
+policy_entropy 0.7582755088806152
+value_loss 0.10321688652038574
+avg reward (last 100): 18.37
+avg total reward (last 100): 42.52
+max (last 100): 108.0
+ - - - - - - - 
+nupdates 125000
+total_timesteps 10000000
+fps 661
+policy_entropy 0.48510313034057617
+value_loss 0.1397186666727066
+avg reward (last 100): 22.49
+avg total reward (last 100): 46.14
+max (last 100): 124.0
+ - - - - - - - 
+nupdates 126000
+total_timesteps 10080000
+fps 662
+policy_entropy 0.7978723049163818
+value_loss 0.31996363401412964
+avg reward (last 100): 20.64
+avg total reward (last 100): 41.5
+max (last 100): 72.0
+ - - - - - - - 
+nupdates 127000
+total_timesteps 10160000
+fps 663
+policy_entropy 0.6130270957946777
+value_loss 0.08398529142141342
+avg reward (last 100): 20.95
+avg total reward (last 100): 42.42
+max (last 100): 71.0
+ - - - - - - - 
+nupdates 128000
+total_timesteps 10240000
+fps 663
+policy_entropy 0.7610605359077454
+value_loss 0.14744572341442108
+avg reward (last 100): 19.11
+avg total reward (last 100): 47.22
+max (last 100): 111.0
+ - - - - - - - 
+nupdates 129000
+total_timesteps 10320000
+fps 664
+policy_entropy 0.8252800703048706
+value_loss 0.054375093430280685
+avg reward (last 100): 23.04
+avg total reward (last 100): 44.43
+max (last 100): 104.0
+ - - - - - - - 
+nupdates 130000
+total_timesteps 10400000
+fps 664
+policy_entropy 0.6650962233543396
+value_loss 0.376331627368927
+avg reward (last 100): 22.14
+avg total reward (last 100): 44.46
+max (last 100): 107.0
+ - - - - - - - 
+nupdates 131000
+total_timesteps 10480000
+fps 665
+policy_entropy 0.9401116371154785
+value_loss 0.10893187671899796
+avg reward (last 100): 18.47
+avg total reward (last 100): 44.89
+max (last 100): 107.0
+ - - - - - - - 
+nupdates 132000
+total_timesteps 10560000
+fps 665
+policy_entropy 0.8078180551528931
+value_loss 0.14405807852745056
+avg reward (last 100): 19.68
+avg total reward (last 100): 41.81
+max (last 100): 101.0
+ - - - - - - - 
+nupdates 133000
+total_timesteps 10640000
+fps 666
+policy_entropy 0.6682146787643433
+value_loss 0.16921290755271912
+avg reward (last 100): 20.87
+avg total reward (last 100): 46.37
+max (last 100): 105.0
+ - - - - - - - 
+nupdates 134000
+total_timesteps 10720000
+fps 667
+policy_entropy 0.7356237173080444
+value_loss 0.09118687361478806
+avg reward (last 100): 19.59
+avg total reward (last 100): 48.22
+max (last 100): 108.0
+ - - - - - - - 
+nupdates 135000
+total_timesteps 10800000
+fps 667
+policy_entropy 0.5968071818351746
+value_loss 1.3045246601104736
+avg reward (last 100): 22.84
+avg total reward (last 100): 49.97
+max (last 100): 108.0
+ - - - - - - - 
+nupdates 136000
+total_timesteps 10880000
+fps 667
+policy_entropy 0.5750542283058167
+value_loss 2.7491085529327393
+avg reward (last 100): 20.89
+avg total reward (last 100): 44.7
+max (last 100): 114.0
+ - - - - - - - 
+nupdates 137000
+total_timesteps 10960000
+fps 668
+policy_entropy 0.5315893292427063
+value_loss 0.1980563849210739
+avg reward (last 100): 21.27
+avg total reward (last 100): 43.64
+max (last 100): 92.0
+ - - - - - - - 
+nupdates 138000
+total_timesteps 11040000
+fps 668
+policy_entropy 0.6158832311630249
+value_loss 1.4023185968399048
+avg reward (last 100): 18.83
+avg total reward (last 100): 44.36
+max (last 100): 107.0
+ - - - - - - - 
+nupdates 139000
+total_timesteps 11120000
+fps 668
+policy_entropy 0.5884725451469421
+value_loss 0.1880917251110077
+avg reward (last 100): 21.78
+avg total reward (last 100): 45.31
+max (last 100): 91.0
+ - - - - - - - 
+nupdates 140000
+total_timesteps 11200000
+fps 668
+policy_entropy 0.7883008122444153
+value_loss 1.1493951082229614
+avg reward (last 100): 23.86
+avg total reward (last 100): 49.98
+max (last 100): 109.0
+ - - - - - - - 
+nupdates 141000
+total_timesteps 11280000
+fps 669
+policy_entropy 0.5999462604522705
+value_loss 0.09916204959154129
+avg reward (last 100): 20.61
+avg total reward (last 100): 42.76
+max (last 100): 104.0
+ - - - - - - - 
+nupdates 142000
+total_timesteps 11360000
+fps 669
+policy_entropy 0.5480623841285706
+value_loss 0.22256436944007874
+avg reward (last 100): 19.87
+avg total reward (last 100): 47.02
+max (last 100): 101.0
+ - - - - - - - 
+nupdates 143000
+total_timesteps 11440000
+fps 669
+policy_entropy 0.5405257344245911
+value_loss 0.11440111696720123
+avg reward (last 100): 21.38
+avg total reward (last 100): 50.78
+max (last 100): 119.0
+ - - - - - - - 
+nupdates 144000
+total_timesteps 11520000
+fps 669
+policy_entropy 0.5731004476547241
+value_loss 0.23236623406410217
+avg reward (last 100): 22.64
+avg total reward (last 100): 50.09
+max (last 100): 107.0
+ - - - - - - - 
+nupdates 145000
+total_timesteps 11600000
+fps 670
+policy_entropy 0.5832725167274475
+value_loss 0.1116228848695755
+avg reward (last 100): 20.99
+avg total reward (last 100): 52.06
+max (last 100): 143.0
+ - - - - - - - 
+nupdates 146000
+total_timesteps 11680000
+fps 670
+policy_entropy 0.6481548547744751
+value_loss 0.11545228958129883
+avg reward (last 100): 25.41
+avg total reward (last 100): 55.17
+max (last 100): 113.0
+ - - - - - - - 
+nupdates 147000
+total_timesteps 11760000
+fps 670
+policy_entropy 0.5730592012405396
+value_loss 1.682975172996521
+avg reward (last 100): 25.1
+avg total reward (last 100): 51.2
+max (last 100): 140.0
+ - - - - - - - 
+nupdates 148000
+total_timesteps 11840000
+fps 670
+policy_entropy 0.5677600502967834
+value_loss 3.3394997119903564
+avg reward (last 100): 20.31
+avg total reward (last 100): 52.69
+max (last 100): 113.0
+ - - - - - - - 
+nupdates 149000
+total_timesteps 11920000
+fps 671
+policy_entropy 0.5610087513923645
+value_loss 0.3530883193016052
+avg reward (last 100): 25.41
+avg total reward (last 100): 57.23
+max (last 100): 127.0
+ - - - - - - - 
+nupdates 150000
+total_timesteps 12000000
+fps 671
+policy_entropy 0.7579351663589478
+value_loss 0.800597071647644
+avg reward (last 100): 24.98
+avg total reward (last 100): 53.4
+max (last 100): 124.0
+ - - - - - - - 
+nupdates 151000
+total_timesteps 12080000
+fps 671
+policy_entropy 0.47286033630371094
+value_loss 0.6497429609298706
+avg reward (last 100): 22.77
+avg total reward (last 100): 54.31
+max (last 100): 107.0
+ - - - - - - - 
+nupdates 152000
+total_timesteps 12160000
+fps 671
+policy_entropy 0.6290310621261597
+value_loss 0.17626485228538513
+avg reward (last 100): 23.41
+avg total reward (last 100): 58.94
+max (last 100): 133.0
+ - - - - - - - 
+nupdates 153000
+total_timesteps 12240000
+fps 671
+policy_entropy 0.591341495513916
+value_loss 2.016842842102051
+avg reward (last 100): 24.29
+avg total reward (last 100): 60.25
+max (last 100): 143.0
+ - - - - - - - 
+nupdates 154000
+total_timesteps 12320000
+fps 672
+policy_entropy 0.6871029138565063
+value_loss 0.16286036372184753
+avg reward (last 100): 22.4
+avg total reward (last 100): 55.73
+max (last 100): 139.0
+ - - - - - - - 
+nupdates 155000
+total_timesteps 12400000
+fps 672
+policy_entropy 0.5030199885368347
+value_loss 0.17643335461616516
+avg reward (last 100): 21.59
+avg total reward (last 100): 51.85
+max (last 100): 141.0
+ - - - - - - - 
+nupdates 156000
+total_timesteps 12480000
+fps 672
+policy_entropy 0.6060518026351929
+value_loss 0.11503541469573975
+avg reward (last 100): 24.89
+avg total reward (last 100): 54.37
+max (last 100): 120.0
+ - - - - - - - 
+nupdates 157000
+total_timesteps 12560000
+fps 672
+policy_entropy 0.7069525122642517
+value_loss 0.15214410424232483
+avg reward (last 100): 22.38
+avg total reward (last 100): 50.7
+max (last 100): 134.0
+ - - - - - - - 
+nupdates 158000
+total_timesteps 12640000
+fps 673
+policy_entropy 0.5611448287963867
+value_loss 0.12757405638694763
+avg reward (last 100): 27.8
+avg total reward (last 100): 55.55
+max (last 100): 147.0
+ - - - - - - - 
+nupdates 159000
+total_timesteps 12720000
+fps 673
+policy_entropy 0.5499584078788757
+value_loss 0.3645869791507721
+avg reward (last 100): 22.82
+avg total reward (last 100): 58.62
+max (last 100): 142.0
+ - - - - - - - 
+nupdates 160000
+total_timesteps 12800000
+fps 673
+policy_entropy 0.5344999432563782
+value_loss 1.3177108764648438
+avg reward (last 100): 27.35
+avg total reward (last 100): 61.16
+max (last 100): 159.0
+ - - - - - - - 
+nupdates 161000
+total_timesteps 12880000
+fps 673
+policy_entropy 0.49198484420776367
+value_loss 0.1533927619457245
+avg reward (last 100): 22.0
+avg total reward (last 100): 59.23
+max (last 100): 132.0
+ - - - - - - - 
+nupdates 162000
+total_timesteps 12960000
+fps 674
+policy_entropy 0.5925205945968628
+value_loss 0.3344728350639343
+avg reward (last 100): 24.83
+avg total reward (last 100): 54.34
+max (last 100): 142.0
+ - - - - - - - 
+nupdates 163000
+total_timesteps 13040000
+fps 674
+policy_entropy 0.5271896719932556
+value_loss 0.23988063633441925
+avg reward (last 100): 22.92
+avg total reward (last 100): 62.21
+max (last 100): 162.0
+ - - - - - - - 
+nupdates 164000
+total_timesteps 13120000
+fps 674
+policy_entropy 0.3940328061580658
+value_loss 1.465391993522644
+avg reward (last 100): 27.77
+avg total reward (last 100): 59.02
+max (last 100): 143.0
+ - - - - - - - 
+nupdates 165000
+total_timesteps 13200000
+fps 674
+policy_entropy 0.41996389627456665
+value_loss 2.254188060760498
+avg reward (last 100): 26.24
+avg total reward (last 100): 57.77
+max (last 100): 142.0
+ - - - - - - - 
+nupdates 166000
+total_timesteps 13280000
+fps 674
+policy_entropy 0.30329960584640503
+value_loss 0.12783437967300415
+avg reward (last 100): 27.23
+avg total reward (last 100): 60.84
+max (last 100): 158.0
+ - - - - - - - 
+nupdates 167000
+total_timesteps 13360000
+fps 675
+policy_entropy 0.5104643702507019
+value_loss 0.37918317317962646
+avg reward (last 100): 23.67
+avg total reward (last 100): 63.1
+max (last 100): 144.0
+ - - - - - - - 
+nupdates 168000
+total_timesteps 13440000
+fps 675
+policy_entropy 0.4813564419746399
+value_loss 1.3288419246673584
+avg reward (last 100): 27.4
+avg total reward (last 100): 56.89
+max (last 100): 125.0
+ - - - - - - - 
+nupdates 169000
+total_timesteps 13520000
+fps 675
+policy_entropy 0.4610443115234375
+value_loss 0.9407496452331543
+avg reward (last 100): 23.98
+avg total reward (last 100): 58.1
+max (last 100): 135.0
+ - - - - - - - 
+nupdates 170000
+total_timesteps 13600000
+fps 675
+policy_entropy 0.38366812467575073
+value_loss 0.0669533982872963
+avg reward (last 100): 25.11
+avg total reward (last 100): 64.32
+max (last 100): 155.0
+ - - - - - - - 
+nupdates 171000
+total_timesteps 13680000
+fps 675
+policy_entropy 0.6666322946548462
+value_loss 0.15868452191352844
+avg reward (last 100): 27.3
+avg total reward (last 100): 57.97
+max (last 100): 118.0
+ - - - - - - - 
+nupdates 172000
+total_timesteps 13760000
+fps 676
+policy_entropy 0.4709010124206543
+value_loss 0.11355771869421005
+avg reward (last 100): 31.21
+avg total reward (last 100): 67.54
+max (last 100): 143.0
+ - - - - - - - 
+nupdates 173000
+total_timesteps 13840000
+fps 676
+policy_entropy 0.4641050696372986
+value_loss 0.0944402664899826
+avg reward (last 100): 27.28
+avg total reward (last 100): 58.68
+max (last 100): 143.0
+ - - - - - - - 
+nupdates 174000
+total_timesteps 13920000
+fps 676
+policy_entropy 0.44317254424095154
+value_loss 0.21053314208984375
+avg reward (last 100): 28.65
+avg total reward (last 100): 64.02
+max (last 100): 146.0
+ - - - - - - - 
+nupdates 175000
+total_timesteps 14000000
+fps 676
+policy_entropy 0.6925915479660034
+value_loss 0.09947416186332703
+avg reward (last 100): 27.09
+avg total reward (last 100): 68.81
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 176000
+total_timesteps 14080000
+fps 677
+policy_entropy 0.5174533724784851
+value_loss 0.19656166434288025
+avg reward (last 100): 26.89
+avg total reward (last 100): 59.76
+max (last 100): 143.0
+ - - - - - - - 
+nupdates 177000
+total_timesteps 14160000
+fps 677
+policy_entropy 0.39384761452674866
+value_loss 0.3304695188999176
+avg reward (last 100): 26.44
+avg total reward (last 100): 65.81
+max (last 100): 179.0
+ - - - - - - - 
+nupdates 178000
+total_timesteps 14240000
+fps 677
+policy_entropy 0.36865225434303284
+value_loss 0.8231515884399414
+avg reward (last 100): 28.39
+avg total reward (last 100): 66.76
+max (last 100): 155.0
+ - - - - - - - 
+nupdates 179000
+total_timesteps 14320000
+fps 677
+policy_entropy 0.6705177426338196
+value_loss 0.9102028012275696
+avg reward (last 100): 29.54
+avg total reward (last 100): 68.48
+max (last 100): 152.0
+ - - - - - - - 
+nupdates 180000
+total_timesteps 14400000
+fps 677
+policy_entropy 0.6806365251541138
+value_loss 0.9000999331474304
+avg reward (last 100): 25.46
+avg total reward (last 100): 60.45
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 181000
+total_timesteps 14480000
+fps 678
+policy_entropy 0.4697282910346985
+value_loss 0.589798092842102
+avg reward (last 100): 28.22
+avg total reward (last 100): 62.22
+max (last 100): 152.0
+ - - - - - - - 
+nupdates 182000
+total_timesteps 14560000
+fps 678
+policy_entropy 0.6806768774986267
+value_loss 0.3545369803905487
+avg reward (last 100): 26.68
+avg total reward (last 100): 72.86
+max (last 100): 142.0
+ - - - - - - - 
+nupdates 183000
+total_timesteps 14640000
+fps 678
+policy_entropy 0.675766110420227
+value_loss 3.9973819255828857
+avg reward (last 100): 30.9
+avg total reward (last 100): 70.02
+max (last 100): 142.0
+ - - - - - - - 
+nupdates 184000
+total_timesteps 14720000
+fps 678
+policy_entropy 0.6712456941604614
+value_loss 0.28086990118026733
+avg reward (last 100): 26.99
+avg total reward (last 100): 71.56
+max (last 100): 146.0
+ - - - - - - - 
+nupdates 185000
+total_timesteps 14800000
+fps 678
+policy_entropy 0.5415071249008179
+value_loss 0.1644602119922638
+avg reward (last 100): 30.96
+avg total reward (last 100): 71.15
+max (last 100): 159.0
+ - - - - - - - 
+nupdates 186000
+total_timesteps 14880000
+fps 679
+policy_entropy 0.4442986845970154
+value_loss 0.13180717825889587
+avg reward (last 100): 26.26
+avg total reward (last 100): 67.14
+max (last 100): 144.0
+ - - - - - - - 
+nupdates 187000
+total_timesteps 14960000
+fps 679
+policy_entropy 0.49572667479515076
+value_loss 0.07185161113739014
+avg reward (last 100): 27.76
+avg total reward (last 100): 72.08
+max (last 100): 161.0
+ - - - - - - - 
+nupdates 188000
+total_timesteps 15040000
+fps 679
+policy_entropy 0.6401392817497253
+value_loss 3.8769021034240723
+avg reward (last 100): 26.85
+avg total reward (last 100): 68.14
+max (last 100): 157.0
+ - - - - - - - 
+nupdates 189000
+total_timesteps 15120000
+fps 679
+policy_entropy 0.7029563188552856
+value_loss 0.4096032977104187
+avg reward (last 100): 29.71
+avg total reward (last 100): 70.34
+max (last 100): 145.0
+ - - - - - - - 
+nupdates 190000
+total_timesteps 15200000
+fps 679
+policy_entropy 0.49996042251586914
+value_loss 0.21440668404102325
+avg reward (last 100): 32.61
+avg total reward (last 100): 77.06
+max (last 100): 162.0
+ - - - - - - - 
+nupdates 191000
+total_timesteps 15280000
+fps 679
+policy_entropy 0.752352774143219
+value_loss 0.942365288734436
+avg reward (last 100): 29.66
+avg total reward (last 100): 70.39
+max (last 100): 142.0
+ - - - - - - - 
+nupdates 192000
+total_timesteps 15360000
+fps 680
+policy_entropy 0.49733400344848633
+value_loss 0.1961989402770996
+avg reward (last 100): 28.34
+avg total reward (last 100): 73.87
+max (last 100): 157.0
+ - - - - - - - 
+nupdates 193000
+total_timesteps 15440000
+fps 680
+policy_entropy 0.5253562927246094
+value_loss 0.21906307339668274
+avg reward (last 100): 30.56
+avg total reward (last 100): 67.71
+max (last 100): 155.0
+ - - - - - - - 
+nupdates 194000
+total_timesteps 15520000
+fps 680
+policy_entropy 0.6247493028640747
+value_loss 0.8041450381278992
+avg reward (last 100): 32.51
+avg total reward (last 100): 69.98
+max (last 100): 142.0
+ - - - - - - - 
+nupdates 195000
+total_timesteps 15600000
+fps 680
+policy_entropy 0.5186814665794373
+value_loss 0.09591729193925858
+avg reward (last 100): 28.74
+avg total reward (last 100): 70.88
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 196000
+total_timesteps 15680000
+fps 680
+policy_entropy 0.4635083079338074
+value_loss 0.21490037441253662
+avg reward (last 100): 33.24
+avg total reward (last 100): 74.34
+max (last 100): 155.0
+ - - - - - - - 
+nupdates 197000
+total_timesteps 15760000
+fps 680
+policy_entropy 0.6590365171432495
+value_loss 0.34058600664138794
+avg reward (last 100): 28.72
+avg total reward (last 100): 79.34
+max (last 100): 146.0
+ - - - - - - - 
+nupdates 198000
+total_timesteps 15840000
+fps 680
+policy_entropy 0.5145193338394165
+value_loss 0.10150189697742462
+avg reward (last 100): 30.37
+avg total reward (last 100): 82.55
+max (last 100): 177.0
+ - - - - - - - 
+nupdates 199000
+total_timesteps 15920000
+fps 681
+policy_entropy 0.6491600275039673
+value_loss 4.382233619689941
+avg reward (last 100): 29.13
+avg total reward (last 100): 67.92
+max (last 100): 140.0
+ - - - - - - - 
+nupdates 200000
+total_timesteps 16000000
+fps 681
+policy_entropy 0.5044527053833008
+value_loss 0.2696913778781891
+avg reward (last 100): 32.99
+avg total reward (last 100): 76.96
+max (last 100): 161.0
+ - - - - - - - 
+nupdates 201000
+total_timesteps 16080000
+fps 681
+policy_entropy 0.43507394194602966
+value_loss 0.15492121875286102
+avg reward (last 100): 30.34
+avg total reward (last 100): 72.79
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 202000
+total_timesteps 16160000
+fps 681
+policy_entropy 0.4092017710208893
+value_loss 0.1724976748228073
+avg reward (last 100): 27.55
+avg total reward (last 100): 78.55
+max (last 100): 165.0
+ - - - - - - - 
+nupdates 203000
+total_timesteps 16240000
+fps 681
+policy_entropy 0.3327685296535492
+value_loss 0.30793359875679016
+avg reward (last 100): 31.74
+avg total reward (last 100): 74.13
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 204000
+total_timesteps 16320000
+fps 681
+policy_entropy 0.37751609086990356
+value_loss 0.09412217140197754
+avg reward (last 100): 30.6
+avg total reward (last 100): 76.98
+max (last 100): 156.0
+ - - - - - - - 
+nupdates 205000
+total_timesteps 16400000
+fps 682
+policy_entropy 0.5712445378303528
+value_loss 0.6144855618476868
+avg reward (last 100): 30.32
+avg total reward (last 100): 68.99
+max (last 100): 144.0
+ - - - - - - - 
+nupdates 206000
+total_timesteps 16480000
+fps 682
+policy_entropy 0.4786260724067688
+value_loss 0.17468668520450592
+avg reward (last 100): 31.73
+avg total reward (last 100): 73.44
+max (last 100): 156.0
+ - - - - - - - 
+nupdates 207000
+total_timesteps 16560000
+fps 682
+policy_entropy 0.5509090423583984
+value_loss 0.1374696046113968
+avg reward (last 100): 31.95
+avg total reward (last 100): 71.31
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 208000
+total_timesteps 16640000
+fps 682
+policy_entropy 0.39665094017982483
+value_loss 0.5387316942214966
+avg reward (last 100): 31.59
+avg total reward (last 100): 78.12
+max (last 100): 161.0
+ - - - - - - - 
+nupdates 209000
+total_timesteps 16720000
+fps 682
+policy_entropy 0.4770662784576416
+value_loss 0.7006696462631226
+avg reward (last 100): 29.43
+avg total reward (last 100): 81.57
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 210000
+total_timesteps 16800000
+fps 682
+policy_entropy 0.30933451652526855
+value_loss 1.4935518503189087
+avg reward (last 100): 28.29
+avg total reward (last 100): 77.46
+max (last 100): 174.0
+ - - - - - - - 
+nupdates 211000
+total_timesteps 16880000
+fps 682
+policy_entropy 0.32724812626838684
+value_loss 0.18491148948669434
+avg reward (last 100): 31.05
+avg total reward (last 100): 79.01
+max (last 100): 174.0
+ - - - - - - - 
+nupdates 212000
+total_timesteps 16960000
+fps 683
+policy_entropy 0.33014628291130066
+value_loss 0.08666107058525085
+avg reward (last 100): 31.0
+avg total reward (last 100): 80.78
+max (last 100): 173.0
+ - - - - - - - 
+nupdates 213000
+total_timesteps 17040000
+fps 683
+policy_entropy 0.38185080885887146
+value_loss 0.18983106315135956
+avg reward (last 100): 36.52
+avg total reward (last 100): 80.12
+max (last 100): 164.0
+ - - - - - - - 
+nupdates 214000
+total_timesteps 17120000
+fps 683
+policy_entropy 0.49100130796432495
+value_loss 1.37917959690094
+avg reward (last 100): 33.05
+avg total reward (last 100): 75.68
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 215000
+total_timesteps 17200000
+fps 683
+policy_entropy 0.4057948589324951
+value_loss 0.12082260847091675
+avg reward (last 100): 35.51
+avg total reward (last 100): 75.65
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 216000
+total_timesteps 17280000
+fps 683
+policy_entropy 0.49594584107398987
+value_loss 0.6826598048210144
+avg reward (last 100): 29.02
+avg total reward (last 100): 76.75
+max (last 100): 167.0
+ - - - - - - - 
+nupdates 217000
+total_timesteps 17360000
+fps 683
+policy_entropy 0.6525107622146606
+value_loss 2.047466516494751
+avg reward (last 100): 31.49
+avg total reward (last 100): 82.91
+max (last 100): 158.0
+ - - - - - - - 
+nupdates 218000
+total_timesteps 17440000
+fps 683
+policy_entropy 0.5968426465988159
+value_loss 0.5801323056221008
+avg reward (last 100): 31.59
+avg total reward (last 100): 71.0
+max (last 100): 169.0
+ - - - - - - - 
+nupdates 219000
+total_timesteps 17520000
+fps 684
+policy_entropy 0.5898215174674988
+value_loss 0.18025939166545868
+avg reward (last 100): 29.02
+avg total reward (last 100): 76.49
+max (last 100): 159.0
+ - - - - - - - 
+nupdates 220000
+total_timesteps 17600000
+fps 684
+policy_entropy 0.41196003556251526
+value_loss 0.2661483883857727
+avg reward (last 100): 32.24
+avg total reward (last 100): 78.58
+max (last 100): 159.0
+ - - - - - - - 
+nupdates 221000
+total_timesteps 17680000
+fps 684
+policy_entropy 0.46950483322143555
+value_loss 0.25784340500831604
+avg reward (last 100): 28.01
+avg total reward (last 100): 73.55
+max (last 100): 167.0
+ - - - - - - - 
+nupdates 222000
+total_timesteps 17760000
+fps 684
+policy_entropy 0.338512659072876
+value_loss 0.25880008935928345
+avg reward (last 100): 34.98
+avg total reward (last 100): 84.96
+max (last 100): 165.0
+ - - - - - - - 
+nupdates 223000
+total_timesteps 17840000
+fps 684
+policy_entropy 0.7995730638504028
+value_loss 1.0196714401245117
+avg reward (last 100): 27.61
+avg total reward (last 100): 83.2
+max (last 100): 176.0
+ - - - - - - - 
+nupdates 224000
+total_timesteps 17920000
+fps 684
+policy_entropy 0.5043336153030396
+value_loss 0.23676171898841858
+avg reward (last 100): 32.37
+avg total reward (last 100): 84.68
+max (last 100): 223.0
+ - - - - - - - 
+nupdates 225000
+total_timesteps 18000000
+fps 684
+policy_entropy 0.6139048337936401
+value_loss 0.7074726819992065
+avg reward (last 100): 32.45
+avg total reward (last 100): 78.28
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 226000
+total_timesteps 18080000
+fps 684
+policy_entropy 0.49481478333473206
+value_loss 0.18073444068431854
+avg reward (last 100): 34.39
+avg total reward (last 100): 82.61
+max (last 100): 193.0
+ - - - - - - - 
+nupdates 227000
+total_timesteps 18160000
+fps 685
+policy_entropy 0.4904424250125885
+value_loss 0.1452166736125946
+avg reward (last 100): 39.08
+avg total reward (last 100): 93.2
+max (last 100): 165.0
+ - - - - - - - 
+nupdates 228000
+total_timesteps 18240000
+fps 685
+policy_entropy 0.4600427746772766
+value_loss 0.13619360327720642
+avg reward (last 100): 34.07
+avg total reward (last 100): 87.07
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 229000
+total_timesteps 18320000
+fps 685
+policy_entropy 0.364021360874176
+value_loss 0.14021256566047668
+avg reward (last 100): 36.28
+avg total reward (last 100): 96.14
+max (last 100): 179.0
+ - - - - - - - 
+nupdates 230000
+total_timesteps 18400000
+fps 685
+policy_entropy 0.5302761197090149
+value_loss 0.22439280152320862
+avg reward (last 100): 32.18
+avg total reward (last 100): 90.47
+max (last 100): 161.0
+ - - - - - - - 
+nupdates 231000
+total_timesteps 18480000
+fps 685
+policy_entropy 0.44286537170410156
+value_loss 0.10971043258905411
+avg reward (last 100): 39.2
+avg total reward (last 100): 94.98
+max (last 100): 172.0
+ - - - - - - - 
+nupdates 232000
+total_timesteps 18560000
+fps 685
+policy_entropy 0.563823401927948
+value_loss 0.14636006951332092
+avg reward (last 100): 30.45
+avg total reward (last 100): 79.83
+max (last 100): 157.0
+ - - - - - - - 
+nupdates 233000
+total_timesteps 18640000
+fps 685
+policy_entropy 0.5091899633407593
+value_loss 1.7085758447647095
+avg reward (last 100): 33.47
+avg total reward (last 100): 87.28
+max (last 100): 201.0
+ - - - - - - - 
+nupdates 234000
+total_timesteps 18720000
+fps 685
+policy_entropy 0.5128083229064941
+value_loss 1.0570027828216553
+avg reward (last 100): 37.93
+avg total reward (last 100): 89.0
+max (last 100): 209.0
+ - - - - - - - 
+nupdates 235000
+total_timesteps 18800000
+fps 686
+policy_entropy 0.5545921921730042
+value_loss 0.506123423576355
+avg reward (last 100): 35.42
+avg total reward (last 100): 79.6
+max (last 100): 179.0
+ - - - - - - - 
+nupdates 236000
+total_timesteps 18880000
+fps 686
+policy_entropy 0.5698531866073608
+value_loss 0.23204569518566132
+avg reward (last 100): 37.03
+avg total reward (last 100): 91.73
+max (last 100): 176.0
+ - - - - - - - 
+nupdates 237000
+total_timesteps 18960000
+fps 686
+policy_entropy 0.5275427103042603
+value_loss 0.17764835059642792
+avg reward (last 100): 33.46
+avg total reward (last 100): 94.33
+max (last 100): 194.0
+ - - - - - - - 
+nupdates 238000
+total_timesteps 19040000
+fps 686
+policy_entropy 0.46756410598754883
+value_loss 0.18503808975219727
+avg reward (last 100): 29.91
+avg total reward (last 100): 93.16
+max (last 100): 220.0
+ - - - - - - - 
+nupdates 239000
+total_timesteps 19120000
+fps 686
+policy_entropy 0.602271556854248
+value_loss 0.09699706733226776
+avg reward (last 100): 37.28
+avg total reward (last 100): 85.43
+max (last 100): 161.0
+ - - - - - - - 
+nupdates 240000
+total_timesteps 19200000
+fps 686
+policy_entropy 0.41345953941345215
+value_loss 0.23326461017131805
+avg reward (last 100): 32.02
+avg total reward (last 100): 84.39
+max (last 100): 161.0
+ - - - - - - - 
+nupdates 241000
+total_timesteps 19280000
+fps 686
+policy_entropy 0.6059020757675171
+value_loss 0.2390795648097992
+avg reward (last 100): 32.86
+avg total reward (last 100): 76.73
+max (last 100): 169.0
+ - - - - - - - 
+nupdates 242000
+total_timesteps 19360000
+fps 686
+policy_entropy 0.6209496259689331
+value_loss 0.9625873565673828
+avg reward (last 100): 31.04
+avg total reward (last 100): 85.17
+max (last 100): 216.0
+ - - - - - - - 
+nupdates 243000
+total_timesteps 19440000
+fps 687
+policy_entropy 0.48642462491989136
+value_loss 0.15538761019706726
+avg reward (last 100): 30.99
+avg total reward (last 100): 82.86
+max (last 100): 161.0
+ - - - - - - - 
+nupdates 244000
+total_timesteps 19520000
+fps 687
+policy_entropy 0.5049951672554016
+value_loss 0.17505407333374023
+avg reward (last 100): 33.45
+avg total reward (last 100): 85.53
+max (last 100): 165.0
+ - - - - - - - 
+nupdates 245000
+total_timesteps 19600000
+fps 687
+policy_entropy 0.5577415227890015
+value_loss 0.3656589090824127
+avg reward (last 100): 31.57
+avg total reward (last 100): 82.45
+max (last 100): 162.0
+ - - - - - - - 
+nupdates 246000
+total_timesteps 19680000
+fps 687
+policy_entropy 0.5768427848815918
+value_loss 1.7621660232543945
+avg reward (last 100): 37.48
+avg total reward (last 100): 95.15
+max (last 100): 175.0
+ - - - - - - - 
+nupdates 247000
+total_timesteps 19760000
+fps 687
+policy_entropy 0.6436257362365723
+value_loss 0.18434229493141174
+avg reward (last 100): 39.84
+avg total reward (last 100): 82.73
+max (last 100): 162.0
+ - - - - - - - 
+nupdates 248000
+total_timesteps 19840000
+fps 687
+policy_entropy 0.6057254672050476
+value_loss 0.49771755933761597
+avg reward (last 100): 33.42
+avg total reward (last 100): 87.09
+max (last 100): 177.0
+ - - - - - - - 
+nupdates 249000
+total_timesteps 19920000
+fps 687
+policy_entropy 0.5308920741081238
+value_loss 1.1198982000350952
+avg reward (last 100): 31.99
+avg total reward (last 100): 80.63
+max (last 100): 162.0
+ - - - - - - - 
+nupdates 250000
+total_timesteps 20000000
+fps 687
+policy_entropy 0.5146080255508423
+value_loss 1.5592377185821533
+avg reward (last 100): 31.75
+avg total reward (last 100): 74.91
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 251000
+total_timesteps 20080000
+fps 687
+policy_entropy 0.5372803807258606
+value_loss 0.09447959810495377
+avg reward (last 100): 31.98
+avg total reward (last 100): 82.94
+max (last 100): 166.0
+ - - - - - - - 
+nupdates 252000
+total_timesteps 20160000
+fps 687
+policy_entropy 0.41132545471191406
+value_loss 0.130451500415802
+avg reward (last 100): 36.43
+avg total reward (last 100): 90.35
+max (last 100): 158.0
+ - - - - - - - 
+nupdates 253000
+total_timesteps 20240000
+fps 688
+policy_entropy 0.6046677827835083
+value_loss 0.15576744079589844
+avg reward (last 100): 33.21
+avg total reward (last 100): 84.23
+max (last 100): 181.0
+ - - - - - - - 
+nupdates 254000
+total_timesteps 20320000
+fps 688
+policy_entropy 0.5310930013656616
+value_loss 0.1678486466407776
+avg reward (last 100): 33.23
+avg total reward (last 100): 83.28
+max (last 100): 172.0
+ - - - - - - - 
+nupdates 255000
+total_timesteps 20400000
+fps 688
+policy_entropy 0.5093372464179993
+value_loss 0.34999313950538635
+avg reward (last 100): 35.1
+avg total reward (last 100): 86.39
+max (last 100): 167.0
+ - - - - - - - 
+nupdates 256000
+total_timesteps 20480000
+fps 688
+policy_entropy 0.5757116079330444
+value_loss 0.23496833443641663
+avg reward (last 100): 36.59
+avg total reward (last 100): 95.16
+max (last 100): 187.0
+ - - - - - - - 
+nupdates 257000
+total_timesteps 20560000
+fps 688
+policy_entropy 0.3205573558807373
+value_loss 0.09642859548330307
+avg reward (last 100): 36.26
+avg total reward (last 100): 94.16
+max (last 100): 167.0
+ - - - - - - - 
+nupdates 258000
+total_timesteps 20640000
+fps 688
+policy_entropy 0.6989539861679077
+value_loss 0.15494617819786072
+avg reward (last 100): 37.93
+avg total reward (last 100): 97.54
+max (last 100): 162.0
+ - - - - - - - 
+nupdates 259000
+total_timesteps 20720000
+fps 688
+policy_entropy 0.5481904149055481
+value_loss 1.9989292621612549
+avg reward (last 100): 33.94
+avg total reward (last 100): 90.02
+max (last 100): 164.0
+ - - - - - - - 
+nupdates 260000
+total_timesteps 20800000
+fps 688
+policy_entropy 0.48429352045059204
+value_loss 0.13964590430259705
+avg reward (last 100): 41.4
+avg total reward (last 100): 94.21
+max (last 100): 179.0
+ - - - - - - - 
+nupdates 261000
+total_timesteps 20880000
+fps 688
+policy_entropy 0.5389704704284668
+value_loss 4.368161201477051
+avg reward (last 100): 38.37
+avg total reward (last 100): 97.53
+max (last 100): 196.0
+ - - - - - - - 
+nupdates 262000
+total_timesteps 20960000
+fps 689
+policy_entropy 0.4314747750759125
+value_loss 0.17261716723442078
+avg reward (last 100): 34.53
+avg total reward (last 100): 85.08
+max (last 100): 196.0
+ - - - - - - - 
+nupdates 263000
+total_timesteps 21040000
+fps 689
+policy_entropy 0.4152682423591614
+value_loss 0.2123151272535324
+avg reward (last 100): 33.58
+avg total reward (last 100): 78.94
+max (last 100): 157.0
+ - - - - - - - 
+nupdates 264000
+total_timesteps 21120000
+fps 689
+policy_entropy 0.5665586590766907
+value_loss 3.5962319374084473
+avg reward (last 100): 36.01
+avg total reward (last 100): 97.31
+max (last 100): 232.0
+ - - - - - - - 
+nupdates 265000
+total_timesteps 21200000
+fps 689
+policy_entropy 0.6606967449188232
+value_loss 0.1654798537492752
+avg reward (last 100): 37.37
+avg total reward (last 100): 91.09
+max (last 100): 197.0
+ - - - - - - - 
+nupdates 266000
+total_timesteps 21280000
+fps 689
+policy_entropy 0.601170539855957
+value_loss 0.2131609171628952
+avg reward (last 100): 35.56
+avg total reward (last 100): 91.93
+max (last 100): 160.0
+ - - - - - - - 
+nupdates 267000
+total_timesteps 21360000
+fps 689
+policy_entropy 0.359884649515152
+value_loss 0.7860843539237976
+avg reward (last 100): 39.73
+avg total reward (last 100): 91.56
+max (last 100): 163.0
+ - - - - - - - 
+nupdates 268000
+total_timesteps 21440000
+fps 689
+policy_entropy 0.34051355719566345
+value_loss 0.23881931602954865
+avg reward (last 100): 42.58
+avg total reward (last 100): 97.8
+max (last 100): 194.0
+ - - - - - - - 
+nupdates 269000
+total_timesteps 21520000
+fps 689
+policy_entropy 0.3697826564311981
+value_loss 0.5494213104248047
+avg reward (last 100): 41.83
+avg total reward (last 100): 105.47
+max (last 100): 175.0
+ - - - - - - - 
+nupdates 270000
+total_timesteps 21600000
+fps 689
+policy_entropy 0.5119915008544922
+value_loss 0.25892767310142517
+avg reward (last 100): 32.95
+avg total reward (last 100): 86.83
+max (last 100): 173.0
+ - - - - - - - 
+nupdates 271000
+total_timesteps 21680000
+fps 689
+policy_entropy 0.6676384806632996
+value_loss 5.08928918838501
+avg reward (last 100): 41.61
+avg total reward (last 100): 95.74
+max (last 100): 180.0
+ - - - - - - - 
+nupdates 272000
+total_timesteps 21760000
+fps 690
+policy_entropy 0.49334844946861267
+value_loss 0.15655390918254852
+avg reward (last 100): 35.91
+avg total reward (last 100): 93.48
+max (last 100): 185.0
+ - - - - - - - 
+nupdates 273000
+total_timesteps 21840000
+fps 690
+policy_entropy 0.5892146229743958
+value_loss 0.12979952991008759
+avg reward (last 100): 37.17
+avg total reward (last 100): 95.52
+max (last 100): 164.0
+ - - - - - - - 
+nupdates 274000
+total_timesteps 21920000
+fps 690
+policy_entropy 0.48798274993896484
+value_loss 0.11560449749231339
+avg reward (last 100): 39.55
+avg total reward (last 100): 99.07
+max (last 100): 163.0
+ - - - - - - - 
+nupdates 275000
+total_timesteps 22000000
+fps 690
+policy_entropy 0.6437590718269348
+value_loss 0.15310697257518768
+avg reward (last 100): 38.19
+avg total reward (last 100): 95.62
+max (last 100): 167.0
+ - - - - - - - 
+nupdates 276000
+total_timesteps 22080000
+fps 690
+policy_entropy 0.5885874032974243
+value_loss 0.1432170569896698
+avg reward (last 100): 37.66
+avg total reward (last 100): 95.53
+max (last 100): 165.0
+ - - - - - - - 
+nupdates 277000
+total_timesteps 22160000
+fps 690
+policy_entropy 0.4788443446159363
+value_loss 0.1762344390153885
+avg reward (last 100): 43.4
+avg total reward (last 100): 98.98
+max (last 100): 164.0
+ - - - - - - - 
+nupdates 278000
+total_timesteps 22240000
+fps 690
+policy_entropy 0.6590670347213745
+value_loss 0.5092717409133911
+avg reward (last 100): 33.47
+avg total reward (last 100): 84.0
+max (last 100): 184.0
+ - - - - - - - 
+nupdates 279000
+total_timesteps 22320000
+fps 690
+policy_entropy 0.4380016326904297
+value_loss 4.650145053863525
+avg reward (last 100): 42.08
+avg total reward (last 100): 101.12
+max (last 100): 163.0
+ - - - - - - - 
+nupdates 280000
+total_timesteps 22400000
+fps 690
+policy_entropy 0.4362261891365051
+value_loss 0.28891754150390625
+avg reward (last 100): 38.53
+avg total reward (last 100): 94.55
+max (last 100): 176.0
+ - - - - - - - 
+nupdates 281000
+total_timesteps 22480000
+fps 690
+policy_entropy 0.428039014339447
+value_loss 0.483864963054657
+avg reward (last 100): 30.54
+avg total reward (last 100): 95.35
+max (last 100): 193.0
+ - - - - - - - 
+nupdates 282000
+total_timesteps 22560000
+fps 690
+policy_entropy 0.5887044668197632
+value_loss 3.6762585639953613
+avg reward (last 100): 38.0
+avg total reward (last 100): 102.19
+max (last 100): 193.0
+ - - - - - - - 
+nupdates 283000
+total_timesteps 22640000
+fps 691
+policy_entropy 0.4199294149875641
+value_loss 0.3081168234348297
+avg reward (last 100): 35.28
+avg total reward (last 100): 97.93
+max (last 100): 172.0
+ - - - - - - - 
+nupdates 284000
+total_timesteps 22720000
+fps 691
+policy_entropy 0.5033414959907532
+value_loss 1.6550973653793335
+avg reward (last 100): 44.18
+avg total reward (last 100): 103.37
+max (last 100): 197.0
+ - - - - - - - 
+nupdates 285000
+total_timesteps 22800000
+fps 691
+policy_entropy 0.5509026050567627
+value_loss 0.23309631645679474
+avg reward (last 100): 37.69
+avg total reward (last 100): 111.31
+max (last 100): 197.0
+ - - - - - - - 
+nupdates 286000
+total_timesteps 22880000
+fps 691
+policy_entropy 0.46003180742263794
+value_loss 3.7869503498077393
+avg reward (last 100): 38.52
+avg total reward (last 100): 91.29
+max (last 100): 184.0
+ - - - - - - - 
+nupdates 287000
+total_timesteps 22960000
+fps 691
+policy_entropy 0.5784605741500854
+value_loss 0.4596141278743744
+avg reward (last 100): 36.07
+avg total reward (last 100): 94.75
+max (last 100): 191.0
+ - - - - - - - 
+nupdates 288000
+total_timesteps 23040000
+fps 691
+policy_entropy 0.413350909948349
+value_loss 5.8776750564575195
+avg reward (last 100): 37.3
+avg total reward (last 100): 107.7
+max (last 100): 199.0
+ - - - - - - - 
+nupdates 289000
+total_timesteps 23120000
+fps 691
+policy_entropy 0.3686811625957489
+value_loss 0.14764972031116486
+avg reward (last 100): 44.0
+avg total reward (last 100): 107.49
+max (last 100): 197.0
+ - - - - - - - 
+nupdates 290000
+total_timesteps 23200000
+fps 691
+policy_entropy 0.5562564730644226
+value_loss 2.173041820526123
+avg reward (last 100): 33.22
+avg total reward (last 100): 95.19
+max (last 100): 211.0
+ - - - - - - - 
+nupdates 291000
+total_timesteps 23280000
+fps 691
+policy_entropy 0.5063055753707886
+value_loss 0.5993071794509888
+avg reward (last 100): 40.39
+avg total reward (last 100): 87.38
+max (last 100): 207.0
+ - - - - - - - 
+nupdates 292000
+total_timesteps 23360000
+fps 692
+policy_entropy 0.47613048553466797
+value_loss 0.2899901866912842
+avg reward (last 100): 37.57
+avg total reward (last 100): 99.88
+max (last 100): 197.0
+ - - - - - - - 
+nupdates 293000
+total_timesteps 23440000
+fps 692
+policy_entropy 0.3031182885169983
+value_loss 0.5297067761421204
+avg reward (last 100): 38.3
+avg total reward (last 100): 104.52
+max (last 100): 179.0
+ - - - - - - - 
+nupdates 294000
+total_timesteps 23520000
+fps 692
+policy_entropy 0.5714918971061707
+value_loss 0.306877076625824
+avg reward (last 100): 42.39
+avg total reward (last 100): 103.01
+max (last 100): 164.0
+ - - - - - - - 
+nupdates 295000
+total_timesteps 23600000
+fps 692
+policy_entropy 0.4779523015022278
+value_loss 0.9742331504821777
+avg reward (last 100): 45.01
+avg total reward (last 100): 113.54
+max (last 100): 230.0
+ - - - - - - - 
+nupdates 296000
+total_timesteps 23680000
+fps 692
+policy_entropy 0.6098523736000061
+value_loss 0.2123301774263382
+avg reward (last 100): 40.5
+avg total reward (last 100): 102.14
+max (last 100): 195.0
+ - - - - - - - 
+nupdates 297000
+total_timesteps 23760000
+fps 692
+policy_entropy 0.4973185658454895
+value_loss 0.4204092025756836
+avg reward (last 100): 36.92
+avg total reward (last 100): 99.28
+max (last 100): 180.0
+ - - - - - - - 
+nupdates 298000
+total_timesteps 23840000
+fps 692
+policy_entropy 0.28177812695503235
+value_loss 0.1587141454219818
+avg reward (last 100): 42.19
+avg total reward (last 100): 105.12
+max (last 100): 195.0
+ - - - - - - - 
+nupdates 299000
+total_timesteps 23920000
+fps 692
+policy_entropy 0.444918155670166
+value_loss 0.35785233974456787
+avg reward (last 100): 39.03
+avg total reward (last 100): 96.2
+max (last 100): 242.0
+ - - - - - - - 
+nupdates 300000
+total_timesteps 24000000
+fps 692
+policy_entropy 0.5945428609848022
+value_loss 0.2414003312587738
+avg reward (last 100): 40.51
+avg total reward (last 100): 101.39
+max (last 100): 195.0
+ - - - - - - - 
+nupdates 301000
+total_timesteps 24080000
+fps 692
+policy_entropy 0.6130729913711548
+value_loss 0.16464419662952423
+avg reward (last 100): 36.12
+avg total reward (last 100): 94.08
+max (last 100): 195.0
+ - - - - - - - 
+nupdates 302000
+total_timesteps 24160000
+fps 693
+policy_entropy 0.45816880464553833
+value_loss 0.3792913854122162
+avg reward (last 100): 35.76
+avg total reward (last 100): 97.59
+max (last 100): 196.0
+ - - - - - - - 
+nupdates 303000
+total_timesteps 24240000
+fps 693
+policy_entropy 0.6422821283340454
+value_loss 0.2998465597629547
+avg reward (last 100): 36.34
+avg total reward (last 100): 95.89
+max (last 100): 199.0
+ - - - - - - - 
+nupdates 304000
+total_timesteps 24320000
+fps 693
+policy_entropy 0.37271827459335327
+value_loss 0.1769970953464508
+avg reward (last 100): 37.75
+avg total reward (last 100): 93.87
+max (last 100): 175.0
+ - - - - - - - 
+nupdates 305000
+total_timesteps 24400000
+fps 693
+policy_entropy 0.6613335609436035
+value_loss 0.11082474887371063
+avg reward (last 100): 38.9
+avg total reward (last 100): 104.09
+max (last 100): 196.0
+ - - - - - - - 
+nupdates 306000
+total_timesteps 24480000
+fps 693
+policy_entropy 0.4567964971065521
+value_loss 0.1980334222316742
+avg reward (last 100): 36.72
+avg total reward (last 100): 94.55
+max (last 100): 171.0
+ - - - - - - - 
+nupdates 307000
+total_timesteps 24560000
+fps 693
+policy_entropy 0.6068846583366394
+value_loss 0.2623133063316345
+avg reward (last 100): 38.3
+avg total reward (last 100): 90.48
+max (last 100): 193.0
+ - - - - - - - 
+nupdates 308000
+total_timesteps 24640000
+fps 693
+policy_entropy 0.5309520959854126
+value_loss 0.13072720170021057
+avg reward (last 100): 35.39
+avg total reward (last 100): 98.46
+max (last 100): 194.0
+ - - - - - - - 
+nupdates 309000
+total_timesteps 24720000
+fps 693
+policy_entropy 0.4266802668571472
+value_loss 0.17997018992900848
+avg reward (last 100): 42.55
+avg total reward (last 100): 102.6
+max (last 100): 234.0
+ - - - - - - - 
+nupdates 310000
+total_timesteps 24800000
+fps 693
+policy_entropy 0.4937629699707031
+value_loss 0.8208469152450562
+avg reward (last 100): 37.85
+avg total reward (last 100): 103.49
+max (last 100): 197.0
+ - - - - - - - 
+nupdates 311000
+total_timesteps 24880000
+fps 693
+policy_entropy 0.4713011384010315
+value_loss 2.7050840854644775
+avg reward (last 100): 43.96
+avg total reward (last 100): 110.09
+max (last 100): 231.0
+ - - - - - - - 
+nupdates 312000
+total_timesteps 24960000
+fps 693
+policy_entropy 0.5188221335411072
+value_loss 0.5908351540565491
+avg reward (last 100): 45.36
+avg total reward (last 100): 112.14
+max (last 100): 235.0
+ - - - - - - - 
+nupdates 313000
+total_timesteps 25040000
+fps 693
+policy_entropy 0.6311355829238892
+value_loss 1.3022377490997314
+avg reward (last 100): 40.22
+avg total reward (last 100): 104.25
+max (last 100): 216.0
+ - - - - - - - 
+nupdates 314000
+total_timesteps 25120000
+fps 693
+policy_entropy 0.5911352038383484
+value_loss 0.2668389678001404
+avg reward (last 100): 38.61
+avg total reward (last 100): 103.61
+max (last 100): 212.0
+ - - - - - - - 
+nupdates 315000
+total_timesteps 25200000
+fps 694
+policy_entropy 0.5334451198577881
+value_loss 0.1996515691280365
+avg reward (last 100): 45.58
+avg total reward (last 100): 103.96
+max (last 100): 211.0
+ - - - - - - - 
+nupdates 316000
+total_timesteps 25280000
+fps 694
+policy_entropy 0.49840664863586426
+value_loss 0.3239741325378418
+avg reward (last 100): 38.69
+avg total reward (last 100): 104.93
+max (last 100): 251.0
+ - - - - - - - 
+nupdates 317000
+total_timesteps 25360000
+fps 694
+policy_entropy 0.7956917881965637
+value_loss 0.18943233788013458
+avg reward (last 100): 35.35
+avg total reward (last 100): 102.21
+max (last 100): 212.0
+ - - - - - - - 
+nupdates 318000
+total_timesteps 25440000
+fps 694
+policy_entropy 0.3281327188014984
+value_loss 0.26825085282325745
+avg reward (last 100): 43.25
+avg total reward (last 100): 113.89
+max (last 100): 233.0
+ - - - - - - - 
+nupdates 319000
+total_timesteps 25520000
+fps 694
+policy_entropy 0.42433905601501465
+value_loss 1.1040070056915283
+avg reward (last 100): 38.72
+avg total reward (last 100): 104.13
+max (last 100): 214.0
+ - - - - - - - 
+nupdates 320000
+total_timesteps 25600000
+fps 694
+policy_entropy 0.4395553171634674
+value_loss 0.08257824182510376
+avg reward (last 100): 40.22
+avg total reward (last 100): 93.71
+max (last 100): 213.0
+ - - - - - - - 
+nupdates 321000
+total_timesteps 25680000
+fps 694
+policy_entropy 0.3652159571647644
+value_loss 0.18292120099067688
+avg reward (last 100): 36.46
+avg total reward (last 100): 100.97
+max (last 100): 209.0
+ - - - - - - - 
+nupdates 322000
+total_timesteps 25760000
+fps 694
+policy_entropy 0.43201398849487305
+value_loss 0.219752237200737
+avg reward (last 100): 47.59
+avg total reward (last 100): 115.22
+max (last 100): 234.0
+ - - - - - - - 
+nupdates 323000
+total_timesteps 25840000
+fps 695
+policy_entropy 0.3654627799987793
+value_loss 0.20413994789123535
+avg reward (last 100): 43.88
+avg total reward (last 100): 106.99
+max (last 100): 211.0
+ - - - - - - - 
+nupdates 324000
+total_timesteps 25920000
+fps 695
+policy_entropy 0.6173677444458008
+value_loss 0.20106467604637146
+avg reward (last 100): 48.11
+avg total reward (last 100): 118.63
+max (last 100): 211.0
+ - - - - - - - 
+nupdates 325000
+total_timesteps 26000000
+fps 695
+policy_entropy 0.5197608470916748
+value_loss 0.22459125518798828
+avg reward (last 100): 39.33
+avg total reward (last 100): 101.25
+max (last 100): 249.0
+ - - - - - - - 
+nupdates 326000
+total_timesteps 26080000
+fps 695
+policy_entropy 0.488126665353775
+value_loss 0.22638364136219025
+avg reward (last 100): 41.48
+avg total reward (last 100): 104.29
+max (last 100): 242.0
+ - - - - - - - 
+nupdates 327000
+total_timesteps 26160000
+fps 695
+policy_entropy 0.4533993601799011
+value_loss 0.19602817296981812
+avg reward (last 100): 37.03
+avg total reward (last 100): 111.07
+max (last 100): 198.0
+ - - - - - - - 
+nupdates 328000
+total_timesteps 26240000
+fps 695
+policy_entropy 0.5467575788497925
+value_loss 0.2829929292201996
+avg reward (last 100): 36.43
+avg total reward (last 100): 109.33
+max (last 100): 237.0
+ - - - - - - - 
+nupdates 329000
+total_timesteps 26320000
+fps 695
+policy_entropy 0.4503966271877289
+value_loss 0.2414437234401703
+avg reward (last 100): 40.08
+avg total reward (last 100): 104.1
+max (last 100): 177.0
+ - - - - - - - 
+nupdates 330000
+total_timesteps 26400000
+fps 695
+policy_entropy 0.32396531105041504
+value_loss 3.0518336296081543
+avg reward (last 100): 40.51
+avg total reward (last 100): 101.25
+max (last 100): 204.0
+ - - - - - - - 
+nupdates 331000
+total_timesteps 26480000
+fps 695
+policy_entropy 0.5871796607971191
+value_loss 0.19267866015434265
+avg reward (last 100): 33.99
+avg total reward (last 100): 101.1
+max (last 100): 212.0
+ - - - - - - - 
+nupdates 332000
+total_timesteps 26560000
+fps 695
+policy_entropy 0.6870745420455933
+value_loss 3.463869094848633
+avg reward (last 100): 39.03
+avg total reward (last 100): 112.79
+max (last 100): 229.0
+ - - - - - - - 
+nupdates 333000
+total_timesteps 26640000
+fps 696
+policy_entropy 0.5016707181930542
+value_loss 1.2598464488983154
+avg reward (last 100): 42.31
+avg total reward (last 100): 100.9
+max (last 100): 213.0
+ - - - - - - - 
+nupdates 334000
+total_timesteps 26720000
+fps 696
+policy_entropy 0.42797309160232544
+value_loss 0.12481057643890381
+avg reward (last 100): 40.28
+avg total reward (last 100): 103.22
+max (last 100): 211.0
+ - - - - - - - 
+nupdates 335000
+total_timesteps 26800000
+fps 696
+policy_entropy 0.3797549605369568
+value_loss 0.1381310522556305
+avg reward (last 100): 40.18
+avg total reward (last 100): 113.5
+max (last 100): 230.0
+ - - - - - - - 
+nupdates 336000
+total_timesteps 26880000
+fps 696
+policy_entropy 0.6109341382980347
+value_loss 0.2989157736301422
+avg reward (last 100): 48.52
+avg total reward (last 100): 115.24
+max (last 100): 251.0
+ - - - - - - - 
+nupdates 337000
+total_timesteps 26960000
+fps 696
+policy_entropy 0.5899209380149841
+value_loss 0.14948785305023193
+avg reward (last 100): 36.88
+avg total reward (last 100): 102.99
+max (last 100): 214.0
+ - - - - - - - 
+nupdates 338000
+total_timesteps 27040000
+fps 696
+policy_entropy 0.6158124208450317
+value_loss 0.1540030688047409
+avg reward (last 100): 40.74
+avg total reward (last 100): 106.8
+max (last 100): 195.0
+ - - - - - - - 
+nupdates 339000
+total_timesteps 27120000
+fps 696
+policy_entropy 0.512980580329895
+value_loss 0.13261128962039948
+avg reward (last 100): 33.79
+avg total reward (last 100): 111.63
+max (last 100): 233.0
+ - - - - - - - 
+nupdates 340000
+total_timesteps 27200000
+fps 696
+policy_entropy 0.4188801646232605
+value_loss 0.15462858974933624
+avg reward (last 100): 38.0
+avg total reward (last 100): 113.87
+max (last 100): 212.0
+ - - - - - - - 
+nupdates 341000
+total_timesteps 27280000
+fps 696
+policy_entropy 0.3612343370914459
+value_loss 0.3235832750797272
+avg reward (last 100): 40.49
+avg total reward (last 100): 105.0
+max (last 100): 178.0
+ - - - - - - - 
+nupdates 342000
+total_timesteps 27360000
+fps 696
+policy_entropy 0.5705862045288086
+value_loss 3.7197232246398926
+avg reward (last 100): 34.45
+avg total reward (last 100): 109.55
+max (last 100): 252.0
+ - - - - - - - 
+nupdates 343000
+total_timesteps 27440000
+fps 696
+policy_entropy 0.29107704758644104
+value_loss 0.3939736783504486
+avg reward (last 100): 46.5
+avg total reward (last 100): 112.87
+max (last 100): 198.0
+ - - - - - - - 
+nupdates 344000
+total_timesteps 27520000
+fps 696
+policy_entropy 0.454647958278656
+value_loss 0.1252467781305313
+avg reward (last 100): 45.39
+avg total reward (last 100): 105.72
+max (last 100): 196.0
+ - - - - - - - 
+nupdates 345000
+total_timesteps 27600000
+fps 696
+policy_entropy 0.4211648106575012
+value_loss 0.09882664680480957
+avg reward (last 100): 38.25
+avg total reward (last 100): 107.64
+max (last 100): 230.0
+ - - - - - - - 
+nupdates 346000
+total_timesteps 27680000
+fps 696
+policy_entropy 0.488234281539917
+value_loss 0.4021032452583313
+avg reward (last 100): 40.63
+avg total reward (last 100): 108.73
+max (last 100): 253.0
+ - - - - - - - 
+nupdates 347000
+total_timesteps 27760000
+fps 696
+policy_entropy 0.4589149057865143
+value_loss 0.13402879238128662
+avg reward (last 100): 42.49
+avg total reward (last 100): 114.26
+max (last 100): 243.0
+ - - - - - - - 
+nupdates 348000
+total_timesteps 27840000
+fps 697
+policy_entropy 0.5129929780960083
+value_loss 1.1306997537612915
+avg reward (last 100): 42.96
+avg total reward (last 100): 119.52
+max (last 100): 227.0
+ - - - - - - - 
+nupdates 349000
+total_timesteps 27920000
+fps 697
+policy_entropy 0.300075888633728
+value_loss 0.49263516068458557
+avg reward (last 100): 42.43
+avg total reward (last 100): 108.25
+max (last 100): 232.0
+ - - - - - - - 
+nupdates 350000
+total_timesteps 28000000
+fps 697
+policy_entropy 0.4529697895050049
+value_loss 0.6746610403060913
+avg reward (last 100): 43.75
+avg total reward (last 100): 104.56
+max (last 100): 216.0
+ - - - - - - - 
+nupdates 351000
+total_timesteps 28080000
+fps 697
+policy_entropy 0.4603768289089203
+value_loss 0.10754606872797012
+avg reward (last 100): 39.55
+avg total reward (last 100): 109.29
+max (last 100): 267.0
+ - - - - - - - 
+nupdates 352000
+total_timesteps 28160000
+fps 697
+policy_entropy 0.37494927644729614
+value_loss 0.07812348753213882
+avg reward (last 100): 40.77
+avg total reward (last 100): 118.61
+max (last 100): 312.0
+ - - - - - - - 
+nupdates 353000
+total_timesteps 28240000
+fps 697
+policy_entropy 0.5558486580848694
+value_loss 0.33717721700668335
+avg reward (last 100): 44.82
+avg total reward (last 100): 116.64
+max (last 100): 236.0
+ - - - - - - - 
+nupdates 354000
+total_timesteps 28320000
+fps 697
+policy_entropy 0.5251648426055908
+value_loss 0.2501797080039978
+avg reward (last 100): 41.71
+avg total reward (last 100): 111.25
+max (last 100): 265.0
+ - - - - - - - 
+nupdates 355000
+total_timesteps 28400000
+fps 697
+policy_entropy 0.45469650626182556
+value_loss 0.08050273358821869
+avg reward (last 100): 41.95
+avg total reward (last 100): 118.69
+max (last 100): 262.0
+ - - - - - - - 
+nupdates 356000
+total_timesteps 28480000
+fps 697
+policy_entropy 0.5639660954475403
+value_loss 6.96718692779541
+avg reward (last 100): 41.11
+avg total reward (last 100): 110.33
+max (last 100): 214.0
+ - - - - - - - 
+nupdates 357000
+total_timesteps 28560000
+fps 697
+policy_entropy 0.4735674262046814
+value_loss 3.054375648498535
+avg reward (last 100): 42.55
+avg total reward (last 100): 112.81
+max (last 100): 231.0
+ - - - - - - - 
+nupdates 358000
+total_timesteps 28640000
+fps 697
+policy_entropy 0.5124967694282532
+value_loss 0.15739372372627258
+avg reward (last 100): 45.07
+avg total reward (last 100): 119.48
+max (last 100): 213.0
+ - - - - - - - 
+nupdates 359000
+total_timesteps 28720000
+fps 697
+policy_entropy 0.4374087452888489
+value_loss 0.1746048480272293
+avg reward (last 100): 46.39
+avg total reward (last 100): 123.59
+max (last 100): 243.0
+ - - - - - - - 
+nupdates 360000
+total_timesteps 28800000
+fps 697
+policy_entropy 0.47290897369384766
+value_loss 0.38978028297424316
+avg reward (last 100): 44.26
+avg total reward (last 100): 120.03
+max (last 100): 392.0
+ - - - - - - - 
+nupdates 361000
+total_timesteps 28880000
+fps 697
+policy_entropy 0.52094566822052
+value_loss 5.863903522491455
+avg reward (last 100): 49.09
+avg total reward (last 100): 117.71
+max (last 100): 275.0
+ - - - - - - - 
+nupdates 362000
+total_timesteps 28960000
+fps 698
+policy_entropy 0.728374719619751
+value_loss 0.29249364137649536
+avg reward (last 100): 41.68
+avg total reward (last 100): 111.89
+max (last 100): 248.0
+ - - - - - - - 
+nupdates 363000
+total_timesteps 29040000
+fps 698
+policy_entropy 0.5247601866722107
+value_loss 0.09754659980535507
+avg reward (last 100): 42.5
+avg total reward (last 100): 129.28
+max (last 100): 248.0
+ - - - - - - - 
+nupdates 364000
+total_timesteps 29120000
+fps 698
+policy_entropy 0.4027215838432312
+value_loss 3.476395845413208
+avg reward (last 100): 48.92
+avg total reward (last 100): 127.4
+max (last 100): 265.0
+ - - - - - - - 
+nupdates 365000
+total_timesteps 29200000
+fps 698
+policy_entropy 0.5464552044868469
+value_loss 3.5843021869659424
+avg reward (last 100): 41.59
+avg total reward (last 100): 116.92
+max (last 100): 279.0
+ - - - - - - - 
+nupdates 366000
+total_timesteps 29280000
+fps 698
+policy_entropy 0.5367181897163391
+value_loss 2.103266954421997
+avg reward (last 100): 47.19
+avg total reward (last 100): 123.93
+max (last 100): 339.0
+ - - - - - - - 
+nupdates 367000
+total_timesteps 29360000
+fps 698
+policy_entropy 0.37429332733154297
+value_loss 0.23755641281604767
+avg reward (last 100): 45.92
+avg total reward (last 100): 112.88
+max (last 100): 227.0
+ - - - - - - - 
+nupdates 368000
+total_timesteps 29440000
+fps 699
+policy_entropy 0.5707354545593262
+value_loss 4.394772529602051
+avg reward (last 100): 45.5
+avg total reward (last 100): 121.3
+max (last 100): 230.0
+ - - - - - - - 
+nupdates 369000
+total_timesteps 29520000
+fps 699
+policy_entropy 0.40772882103919983
+value_loss 0.3658828139305115
+avg reward (last 100): 45.24
+avg total reward (last 100): 126.3
+max (last 100): 249.0
+ - - - - - - - 
+nupdates 370000
+total_timesteps 29600000
+fps 699
+policy_entropy 0.4905020594596863
+value_loss 0.42844414710998535
+avg reward (last 100): 46.15
+avg total reward (last 100): 124.46
+max (last 100): 244.0
+ - - - - - - - 
+nupdates 371000
+total_timesteps 29680000
+fps 699
+policy_entropy 0.4995710253715515
+value_loss 0.5573312640190125
+avg reward (last 100): 48.35
+avg total reward (last 100): 131.53
+max (last 100): 250.0
+ - - - - - - - 
+nupdates 372000
+total_timesteps 29760000
+fps 699
+policy_entropy 0.4936789870262146
+value_loss 6.842951774597168
+avg reward (last 100): 46.23
+avg total reward (last 100): 133.11
+max (last 100): 405.0
+ - - - - - - - 
+nupdates 373000
+total_timesteps 29840000
+fps 700
+policy_entropy 0.5186498761177063
+value_loss 0.6130130887031555
+avg reward (last 100): 43.16
+avg total reward (last 100): 118.78
+max (last 100): 314.0
+ - - - - - - - 
+nupdates 374000
+total_timesteps 29920000
+fps 700
+policy_entropy 0.4378194212913513
+value_loss 0.39270782470703125
+avg reward (last 100): 42.56
+avg total reward (last 100): 122.37
+max (last 100): 251.0
+ - - - - - - - 
+nupdates 375000
+total_timesteps 30000000
+fps 700
+policy_entropy 0.5067154169082642
+value_loss 3.0000669956207275
+avg reward (last 100): 49.6
+avg total reward (last 100): 124.95
+max (last 100): 249.0
+ - - - - - - - 
+nupdates 376000
+total_timesteps 30080000
+fps 700
+policy_entropy 0.4479545056819916
+value_loss 0.10919497162103653
+avg reward (last 100): 35.47
+avg total reward (last 100): 105.66
+max (last 100): 253.0
+ - - - - - - - 
+nupdates 377000
+total_timesteps 30160000
+fps 700
+policy_entropy 0.5261051058769226
+value_loss 0.3412691354751587
+avg reward (last 100): 38.11
+avg total reward (last 100): 113.47
+max (last 100): 289.0
+ - - - - - - - 
+nupdates 378000
+total_timesteps 30240000
+fps 701
+policy_entropy 0.3887510895729065
+value_loss 0.2856353223323822
+avg reward (last 100): 45.78
+avg total reward (last 100): 128.96
+max (last 100): 350.0
+ - - - - - - - 
+nupdates 379000
+total_timesteps 30320000
+fps 701
+policy_entropy 0.5956898927688599
+value_loss 0.27672845125198364
+avg reward (last 100): 47.26
+avg total reward (last 100): 128.58
+max (last 100): 319.0
+ - - - - - - - 
+nupdates 380000
+total_timesteps 30400000
+fps 701
+policy_entropy 0.39118140935897827
+value_loss 0.18150188028812408
+avg reward (last 100): 42.34
+avg total reward (last 100): 123.2
+max (last 100): 369.0
+ - - - - - - - 
+nupdates 381000
+total_timesteps 30480000
+fps 701
+policy_entropy 0.5788583755493164
+value_loss 1.652339220046997
+avg reward (last 100): 51.38
+avg total reward (last 100): 132.12
+max (last 100): 259.0
+ - - - - - - - 
+nupdates 382000
+total_timesteps 30560000
+fps 701
+policy_entropy 0.4208603501319885
+value_loss 0.12989933788776398
+avg reward (last 100): 45.74
+avg total reward (last 100): 127.5
+max (last 100): 351.0
+ - - - - - - - 
+nupdates 383000
+total_timesteps 30640000
+fps 701
+policy_entropy 0.4484228193759918
+value_loss 0.5559782981872559
+avg reward (last 100): 47.18
+avg total reward (last 100): 128.23
+max (last 100): 311.0
+ - - - - - - - 
+nupdates 384000
+total_timesteps 30720000
+fps 701
+policy_entropy 0.4253176748752594
+value_loss 0.2811380922794342
+avg reward (last 100): 53.9
+avg total reward (last 100): 134.03
+max (last 100): 252.0
+ - - - - - - - 
+nupdates 385000
+total_timesteps 30800000
+fps 701
+policy_entropy 0.36422666907310486
+value_loss 0.15063536167144775
+avg reward (last 100): 45.8
+avg total reward (last 100): 130.51
+max (last 100): 319.0
+ - - - - - - - 
+nupdates 386000
+total_timesteps 30880000
+fps 701
+policy_entropy 0.3885582685470581
+value_loss 0.196644589304924
+avg reward (last 100): 54.48
+avg total reward (last 100): 129.04
+max (last 100): 369.0
+ - - - - - - - 
+nupdates 387000
+total_timesteps 30960000
+fps 701
+policy_entropy 0.45879897475242615
+value_loss 0.18690748512744904
+avg reward (last 100): 49.78
+avg total reward (last 100): 120.96
+max (last 100): 265.0
+ - - - - - - - 
+nupdates 388000
+total_timesteps 31040000
+fps 701
+policy_entropy 0.5836290121078491
+value_loss 4.374345779418945
+avg reward (last 100): 45.76
+avg total reward (last 100): 126.8
+max (last 100): 335.0
+ - - - - - - - 
+nupdates 389000
+total_timesteps 31120000
+fps 702
+policy_entropy 0.6425529718399048
+value_loss 1.5864362716674805
+avg reward (last 100): 54.76
+avg total reward (last 100): 115.67
+max (last 100): 345.0
+ - - - - - - - 
+nupdates 390000
+total_timesteps 31200000
+fps 702
+policy_entropy 0.6792414784431458
+value_loss 0.2542937695980072
+avg reward (last 100): 53.05
+avg total reward (last 100): 137.24
+max (last 100): 345.0
+ - - - - - - - 
+nupdates 391000
+total_timesteps 31280000
+fps 702
+policy_entropy 0.34086114168167114
+value_loss 0.09986590594053268
+avg reward (last 100): 53.91
+avg total reward (last 100): 141.28
+max (last 100): 302.0
+ - - - - - - - 
+nupdates 392000
+total_timesteps 31360000
+fps 702
+policy_entropy 0.5330962538719177
+value_loss 0.43253907561302185
+avg reward (last 100): 43.14
+avg total reward (last 100): 118.85
+max (last 100): 285.0
+ - - - - - - - 
+nupdates 393000
+total_timesteps 31440000
+fps 702
+policy_entropy 0.4773125648498535
+value_loss 0.23131391406059265
+avg reward (last 100): 46.98
+avg total reward (last 100): 132.71
+max (last 100): 346.0
+ - - - - - - - 
+nupdates 394000
+total_timesteps 31520000
+fps 702
+policy_entropy 0.45514655113220215
+value_loss 0.26718950271606445
+avg reward (last 100): 49.19
+avg total reward (last 100): 125.99
+max (last 100): 260.0
+ - - - - - - - 
+nupdates 395000
+total_timesteps 31600000
+fps 702
+policy_entropy 0.45723336935043335
+value_loss 0.18447628617286682
+avg reward (last 100): 51.54
+avg total reward (last 100): 117.85
+max (last 100): 299.0
+ - - - - - - - 
+nupdates 396000
+total_timesteps 31680000
+fps 702
+policy_entropy 0.4072186052799225
+value_loss 0.14128853380680084
+avg reward (last 100): 46.54
+avg total reward (last 100): 127.8
+max (last 100): 324.0
+ - - - - - - - 
+nupdates 397000
+total_timesteps 31760000
+fps 702
+policy_entropy 0.46445831656455994
+value_loss 3.5904860496520996
+avg reward (last 100): 46.93
+avg total reward (last 100): 125.89
+max (last 100): 282.0
+ - - - - - - - 
+nupdates 398000
+total_timesteps 31840000
+fps 702
+policy_entropy 0.46804219484329224
+value_loss 0.0895140990614891
+avg reward (last 100): 49.56
+avg total reward (last 100): 140.3
+max (last 100): 350.0
+ - - - - - - - 
+nupdates 399000
+total_timesteps 31920000
+fps 703
+policy_entropy 0.5638936758041382
+value_loss 0.2033558338880539
+avg reward (last 100): 52.92
+avg total reward (last 100): 130.66
+max (last 100): 322.0
+ - - - - - - - 
+nupdates 400000
+total_timesteps 32000000
+fps 703
+policy_entropy 0.6066960096359253
+value_loss 7.925901889801025
+avg reward (last 100): 44.82
+avg total reward (last 100): 127.28
+max (last 100): 305.0
+ - - - - - - - 
+nupdates 401000
+total_timesteps 32080000
+fps 703
+policy_entropy 0.6159495711326599
+value_loss 0.5625813007354736
+avg reward (last 100): 49.41
+avg total reward (last 100): 124.63
+max (last 100): 350.0
+ - - - - - - - 
+nupdates 402000
+total_timesteps 32160000
+fps 703
+policy_entropy 0.5593371987342834
+value_loss 3.2822299003601074
+avg reward (last 100): 47.27
+avg total reward (last 100): 119.45
+max (last 100): 246.0
+ - - - - - - - 
+nupdates 403000
+total_timesteps 32240000
+fps 703
+policy_entropy 0.45964932441711426
+value_loss 0.15632550418376923
+avg reward (last 100): 52.23
+avg total reward (last 100): 135.61
+max (last 100): 347.0
+ - - - - - - - 
+nupdates 404000
+total_timesteps 32320000
+fps 703
+policy_entropy 0.4733145833015442
+value_loss 1.0932259559631348
+avg reward (last 100): 45.92
+avg total reward (last 100): 122.68
+max (last 100): 349.0
+ - - - - - - - 
+nupdates 405000
+total_timesteps 32400000
+fps 703
+policy_entropy 0.5542697310447693
+value_loss 0.4889369010925293
+avg reward (last 100): 53.79
+avg total reward (last 100): 143.9
+max (last 100): 374.0
+ - - - - - - - 
+nupdates 406000
+total_timesteps 32480000
+fps 703
+policy_entropy 0.35259324312210083
+value_loss 0.16456541419029236
+avg reward (last 100): 53.89
+avg total reward (last 100): 152.24
+max (last 100): 420.0
+ - - - - - - - 
+nupdates 407000
+total_timesteps 32560000
+fps 703
+policy_entropy 0.4282510280609131
+value_loss 0.1768440157175064
+avg reward (last 100): 49.65
+avg total reward (last 100): 117.5
+max (last 100): 318.0
+ - - - - - - - 
+nupdates 408000
+total_timesteps 32640000
+fps 703
+policy_entropy 0.5502362847328186
+value_loss 0.17908047139644623
+avg reward (last 100): 44.82
+avg total reward (last 100): 137.41
+max (last 100): 321.0
+ - - - - - - - 
+nupdates 409000
+total_timesteps 32720000
+fps 703
+policy_entropy 0.672162652015686
+value_loss 0.24878668785095215
+avg reward (last 100): 43.74
+avg total reward (last 100): 114.9
+max (last 100): 298.0
+ - - - - - - - 
+nupdates 410000
+total_timesteps 32800000
+fps 703
+policy_entropy 0.3850458264350891
+value_loss 5.895239353179932
+avg reward (last 100): 54.53
+avg total reward (last 100): 137.6
+max (last 100): 323.0
+ - - - - - - - 
+nupdates 411000
+total_timesteps 32880000
+fps 703
+policy_entropy 0.31107860803604126
+value_loss 0.22458164393901825
+avg reward (last 100): 55.82
+avg total reward (last 100): 129.89
+max (last 100): 321.0
+ - - - - - - - 
+nupdates 412000
+total_timesteps 32960000
+fps 704
+policy_entropy 0.3230295479297638
+value_loss 0.2373097687959671
+avg reward (last 100): 44.97
+avg total reward (last 100): 126.95
+max (last 100): 417.0
+ - - - - - - - 
+nupdates 413000
+total_timesteps 33040000
+fps 704
+policy_entropy 0.5442203879356384
+value_loss 1.2890056371688843
+avg reward (last 100): 49.48
+avg total reward (last 100): 136.56
+max (last 100): 302.0
+ - - - - - - - 
+nupdates 414000
+total_timesteps 33120000
+fps 704
+policy_entropy 0.5077458620071411
+value_loss 0.1919025331735611
+avg reward (last 100): 55.55
+avg total reward (last 100): 132.28
+max (last 100): 319.0
+ - - - - - - - 
+nupdates 415000
+total_timesteps 33200000
+fps 704
+policy_entropy 0.4774934649467468
+value_loss 0.3979146480560303
+avg reward (last 100): 53.98
+avg total reward (last 100): 148.76
+max (last 100): 372.0
+ - - - - - - - 
+nupdates 416000
+total_timesteps 33280000
+fps 704
+policy_entropy 0.42871347069740295
+value_loss 0.169947549700737
+avg reward (last 100): 51.64
+avg total reward (last 100): 142.98
+max (last 100): 323.0
+ - - - - - - - 
+nupdates 417000
+total_timesteps 33360000
+fps 704
+policy_entropy 0.5247893929481506
+value_loss 0.6430484056472778
+avg reward (last 100): 62.38
+avg total reward (last 100): 157.94
+max (last 100): 429.0
+ - - - - - - - 
+nupdates 418000
+total_timesteps 33440000
+fps 704
+policy_entropy 0.48757505416870117
+value_loss 0.2502956688404083
+avg reward (last 100): 59.7
+avg total reward (last 100): 155.44
+max (last 100): 429.0
+ - - - - - - - 
+nupdates 419000
+total_timesteps 33520000
+fps 704
+policy_entropy 0.35506778955459595
+value_loss 0.13699695467948914
+avg reward (last 100): 48.25
+avg total reward (last 100): 128.73
+max (last 100): 284.0
+ - - - - - - - 
+nupdates 420000
+total_timesteps 33600000
+fps 704
+policy_entropy 0.43818044662475586
+value_loss 4.514815330505371
+avg reward (last 100): 48.9
+avg total reward (last 100): 146.72
+max (last 100): 392.0
+ - - - - - - - 
+nupdates 421000
+total_timesteps 33680000
+fps 704
+policy_entropy 0.43249598145484924
+value_loss 0.21547341346740723
+avg reward (last 100): 47.63
+avg total reward (last 100): 132.74
+max (last 100): 314.0
+ - - - - - - - 
+nupdates 422000
+total_timesteps 33760000
+fps 704
+policy_entropy 0.3372395932674408
+value_loss 0.1641717255115509
+avg reward (last 100): 51.22
+avg total reward (last 100): 139.53
+max (last 100): 299.0
+ - - - - - - - 
+nupdates 423000
+total_timesteps 33840000
+fps 704
+policy_entropy 0.4624868333339691
+value_loss 0.12932071089744568
+avg reward (last 100): 51.07
+avg total reward (last 100): 130.89
+max (last 100): 316.0
+ - - - - - - - 
+nupdates 424000
+total_timesteps 33920000
+fps 704
+policy_entropy 0.5512785911560059
+value_loss 0.5348488092422485
+avg reward (last 100): 43.67
+avg total reward (last 100): 130.61
+max (last 100): 430.0
+ - - - - - - - 
+nupdates 425000
+total_timesteps 34000000
+fps 704
+policy_entropy 0.34542179107666016
+value_loss 0.07909104228019714
+avg reward (last 100): 55.09
+avg total reward (last 100): 146.76
+max (last 100): 449.0
+ - - - - - - - 
+nupdates 426000
+total_timesteps 34080000
+fps 704
+policy_entropy 0.36225372552871704
+value_loss 12.634079933166504
+avg reward (last 100): 44.9
+avg total reward (last 100): 129.3
+max (last 100): 352.0
+ - - - - - - - 
+nupdates 427000
+total_timesteps 34160000
+fps 704
+policy_entropy 0.4236067235469818
+value_loss 0.08309582620859146
+avg reward (last 100): 43.52
+avg total reward (last 100): 131.43
+max (last 100): 337.0
+ - - - - - - - 
+nupdates 428000
+total_timesteps 34240000
+fps 704
+policy_entropy 0.5086496472358704
+value_loss 0.7210060954093933
+avg reward (last 100): 53.0
+avg total reward (last 100): 136.56
+max (last 100): 355.0
+ - - - - - - - 
+nupdates 429000
+total_timesteps 34320000
+fps 704
+policy_entropy 0.484469473361969
+value_loss 0.2717624306678772
+avg reward (last 100): 47.71
+avg total reward (last 100): 130.17
+max (last 100): 318.0
+ - - - - - - - 
+nupdates 430000
+total_timesteps 34400000
+fps 705
+policy_entropy 0.43089884519577026
+value_loss 0.16832368075847626
+avg reward (last 100): 49.41
+avg total reward (last 100): 143.49
+max (last 100): 294.0
+ - - - - - - - 
+nupdates 431000
+total_timesteps 34480000
+fps 705
+policy_entropy 0.5488487482070923
+value_loss 1.1191227436065674
+avg reward (last 100): 46.06
+avg total reward (last 100): 143.74
+max (last 100): 356.0
+ - - - - - - - 
+nupdates 432000
+total_timesteps 34560000
+fps 705
+policy_entropy 0.5409474968910217
+value_loss 0.22224822640419006
+avg reward (last 100): 55.48
+avg total reward (last 100): 145.56
+max (last 100): 340.0
+ - - - - - - - 
+nupdates 433000
+total_timesteps 34640000
+fps 705
+policy_entropy 0.5533269643783569
+value_loss 2.2058463096618652
+avg reward (last 100): 48.1
+avg total reward (last 100): 124.45
+max (last 100): 340.0
+ - - - - - - - 
+nupdates 434000
+total_timesteps 34720000
+fps 705
+policy_entropy 0.4249635636806488
+value_loss 0.24503156542778015
+avg reward (last 100): 59.27
+avg total reward (last 100): 142.29
+max (last 100): 359.0
+ - - - - - - - 
+nupdates 435000
+total_timesteps 34800000
+fps 705
+policy_entropy 0.5455768704414368
+value_loss 0.22052070498466492
+avg reward (last 100): 63.7
+avg total reward (last 100): 157.82
+max (last 100): 355.0
+ - - - - - - - 
+nupdates 436000
+total_timesteps 34880000
+fps 705
+policy_entropy 0.37407198548316956
+value_loss 18.96454429626465
+avg reward (last 100): 55.11
+avg total reward (last 100): 151.29
+max (last 100): 322.0
+ - - - - - - - 
+nupdates 437000
+total_timesteps 34960000
+fps 705
+policy_entropy 0.5037867426872253
+value_loss 1.788691520690918
+avg reward (last 100): 45.23
+avg total reward (last 100): 143.49
+max (last 100): 393.0
+ - - - - - - - 
+nupdates 438000
+total_timesteps 35040000
+fps 705
+policy_entropy 0.41421598196029663
+value_loss 1.4109748601913452
+avg reward (last 100): 54.7
+avg total reward (last 100): 153.51
+max (last 100): 427.0
+ - - - - - - - 
+nupdates 439000
+total_timesteps 35120000
+fps 705
+policy_entropy 0.45631733536720276
+value_loss 0.2555462419986725
+avg reward (last 100): 51.23
+avg total reward (last 100): 144.57
+max (last 100): 461.0
+ - - - - - - - 
+nupdates 440000
+total_timesteps 35200000
+fps 705
+policy_entropy 0.47466546297073364
+value_loss 6.763476371765137
+avg reward (last 100): 54.53
+avg total reward (last 100): 149.93
+max (last 100): 339.0
+ - - - - - - - 
+nupdates 441000
+total_timesteps 35280000
+fps 705
+policy_entropy 0.5756681561470032
+value_loss 0.19047053158283234
+avg reward (last 100): 53.69
+avg total reward (last 100): 133.89
+max (last 100): 339.0
+ - - - - - - - 
+nupdates 442000
+total_timesteps 35360000
+fps 705
+policy_entropy 0.5581167936325073
+value_loss 7.655706882476807
+avg reward (last 100): 55.04
+avg total reward (last 100): 144.94
+max (last 100): 351.0
+ - - - - - - - 
+nupdates 443000
+total_timesteps 35440000
+fps 705
+policy_entropy 0.43661966919898987
+value_loss 0.290446013212204
+avg reward (last 100): 48.19
+avg total reward (last 100): 128.91
+max (last 100): 358.0
+ - - - - - - - 
+nupdates 444000
+total_timesteps 35520000
+fps 706
+policy_entropy 0.4935879707336426
+value_loss 0.10886659473180771
+avg reward (last 100): 51.67
+avg total reward (last 100): 134.08
+max (last 100): 416.0
+ - - - - - - - 
+nupdates 445000
+total_timesteps 35600000
+fps 706
+policy_entropy 0.48011118173599243
+value_loss 0.1367143839597702
+avg reward (last 100): 44.74
+avg total reward (last 100): 133.35
+max (last 100): 322.0
+ - - - - - - - 
+nupdates 446000
+total_timesteps 35680000
+fps 706
+policy_entropy 0.42660999298095703
+value_loss 0.19947461783885956
+avg reward (last 100): 54.89
+avg total reward (last 100): 142.72
+max (last 100): 430.0
+ - - - - - - - 
+nupdates 447000
+total_timesteps 35760000
+fps 706
+policy_entropy 0.5663595199584961
+value_loss 0.2525027096271515
+avg reward (last 100): 48.57
+avg total reward (last 100): 138.45
+max (last 100): 311.0
+ - - - - - - - 
+nupdates 448000
+total_timesteps 35840000
+fps 706
+policy_entropy 0.5686583518981934
+value_loss 3.1612460613250732
+avg reward (last 100): 48.13
+avg total reward (last 100): 143.9
+max (last 100): 403.0
+ - - - - - - - 
+nupdates 449000
+total_timesteps 35920000
+fps 706
+policy_entropy 0.5727134943008423
+value_loss 0.20864513516426086
+avg reward (last 100): 54.92
+avg total reward (last 100): 147.2
+max (last 100): 391.0
+ - - - - - - - 
+nupdates 450000
+total_timesteps 36000000
+fps 706
+policy_entropy 0.5365520715713501
+value_loss 1.2776968479156494
+avg reward (last 100): 51.4
+avg total reward (last 100): 142.3
+max (last 100): 360.0
+ - - - - - - - 
+nupdates 451000
+total_timesteps 36080000
+fps 706
+policy_entropy 0.5204357504844666
+value_loss 2.6098015308380127
+avg reward (last 100): 52.92
+avg total reward (last 100): 149.38
+max (last 100): 357.0
+ - - - - - - - 
+nupdates 452000
+total_timesteps 36160000
+fps 706
+policy_entropy 0.405120313167572
+value_loss 0.2242557555437088
+avg reward (last 100): 55.2
+avg total reward (last 100): 141.96
+max (last 100): 470.0
+ - - - - - - - 
+nupdates 453000
+total_timesteps 36240000
+fps 706
+policy_entropy 0.4471043050289154
+value_loss 0.2573390603065491
+avg reward (last 100): 58.21
+avg total reward (last 100): 148.56
+max (last 100): 470.0
+ - - - - - - - 
+nupdates 454000
+total_timesteps 36320000
+fps 706
+policy_entropy 0.4405951499938965
+value_loss 0.19071568548679352
+avg reward (last 100): 66.71
+avg total reward (last 100): 165.62
+max (last 100): 489.0
+ - - - - - - - 
+nupdates 455000
+total_timesteps 36400000
+fps 706
+policy_entropy 0.510919451713562
+value_loss 0.313581645488739
+avg reward (last 100): 64.87
+avg total reward (last 100): 158.56
+max (last 100): 423.0
+ - - - - - - - 
+nupdates 456000
+total_timesteps 36480000
+fps 706
+policy_entropy 0.5122185945510864
+value_loss 0.13547447323799133
+avg reward (last 100): 55.5
+avg total reward (last 100): 157.95
+max (last 100): 483.0
+ - - - - - - - 
+nupdates 457000
+total_timesteps 36560000
+fps 706
+policy_entropy 0.4531448483467102
+value_loss 0.5479086637496948
+avg reward (last 100): 53.34
+avg total reward (last 100): 142.53
+max (last 100): 359.0
+ - - - - - - - 
+nupdates 458000
+total_timesteps 36640000
+fps 706
+policy_entropy 0.3854273557662964
+value_loss 0.18282632529735565
+avg reward (last 100): 57.22
+avg total reward (last 100): 153.59
+max (last 100): 409.0
+ - - - - - - - 
+nupdates 459000
+total_timesteps 36720000
+fps 707
+policy_entropy 0.4431177079677582
+value_loss 1.4691494703292847
+avg reward (last 100): 51.47
+avg total reward (last 100): 136.24
+max (last 100): 320.0
+ - - - - - - - 
+nupdates 460000
+total_timesteps 36800000
+fps 707
+policy_entropy 0.6227846145629883
+value_loss 0.38736170530319214
+avg reward (last 100): 58.46
+avg total reward (last 100): 137.08
+max (last 100): 345.0
+ - - - - - - - 
+nupdates 461000
+total_timesteps 36880000
+fps 707
+policy_entropy 0.4492981433868408
+value_loss 0.2343757152557373
+avg reward (last 100): 49.99
+avg total reward (last 100): 145.21
+max (last 100): 366.0
+ - - - - - - - 
+nupdates 462000
+total_timesteps 36960000
+fps 707
+policy_entropy 0.556006908416748
+value_loss 0.22105515003204346
+avg reward (last 100): 54.97
+avg total reward (last 100): 145.04
+max (last 100): 317.0
+ - - - - - - - 
+nupdates 463000
+total_timesteps 37040000
+fps 707
+policy_entropy 0.4758930206298828
+value_loss 0.27310553193092346
+avg reward (last 100): 59.99
+avg total reward (last 100): 152.46
+max (last 100): 423.0
+ - - - - - - - 
+nupdates 464000
+total_timesteps 37120000
+fps 707
+policy_entropy 0.42759084701538086
+value_loss 0.2556801736354828
+avg reward (last 100): 48.12
+avg total reward (last 100): 140.86
+max (last 100): 427.0
+ - - - - - - - 
+nupdates 465000
+total_timesteps 37200000
+fps 707
+policy_entropy 0.4145764410495758
+value_loss 0.1878053992986679
+avg reward (last 100): 57.87
+avg total reward (last 100): 159.39
+max (last 100): 426.0
+ - - - - - - - 
+nupdates 466000
+total_timesteps 37280000
+fps 707
+policy_entropy 0.5781331062316895
+value_loss 0.5076378583908081
+avg reward (last 100): 54.75
+avg total reward (last 100): 157.42
+max (last 100): 490.0
+ - - - - - - - 
+nupdates 467000
+total_timesteps 37360000
+fps 707
+policy_entropy 0.5863205194473267
+value_loss 0.1244884505867958
+avg reward (last 100): 59.18
+avg total reward (last 100): 147.44
+max (last 100): 480.0
+ - - - - - - - 
+nupdates 468000
+total_timesteps 37440000
+fps 707
+policy_entropy 0.36582615971565247
+value_loss 7.866898536682129
+avg reward (last 100): 55.41
+avg total reward (last 100): 156.9
+max (last 100): 462.0
+ - - - - - - - 
+nupdates 469000
+total_timesteps 37520000
+fps 707
+policy_entropy 0.37214967608451843
+value_loss 0.10752622783184052
+avg reward (last 100): 44.9
+avg total reward (last 100): 129.86
+max (last 100): 359.0
+ - - - - - - - 
+nupdates 470000
+total_timesteps 37600000
+fps 707
+policy_entropy 0.433880090713501
+value_loss 0.22277085483074188
+avg reward (last 100): 50.33
+avg total reward (last 100): 136.78
+max (last 100): 314.0
+ - - - - - - - 
+nupdates 471000
+total_timesteps 37680000
+fps 707
+policy_entropy 0.5496234893798828
+value_loss 0.17714440822601318
+avg reward (last 100): 52.27
+avg total reward (last 100): 144.65
+max (last 100): 340.0
+ - - - - - - - 
+nupdates 472000
+total_timesteps 37760000
+fps 707
+policy_entropy 0.451016366481781
+value_loss 0.2135142982006073
+avg reward (last 100): 63.87
+avg total reward (last 100): 156.15
+max (last 100): 426.0
+ - - - - - - - 
+nupdates 473000
+total_timesteps 37840000
+fps 707
+policy_entropy 0.6411923170089722
+value_loss 5.069343566894531
+avg reward (last 100): 47.3
+avg total reward (last 100): 122.25
+max (last 100): 364.0
+ - - - - - - - 
+nupdates 474000
+total_timesteps 37920000
+fps 707
+policy_entropy 0.47845593094825745
+value_loss 3.70996356010437
+avg reward (last 100): 49.78
+avg total reward (last 100): 138.68
+max (last 100): 521.0
+ - - - - - - - 
+nupdates 475000
+total_timesteps 38000000
+fps 707
+policy_entropy 0.5678066611289978
+value_loss 5.052393913269043
+avg reward (last 100): 53.91
+avg total reward (last 100): 151.62
+max (last 100): 374.0
+ - - - - - - - 
+nupdates 476000
+total_timesteps 38080000
+fps 707
+policy_entropy 0.4283081889152527
+value_loss 0.20107951760292053
+avg reward (last 100): 59.44
+avg total reward (last 100): 153.37
+max (last 100): 494.0
+ - - - - - - - 
+nupdates 477000
+total_timesteps 38160000
+fps 707
+policy_entropy 0.42855843901634216
+value_loss 0.19497470557689667
+avg reward (last 100): 59.25
+avg total reward (last 100): 161.85
+max (last 100): 390.0
+ - - - - - - - 
+nupdates 478000
+total_timesteps 38240000
+fps 708
+policy_entropy 0.466755211353302
+value_loss 0.20270805060863495
+avg reward (last 100): 64.03
+avg total reward (last 100): 169.56
+max (last 100): 520.0
+ - - - - - - - 
+nupdates 479000
+total_timesteps 38320000
+fps 708
+policy_entropy 0.6633484959602356
+value_loss 3.7217414379119873
+avg reward (last 100): 57.55
+avg total reward (last 100): 154.1
+max (last 100): 409.0
+ - - - - - - - 
+nupdates 480000
+total_timesteps 38400000
+fps 708
+policy_entropy 0.4686371386051178
+value_loss 0.1574716567993164
+avg reward (last 100): 50.61
+avg total reward (last 100): 141.07
+max (last 100): 390.0
+ - - - - - - - 
+nupdates 481000
+total_timesteps 38480000
+fps 708
+policy_entropy 0.40348759293556213
+value_loss 0.28460708260536194
+avg reward (last 100): 56.86
+avg total reward (last 100): 135.85
+max (last 100): 356.0
+ - - - - - - - 
+nupdates 482000
+total_timesteps 38560000
+fps 708
+policy_entropy 0.3629763722419739
+value_loss 0.8033029437065125
+avg reward (last 100): 57.89
+avg total reward (last 100): 156.97
+max (last 100): 393.0
+ - - - - - - - 
+nupdates 483000
+total_timesteps 38640000
+fps 708
+policy_entropy 0.47533249855041504
+value_loss 0.28614479303359985
+avg reward (last 100): 52.43
+avg total reward (last 100): 142.24
+max (last 100): 320.0
+ - - - - - - - 
+nupdates 484000
+total_timesteps 38720000
+fps 708
+policy_entropy 0.5332567691802979
+value_loss 0.17100442945957184
+avg reward (last 100): 54.8
+avg total reward (last 100): 147.29
+max (last 100): 453.0
+ - - - - - - - 
+nupdates 485000
+total_timesteps 38800000
+fps 708
+policy_entropy 0.47080928087234497
+value_loss 0.629207968711853
+avg reward (last 100): 62.78
+avg total reward (last 100): 153.64
+max (last 100): 467.0
+ - - - - - - - 
+nupdates 486000
+total_timesteps 38880000
+fps 708
+policy_entropy 0.5018803477287292
+value_loss 0.5492990612983704
+avg reward (last 100): 63.67
+avg total reward (last 100): 154.6
+max (last 100): 497.0
+ - - - - - - - 
+nupdates 487000
+total_timesteps 38960000
+fps 709
+policy_entropy 0.5282455086708069
+value_loss 3.931145429611206
+avg reward (last 100): 50.77
+avg total reward (last 100): 156.06
+max (last 100): 462.0
+ - - - - - - - 
+nupdates 488000
+total_timesteps 39040000
+fps 709
+policy_entropy 0.4492880403995514
+value_loss 0.34323471784591675
+avg reward (last 100): 55.79
+avg total reward (last 100): 146.23
+max (last 100): 421.0
+ - - - - - - - 
+nupdates 489000
+total_timesteps 39120000
+fps 709
+policy_entropy 0.4495789408683777
+value_loss 0.2169438898563385
+avg reward (last 100): 57.79
+avg total reward (last 100): 170.59
+max (last 100): 428.0
+ - - - - - - - 
+nupdates 490000
+total_timesteps 39200000
+fps 709
+policy_entropy 0.5323964953422546
+value_loss 0.12526383996009827
+avg reward (last 100): 61.97
+avg total reward (last 100): 166.99
+max (last 100): 491.0
+ - - - - - - - 
+nupdates 491000
+total_timesteps 39280000
+fps 709
+policy_entropy 0.5288314819335938
+value_loss 4.903778076171875
+avg reward (last 100): 52.54
+avg total reward (last 100): 166.78
+max (last 100): 500.0
+ - - - - - - - 
+nupdates 492000
+total_timesteps 39360000
+fps 709
+policy_entropy 0.5189720988273621
+value_loss 0.2438548505306244
+avg reward (last 100): 51.9
+avg total reward (last 100): 158.88
+max (last 100): 367.0
+ - - - - - - - 
+nupdates 493000
+total_timesteps 39440000
+fps 709
+policy_entropy 0.3600424826145172
+value_loss 0.21320536732673645
+avg reward (last 100): 46.16
+avg total reward (last 100): 142.32
+max (last 100): 395.0
+ - - - - - - - 
+nupdates 494000
+total_timesteps 39520000
+fps 710
+policy_entropy 0.4493451714515686
+value_loss 0.5075597763061523
+avg reward (last 100): 47.33
+avg total reward (last 100): 142.57
+max (last 100): 321.0
+ - - - - - - - 
+nupdates 495000
+total_timesteps 39600000
+fps 710
+policy_entropy 0.521371603012085
+value_loss 8.2754487991333
+avg reward (last 100): 54.17
+avg total reward (last 100): 144.18
+max (last 100): 451.0
+ - - - - - - - 
+nupdates 496000
+total_timesteps 39680000
+fps 710
+policy_entropy 0.2905372083187103
+value_loss 0.18283095955848694
+avg reward (last 100): 55.57
+avg total reward (last 100): 153.45
+max (last 100): 325.0
+ - - - - - - - 
+nupdates 497000
+total_timesteps 39760000
+fps 710
+policy_entropy 0.44966498017311096
+value_loss 0.16468551754951477
+avg reward (last 100): 53.35
+avg total reward (last 100): 157.09
+max (last 100): 359.0
+ - - - - - - - 
+nupdates 498000
+total_timesteps 39840000
+fps 710
+policy_entropy 0.4709242284297943
+value_loss 0.34823864698410034
+avg reward (last 100): 55.47
+avg total reward (last 100): 160.29
+max (last 100): 388.0
+ - - - - - - - 
+nupdates 499000
+total_timesteps 39920000
+fps 710
+policy_entropy 0.5689388513565063
+value_loss 0.45688191056251526
+avg reward (last 100): 50.92
+avg total reward (last 100): 141.8
+max (last 100): 342.0
+ - - - - - - - 
+nupdates 500000
+total_timesteps 40000000
+fps 710
+policy_entropy 0.4771011471748352
+value_loss 0.6982549428939819
+avg reward (last 100): 59.19
+avg total reward (last 100): 138.76
+max (last 100): 338.0
+ - - - - - - - 
+nupdates 501000
+total_timesteps 40080000
+fps 710
+policy_entropy 0.40756911039352417
+value_loss 0.2604261040687561
+avg reward (last 100): 50.64
+avg total reward (last 100): 158.29
+max (last 100): 425.0
+ - - - - - - - 
+nupdates 502000
+total_timesteps 40160000
+fps 710
+policy_entropy 0.5513526201248169
+value_loss 0.6170451045036316
+avg reward (last 100): 50.96
+avg total reward (last 100): 151.67
+max (last 100): 394.0
+ - - - - - - - 
+nupdates 503000
+total_timesteps 40240000
+fps 710
+policy_entropy 0.532431960105896
+value_loss 0.29193925857543945
+avg reward (last 100): 46.46
+avg total reward (last 100): 140.25
+max (last 100): 324.0
+ - - - - - - - 
+nupdates 504000
+total_timesteps 40320000
+fps 711
+policy_entropy 0.4625326097011566
+value_loss 8.104790687561035
+avg reward (last 100): 59.11
+avg total reward (last 100): 157.74
+max (last 100): 376.0
+ - - - - - - - 
+nupdates 505000
+total_timesteps 40400000
+fps 711
+policy_entropy 0.3085247278213501
+value_loss 0.17630651593208313
+avg reward (last 100): 59.04
+avg total reward (last 100): 158.05
+max (last 100): 411.0
+ - - - - - - - 
+nupdates 506000
+total_timesteps 40480000
+fps 711
+policy_entropy 0.4231993556022644
+value_loss 0.5834891200065613
+avg reward (last 100): 57.23
+avg total reward (last 100): 158.01
+max (last 100): 321.0
+ - - - - - - - 
+nupdates 507000
+total_timesteps 40560000
+fps 711
+policy_entropy 0.5470319390296936
+value_loss 0.3103170394897461
+avg reward (last 100): 51.96
+avg total reward (last 100): 160.0
+max (last 100): 462.0
+ - - - - - - - 
+nupdates 508000
+total_timesteps 40640000
+fps 711
+policy_entropy 0.6064484715461731
+value_loss 0.23448285460472107
+avg reward (last 100): 51.53
+avg total reward (last 100): 147.52
+max (last 100): 443.0
+ - - - - - - - 
+nupdates 509000
+total_timesteps 40720000
+fps 711
+policy_entropy 0.44026660919189453
+value_loss 1.2923213243484497
+avg reward (last 100): 61.2
+avg total reward (last 100): 153.86
+max (last 100): 431.0
+ - - - - - - - 
+nupdates 510000
+total_timesteps 40800000
+fps 711
+policy_entropy 0.5032427310943604
+value_loss 0.22228756546974182
+avg reward (last 100): 52.68
+avg total reward (last 100): 163.5
+max (last 100): 453.0
+ - - - - - - - 
+nupdates 511000
+total_timesteps 40880000
+fps 712
+policy_entropy 0.3689429461956024
+value_loss 0.25168663263320923
+avg reward (last 100): 62.57
+avg total reward (last 100): 173.88
+max (last 100): 500.0
+ - - - - - - - 
+nupdates 512000
+total_timesteps 40960000
+fps 712
+policy_entropy 0.40199312567710876
+value_loss 0.141830712556839
+avg reward (last 100): 51.4
+avg total reward (last 100): 170.35
+max (last 100): 497.0
+ - - - - - - - 
+nupdates 513000
+total_timesteps 41040000
+fps 712
+policy_entropy 0.5134181380271912
+value_loss 0.14736662805080414
+avg reward (last 100): 66.24
+avg total reward (last 100): 159.55
+max (last 100): 465.0
+ - - - - - - - 
+nupdates 514000
+total_timesteps 41120000
+fps 712
+policy_entropy 0.5658562779426575
+value_loss 0.27550235390663147
+avg reward (last 100): 66.25
+avg total reward (last 100): 167.69
+max (last 100): 452.0
+ - - - - - - - 
+nupdates 515000
+total_timesteps 41200000
+fps 712
+policy_entropy 0.6013256907463074
+value_loss 0.17145104706287384
+avg reward (last 100): 54.5
+avg total reward (last 100): 154.39
+max (last 100): 499.0
+ - - - - - - - 
+nupdates 516000
+total_timesteps 41280000
+fps 712
+policy_entropy 0.4151790142059326
+value_loss 0.21935291588306427
+avg reward (last 100): 65.51
+avg total reward (last 100): 160.19
+max (last 100): 500.0
+ - - - - - - - 
+nupdates 517000
+total_timesteps 41360000
+fps 712
+policy_entropy 0.47010689973831177
+value_loss 0.3042829632759094
+avg reward (last 100): 72.35
+avg total reward (last 100): 189.22
+max (last 100): 499.0
+ - - - - - - - 
+nupdates 518000
+total_timesteps 41440000
+fps 713
+policy_entropy 0.6055879592895508
+value_loss 0.23693542182445526
+avg reward (last 100): 58.31
+avg total reward (last 100): 178.58
+max (last 100): 499.0
+ - - - - - - - 
+nupdates 519000
+total_timesteps 41520000
+fps 713
+policy_entropy 0.5506637096405029
+value_loss 0.4302036166191101
+avg reward (last 100): 65.9
+avg total reward (last 100): 167.84
+max (last 100): 487.0
+ - - - - - - - 
+nupdates 520000
+total_timesteps 41600000
+fps 713
+policy_entropy 0.444327175617218
+value_loss 0.425307035446167
+avg reward (last 100): 58.64
+avg total reward (last 100): 181.91
+max (last 100): 498.0
+ - - - - - - - 
+nupdates 521000
+total_timesteps 41680000
+fps 713
+policy_entropy 0.4434223175048828
+value_loss 3.348832368850708
+avg reward (last 100): 63.46
+avg total reward (last 100): 172.26
+max (last 100): 426.0
+ - - - - - - - 
+nupdates 522000
+total_timesteps 41760000
+fps 713
+policy_entropy 0.36227670311927795
+value_loss 0.10912124812602997
+avg reward (last 100): 51.22
+avg total reward (last 100): 148.75
+max (last 100): 396.0
+ - - - - - - - 
+nupdates 523000
+total_timesteps 41840000
+fps 713
+policy_entropy 0.44510260224342346
+value_loss 0.6821014285087585
+avg reward (last 100): 65.03
+avg total reward (last 100): 165.4
+max (last 100): 426.0
+ - - - - - - - 
+nupdates 524000
+total_timesteps 41920000
+fps 713
+policy_entropy 0.4834253191947937
+value_loss 2.6348724365234375
+avg reward (last 100): 58.78
+avg total reward (last 100): 148.91
+max (last 100): 407.0
+ - - - - - - - 
+nupdates 525000
+total_timesteps 42000000
+fps 713
+policy_entropy 0.3691088855266571
+value_loss 0.16132068634033203
+avg reward (last 100): 64.59
+avg total reward (last 100): 162.44
+max (last 100): 415.0
+ - - - - - - - 
+nupdates 526000
+total_timesteps 42080000
+fps 713
+policy_entropy 0.5055248141288757
+value_loss 0.1961667686700821
+avg reward (last 100): 62.68
+avg total reward (last 100): 164.0
+max (last 100): 414.0
+ - - - - - - - 
+nupdates 527000
+total_timesteps 42160000
+fps 714
+policy_entropy 0.36700695753097534
+value_loss 2.6306052207946777
+avg reward (last 100): 58.65
+avg total reward (last 100): 164.99
+max (last 100): 502.0
+ - - - - - - - 
+nupdates 528000
+total_timesteps 42240000
+fps 714
+policy_entropy 0.36605173349380493
+value_loss 11.379987716674805
+avg reward (last 100): 50.46
+avg total reward (last 100): 157.2
+max (last 100): 375.0
+ - - - - - - - 
+nupdates 529000
+total_timesteps 42320000
+fps 714
+policy_entropy 0.4368957579135895
+value_loss 0.15417586266994476
+avg reward (last 100): 63.3
+avg total reward (last 100): 177.47
+max (last 100): 429.0
+ - - - - - - - 
+nupdates 530000
+total_timesteps 42400000
+fps 714
+policy_entropy 0.4444015622138977
+value_loss 0.11311738193035126
+avg reward (last 100): 62.98
+avg total reward (last 100): 169.71
+max (last 100): 462.0
+ - - - - - - - 
+nupdates 531000
+total_timesteps 42480000
+fps 714
+policy_entropy 0.4096300005912781
+value_loss 0.14592552185058594
+avg reward (last 100): 68.99
+avg total reward (last 100): 183.45
+max (last 100): 480.0
+ - - - - - - - 
+nupdates 532000
+total_timesteps 42560000
+fps 714
+policy_entropy 0.5517920255661011
+value_loss 0.10512225329875946
+avg reward (last 100): 64.15
+avg total reward (last 100): 161.12
+max (last 100): 493.0
+ - - - - - - - 
+nupdates 533000
+total_timesteps 42640000
+fps 714
+policy_entropy 0.37740448117256165
+value_loss 0.2654799520969391
+avg reward (last 100): 51.74
+avg total reward (last 100): 161.21
+max (last 100): 460.0
+ - - - - - - - 
+nupdates 534000
+total_timesteps 42720000
+fps 714
+policy_entropy 0.533488929271698
+value_loss 0.1867791712284088
+avg reward (last 100): 55.87
+avg total reward (last 100): 170.48
+max (last 100): 508.0
+ - - - - - - - 
+nupdates 535000
+total_timesteps 42800000
+fps 714
+policy_entropy 0.5173701047897339
+value_loss 7.687829494476318
+avg reward (last 100): 61.91
+avg total reward (last 100): 158.86
+max (last 100): 462.0
+ - - - - - - - 
+nupdates 536000
+total_timesteps 42880000
+fps 715
+policy_entropy 0.441031277179718
+value_loss 0.11937212944030762
+avg reward (last 100): 59.62
+avg total reward (last 100): 165.68
+max (last 100): 501.0
+ - - - - - - - 
+nupdates 537000
+total_timesteps 42960000
+fps 715
+policy_entropy 0.46740078926086426
+value_loss 2.5720505714416504
+avg reward (last 100): 60.82
+avg total reward (last 100): 168.24
+max (last 100): 465.0
+ - - - - - - - 
+nupdates 538000
+total_timesteps 43040000
+fps 715
+policy_entropy 0.46038350462913513
+value_loss 0.5891624689102173
+avg reward (last 100): 71.89
+avg total reward (last 100): 167.57
+max (last 100): 525.0
+ - - - - - - - 
+nupdates 539000
+total_timesteps 43120000
+fps 715
+policy_entropy 0.464987576007843
+value_loss 0.226047083735466
+avg reward (last 100): 65.91
+avg total reward (last 100): 168.88
+max (last 100): 525.0
+ - - - - - - - 
+nupdates 540000
+total_timesteps 43200000
+fps 715
+policy_entropy 0.44613051414489746
+value_loss 0.17026996612548828
+avg reward (last 100): 73.54
+avg total reward (last 100): 185.07
+max (last 100): 430.0
+ - - - - - - - 
+nupdates 541000
+total_timesteps 43280000
+fps 715
+policy_entropy 0.41770315170288086
+value_loss 2.2326784133911133
+avg reward (last 100): 62.1
+avg total reward (last 100): 171.25
+max (last 100): 463.0
+ - - - - - - - 
+nupdates 542000
+total_timesteps 43360000
+fps 715
+policy_entropy 0.3917657136917114
+value_loss 0.32777565717697144
+avg reward (last 100): 68.87
+avg total reward (last 100): 169.11
+max (last 100): 474.0
+ - - - - - - - 
+nupdates 543000
+total_timesteps 43440000
+fps 715
+policy_entropy 0.4185776710510254
+value_loss 0.28478050231933594
+avg reward (last 100): 51.45
+avg total reward (last 100): 178.23
+max (last 100): 474.0
+ - - - - - - - 
+nupdates 544000
+total_timesteps 43520000
+fps 715
+policy_entropy 0.28443318605422974
+value_loss 2.8337836265563965
+avg reward (last 100): 60.63
+avg total reward (last 100): 171.67
+max (last 100): 510.0
+ - - - - - - - 
+nupdates 545000
+total_timesteps 43600000
+fps 715
+policy_entropy 0.3422445058822632
+value_loss 0.17963561415672302
+avg reward (last 100): 64.34
+avg total reward (last 100): 175.04
+max (last 100): 510.0
+ - - - - - - - 
+nupdates 546000
+total_timesteps 43680000
+fps 715
+policy_entropy 0.43205881118774414
+value_loss 0.26145079731941223
+avg reward (last 100): 61.1
+avg total reward (last 100): 170.82
+max (last 100): 534.0
+ - - - - - - - 
+nupdates 547000
+total_timesteps 43760000
+fps 716
+policy_entropy 0.37403517961502075
+value_loss 0.2383568286895752
+avg reward (last 100): 63.79
+avg total reward (last 100): 170.71
+max (last 100): 448.0
+ - - - - - - - 
+nupdates 548000
+total_timesteps 43840000
+fps 716
+policy_entropy 0.4614712595939636
+value_loss 0.26482954621315
+avg reward (last 100): 50.77
+avg total reward (last 100): 163.07
+max (last 100): 436.0
+ - - - - - - - 
+nupdates 549000
+total_timesteps 43920000
+fps 716
+policy_entropy 0.4844745695590973
+value_loss 0.26800209283828735
+avg reward (last 100): 59.8
+avg total reward (last 100): 156.09
+max (last 100): 467.0
+ - - - - - - - 
+nupdates 550000
+total_timesteps 44000000
+fps 716
+policy_entropy 0.4698547422885895
+value_loss 0.17474517226219177
+avg reward (last 100): 57.17
+avg total reward (last 100): 167.09
+max (last 100): 467.0
+ - - - - - - - 
+nupdates 551000
+total_timesteps 44080000
+fps 716
+policy_entropy 0.39590224623680115
+value_loss 0.1358564794063568
+avg reward (last 100): 52.34
+avg total reward (last 100): 156.72
+max (last 100): 493.0
+ - - - - - - - 
+nupdates 552000
+total_timesteps 44160000
+fps 716
+policy_entropy 0.4017135500907898
+value_loss 0.09835342317819595
+avg reward (last 100): 58.87
+avg total reward (last 100): 166.91
+max (last 100): 494.0
+ - - - - - - - 
+nupdates 553000
+total_timesteps 44240000
+fps 716
+policy_entropy 0.40791505575180054
+value_loss 0.15159747004508972
+avg reward (last 100): 63.09
+avg total reward (last 100): 174.14
+max (last 100): 416.0
+ - - - - - - - 
+nupdates 554000
+total_timesteps 44320000
+fps 716
+policy_entropy 0.45148515701293945
+value_loss 0.2289169728755951
+avg reward (last 100): 68.05
+avg total reward (last 100): 165.81
+max (last 100): 428.0
+ - - - - - - - 
+nupdates 555000
+total_timesteps 44400000
+fps 716
+policy_entropy 0.42506322264671326
+value_loss 0.4114389419555664
+avg reward (last 100): 66.8
+avg total reward (last 100): 183.51
+max (last 100): 443.0
+ - - - - - - - 
+nupdates 556000
+total_timesteps 44480000
+fps 716
+policy_entropy 0.5338186025619507
+value_loss 0.11996731907129288
+avg reward (last 100): 71.7
+avg total reward (last 100): 185.09
+max (last 100): 501.0
+ - - - - - - - 
+nupdates 557000
+total_timesteps 44560000
+fps 716
+policy_entropy 0.40523576736450195
+value_loss 0.2324572056531906
+avg reward (last 100): 63.95
+avg total reward (last 100): 171.29
+max (last 100): 510.0
+ - - - - - - - 
+nupdates 558000
+total_timesteps 44640000
+fps 716
+policy_entropy 0.4896112382411957
+value_loss 1.3992774486541748
+avg reward (last 100): 68.8
+avg total reward (last 100): 201.05
+max (last 100): 510.0
+ - - - - - - - 
+nupdates 559000
+total_timesteps 44720000
+fps 716
+policy_entropy 0.3805396556854248
+value_loss 0.28502053022384644
+avg reward (last 100): 63.62
+avg total reward (last 100): 180.36
+max (last 100): 499.0
+ - - - - - - - 
+nupdates 560000
+total_timesteps 44800000
+fps 716
+policy_entropy 0.4685378968715668
+value_loss 0.1809041053056717
+avg reward (last 100): 52.96
+avg total reward (last 100): 165.79
+max (last 100): 447.0
+ - - - - - - - 
+nupdates 561000
+total_timesteps 44880000
+fps 716
+policy_entropy 0.6002649068832397
+value_loss 0.3242608606815338
+avg reward (last 100): 56.31
+avg total reward (last 100): 165.97
+max (last 100): 464.0
+ - - - - - - - 
+nupdates 562000
+total_timesteps 44960000
+fps 716
+policy_entropy 0.5388551950454712
+value_loss 0.2804790139198303
+avg reward (last 100): 59.98
+avg total reward (last 100): 175.4
+max (last 100): 464.0
+ - - - - - - - 
+nupdates 563000
+total_timesteps 45040000
+fps 716
+policy_entropy 0.5116225481033325
+value_loss 0.20554709434509277
+avg reward (last 100): 69.1
+avg total reward (last 100): 179.64
+max (last 100): 496.0
+ - - - - - - - 
+nupdates 564000
+total_timesteps 45120000
+fps 716
+policy_entropy 0.5185743570327759
+value_loss 0.17522816359996796
+avg reward (last 100): 59.69
+avg total reward (last 100): 179.43
+max (last 100): 527.0
+ - - - - - - - 
+nupdates 565000
+total_timesteps 45200000
+fps 716
+policy_entropy 0.45341476798057556
+value_loss 0.2865922749042511
+avg reward (last 100): 79.48
+avg total reward (last 100): 184.09
+max (last 100): 527.0
+ - - - - - - - 
+nupdates 566000
+total_timesteps 45280000
+fps 716
+policy_entropy 0.419895738363266
+value_loss 1.83590567111969
+avg reward (last 100): 68.27
+avg total reward (last 100): 202.57
+max (last 100): 527.0
+ - - - - - - - 
+nupdates 567000
+total_timesteps 45360000
+fps 716
+policy_entropy 0.5348404049873352
+value_loss 0.2758028507232666
+avg reward (last 100): 69.88
+avg total reward (last 100): 184.46
+max (last 100): 423.0
+ - - - - - - - 
+nupdates 568000
+total_timesteps 45440000
+fps 716
+policy_entropy 0.3687019944190979
+value_loss 0.12660393118858337
+avg reward (last 100): 50.37
+avg total reward (last 100): 171.99
+max (last 100): 443.0
+ - - - - - - - 
+nupdates 569000
+total_timesteps 45520000
+fps 716
+policy_entropy 0.4177585244178772
+value_loss 8.242985725402832
+avg reward (last 100): 54.33
+avg total reward (last 100): 164.81
+max (last 100): 497.0
+ - - - - - - - 
+nupdates 570000
+total_timesteps 45600000
+fps 716
+policy_entropy 0.3488290309906006
+value_loss 0.1476995050907135
+avg reward (last 100): 57.62
+avg total reward (last 100): 153.82
+max (last 100): 395.0
+ - - - - - - - 
+nupdates 571000
+total_timesteps 45680000
+fps 716
+policy_entropy 0.33437642455101013
+value_loss 0.19590026140213013
+avg reward (last 100): 62.47
+avg total reward (last 100): 187.31
+max (last 100): 432.0
+ - - - - - - - 
+nupdates 572000
+total_timesteps 45760000
+fps 716
+policy_entropy 0.4333525598049164
+value_loss 0.1568228304386139
+avg reward (last 100): 66.5
+avg total reward (last 100): 182.29
+max (last 100): 432.0
+ - - - - - - - 
+nupdates 573000
+total_timesteps 45840000
+fps 716
+policy_entropy 0.4808644652366638
+value_loss 0.25404977798461914
+avg reward (last 100): 62.78
+avg total reward (last 100): 180.94
+max (last 100): 502.0
+ - - - - - - - 
+nupdates 574000
+total_timesteps 45920000
+fps 716
+policy_entropy 0.3798666000366211
+value_loss 2.0367634296417236
+avg reward (last 100): 62.46
+avg total reward (last 100): 164.98
+max (last 100): 464.0
+ - - - - - - - 
+nupdates 575000
+total_timesteps 46000000
+fps 716
+policy_entropy 0.510901689529419
+value_loss 0.19183281064033508
+avg reward (last 100): 59.38
+avg total reward (last 100): 186.33
+max (last 100): 500.0
+ - - - - - - - 
+nupdates 576000
+total_timesteps 46080000
+fps 716
+policy_entropy 0.5549336671829224
+value_loss 0.38091015815734863
+avg reward (last 100): 60.73
+avg total reward (last 100): 161.24
+max (last 100): 428.0
+ - - - - - - - 
+nupdates 577000
+total_timesteps 46160000
+fps 716
+policy_entropy 0.5123840570449829
+value_loss 0.2021968811750412
+avg reward (last 100): 64.1
+avg total reward (last 100): 183.8
+max (last 100): 524.0
+ - - - - - - - 
+nupdates 578000
+total_timesteps 46240000
+fps 716
+policy_entropy 0.47283846139907837
+value_loss 8.519147872924805
+avg reward (last 100): 63.22
+avg total reward (last 100): 186.99
+max (last 100): 506.0
+ - - - - - - - 
+nupdates 579000
+total_timesteps 46320000
+fps 716
+policy_entropy 0.3485407531261444
+value_loss 0.19482704997062683
+avg reward (last 100): 56.71
+avg total reward (last 100): 168.58
+max (last 100): 504.0
+ - - - - - - - 
+nupdates 580000
+total_timesteps 46400000
+fps 716
+policy_entropy 0.46946126222610474
+value_loss 0.3925841450691223
+avg reward (last 100): 70.36
+avg total reward (last 100): 179.87
+max (last 100): 535.0
+ - - - - - - - 
+nupdates 581000
+total_timesteps 46480000
+fps 716
+policy_entropy 0.4613354206085205
+value_loss 0.18588261306285858
+avg reward (last 100): 67.16
+avg total reward (last 100): 171.73
+max (last 100): 535.0
+ - - - - - - - 
+nupdates 582000
+total_timesteps 46560000
+fps 716
+policy_entropy 0.3468033969402313
+value_loss 0.12629251182079315
+avg reward (last 100): 67.3
+avg total reward (last 100): 184.48
+max (last 100): 488.0
+ - - - - - - - 
+nupdates 583000
+total_timesteps 46640000
+fps 716
+policy_entropy 0.4373049736022949
+value_loss 0.11837276071310043
+avg reward (last 100): 56.52
+avg total reward (last 100): 165.72
+max (last 100): 502.0
+ - - - - - - - 
+nupdates 584000
+total_timesteps 46720000
+fps 716
+policy_entropy 0.43264850974082947
+value_loss 0.22527535259723663
+avg reward (last 100): 67.67
+avg total reward (last 100): 176.19
+max (last 100): 466.0
+ - - - - - - - 
+nupdates 585000
+total_timesteps 46800000
+fps 716
+policy_entropy 0.36959126591682434
+value_loss 0.16935186088085175
+avg reward (last 100): 66.95
+avg total reward (last 100): 195.63
+max (last 100): 499.0
+ - - - - - - - 
+nupdates 586000
+total_timesteps 46880000
+fps 716
+policy_entropy 0.4807942807674408
+value_loss 0.11493787914514542
+avg reward (last 100): 58.97
+avg total reward (last 100): 168.9
+max (last 100): 502.0
+ - - - - - - - 
+nupdates 587000
+total_timesteps 46960000
+fps 716
+policy_entropy 0.4087337553501129
+value_loss 5.988571643829346
+avg reward (last 100): 61.51
+avg total reward (last 100): 178.61
+max (last 100): 536.0
+ - - - - - - - 
+nupdates 588000
+total_timesteps 47040000
+fps 716
+policy_entropy 0.42529091238975525
+value_loss 0.23673179745674133
+avg reward (last 100): 62.91
+avg total reward (last 100): 177.48
+max (last 100): 495.0
+ - - - - - - - 
+nupdates 589000
+total_timesteps 47120000
+fps 716
+policy_entropy 0.36962515115737915
+value_loss 7.825399875640869
+avg reward (last 100): 67.65
+avg total reward (last 100): 193.16
+max (last 100): 501.0
+ - - - - - - - 
+nupdates 590000
+total_timesteps 47200000
+fps 716
+policy_entropy 0.5013610124588013
+value_loss 0.15410295128822327
+avg reward (last 100): 64.9
+avg total reward (last 100): 186.93
+max (last 100): 502.0
+ - - - - - - - 
+nupdates 591000
+total_timesteps 47280000
+fps 716
+policy_entropy 0.44355908036231995
+value_loss 0.055961091071367264
+avg reward (last 100): 67.11
+avg total reward (last 100): 173.72
+max (last 100): 502.0
+ - - - - - - - 
+nupdates 592000
+total_timesteps 47360000
+fps 716
+policy_entropy 0.32979726791381836
+value_loss 0.20996694266796112
+avg reward (last 100): 60.49
+avg total reward (last 100): 180.84
+max (last 100): 533.0
+ - - - - - - - 
+nupdates 593000
+total_timesteps 47440000
+fps 716
+policy_entropy 0.5070726871490479
+value_loss 0.15762919187545776
+avg reward (last 100): 61.04
+avg total reward (last 100): 174.01
+max (last 100): 504.0
+ - - - - - - - 
+nupdates 594000
+total_timesteps 47520000
+fps 716
+policy_entropy 0.4732707142829895
+value_loss 0.23727436363697052
+avg reward (last 100): 62.77
+avg total reward (last 100): 172.71
+max (last 100): 476.0
+ - - - - - - - 
+nupdates 595000
+total_timesteps 47600000
+fps 716
+policy_entropy 0.31858813762664795
+value_loss 0.12960736453533173
+avg reward (last 100): 56.35
+avg total reward (last 100): 166.25
+max (last 100): 467.0
+ - - - - - - - 
+nupdates 596000
+total_timesteps 47680000
+fps 716
+policy_entropy 0.5795169472694397
+value_loss 5.8360066413879395
+avg reward (last 100): 65.67
+avg total reward (last 100): 192.06
+max (last 100): 518.0
+ - - - - - - - 
+nupdates 597000
+total_timesteps 47760000
+fps 716
+policy_entropy 0.45726126432418823
+value_loss 0.5470344424247742
+avg reward (last 100): 60.4
+avg total reward (last 100): 186.31
+max (last 100): 533.0
+ - - - - - - - 
+nupdates 598000
+total_timesteps 47840000
+fps 716
+policy_entropy 0.4988061785697937
+value_loss 2.300940990447998
+avg reward (last 100): 74.36
+avg total reward (last 100): 172.66
+max (last 100): 428.0
+ - - - - - - - 
+nupdates 599000
+total_timesteps 47920000
+fps 716
+policy_entropy 0.5432499647140503
+value_loss 1.6993739604949951
+avg reward (last 100): 73.44
+avg total reward (last 100): 201.14
+max (last 100): 536.0
+ - - - - - - - 
+nupdates 600000
+total_timesteps 48000000
+fps 716
+policy_entropy 0.3863053321838379
+value_loss 0.23359055817127228
+avg reward (last 100): 64.74
+avg total reward (last 100): 165.85
+max (last 100): 534.0
+ - - - - - - - 
+nupdates 601000
+total_timesteps 48080000
+fps 716
+policy_entropy 0.4156959652900696
+value_loss 15.11834716796875
+avg reward (last 100): 69.34
+avg total reward (last 100): 189.14
+max (last 100): 507.0
+ - - - - - - - 
+nupdates 602000
+total_timesteps 48160000
+fps 716
+policy_entropy 0.3833482265472412
+value_loss 1.2786123752593994
+avg reward (last 100): 58.26
+avg total reward (last 100): 162.25
+max (last 100): 503.0
+ - - - - - - - 
+nupdates 603000
+total_timesteps 48240000
+fps 716
+policy_entropy 0.3611268401145935
+value_loss 2.929231643676758
+avg reward (last 100): 61.82
+avg total reward (last 100): 179.69
+max (last 100): 533.0
+ - - - - - - - 
+nupdates 604000
+total_timesteps 48320000
+fps 716
+policy_entropy 0.5515170097351074
+value_loss 1.4150969982147217
+avg reward (last 100): 81.61
+avg total reward (last 100): 199.14
+max (last 100): 535.0
+ - - - - - - - 
+nupdates 605000
+total_timesteps 48400000
+fps 716
+policy_entropy 0.3275201916694641
+value_loss 0.18549299240112305
+avg reward (last 100): 60.59
+avg total reward (last 100): 188.9
+max (last 100): 529.0
+ - - - - - - - 
+nupdates 606000
+total_timesteps 48480000
+fps 716
+policy_entropy 0.5949321985244751
+value_loss 0.3091293275356293
+avg reward (last 100): 65.35
+avg total reward (last 100): 176.48
+max (last 100): 468.0
+ - - - - - - - 
+nupdates 607000
+total_timesteps 48560000
+fps 716
+policy_entropy 0.4033721387386322
+value_loss 3.294673442840576
+avg reward (last 100): 54.54
+avg total reward (last 100): 176.96
+max (last 100): 445.0
+ - - - - - - - 
+nupdates 608000
+total_timesteps 48640000
+fps 716
+policy_entropy 0.4877878725528717
+value_loss 3.6351401805877686
+avg reward (last 100): 55.83
+avg total reward (last 100): 175.49
+max (last 100): 494.0
+ - - - - - - - 
+nupdates 609000
+total_timesteps 48720000
+fps 716
+policy_entropy 0.35937076807022095
+value_loss 0.22282060980796814
+avg reward (last 100): 59.33
+avg total reward (last 100): 172.78
+max (last 100): 534.0
+ - - - - - - - 
+nupdates 610000
+total_timesteps 48800000
+fps 716
+policy_entropy 0.48988237977027893
+value_loss 0.3136322498321533
+avg reward (last 100): 66.26
+avg total reward (last 100): 180.55
+max (last 100): 448.0
+ - - - - - - - 
+nupdates 611000
+total_timesteps 48880000
+fps 716
+policy_entropy 0.4638974070549011
+value_loss 0.1108611598610878
+avg reward (last 100): 61.51
+avg total reward (last 100): 175.99
+max (last 100): 523.0
+ - - - - - - - 
+nupdates 612000
+total_timesteps 48960000
+fps 716
+policy_entropy 0.38942858576774597
+value_loss 0.0862458199262619
+avg reward (last 100): 78.06
+avg total reward (last 100): 176.15
+max (last 100): 501.0
+ - - - - - - - 
+nupdates 613000
+total_timesteps 49040000
+fps 716
+policy_entropy 0.3472403883934021
+value_loss 0.18993239104747772
+avg reward (last 100): 52.69
+avg total reward (last 100): 164.76
+max (last 100): 437.0
+ - - - - - - - 
+nupdates 614000
+total_timesteps 49120000
+fps 716
+policy_entropy 0.4542972147464752
+value_loss 0.19545066356658936
+avg reward (last 100): 85.22
+avg total reward (last 100): 190.2
+max (last 100): 449.0
+ - - - - - - - 
+nupdates 615000
+total_timesteps 49200000
+fps 716
+policy_entropy 0.42892342805862427
+value_loss 0.31901150941848755
+avg reward (last 100): 62.18
+avg total reward (last 100): 204.24
+max (last 100): 549.0
+ - - - - - - - 
+nupdates 616000
+total_timesteps 49280000
+fps 716
+policy_entropy 0.30124250054359436
+value_loss 0.21749722957611084
+avg reward (last 100): 61.62
+avg total reward (last 100): 186.42
+max (last 100): 474.0
+ - - - - - - - 
+nupdates 617000
+total_timesteps 49360000
+fps 716
+policy_entropy 0.3905894160270691
+value_loss 0.44111451506614685
+avg reward (last 100): 57.05
+avg total reward (last 100): 180.67
+max (last 100): 468.0
+ - - - - - - - 
+nupdates 618000
+total_timesteps 49440000
+fps 716
+policy_entropy 0.3983317017555237
+value_loss 0.14538247883319855
+avg reward (last 100): 54.9
+avg total reward (last 100): 160.17
+max (last 100): 461.0
+ - - - - - - - 
+nupdates 619000
+total_timesteps 49520000
+fps 716
+policy_entropy 0.47951459884643555
+value_loss 0.932325005531311
+avg reward (last 100): 77.5
+avg total reward (last 100): 198.62
+max (last 100): 511.0
+ - - - - - - - 
+nupdates 620000
+total_timesteps 49600000
+fps 716
+policy_entropy 0.44940367341041565
+value_loss 0.33858752250671387
+avg reward (last 100): 61.89
+avg total reward (last 100): 197.34
+max (last 100): 504.0
+ - - - - - - - 
+nupdates 621000
+total_timesteps 49680000
+fps 716
+policy_entropy 0.5996643304824829
+value_loss 0.23113584518432617
+avg reward (last 100): 63.22
+avg total reward (last 100): 179.81
+max (last 100): 430.0
+ - - - - - - - 
+nupdates 622000
+total_timesteps 49760000
+fps 716
+policy_entropy 0.4859371781349182
+value_loss 0.17645566165447235
+avg reward (last 100): 57.66
+avg total reward (last 100): 173.72
+max (last 100): 425.0
+ - - - - - - - 
+nupdates 623000
+total_timesteps 49840000
+fps 716
+policy_entropy 0.40003663301467896
+value_loss 0.23409366607666016
+avg reward (last 100): 63.01
+avg total reward (last 100): 177.64
+max (last 100): 463.0
+ - - - - - - - 
+nupdates 624000
+total_timesteps 49920000
+fps 716
+policy_entropy 0.41951361298561096
+value_loss 4.726017951965332
+avg reward (last 100): 70.17
+avg total reward (last 100): 182.56
+max (last 100): 537.0
+ - - - - - - - 
+nupdates 625000
+total_timesteps 50000000
+fps 716
+policy_entropy 0.2940186560153961
+value_loss 0.1870855838060379
+avg reward (last 100): 66.96
+avg total reward (last 100): 180.18
+max (last 100): 501.0
+ - - - - - - - 
+nupdates 626000
+total_timesteps 50080000
+fps 716
+policy_entropy 0.37514060735702515
+value_loss 3.0160751342773438
+avg reward (last 100): 82.63
+avg total reward (last 100): 203.71
+max (last 100): 504.0
+ - - - - - - - 
+nupdates 627000
+total_timesteps 50160000
+fps 716
+policy_entropy 0.3731071949005127
+value_loss 4.098572254180908
+avg reward (last 100): 55.84
+avg total reward (last 100): 184.59
+max (last 100): 510.0
+ - - - - - - - 
+nupdates 628000
+total_timesteps 50240000
+fps 716
+policy_entropy 0.503892183303833
+value_loss 1.0932058095932007
+avg reward (last 100): 76.59
+avg total reward (last 100): 178.99
+max (last 100): 457.0
+ - - - - - - - 
+nupdates 629000
+total_timesteps 50320000
+fps 716
+policy_entropy 0.5084114670753479
+value_loss 0.2310452163219452
+avg reward (last 100): 73.12
+avg total reward (last 100): 194.34
+max (last 100): 531.0
+ - - - - - - - 
+nupdates 630000
+total_timesteps 50400000
+fps 716
+policy_entropy 0.45851343870162964
+value_loss 0.1966603696346283
+avg reward (last 100): 60.3
+avg total reward (last 100): 202.15
+max (last 100): 531.0
+ - - - - - - - 
+nupdates 631000
+total_timesteps 50480000
+fps 716
+policy_entropy 0.39972564578056335
+value_loss 0.13825497031211853
+avg reward (last 100): 62.99
+avg total reward (last 100): 183.81
+max (last 100): 520.0
+ - - - - - - - 
+nupdates 632000
+total_timesteps 50560000
+fps 716
+policy_entropy 0.4992563724517822
+value_loss 0.20728930830955505
+avg reward (last 100): 62.27
+avg total reward (last 100): 171.89
+max (last 100): 520.0
+ - - - - - - - 
+nupdates 633000
+total_timesteps 50640000
+fps 716
+policy_entropy 0.4172559678554535
+value_loss 0.15160247683525085
+avg reward (last 100): 67.8
+avg total reward (last 100): 180.3
+max (last 100): 491.0
+ - - - - - - - 
+nupdates 634000
+total_timesteps 50720000
+fps 716
+policy_entropy 0.4248878061771393
+value_loss 2.502532958984375
+avg reward (last 100): 69.67
+avg total reward (last 100): 194.19
+max (last 100): 492.0
+ - - - - - - - 
+nupdates 635000
+total_timesteps 50800000
+fps 716
+policy_entropy 0.3622806966304779
+value_loss 0.7847808003425598
+avg reward (last 100): 62.94
+avg total reward (last 100): 179.76
+max (last 100): 499.0
+ - - - - - - - 
+nupdates 636000
+total_timesteps 50880000
+fps 716
+policy_entropy 0.421497106552124
+value_loss 0.29208293557167053
+avg reward (last 100): 65.75
+avg total reward (last 100): 182.88
+max (last 100): 533.0
+ - - - - - - - 
+nupdates 637000
+total_timesteps 50960000
+fps 716
+policy_entropy 0.43125981092453003
+value_loss 0.3982543349266052
+avg reward (last 100): 69.89
+avg total reward (last 100): 184.28
+max (last 100): 503.0
+ - - - - - - - 
+nupdates 638000
+total_timesteps 51040000
+fps 716
+policy_entropy 0.4164397120475769
+value_loss 0.08685685694217682
+avg reward (last 100): 61.1
+avg total reward (last 100): 190.18
+max (last 100): 500.0
+ - - - - - - - 
+nupdates 639000
+total_timesteps 51120000
+fps 716
+policy_entropy 0.4469744563102722
+value_loss 0.25378552079200745
+avg reward (last 100): 68.68
+avg total reward (last 100): 200.13
+max (last 100): 571.0
+ - - - - - - - 
+nupdates 640000
+total_timesteps 51200000
+fps 716
+policy_entropy 0.38633599877357483
+value_loss 0.5399478673934937
+avg reward (last 100): 56.14
+avg total reward (last 100): 188.05
+max (last 100): 571.0
+ - - - - - - - 
+nupdates 641000
+total_timesteps 51280000
+fps 716
+policy_entropy 0.38865160942077637
+value_loss 0.2974391281604767
+avg reward (last 100): 66.99
+avg total reward (last 100): 184.64
+max (last 100): 571.0
+ - - - - - - - 
+nupdates 642000
+total_timesteps 51360000
+fps 716
+policy_entropy 0.42191070318222046
+value_loss 0.4084886610507965
+avg reward (last 100): 62.98
+avg total reward (last 100): 188.46
+max (last 100): 529.0
+ - - - - - - - 
+nupdates 643000
+total_timesteps 51440000
+fps 716
+policy_entropy 0.4030134677886963
+value_loss 0.3897327482700348
+avg reward (last 100): 62.18
+avg total reward (last 100): 175.45
+max (last 100): 533.0
+ - - - - - - - 
+nupdates 644000
+total_timesteps 51520000
+fps 716
+policy_entropy 0.3246632218360901
+value_loss 0.2269885092973709
+avg reward (last 100): 65.01
+avg total reward (last 100): 195.62
+max (last 100): 533.0
+ - - - - - - - 
+nupdates 645000
+total_timesteps 51600000
+fps 716
+policy_entropy 0.31418734788894653
+value_loss 0.227770134806633
+avg reward (last 100): 79.38
+avg total reward (last 100): 193.58
+max (last 100): 483.0
+ - - - - - - - 
+nupdates 646000
+total_timesteps 51680000
+fps 716
+policy_entropy 0.3771703839302063
+value_loss 0.5545979738235474
+avg reward (last 100): 58.41
+avg total reward (last 100): 183.29
+max (last 100): 480.0
+ - - - - - - - 
+nupdates 647000
+total_timesteps 51760000
+fps 716
+policy_entropy 0.4580124020576477
+value_loss 0.3293250799179077
+avg reward (last 100): 73.2
+avg total reward (last 100): 200.33
+max (last 100): 534.0
+ - - - - - - - 
+nupdates 648000
+total_timesteps 51840000
+fps 716
+policy_entropy 0.40376535058021545
+value_loss 0.2265307605266571
+avg reward (last 100): 73.97
+avg total reward (last 100): 214.58
+max (last 100): 568.0
+ - - - - - - - 
+nupdates 649000
+total_timesteps 51920000
+fps 716
+policy_entropy 0.3368884027004242
+value_loss 0.2273269146680832
+avg reward (last 100): 82.84
+avg total reward (last 100): 198.67
+max (last 100): 557.0
+ - - - - - - - 
+nupdates 650000
+total_timesteps 52000000
+fps 716
+policy_entropy 0.5867726802825928
+value_loss 1.8626998662948608
+avg reward (last 100): 65.12
+avg total reward (last 100): 178.31
+max (last 100): 521.0
+ - - - - - - - 
+nupdates 651000
+total_timesteps 52080000
+fps 716
+policy_entropy 0.434500128030777
+value_loss 0.11230726540088654
+avg reward (last 100): 73.08
+avg total reward (last 100): 196.58
+max (last 100): 530.0
+ - - - - - - - 
+nupdates 652000
+total_timesteps 52160000
+fps 716
+policy_entropy 0.4657449722290039
+value_loss 0.36405229568481445
+avg reward (last 100): 66.27
+avg total reward (last 100): 194.67
+max (last 100): 543.0
+ - - - - - - - 
+nupdates 653000
+total_timesteps 52240000
+fps 716
+policy_entropy 0.28984618186950684
+value_loss 0.7702616453170776
+avg reward (last 100): 75.04
+avg total reward (last 100): 194.74
+max (last 100): 541.0
+ - - - - - - - 
+nupdates 654000
+total_timesteps 52320000
+fps 716
+policy_entropy 0.3592149317264557
+value_loss 0.14209195971488953
+avg reward (last 100): 70.27
+avg total reward (last 100): 199.95
+max (last 100): 559.0
+ - - - - - - - 
+nupdates 655000
+total_timesteps 52400000
+fps 716
+policy_entropy 0.4927760064601898
+value_loss 0.4104629158973694
+avg reward (last 100): 60.74
+avg total reward (last 100): 186.72
+max (last 100): 559.0
+ - - - - - - - 
+nupdates 656000
+total_timesteps 52480000
+fps 716
+policy_entropy 0.4429689347743988
+value_loss 0.2835392355918884
+avg reward (last 100): 65.93
+avg total reward (last 100): 192.94
+max (last 100): 541.0
+ - - - - - - - 
+nupdates 657000
+total_timesteps 52560000
+fps 716
+policy_entropy 0.3457309901714325
+value_loss 0.17022410035133362
+avg reward (last 100): 67.59
+avg total reward (last 100): 181.21
+max (last 100): 534.0
+ - - - - - - - 
+nupdates 658000
+total_timesteps 52640000
+fps 716
+policy_entropy 0.35786929726600647
+value_loss 0.17156291007995605
+avg reward (last 100): 64.4
+avg total reward (last 100): 198.16
+max (last 100): 538.0
+ - - - - - - - 
+nupdates 659000
+total_timesteps 52720000
+fps 716
+policy_entropy 0.43228572607040405
+value_loss 16.47227668762207
+avg reward (last 100): 73.12
+avg total reward (last 100): 184.92
+max (last 100): 538.0
+ - - - - - - - 
+nupdates 660000
+total_timesteps 52800000
+fps 716
+policy_entropy 0.43957382440567017
+value_loss 0.34960198402404785
+avg reward (last 100): 72.3
+avg total reward (last 100): 216.15
+max (last 100): 540.0
+ - - - - - - - 
+nupdates 661000
+total_timesteps 52880000
+fps 716
+policy_entropy 0.30339932441711426
+value_loss 0.24906547367572784
+avg reward (last 100): 75.5
+avg total reward (last 100): 214.08
+max (last 100): 538.0
+ - - - - - - - 
+nupdates 662000
+total_timesteps 52960000
+fps 716
+policy_entropy 0.42479977011680603
+value_loss 0.28901395201683044
+avg reward (last 100): 74.73
+avg total reward (last 100): 204.77
+max (last 100): 556.0
+ - - - - - - - 
+nupdates 663000
+total_timesteps 53040000
+fps 716
+policy_entropy 0.3220226764678955
+value_loss 10.546148300170898
+avg reward (last 100): 65.77
+avg total reward (last 100): 204.31
+max (last 100): 556.0
+ - - - - - - - 
+nupdates 664000
+total_timesteps 53120000
+fps 716
+policy_entropy 0.5378565788269043
+value_loss 0.09657730162143707
+avg reward (last 100): 65.08
+avg total reward (last 100): 188.21
+max (last 100): 507.0
+ - - - - - - - 
+nupdates 665000
+total_timesteps 53200000
+fps 716
+policy_entropy 0.41648274660110474
+value_loss 0.2792600095272064
+avg reward (last 100): 67.25
+avg total reward (last 100): 196.36
+max (last 100): 534.0
+ - - - - - - - 
+nupdates 666000
+total_timesteps 53280000
+fps 716
+policy_entropy 0.34843507409095764
+value_loss 0.46852540969848633
+avg reward (last 100): 78.75
+avg total reward (last 100): 197.93
+max (last 100): 524.0
+ - - - - - - - 
+nupdates 667000
+total_timesteps 53360000
+fps 716
+policy_entropy 0.39616209268569946
+value_loss 0.6952795386314392
+avg reward (last 100): 71.13
+avg total reward (last 100): 212.91
+max (last 100): 532.0
+ - - - - - - - 
+nupdates 668000
+total_timesteps 53440000
+fps 716
+policy_entropy 0.5187082886695862
+value_loss 0.19629426300525665
+avg reward (last 100): 62.98
+avg total reward (last 100): 186.1
+max (last 100): 428.0
+ - - - - - - - 
+nupdates 669000
+total_timesteps 53520000
+fps 716
+policy_entropy 0.44659876823425293
+value_loss 0.42673611640930176
+avg reward (last 100): 71.82
+avg total reward (last 100): 192.75
+max (last 100): 558.0
+ - - - - - - - 
+nupdates 670000
+total_timesteps 53600000
+fps 716
+policy_entropy 0.38107749819755554
+value_loss 0.2457643449306488
+avg reward (last 100): 65.5
+avg total reward (last 100): 194.44
+max (last 100): 558.0
+ - - - - - - - 
+nupdates 671000
+total_timesteps 53680000
+fps 716
+policy_entropy 0.381128191947937
+value_loss 5.628468990325928
+avg reward (last 100): 61.93
+avg total reward (last 100): 171.78
+max (last 100): 558.0
+ - - - - - - - 
+nupdates 672000
+total_timesteps 53760000
+fps 716
+policy_entropy 0.43576017022132874
+value_loss 0.308912456035614
+avg reward (last 100): 60.52
+avg total reward (last 100): 171.73
+max (last 100): 391.0
+ - - - - - - - 
+nupdates 673000
+total_timesteps 53840000
+fps 716
+policy_entropy 0.3204488158226013
+value_loss 0.3180236220359802
+avg reward (last 100): 71.37
+avg total reward (last 100): 198.42
+max (last 100): 489.0
+ - - - - - - - 
+nupdates 674000
+total_timesteps 53920000
+fps 716
+policy_entropy 0.36444327235221863
+value_loss 0.3387177884578705
+avg reward (last 100): 75.96
+avg total reward (last 100): 217.88
+max (last 100): 538.0
+ - - - - - - - 
+nupdates 675000
+total_timesteps 54000000
+fps 716
+policy_entropy 0.3139038681983948
+value_loss 0.31867003440856934
+avg reward (last 100): 73.11
+avg total reward (last 100): 187.33
+max (last 100): 539.0
+ - - - - - - - 
+nupdates 676000
+total_timesteps 54080000
+fps 716
+policy_entropy 0.3284975588321686
+value_loss 2.287325143814087
+avg reward (last 100): 76.94
+avg total reward (last 100): 220.63
+max (last 100): 560.0
+ - - - - - - - 
+nupdates 677000
+total_timesteps 54160000
+fps 716
+policy_entropy 0.3366435468196869
+value_loss 0.27691125869750977
+avg reward (last 100): 68.48
+avg total reward (last 100): 192.1
+max (last 100): 530.0
+ - - - - - - - 
+nupdates 678000
+total_timesteps 54240000
+fps 716
+policy_entropy 0.33595457673072815
+value_loss 1.9280717372894287
+avg reward (last 100): 59.0
+avg total reward (last 100): 193.16
+max (last 100): 528.0
+ - - - - - - - 
+nupdates 679000
+total_timesteps 54320000
+fps 716
+policy_entropy 0.43697842955589294
+value_loss 0.33307087421417236
+avg reward (last 100): 64.49
+avg total reward (last 100): 179.04
+max (last 100): 471.0
+ - - - - - - - 
+nupdates 680000
+total_timesteps 54400000
+fps 716
+policy_entropy 0.39296120405197144
+value_loss 2.3432939052581787
+avg reward (last 100): 84.06
+avg total reward (last 100): 210.47
+max (last 100): 549.0
+ - - - - - - - 
+nupdates 681000
+total_timesteps 54480000
+fps 716
+policy_entropy 0.40283194184303284
+value_loss 0.15832921862602234
+avg reward (last 100): 73.8
+avg total reward (last 100): 219.9
+max (last 100): 549.0
+ - - - - - - - 
+nupdates 682000
+total_timesteps 54560000
+fps 716
+policy_entropy 0.4873436987400055
+value_loss 5.273604869842529
+avg reward (last 100): 71.22
+avg total reward (last 100): 202.63
+max (last 100): 534.0
+ - - - - - - - 
+nupdates 683000
+total_timesteps 54640000
+fps 717
+policy_entropy 0.43313702940940857
+value_loss 0.26213452219963074
+avg reward (last 100): 75.01
+avg total reward (last 100): 186.9
+max (last 100): 550.0
+ - - - - - - - 
+nupdates 684000
+total_timesteps 54720000
+fps 717
+policy_entropy 0.4380037188529968
+value_loss 0.36454567313194275
+avg reward (last 100): 55.39
+avg total reward (last 100): 185.58
+max (last 100): 490.0
+ - - - - - - - 
+nupdates 685000
+total_timesteps 54800000
+fps 717
+policy_entropy 0.49483346939086914
+value_loss 0.19540059566497803
+avg reward (last 100): 68.98
+avg total reward (last 100): 206.59
+max (last 100): 529.0
+ - - - - - - - 
+nupdates 686000
+total_timesteps 54880000
+fps 717
+policy_entropy 0.41437816619873047
+value_loss 0.20121228694915771
+avg reward (last 100): 56.55
+avg total reward (last 100): 169.6
+max (last 100): 454.0
+ - - - - - - - 
+nupdates 687000
+total_timesteps 54960000
+fps 717
+policy_entropy 0.2613295912742615
+value_loss 0.14714595675468445
+avg reward (last 100): 74.86
+avg total reward (last 100): 173.91
+max (last 100): 534.0
+ - - - - - - - 
+nupdates 688000
+total_timesteps 55040000
+fps 717
+policy_entropy 0.4153694212436676
+value_loss 0.10153555870056152
+avg reward (last 100): 68.15
+avg total reward (last 100): 216.29
+max (last 100): 562.0
+ - - - - - - - 
+nupdates 689000
+total_timesteps 55120000
+fps 717
+policy_entropy 0.3847217857837677
+value_loss 0.1444995105266571
+avg reward (last 100): 56.93
+avg total reward (last 100): 190.84
+max (last 100): 536.0
+ - - - - - - - 
+nupdates 690000
+total_timesteps 55200000
+fps 717
+policy_entropy 0.3548889756202698
+value_loss 0.2857932150363922
+avg reward (last 100): 75.16
+avg total reward (last 100): 181.42
+max (last 100): 513.0
+ - - - - - - - 
+nupdates 691000
+total_timesteps 55280000
+fps 717
+policy_entropy 0.4327172338962555
+value_loss 0.35426074266433716
+avg reward (last 100): 69.84
+avg total reward (last 100): 201.27
+max (last 100): 532.0
+ - - - - - - - 
+nupdates 692000
+total_timesteps 55360000
+fps 717
+policy_entropy 0.38700833916664124
+value_loss 0.12515155971050262
+avg reward (last 100): 81.55
+avg total reward (last 100): 213.71
+max (last 100): 538.0
+ - - - - - - - 
+nupdates 693000
+total_timesteps 55440000
+fps 717
+policy_entropy 0.41026419401168823
+value_loss 0.2498629093170166
+avg reward (last 100): 65.41
+avg total reward (last 100): 176.72
+max (last 100): 502.0
+ - - - - - - - 
+nupdates 694000
+total_timesteps 55520000
+fps 717
+policy_entropy 0.46643415093421936
+value_loss 0.09450604021549225
+avg reward (last 100): 68.98
+avg total reward (last 100): 193.74
+max (last 100): 502.0
+ - - - - - - - 
+nupdates 695000
+total_timesteps 55600000
+fps 717
+policy_entropy 0.3648844361305237
+value_loss 1.8770771026611328
+avg reward (last 100): 63.29
+avg total reward (last 100): 209.19
+max (last 100): 535.0
+ - - - - - - - 
+nupdates 696000
+total_timesteps 55680000
+fps 717
+policy_entropy 0.45463627576828003
+value_loss 7.411818027496338
+avg reward (last 100): 80.99
+avg total reward (last 100): 206.95
+max (last 100): 541.0
+ - - - - - - - 
+nupdates 697000
+total_timesteps 55760000
+fps 717
+policy_entropy 0.44058507680892944
+value_loss 0.12354981899261475
+avg reward (last 100): 77.64
+avg total reward (last 100): 232.05
+max (last 100): 557.0
+ - - - - - - - 
+nupdates 698000
+total_timesteps 55840000
+fps 717
+policy_entropy 0.4930363595485687
+value_loss 1.9889593124389648
+avg reward (last 100): 67.76
+avg total reward (last 100): 213.98
+max (last 100): 557.0
+ - - - - - - - 
+nupdates 699000
+total_timesteps 55920000
+fps 717
+policy_entropy 0.4713743329048157
+value_loss 0.25414758920669556
+avg reward (last 100): 67.47
+avg total reward (last 100): 192.01
+max (last 100): 531.0
+ - - - - - - - 
+nupdates 700000
+total_timesteps 56000000
+fps 717
+policy_entropy 0.3573850095272064
+value_loss 0.44129282236099243
+avg reward (last 100): 72.43
+avg total reward (last 100): 181.13
+max (last 100): 491.0
+ - - - - - - - 
+nupdates 701000
+total_timesteps 56080000
+fps 718
+policy_entropy 0.4306344985961914
+value_loss 0.32134631276130676
+avg reward (last 100): 79.99
+avg total reward (last 100): 203.46
+max (last 100): 566.0
+ - - - - - - - 
+nupdates 702000
+total_timesteps 56160000
+fps 718
+policy_entropy 0.41439080238342285
+value_loss 0.30413657426834106
+avg reward (last 100): 61.61
+avg total reward (last 100): 182.77
+max (last 100): 498.0
+ - - - - - - - 
+nupdates 703000
+total_timesteps 56240000
+fps 718
+policy_entropy 0.5443159341812134
+value_loss 1.9172509908676147
+avg reward (last 100): 60.27
+avg total reward (last 100): 168.06
+max (last 100): 449.0
+ - - - - - - - 
+nupdates 704000
+total_timesteps 56320000
+fps 718
+policy_entropy 0.3969484567642212
+value_loss 0.2812535762786865
+avg reward (last 100): 60.39
+avg total reward (last 100): 180.92
+max (last 100): 539.0
+ - - - - - - - 
+nupdates 705000
+total_timesteps 56400000
+fps 718
+policy_entropy 0.37400686740875244
+value_loss 0.18088744580745697
+avg reward (last 100): 60.67
+avg total reward (last 100): 197.99
+max (last 100): 503.0
+ - - - - - - - 
+nupdates 706000
+total_timesteps 56480000
+fps 718
+policy_entropy 0.4216236174106598
+value_loss 0.3270459473133087
+avg reward (last 100): 67.55
+avg total reward (last 100): 180.16
+max (last 100): 538.0
+ - - - - - - - 
+nupdates 707000
+total_timesteps 56560000
+fps 718
+policy_entropy 0.33476561307907104
+value_loss 0.2625228762626648
+avg reward (last 100): 67.1
+avg total reward (last 100): 199.93
+max (last 100): 509.0
+ - - - - - - - 
+nupdates 708000
+total_timesteps 56640000
+fps 718
+policy_entropy 0.2975929379463196
+value_loss 0.1124330535531044
+avg reward (last 100): 68.43
+avg total reward (last 100): 199.02
+max (last 100): 562.0
+ - - - - - - - 
+nupdates 709000
+total_timesteps 56720000
+fps 718
+policy_entropy 0.3850361108779907
+value_loss 0.2568310797214508
+avg reward (last 100): 74.55
+avg total reward (last 100): 201.42
+max (last 100): 562.0
+ - - - - - - - 
+nupdates 710000
+total_timesteps 56800000
+fps 718
+policy_entropy 0.5083505511283875
+value_loss 0.18953946232795715
+avg reward (last 100): 76.89
+avg total reward (last 100): 205.23
+max (last 100): 548.0
+ - - - - - - - 
+nupdates 711000
+total_timesteps 56880000
+fps 718
+policy_entropy 0.46382102370262146
+value_loss 0.32337498664855957
+avg reward (last 100): 76.04
+avg total reward (last 100): 214.41
+max (last 100): 548.0
+ - - - - - - - 
+nupdates 712000
+total_timesteps 56960000
+fps 718
+policy_entropy 0.30178725719451904
+value_loss 0.18112310767173767
+avg reward (last 100): 86.96
+avg total reward (last 100): 227.36
+max (last 100): 566.0
+ - - - - - - - 
+nupdates 713000
+total_timesteps 57040000
+fps 718
+policy_entropy 0.3580675721168518
+value_loss 0.10876230895519257
+avg reward (last 100): 63.44
+avg total reward (last 100): 201.09
+max (last 100): 566.0
+ - - - - - - - 
+nupdates 714000
+total_timesteps 57120000
+fps 718
+policy_entropy 0.4692005515098572
+value_loss 0.43197765946388245
+avg reward (last 100): 61.47
+avg total reward (last 100): 190.24
+max (last 100): 538.0
+ - - - - - - - 
+nupdates 715000
+total_timesteps 57200000
+fps 718
+policy_entropy 0.4633655548095703
+value_loss 14.427594184875488
+avg reward (last 100): 66.45
+avg total reward (last 100): 192.58
+max (last 100): 503.0
+ - - - - - - - 
+nupdates 716000
+total_timesteps 57280000
+fps 718
+policy_entropy 0.35885366797447205
+value_loss 0.15760844945907593
+avg reward (last 100): 73.8
+avg total reward (last 100): 216.72
+max (last 100): 559.0
+ - - - - - - - 
+nupdates 717000
+total_timesteps 57360000
+fps 718
+policy_entropy 0.35730719566345215
+value_loss 0.21150612831115723
+avg reward (last 100): 76.86
+avg total reward (last 100): 197.81
+max (last 100): 546.0
+ - - - - - - - 
+nupdates 718000
+total_timesteps 57440000
+fps 718
+policy_entropy 0.34699007868766785
+value_loss 0.13881751894950867
+avg reward (last 100): 68.18
+avg total reward (last 100): 209.28
+max (last 100): 562.0
+ - - - - - - - 
+nupdates 719000
+total_timesteps 57520000
+fps 718
+policy_entropy 0.2947297692298889
+value_loss 0.2710960805416107
+avg reward (last 100): 72.95
+avg total reward (last 100): 199.9
+max (last 100): 562.0
+ - - - - - - - 
+nupdates 720000
+total_timesteps 57600000
+fps 718
+policy_entropy 0.373462975025177
+value_loss 0.18918485939502716
+avg reward (last 100): 84.64
+avg total reward (last 100): 223.8
+max (last 100): 541.0
+ - - - - - - - 
+nupdates 721000
+total_timesteps 57680000
+fps 718
+policy_entropy 0.4197917878627777
+value_loss 2.9120585918426514
+avg reward (last 100): 66.6
+avg total reward (last 100): 211.32
+max (last 100): 541.0
+ - - - - - - - 
+nupdates 722000
+total_timesteps 57760000
+fps 719
+policy_entropy 0.49984216690063477
+value_loss 3.4991989135742188
+avg reward (last 100): 76.88
+avg total reward (last 100): 205.3
+max (last 100): 537.0
+ - - - - - - - 
+nupdates 723000
+total_timesteps 57840000
+fps 719
+policy_entropy 0.5762996673583984
+value_loss 0.06703580170869827
+avg reward (last 100): 56.7
+avg total reward (last 100): 189.09
+max (last 100): 559.0
+ - - - - - - - 
+nupdates 724000
+total_timesteps 57920000
+fps 719
+policy_entropy 0.39778900146484375
+value_loss 0.15567274391651154
+avg reward (last 100): 64.29
+avg total reward (last 100): 183.92
+max (last 100): 573.0
+ - - - - - - - 
+nupdates 725000
+total_timesteps 58000000
+fps 719
+policy_entropy 0.38424527645111084
+value_loss 0.1665765941143036
+avg reward (last 100): 69.47
+avg total reward (last 100): 200.8
+max (last 100): 535.0
+ - - - - - - - 
+nupdates 726000
+total_timesteps 58080000
+fps 719
+policy_entropy 0.3519265353679657
+value_loss 2.423518657684326
+avg reward (last 100): 56.38
+avg total reward (last 100): 181.42
+max (last 100): 475.0
+ - - - - - - - 
+nupdates 727000
+total_timesteps 58160000
+fps 719
+policy_entropy 0.47272777557373047
+value_loss 8.107595443725586
+avg reward (last 100): 62.21
+avg total reward (last 100): 190.41
+max (last 100): 549.0
+ - - - - - - - 
+nupdates 728000
+total_timesteps 58240000
+fps 719
+policy_entropy 0.39930200576782227
+value_loss 0.44195470213890076
+avg reward (last 100): 66.19
+avg total reward (last 100): 197.89
+max (last 100): 549.0
+ - - - - - - - 
+nupdates 729000
+total_timesteps 58320000
+fps 719
+policy_entropy 0.32330673933029175
+value_loss 2.742233991622925
+avg reward (last 100): 63.64
+avg total reward (last 100): 182.67
+max (last 100): 444.0
+ - - - - - - - 
+nupdates 730000
+total_timesteps 58400000
+fps 719
+policy_entropy 0.38370922207832336
+value_loss 0.21918876469135284
+avg reward (last 100): 71.49
+avg total reward (last 100): 181.93
+max (last 100): 525.0
+ - - - - - - - 
+nupdates 731000
+total_timesteps 58480000
+fps 719
+policy_entropy 0.4245990812778473
+value_loss 0.264659583568573
+avg reward (last 100): 74.37
+avg total reward (last 100): 208.55
+max (last 100): 557.0
+ - - - - - - - 
+nupdates 732000
+total_timesteps 58560000
+fps 719
+policy_entropy 0.35995858907699585
+value_loss 0.1521889865398407
+avg reward (last 100): 68.14
+avg total reward (last 100): 152.8
+max (last 100): 575.0
+ - - - - - - - 
+nupdates 733000
+total_timesteps 58640000
+fps 719
+policy_entropy 0.6275088787078857
+value_loss 1.4541693925857544
+avg reward (last 100): 65.88
+avg total reward (last 100): 196.8
+max (last 100): 563.0
+ - - - - - - - 
+nupdates 734000
+total_timesteps 58720000
+fps 719
+policy_entropy 0.4500617980957031
+value_loss 11.098947525024414
+avg reward (last 100): 73.43
+avg total reward (last 100): 203.66
+max (last 100): 568.0
+ - - - - - - - 
+nupdates 735000
+total_timesteps 58800000
+fps 719
+policy_entropy 0.5139737129211426
+value_loss 0.21425767242908478
+avg reward (last 100): 82.58
+avg total reward (last 100): 211.51
+max (last 100): 558.0
+ - - - - - - - 
+nupdates 736000
+total_timesteps 58880000
+fps 719
+policy_entropy 0.35943666100502014
+value_loss 0.1064847931265831
+avg reward (last 100): 63.03
+avg total reward (last 100): 217.99
+max (last 100): 568.0
+ - - - - - - - 
+nupdates 737000
+total_timesteps 58960000
+fps 719
+policy_entropy 0.3343711495399475
+value_loss 0.1703309267759323
+avg reward (last 100): 58.98
+avg total reward (last 100): 169.11
+max (last 100): 564.0
+ - - - - - - - 
+nupdates 738000
+total_timesteps 59040000
+fps 719
+policy_entropy 0.6366723775863647
+value_loss 0.5959948301315308
+avg reward (last 100): 83.48
+avg total reward (last 100): 207.39
+max (last 100): 524.0
+ - - - - - - - 
+nupdates 739000
+total_timesteps 59120000
+fps 719
+policy_entropy 0.3455576002597809
+value_loss 0.26652073860168457
+avg reward (last 100): 74.94
+avg total reward (last 100): 213.35
+max (last 100): 498.0
+ - - - - - - - 
+nupdates 740000
+total_timesteps 59200000
+fps 719
+policy_entropy 0.3615020215511322
+value_loss 12.442914962768555
+avg reward (last 100): 74.75
+avg total reward (last 100): 202.94
+max (last 100): 498.0
+ - - - - - - - 
+nupdates 741000
+total_timesteps 59280000
+fps 719
+policy_entropy 0.32203754782676697
+value_loss 0.19770562648773193
+avg reward (last 100): 73.9
+avg total reward (last 100): 199.28
+max (last 100): 499.0
+ - - - - - - - 
+nupdates 742000
+total_timesteps 59360000
+fps 719
+policy_entropy 0.3481917679309845
+value_loss 0.17637966573238373
+avg reward (last 100): 90.41
+avg total reward (last 100): 222.77
+max (last 100): 581.0
+ - - - - - - - 
+nupdates 743000
+total_timesteps 59440000
+fps 719
+policy_entropy 0.28633803129196167
+value_loss 0.7288872599601746
+avg reward (last 100): 65.99
+avg total reward (last 100): 217.95
+max (last 100): 543.0
+ - - - - - - - 
+nupdates 744000
+total_timesteps 59520000
+fps 719
+policy_entropy 0.39279332756996155
+value_loss 0.3337852656841278
+avg reward (last 100): 62.98
+avg total reward (last 100): 200.86
+max (last 100): 523.0
+ - - - - - - - 
+nupdates 745000
+total_timesteps 59600000
+fps 719
+policy_entropy 0.26107457280158997
+value_loss 0.16416628658771515
+avg reward (last 100): 75.13
+avg total reward (last 100): 216.64
+max (last 100): 550.0
+ - - - - - - - 
+nupdates 746000
+total_timesteps 59680000
+fps 719
+policy_entropy 0.30118298530578613
+value_loss 0.6745149493217468
+avg reward (last 100): 74.56
+avg total reward (last 100): 238.85
+max (last 100): 550.0
+ - - - - - - - 
+nupdates 747000
+total_timesteps 59760000
+fps 719
+policy_entropy 0.2997313439846039
+value_loss 0.26954659819602966
+avg reward (last 100): 89.75
+avg total reward (last 100): 227.29
+max (last 100): 563.0
+ - - - - - - - 
+nupdates 748000
+total_timesteps 59840000
+fps 719
+policy_entropy 0.3724100589752197
+value_loss 0.1713957041501999
+avg reward (last 100): 71.3
+avg total reward (last 100): 228.14
+max (last 100): 547.0
+ - - - - - - - 
+nupdates 749000
+total_timesteps 59920000
+fps 719
+policy_entropy 0.3489614427089691
+value_loss 0.17908844351768494
+avg reward (last 100): 74.24
+avg total reward (last 100): 207.57
+max (last 100): 565.0
+ - - - - - - - 
+nupdates 750000
+total_timesteps 60000000
+fps 719
+policy_entropy 0.3523946702480316
+value_loss 0.25066354870796204
+avg reward (last 100): 75.02
+avg total reward (last 100): 213.41
+max (last 100): 566.0
+ - - - - - - - 
+nupdates 751000
+total_timesteps 60080000
+fps 719
+policy_entropy 0.3843347132205963
+value_loss 0.3276206851005554
+avg reward (last 100): 67.73
+avg total reward (last 100): 198.72
+max (last 100): 590.0
+ - - - - - - - 
+nupdates 752000
+total_timesteps 60160000
+fps 719
+policy_entropy 0.4096922278404236
+value_loss 0.144997239112854
+avg reward (last 100): 78.36
+avg total reward (last 100): 194.01
+max (last 100): 542.0
+ - - - - - - - 
+nupdates 753000
+total_timesteps 60240000
+fps 719
+policy_entropy 0.372316837310791
+value_loss 0.13658782839775085
+avg reward (last 100): 82.87
+avg total reward (last 100): 234.92
+max (last 100): 557.0
+ - - - - - - - 
+nupdates 754000
+total_timesteps 60320000
+fps 719
+policy_entropy 0.3099656403064728
+value_loss 0.2818586230278015
+avg reward (last 100): 84.87
+avg total reward (last 100): 227.29
+max (last 100): 563.0
+ - - - - - - - 
+nupdates 755000
+total_timesteps 60400000
+fps 719
+policy_entropy 0.4091300368309021
+value_loss 0.220005601644516
+avg reward (last 100): 76.98
+avg total reward (last 100): 233.77
+max (last 100): 563.0
+ - - - - - - - 
+nupdates 756000
+total_timesteps 60480000
+fps 719
+policy_entropy 0.5181938409805298
+value_loss 0.17554746568202972
+avg reward (last 100): 73.82
+avg total reward (last 100): 216.51
+max (last 100): 577.0
+ - - - - - - - 
+nupdates 757000
+total_timesteps 60560000
+fps 719
+policy_entropy 0.3961109220981598
+value_loss 0.08623894304037094
+avg reward (last 100): 75.83
+avg total reward (last 100): 222.76
+max (last 100): 577.0
+ - - - - - - - 
+nupdates 758000
+total_timesteps 60640000
+fps 719
+policy_entropy 0.43583744764328003
+value_loss 0.26532500982284546
+avg reward (last 100): 81.16
+avg total reward (last 100): 229.27
+max (last 100): 524.0
+ - - - - - - - 
+nupdates 759000
+total_timesteps 60720000
+fps 719
+policy_entropy 0.3228932023048401
+value_loss 0.18032363057136536
+avg reward (last 100): 79.47
+avg total reward (last 100): 221.54
+max (last 100): 539.0
+ - - - - - - - 
+nupdates 760000
+total_timesteps 60800000
+fps 719
+policy_entropy 0.4691755175590515
+value_loss 11.255586624145508
+avg reward (last 100): 73.87
+avg total reward (last 100): 220.85
+max (last 100): 567.0
+ - - - - - - - 
+nupdates 761000
+total_timesteps 60880000
+fps 719
+policy_entropy 0.4743148684501648
+value_loss 0.31727272272109985
+avg reward (last 100): 64.69
+avg total reward (last 100): 187.49
+max (last 100): 540.0
+ - - - - - - - 
+nupdates 762000
+total_timesteps 60960000
+fps 719
+policy_entropy 0.4192710816860199
+value_loss 0.10060473531484604
+avg reward (last 100): 79.03
+avg total reward (last 100): 189.84
+max (last 100): 572.0
+ - - - - - - - 
+nupdates 763000
+total_timesteps 61040000
+fps 719
+policy_entropy 0.29598936438560486
+value_loss 0.2807113230228424
+avg reward (last 100): 76.02
+avg total reward (last 100): 201.98
+max (last 100): 594.0
+ - - - - - - - 
+nupdates 764000
+total_timesteps 61120000
+fps 719
+policy_entropy 0.46094298362731934
+value_loss 0.1433672457933426
+avg reward (last 100): 82.37
+avg total reward (last 100): 215.99
+max (last 100): 550.0
+ - - - - - - - 
+nupdates 765000
+total_timesteps 61200000
+fps 719
+policy_entropy 0.3212011754512787
+value_loss 0.08672436326742172
+avg reward (last 100): 76.62
+avg total reward (last 100): 209.07
+max (last 100): 524.0
+ - - - - - - - 
+nupdates 766000
+total_timesteps 61280000
+fps 719
+policy_entropy 0.3429999351501465
+value_loss 0.631489098072052
+avg reward (last 100): 91.58
+avg total reward (last 100): 220.7
+max (last 100): 576.0
+ - - - - - - - 
+nupdates 767000
+total_timesteps 61360000
+fps 719
+policy_entropy 0.3106994926929474
+value_loss 7.774662017822266
+avg reward (last 100): 66.03
+avg total reward (last 100): 223.53
+max (last 100): 558.0
+ - - - - - - - 
+nupdates 768000
+total_timesteps 61440000
+fps 719
+policy_entropy 0.4558425843715668
+value_loss 0.17924505472183228
+avg reward (last 100): 75.72
+avg total reward (last 100): 211.35
+max (last 100): 538.0
+ - - - - - - - 
+nupdates 769000
+total_timesteps 61520000
+fps 719
+policy_entropy 0.3574705719947815
+value_loss 0.1693396419286728
+avg reward (last 100): 67.19
+avg total reward (last 100): 226.61
+max (last 100): 538.0
+ - - - - - - - 
+nupdates 770000
+total_timesteps 61600000
+fps 719
+policy_entropy 0.2573738694190979
+value_loss 8.559736251831055
+avg reward (last 100): 67.35
+avg total reward (last 100): 207.73
+max (last 100): 537.0
+ - - - - - - - 
+nupdates 771000
+total_timesteps 61680000
+fps 719
+policy_entropy 0.3375917971134186
+value_loss 0.250342458486557
+avg reward (last 100): 88.25
+avg total reward (last 100): 222.13
+max (last 100): 573.0
+ - - - - - - - 
+nupdates 772000
+total_timesteps 61760000
+fps 719
+policy_entropy 0.33968061208724976
+value_loss 0.434373140335083
+avg reward (last 100): 75.35
+avg total reward (last 100): 228.96
+max (last 100): 578.0
+ - - - - - - - 
+nupdates 773000
+total_timesteps 61840000
+fps 719
+policy_entropy 0.34669166803359985
+value_loss 0.22830148041248322
+avg reward (last 100): 72.2
+avg total reward (last 100): 220.45
+max (last 100): 576.0
+ - - - - - - - 
+nupdates 774000
+total_timesteps 61920000
+fps 719
+policy_entropy 0.30419743061065674
+value_loss 0.19553951919078827
+avg reward (last 100): 91.89
+avg total reward (last 100): 212.6
+max (last 100): 568.0
+ - - - - - - - 
+nupdates 775000
+total_timesteps 62000000
+fps 719
+policy_entropy 0.2768366038799286
+value_loss 0.15973976254463196
+avg reward (last 100): 78.36
+avg total reward (last 100): 238.12
+max (last 100): 568.0
+ - - - - - - - 
+nupdates 776000
+total_timesteps 62080000
+fps 720
+policy_entropy 0.45522600412368774
+value_loss 0.46943730115890503
+avg reward (last 100): 61.35
+avg total reward (last 100): 181.14
+max (last 100): 537.0
+ - - - - - - - 
+nupdates 777000
+total_timesteps 62160000
+fps 720
+policy_entropy 0.402202308177948
+value_loss 0.14028412103652954
+avg reward (last 100): 83.67
+avg total reward (last 100): 200.99
+max (last 100): 589.0
+ - - - - - - - 
+nupdates 778000
+total_timesteps 62240000
+fps 720
+policy_entropy 0.3123144507408142
+value_loss 0.15287718176841736
+avg reward (last 100): 90.75
+avg total reward (last 100): 233.48
+max (last 100): 589.0
+ - - - - - - - 
+nupdates 779000
+total_timesteps 62320000
+fps 720
+policy_entropy 0.39652207493782043
+value_loss 2.469637870788574
+avg reward (last 100): 77.35
+avg total reward (last 100): 227.62
+max (last 100): 571.0
+ - - - - - - - 
+nupdates 780000
+total_timesteps 62400000
+fps 720
+policy_entropy 0.31492018699645996
+value_loss 0.18591515719890594
+avg reward (last 100): 66.78
+avg total reward (last 100): 206.66
+max (last 100): 499.0
+ - - - - - - - 
+nupdates 781000
+total_timesteps 62480000
+fps 720
+policy_entropy 0.37170347571372986
+value_loss 0.1212618499994278
+avg reward (last 100): 83.82
+avg total reward (last 100): 216.82
+max (last 100): 540.0
+ - - - - - - - 
+nupdates 782000
+total_timesteps 62560000
+fps 720
+policy_entropy 0.28261739015579224
+value_loss 4.574397087097168
+avg reward (last 100): 92.42
+avg total reward (last 100): 235.68
+max (last 100): 552.0
+ - - - - - - - 
+nupdates 783000
+total_timesteps 62640000
+fps 720
+policy_entropy 0.3847915232181549
+value_loss 5.690842628479004
+avg reward (last 100): 80.6
+avg total reward (last 100): 223.37
+max (last 100): 570.0
+ - - - - - - - 
+nupdates 784000
+total_timesteps 62720000
+fps 720
+policy_entropy 0.45030131936073303
+value_loss 0.23641905188560486
+avg reward (last 100): 65.81
+avg total reward (last 100): 209.74
+max (last 100): 570.0
+ - - - - - - - 
+nupdates 785000
+total_timesteps 62800000
+fps 720
+policy_entropy 0.28181222081184387
+value_loss 0.45569276809692383
+avg reward (last 100): 74.01
+avg total reward (last 100): 207.31
+max (last 100): 556.0
+ - - - - - - - 
+nupdates 786000
+total_timesteps 62880000
+fps 720
+policy_entropy 0.29774942994117737
+value_loss 0.1081048846244812
+avg reward (last 100): 64.46
+avg total reward (last 100): 212.36
+max (last 100): 534.0
