@@ -23,6 +23,13 @@ def find_trainable_variables(key):
         return tf.trainable_variables()
 
 
+#Calculate N-steps return 
+# [::-1] just treverses the list
+
+#if (done):
+#  reward 
+# else:
+#   reward =reward + gamma*V(s')
 def discount_with_dones(rewards, dones, gamma):
     discounted = []
     r = 0
@@ -43,20 +50,32 @@ class Agent:
         sess = tf.Session(config=config)
         nbatch = nenvs * nsteps
 
-        A = tf.placeholder(tf.int32, [nbatch])
-        ADV = tf.placeholder(tf.float32, [nbatch])
-        R = tf.placeholder(tf.float32, [nbatch])
-        LR = tf.placeholder(tf.float32, [])
-
-        step_model = Network(sess, ob_space, ac_space, nenvs, 1, nstack, reuse=False)
-        train_model = Network(sess, ob_space, ac_space, nenvs, nsteps, nstack, reuse=True)
+        A = tf.placeholder(tf.int32, [nbatch])  #Action
+        ADV = tf.placeholder(tf.float32, [nbatch]) #Advantage
+        R = tf.placeholder(tf.float32, [nbatch])  # Return 
+        LR = tf.placeholder(tf.float32, [])       #Learning rate can be removed
+        
+        #Observe that in the step model we have nsteps =1 and reuse =False
+        step_model = Network(sess, ob_space, ac_space, nenvs, 1, nstack, reuse=False) 
+        #Observe that in the train_model we have nsteps = nsteps and reuse =True
+        #When we are training then we use the we have to collect the data from all the enviroment so that why we run nsteps time
+        train_model = Network(sess, ob_space, ac_space, nenvs, nsteps, nstack, reuse=True) 
+        
+        #tf.nn.sparse_softmax_cross_entropy_with_logits
+        # if T is one hot encoded (e.g [0,1,0,0])
+        # then: -sum(T*log(Y))
+        # if T is an index
+        #  -logY[i]
+        # We want -log pi[action]
 
         neglogpac = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=train_model.pi, labels=A)
-        pg_loss = tf.reduce_mean(ADV * neglogpac)
-        vf_loss = tf.reduce_mean(tf.squared_difference(tf.squeeze(train_model.vf), R) / 2.0)
-        entropy = tf.reduce_mean(cat_entropy(train_model.pi))
+        pg_loss = tf.reduce_mean(ADV * neglogpac)  #We get policy gradient loss
+        vf_loss = tf.reduce_mean(tf.squared_difference(tf.squeeze(train_model.vf), R) / 2.0) #Divide by 2
+        entropy = tf.reduce_mean(cat_entropy(train_model.pi)) #Entropy loss is used for exploration
         loss = pg_loss - entropy * ent_coef + vf_loss * vf_coef
 
+        #Not a regular optimizer
+        # Find the gradient and norm of it ...clip it to 0.5
         params = find_trainable_variables("model")
         grads = tf.gradients(loss, params)
         if max_grad_norm is not None:
@@ -65,6 +84,7 @@ class Agent:
         trainer = tf.train.RMSPropOptimizer(learning_rate=LR, decay=alpha, epsilon=epsilon)
         _train = trainer.apply_gradients(grads_and_params)
 
+        
         def train(states, rewards, actions, values):
             advs = rewards - values
             feed_dict = {train_model.X: states, A: actions, ADV: advs, R: rewards, LR: lr}
@@ -94,6 +114,8 @@ class Agent:
         self.load = load
         tf.global_variables_initializer().run(session=sess)
 
+#The agent is responsible for taking each step in the enviroment.
+#The runner is responsible for looping over the steps and accumulating the datameans that state, action, rewards and done flag.
 
 class Runner:
     def __init__(self, env, agent, nsteps=5, nstack=4, gamma=0.99):
@@ -114,11 +136,12 @@ class Runner:
 
     def update_state(self, obs):
         # Do frame-stacking here instead of the FrameStack wrapper to reduce IPC overhead
-        self.state = np.roll(self.state, shift=-self.nc, axis=3)
+        self.state = np.roll(self.state, shift=-self.nc, axis=3) #We shift the existing observation and add the new state at the end
         self.state[:, :, :, -self.nc:] = obs
 
     def run(self):
         mb_states, mb_rewards, mb_actions, mb_values, mb_dones = [], [], [], [], []
+        
         for n in range(self.nsteps):
             actions, values = self.agent.step(self.state)
             mb_states.append(np.copy(self.state))
@@ -177,8 +200,10 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
                   ent_coef=ent_coef, vf_coef=vf_coef,
                   max_grad_norm=max_grad_norm,
                   lr=lr, alpha=alpha, epsilon=epsilon, total_timesteps=total_timesteps)
+    """
     if os.path.exists(save_name):
         agent.load(save_name)
+    """
     
 
     #run 5 step of the enviroment for each worker in parallel,collect data and pass it to the Agent for training
@@ -195,6 +220,7 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
         nseconds = time.time() - tstart
         fps = int((update * nbatch) / nseconds)
         if update % log_interval == 0 or update == 1:
+            print("No_of_times_loop_run",total_timesteps // nbatch)
             print(' - - - - - - - ')
             print("nupdates", update)
             print("total_timesteps", update * nbatch)
