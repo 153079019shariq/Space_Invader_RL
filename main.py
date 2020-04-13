@@ -21,7 +21,7 @@ def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-e', '--env', help='environment ID', default='SpaceInvaders-v0')
     parser.add_argument('-s', '--steps', help='training steps', type=int, default=int(80e6))
-    parser.add_argument('--nenv', help='No. of environments', type=int, default=16)
+    parser.add_argument('--nenv', help='No. of environments', type=int, default=24)
     return parser.parse_args()
 
 
@@ -39,6 +39,7 @@ def train(env_id, num_timesteps, num_cpu):
         return _thunk
 
     env = SubprocVecEnv([make_env(i) for i in range(num_cpu)])
+    print("##########################No_of_enviroments###############",env)
     learn(CNN, env, SEED, total_timesteps=int(num_timesteps * 1.1))
     env.close()
     pass

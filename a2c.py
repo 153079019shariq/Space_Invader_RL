@@ -3,8 +3,9 @@ import joblib
 import numpy as np
 import tensorflow as tf
 import os
+import time
 
-
+start_time = time.time()
 def set_global_seeds(i):
     tf.set_random_seed(i)
     np.random.seed(i)
@@ -60,7 +61,7 @@ class Agent:
         #Observe that in the train_model we have nsteps = nsteps and reuse =True
         #When we are training then we use the we have to collect the data from all the enviroment so that why we run nsteps time
         train_model = Network(sess, ob_space, ac_space, nenvs, nsteps, nstack, reuse=True) 
-        
+        print("Dictionory_of_train",train_model.__dict__) 
         #tf.nn.sparse_softmax_cross_entropy_with_logits
         # if T is one hot encoded (e.g [0,1,0,0])
         # then: -sum(T*log(Y))
@@ -85,9 +86,10 @@ class Agent:
         _train = trainer.apply_gradients(grads_and_params)
 
         
-        def train(states, rewards, actions, values):
+        def train(states,lstm_states, rewards, masks,actions, values):
             advs = rewards - values
-            feed_dict = {train_model.X: states, A: actions, ADV: advs, R: rewards, LR: lr}
+            feed_dict = {train_model.X: states, A: actions, ADV: advs, R: rewards, LR: lr, train_model.S:lstm_states,train_model.M:masks}
+
             policy_loss, value_loss, policy_entropy, _ = sess.run(
                 [pg_loss, vf_loss, entropy, _train],
                 feed_dict
@@ -105,6 +107,7 @@ class Agent:
                 restores.append(p.assign(loaded_p))
             ps = sess.run(restores)
 
+        self.initial_state = step_model.initial_state
         self.train = train
         self.train_model = train_model
         self.step_model = step_model
@@ -133,7 +136,7 @@ class Runner:
         self.dones = [False for _ in range(nenv)]
         self.total_rewards = [] # store all workers' total rewards
         self.real_total_rewards = []
-
+        self.lstm_states = self.agent.initial_state
     def update_state(self, obs):
         # Do frame-stacking here instead of the FrameStack wrapper to reduce IPC overhead
         self.state = np.roll(self.state, shift=-self.nc, axis=3) #We shift the existing observation and add the new state at the end
@@ -141,9 +144,9 @@ class Runner:
 
     def run(self):
         mb_states, mb_rewards, mb_actions, mb_values, mb_dones = [], [], [], [], []
-        
+        mb_lstm_states =  self.lstm_states
         for n in range(self.nsteps):
-            actions, values = self.agent.step(self.state)
+            actions, values,lstm_states = self.agent.step(self.state,S_=self.lstm_states,M_=self.dones)
             mb_states.append(np.copy(self.state))
             mb_actions.append(actions)
             mb_values.append(values)
@@ -154,6 +157,7 @@ class Runner:
                     self.total_rewards.append(info['reward'])
                     if info['total_reward'] != -1:
                         self.real_total_rewards.append(info['total_reward'])
+            self.lstm_states= lstm_states
             self.dones = dones
             for n, done in enumerate(dones):
                 if done:
@@ -167,8 +171,9 @@ class Runner:
         mb_actions = np.asarray(mb_actions, dtype=np.int32).swapaxes(1, 0)
         mb_values = np.asarray(mb_values, dtype=np.float32).swapaxes(1, 0)
         mb_dones = np.asarray(mb_dones, dtype=np.bool).swapaxes(1, 0)
+        mb_masks = mb_dones[:, :-1]
         mb_dones = mb_dones[:, 1:]
-        last_values = self.agent.value(self.state).tolist()
+        last_values = self.agent.value(self.state, S_=self.lstm_states, M_=self.dones).tolist()
         # discount/bootstrap off value fn
         for n, (rewards, dones, value) in enumerate(zip(mb_rewards, mb_dones, last_values)):
             rewards = rewards.tolist()
@@ -181,7 +186,8 @@ class Runner:
         mb_rewards = mb_rewards.flatten()
         mb_actions = mb_actions.flatten()
         mb_values = mb_values.flatten()
-        return mb_states, mb_rewards, mb_actions, mb_values
+        mb_masks = mb_masks.flatten()
+        return mb_states,mb_lstm_states, mb_rewards,mb_masks,mb_actions, mb_values
 
 
 def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_timesteps=int(80e6),
@@ -192,7 +198,7 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
 
     nenvs = env.num_envs
     env_id = env.env_id
-    save_name = os.path.join('models', env_id + '.save')
+    save_name = os.path.join('models', "Space_inv_A2C_LSTM_{}".format(start_time))
     ob_space = env.observation_space
     ac_space = env.action_space
     agent = Agent(Network=network, ob_space=ob_space, ac_space=ac_space, nenvs=nenvs,
@@ -200,10 +206,10 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
                   ent_coef=ent_coef, vf_coef=vf_coef,
                   max_grad_norm=max_grad_norm,
                   lr=lr, alpha=alpha, epsilon=epsilon, total_timesteps=total_timesteps)
-    """
-    if os.path.exists(save_name):
-        agent.load(save_name)
-    """
+    
+    if os.path.exists("models/Space_inv_A2C_LSTM_MAX_avg_rew_145"):
+        agent.load("models/Space_inv_A2C_LSTM_MAX_avg_rew_145")
+        print("Loaded_the_model")
     
 
     #run 5 step of the enviroment for each worker in parallel,collect data and pass it to the Agent for training
@@ -213,21 +219,24 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
     nbatch = nenvs * nsteps
     tstart = time.time()
     # In the loop we call the runner function  and train the agent 
+    max_rew = -999
     for update in range(1, total_timesteps // nbatch + 1):
-        states, rewards, actions, values = runner.run()
-        policy_loss, value_loss, policy_entropy = agent.train(
-            states, rewards, actions, values)
+        #states, rewards, actions, values = runner.run()
+        obs, lstm_states, rewards, masks, actions, values = runner.run()
+
+        
+        policy_loss, value_loss, policy_entropy = agent.train(obs, lstm_states,rewards,masks,actions, values)
         nseconds = time.time() - tstart
         fps = int((update * nbatch) / nseconds)
         if update % log_interval == 0 or update == 1:
             print("No_of_times_loop_run",total_timesteps // nbatch)
             print(' - - - - - - - ')
             print("nupdates", update)
-            print("total_timesteps", update * nbatch)
+            print("current_timesteps", update  )
             print("fps", fps)
             print("policy_entropy", float(policy_entropy))
             print("value_loss", float(value_loss))
-
+            print("total_no",total_timesteps // nbatch + 1)
             # total reward
             r = runner.total_rewards[-100:] # get last 100
             tr = runner.real_total_rewards[-100:]
@@ -236,8 +245,13 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
             if len(tr) == 100:
                 print("avg total reward (last 100):", np.mean(tr))
                 print("max (last 100):", np.max(tr))
-
+                if(max_rew < np.mean(tr)):
+                   savepath = os.path.join("models", "Space_inv_A2C_LSTM_MAX_{}".format(start_time))
+                   agent.save(savepath)
+                   max_rew  = np.mean(tr)
+                   print("Saved_the_max_model") 
             agent.save(save_name)
+            print("Saved_the_model")
 
     env.close()
     agent.save(save_name)

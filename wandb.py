@@ -96,6 +96,7 @@ def evaluate(episodic_reward, reset=False):
 
 
 
+
 def main():
 
 
@@ -115,7 +116,8 @@ def main():
     state_size = env.observation_space.shape[0]
     action_size = env.action_space.n
     agent = get_agent(env)
-    save_path = os.path.join('models', 'SpaceInvaders-v0_115_avg_reward.save')
+    save_path = os.path.join('models', "Space_inv_A2C_LSTM_MAX_avg_rew_145")
+    lstm_state = np.zeros((1,256),dtype=np.float32)
     agent.load(save_path)
  
     print("Actions available(%d): %r"%(env.action_space.n, env.env.get_action_meanings()))
@@ -133,10 +135,12 @@ def main():
       count   = 0
       action_count = 0
       done = False
+      done1 = np.array([int(done)])
       while not done:
           obs = np.expand_dims(obs.__array__(), axis=0)
-          a, v = agent.step(obs)
+          a, v,lstm_state = agent.step(obs,S_=lstm_state,M_=done1)
           obs, reward, done, info = env.step(a)
+          done1 = np.array([int(done)])
           #env.render()
           #if(count==0):
             #print("OBSERVATION",obs.as)
