@@ -1,1170 +1,1403 @@
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-  np_resource = np.dtype([("resource", np.ubyte, 1)])
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-  np_resource = np.dtype([("resource", np.ubyte, 1)])
 WARNING:tensorflow:From wandb.py:31: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
 
 Seed:  10
 Enviroment_id SpaceInvaders-v0
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
   warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
-WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:41: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_trial/a2c.py:49: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
 
-WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:44: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_trial/a2c.py:52: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
 
-2020-04-01 19:58:02.752817: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2020-04-01 19:58:02.760340: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
-2020-04-01 19:58:02.898359: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ebc3105610 executing computations on platform CUDA. Devices:
-2020-04-01 19:58:02.898437: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
-2020-04-01 19:58:02.920307: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3493035000 Hz
-2020-04-01 19:58:02.924880: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ebc31dc110 executing computations on platform Host. Devices:
-2020-04-01 19:58:02.925024: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
-2020-04-01 19:58:02.927421: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+2020-04-13 07:33:20.554720: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-13 07:33:20.559214: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-04-13 07:33:20.649662: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564d630b7da0 executing computations on platform CUDA. Devices:
+2020-04-13 07:33:20.649715: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+2020-04-13 07:33:20.671228: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3493075000 Hz
+2020-04-13 07:33:20.672640: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564d6318ea10 executing computations on platform Host. Devices:
+2020-04-13 07:33:20.672669: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-13 07:33:20.674101: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
 name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
 pciBusID: 0000:41:00.0
-2020-04-01 19:58:02.927954: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
-2020-04-01 19:58:02.931695: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
-2020-04-01 19:58:02.933710: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
-2020-04-01 19:58:02.934246: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
-2020-04-01 19:58:02.936426: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
-2020-04-01 19:58:02.937801: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
-2020-04-01 19:58:02.937978: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
-2020-04-01 19:58:02.938006: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
-2020-04-01 19:58:02.938107: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
-2020-04-01 19:58:02.938159: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
-2020-04-01 19:58:02.938220: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
-WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:47: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+2020-04-13 07:33:20.674545: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-13 07:33:20.675808: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-13 07:33:20.676903: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-13 07:33:20.677187: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-13 07:33:20.678627: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-13 07:33:20.679840: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-13 07:33:20.683476: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-04-13 07:33:20.685223: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-04-13 07:33:20.685257: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-13 07:33:20.686276: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-13 07:33:20.686289: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-13 07:33:20.686294: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-13 07:33:20.688175: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7945 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_trial/a2c.py:55: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
-WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/neural_network.py:31: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_trial/neural_network.py:126: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
 
-WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/neural_network.py:14: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_trial/neural_network.py:14: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
 Instructions for updating:
 Use `tf.keras.layers.Conv2D` instead.
-WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/neural_network.py:35: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3be013cc18>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3be013cc18>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3be013cc18>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3be013cc18>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3be013cc18>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3be013cc18>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_trial/neural_network.py:130: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
 Instructions for updating:
 Use keras.layers.flatten instead.
-WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/neural_network.py:19: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3be013ccf8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3be013ccf8>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_trial/neural_network.py:19: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
 Instructions for updating:
 Use keras.layers.dense instead.
-WARNING:tensorflow:From /home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:286: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3ca5518f28>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3ca5518f28>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc8446358>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc8446358>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc8446358>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc8446358>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc84e1208>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc84e1208>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc844e780>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc844e780>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc844e780>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc844e780>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc844e6d8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc844e6d8>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc844eac8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc844eac8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc83b9828>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc83b9828>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc83b9828>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc83b9828>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f3bc8370048>, 'value': <function CNN.__init__.<locals>.value at 0x7f3bc83700d0>}
+WARNING:tensorflow:From /home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:286: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
 Instructions for updating:
 Use tf.where in 2.0, which has the same broadcast rule as np.where
-WARNING:tensorflow:From /home/shariq/Desktop/a2c_replica/a2c.py:66: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_trial/a2c.py:86: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
 
-WARNING:tensorflow:From /home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/tensorflow/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+WARNING:tensorflow:From /home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/tensorflow/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
 Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
-2020-04-01 19:58:04.420631: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
-{'reward': -1, 'episode_length': -1, 'total_reward': 1635.0, 'total_episode_length': 472}
+2020-04-13 07:33:23.292362: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-13 07:33:23.472894: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+{'reward': -1, 'episode_length': -1, 'total_reward': 2505.0, 'total_episode_length': 767}
 Episode: 1
-{'reward': -1, 'episode_length': -1, 'total_reward': 2250.0, 'total_episode_length': 873}
+{'reward': -1, 'episode_length': -1, 'total_reward': 9270.0, 'total_episode_length': 2151}
 Episode: 2
-{'reward': -1, 'episode_length': -1, 'total_reward': 845.0, 'total_episode_length': 419}
+{'reward': -1, 'episode_length': -1, 'total_reward': 12300.0, 'total_episode_length': 2498}
 Episode: 3
-{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 537}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2690.0, 'total_episode_length': 778}
 Episode: 4
-{'reward': -1, 'episode_length': -1, 'total_reward': 1955.0, 'total_episode_length': 805}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2855.0, 'total_episode_length': 819}
 Episode: 5
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 265}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1315.0, 'total_episode_length': 478}
 Episode: 6
-{'reward': -1, 'episode_length': -1, 'total_reward': 1865.0, 'total_episode_length': 732}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3210.0, 'total_episode_length': 927}
 Episode: 7
-{'reward': -1, 'episode_length': -1, 'total_reward': 2090.0, 'total_episode_length': 657}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2970.0, 'total_episode_length': 867}
 Episode: 8
-{'reward': -1, 'episode_length': -1, 'total_reward': 2260.0, 'total_episode_length': 774}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2765.0, 'total_episode_length': 792}
 Episode: 9
-{'reward': -1, 'episode_length': -1, 'total_reward': 2165.0, 'total_episode_length': 850}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5245.0, 'total_episode_length': 1359}
 Episode: 10
-{'reward': -1, 'episode_length': -1, 'total_reward': 2265.0, 'total_episode_length': 897}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7505.0, 'total_episode_length': 1760}
 Episode: 11
-{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 528}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7900.0, 'total_episode_length': 1840}
 Episode: 12
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 513}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7025.0, 'total_episode_length': 1649}
 Episode: 13
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 522}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1585.0, 'total_episode_length': 516}
 Episode: 14
-{'reward': -1, 'episode_length': -1, 'total_reward': 1430.0, 'total_episode_length': 536}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10880.0, 'total_episode_length': 2491}
 Episode: 15
-{'reward': -1, 'episode_length': -1, 'total_reward': 2460.0, 'total_episode_length': 894}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4135.0, 'total_episode_length': 1036}
 Episode: 16
-{'reward': -1, 'episode_length': -1, 'total_reward': 2090.0, 'total_episode_length': 707}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8620.0, 'total_episode_length': 2000}
 Episode: 17
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 529}
+{'reward': -1, 'episode_length': -1, 'total_reward': 12275.0, 'total_episode_length': 2492}
 Episode: 18
-{'reward': -1, 'episode_length': -1, 'total_reward': 2745.0, 'total_episode_length': 1004}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1935.0, 'total_episode_length': 634}
 Episode: 19
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 250}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8790.0, 'total_episode_length': 2038}
 Episode: 20
-{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 255}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7910.0, 'total_episode_length': 1758}
 Episode: 21
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 305}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7145.0, 'total_episode_length': 1722}
 Episode: 22
-{'reward': -1, 'episode_length': -1, 'total_reward': 545.0, 'total_episode_length': 218}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4135.0, 'total_episode_length': 1137}
 Episode: 23
-{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 511}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8710.0, 'total_episode_length': 1903}
 Episode: 24
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 512}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1665.0, 'total_episode_length': 546}
 Episode: 25
-{'reward': -1, 'episode_length': -1, 'total_reward': 520.0, 'total_episode_length': 340}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2275.0, 'total_episode_length': 685}
 Episode: 26
-{'reward': -1, 'episode_length': -1, 'total_reward': 3320.0, 'total_episode_length': 1150}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7610.0, 'total_episode_length': 1696}
 Episode: 27
-{'reward': -1, 'episode_length': -1, 'total_reward': 1600.0, 'total_episode_length': 696}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2990.0, 'total_episode_length': 852}
 Episode: 28
-{'reward': -1, 'episode_length': -1, 'total_reward': 1720.0, 'total_episode_length': 719}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10975.0, 'total_episode_length': 2496}
 Episode: 29
-{'reward': -1, 'episode_length': -1, 'total_reward': 2490.0, 'total_episode_length': 1014}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11160.0, 'total_episode_length': 2496}
 Episode: 30
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 288}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5455.0, 'total_episode_length': 1326}
 Episode: 31
-{'reward': -1, 'episode_length': -1, 'total_reward': 2660.0, 'total_episode_length': 1016}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8380.0, 'total_episode_length': 1957}
 Episode: 32
-{'reward': -1, 'episode_length': -1, 'total_reward': 3445.0, 'total_episode_length': 1242}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6680.0, 'total_episode_length': 1482}
 Episode: 33
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 521}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11545.0, 'total_episode_length': 2493}
 Episode: 34
-{'reward': -1, 'episode_length': -1, 'total_reward': 630.0, 'total_episode_length': 326}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4300.0, 'total_episode_length': 1119}
 Episode: 35
-{'reward': -1, 'episode_length': -1, 'total_reward': 3265.0, 'total_episode_length': 1175}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8990.0, 'total_episode_length': 2019}
 Episode: 36
-{'reward': -1, 'episode_length': -1, 'total_reward': 1120.0, 'total_episode_length': 453}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11375.0, 'total_episode_length': 2496}
 Episode: 37
-{'reward': -1, 'episode_length': -1, 'total_reward': 2495.0, 'total_episode_length': 998}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5435.0, 'total_episode_length': 1296}
 Episode: 38
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 454}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10635.0, 'total_episode_length': 2312}
 Episode: 39
-{'reward': -1, 'episode_length': -1, 'total_reward': 1685.0, 'total_episode_length': 671}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11340.0, 'total_episode_length': 2494}
 Episode: 40
-{'reward': -1, 'episode_length': -1, 'total_reward': 980.0, 'total_episode_length': 231}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6530.0, 'total_episode_length': 1510}
 Episode: 41
-{'reward': -1, 'episode_length': -1, 'total_reward': 610.0, 'total_episode_length': 302}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5255.0, 'total_episode_length': 1317}
 Episode: 42
-{'reward': -1, 'episode_length': -1, 'total_reward': 2270.0, 'total_episode_length': 796}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8605.0, 'total_episode_length': 1881}
 Episode: 43
-{'reward': -1, 'episode_length': -1, 'total_reward': 2630.0, 'total_episode_length': 978}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7285.0, 'total_episode_length': 1690}
 Episode: 44
-{'reward': -1, 'episode_length': -1, 'total_reward': 4150.0, 'total_episode_length': 1397}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6535.0, 'total_episode_length': 1463}
 Episode: 45
-{'reward': -1, 'episode_length': -1, 'total_reward': 2225.0, 'total_episode_length': 838}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8800.0, 'total_episode_length': 2054}
 Episode: 46
-{'reward': -1, 'episode_length': -1, 'total_reward': 550.0, 'total_episode_length': 227}
+{'reward': -1, 'episode_length': -1, 'total_reward': 9650.0, 'total_episode_length': 2192}
 Episode: 47
-{'reward': -1, 'episode_length': -1, 'total_reward': 2490.0, 'total_episode_length': 912}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3365.0, 'total_episode_length': 954}
 Episode: 48
-{'reward': -1, 'episode_length': -1, 'total_reward': 3095.0, 'total_episode_length': 1104}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2725.0, 'total_episode_length': 788}
 Episode: 49
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 501}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2315.0, 'total_episode_length': 694}
 Episode: 50
-{'reward': -1, 'episode_length': -1, 'total_reward': 2695.0, 'total_episode_length': 886}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1835.0, 'total_episode_length': 590}
 Episode: 51
-{'reward': -1, 'episode_length': -1, 'total_reward': 1840.0, 'total_episode_length': 783}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1995.0, 'total_episode_length': 672}
 Episode: 52
-{'reward': -1, 'episode_length': -1, 'total_reward': 800.0, 'total_episode_length': 236}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1935.0, 'total_episode_length': 584}
 Episode: 53
-{'reward': -1, 'episode_length': -1, 'total_reward': 2225.0, 'total_episode_length': 818}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5735.0, 'total_episode_length': 1450}
 Episode: 54
-{'reward': -1, 'episode_length': -1, 'total_reward': 495.0, 'total_episode_length': 201}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8765.0, 'total_episode_length': 1967}
 Episode: 55
-{'reward': -1, 'episode_length': -1, 'total_reward': 945.0, 'total_episode_length': 416}
+{'reward': -1, 'episode_length': -1, 'total_reward': 545.0, 'total_episode_length': 196}
 Episode: 56
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 278}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5395.0, 'total_episode_length': 1343}
 Episode: 57
-{'reward': -1, 'episode_length': -1, 'total_reward': 1645.0, 'total_episode_length': 681}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4065.0, 'total_episode_length': 1056}
 Episode: 58
-{'reward': -1, 'episode_length': -1, 'total_reward': 1170.0, 'total_episode_length': 596}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5455.0, 'total_episode_length': 1377}
 Episode: 59
-{'reward': -1, 'episode_length': -1, 'total_reward': 1980.0, 'total_episode_length': 841}
+{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 210}
 Episode: 60
-{'reward': -1, 'episode_length': -1, 'total_reward': 1085.0, 'total_episode_length': 468}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7985.0, 'total_episode_length': 1829}
 Episode: 61
-{'reward': -1, 'episode_length': -1, 'total_reward': 1800.0, 'total_episode_length': 732}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2225.0, 'total_episode_length': 660}
 Episode: 62
-{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 560}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7285.0, 'total_episode_length': 1629}
 Episode: 63
-{'reward': -1, 'episode_length': -1, 'total_reward': 2065.0, 'total_episode_length': 857}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3565.0, 'total_episode_length': 1015}
 Episode: 64
-{'reward': -1, 'episode_length': -1, 'total_reward': 1225.0, 'total_episode_length': 426}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2675.0, 'total_episode_length': 858}
 Episode: 65
-{'reward': -1, 'episode_length': -1, 'total_reward': 1170.0, 'total_episode_length': 515}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10100.0, 'total_episode_length': 2273}
 Episode: 66
-{'reward': -1, 'episode_length': -1, 'total_reward': 1805.0, 'total_episode_length': 785}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2090.0, 'total_episode_length': 617}
 Episode: 67
-{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 823}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11540.0, 'total_episode_length': 2498}
 Episode: 68
-{'reward': -1, 'episode_length': -1, 'total_reward': 2280.0, 'total_episode_length': 769}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4160.0, 'total_episode_length': 1061}
 Episode: 69
-{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 226}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7345.0, 'total_episode_length': 1630}
 Episode: 70
-{'reward': -1, 'episode_length': -1, 'total_reward': 515.0, 'total_episode_length': 241}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1790.0, 'total_episode_length': 528}
 Episode: 71
-{'reward': -1, 'episode_length': -1, 'total_reward': 3320.0, 'total_episode_length': 1188}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6925.0, 'total_episode_length': 1600}
 Episode: 72
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 300}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2325.0, 'total_episode_length': 722}
 Episode: 73
-{'reward': -1, 'episode_length': -1, 'total_reward': 2040.0, 'total_episode_length': 818}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3940.0, 'total_episode_length': 1015}
 Episode: 74
-{'reward': -1, 'episode_length': -1, 'total_reward': 2560.0, 'total_episode_length': 961}
+{'reward': -1, 'episode_length': -1, 'total_reward': 610.0, 'total_episode_length': 219}
 Episode: 75
-{'reward': -1, 'episode_length': -1, 'total_reward': 610.0, 'total_episode_length': 246}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3855.0, 'total_episode_length': 1103}
 Episode: 76
-{'reward': -1, 'episode_length': -1, 'total_reward': 800.0, 'total_episode_length': 266}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2355.0, 'total_episode_length': 675}
 Episode: 77
-{'reward': -1, 'episode_length': -1, 'total_reward': 2875.0, 'total_episode_length': 1058}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1955.0, 'total_episode_length': 641}
 Episode: 78
-{'reward': -1, 'episode_length': -1, 'total_reward': 2180.0, 'total_episode_length': 833}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3555.0, 'total_episode_length': 991}
 Episode: 79
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 558}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6090.0, 'total_episode_length': 1506}
 Episode: 80
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 488}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3705.0, 'total_episode_length': 952}
 Episode: 81
-{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 685}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6970.0, 'total_episode_length': 1718}
 Episode: 82
-{'reward': -1, 'episode_length': -1, 'total_reward': 1845.0, 'total_episode_length': 787}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7195.0, 'total_episode_length': 1679}
 Episode: 83
-{'reward': -1, 'episode_length': -1, 'total_reward': 2535.0, 'total_episode_length': 884}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6730.0, 'total_episode_length': 1609}
 Episode: 84
-{'reward': -1, 'episode_length': -1, 'total_reward': 540.0, 'total_episode_length': 278}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7675.0, 'total_episode_length': 1767}
 Episode: 85
-{'reward': -1, 'episode_length': -1, 'total_reward': 3560.0, 'total_episode_length': 1288}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2740.0, 'total_episode_length': 860}
 Episode: 86
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 303}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1175.0, 'total_episode_length': 416}
 Episode: 87
-{'reward': -1, 'episode_length': -1, 'total_reward': 580.0, 'total_episode_length': 272}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8590.0, 'total_episode_length': 1978}
 Episode: 88
-{'reward': -1, 'episode_length': -1, 'total_reward': 230.0, 'total_episode_length': 160}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6105.0, 'total_episode_length': 1479}
 Episode: 89
-{'reward': -1, 'episode_length': -1, 'total_reward': 975.0, 'total_episode_length': 439}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5350.0, 'total_episode_length': 1309}
 Episode: 90
-{'reward': -1, 'episode_length': -1, 'total_reward': 4195.0, 'total_episode_length': 1453}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5390.0, 'total_episode_length': 1393}
 Episode: 91
-{'reward': -1, 'episode_length': -1, 'total_reward': 1210.0, 'total_episode_length': 472}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7740.0, 'total_episode_length': 1740}
 Episode: 92
-{'reward': -1, 'episode_length': -1, 'total_reward': 1935.0, 'total_episode_length': 803}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4390.0, 'total_episode_length': 1065}
 Episode: 93
-{'reward': -1, 'episode_length': -1, 'total_reward': 2465.0, 'total_episode_length': 980}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 455}
 Episode: 94
-{'reward': -1, 'episode_length': -1, 'total_reward': 1915.0, 'total_episode_length': 633}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8425.0, 'total_episode_length': 1825}
 Episode: 95
-{'reward': -1, 'episode_length': -1, 'total_reward': 1430.0, 'total_episode_length': 559}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2615.0, 'total_episode_length': 714}
 Episode: 96
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 538}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2010.0, 'total_episode_length': 651}
 Episode: 97
-{'reward': -1, 'episode_length': -1, 'total_reward': 1865.0, 'total_episode_length': 792}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5105.0, 'total_episode_length': 1311}
 Episode: 98
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 301}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8475.0, 'total_episode_length': 1926}
 Episode: 99
-{'reward': -1, 'episode_length': -1, 'total_reward': 1175.0, 'total_episode_length': 484}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11985.0, 'total_episode_length': 2497}
 Episode: 100
 *************************************************************
-CUMULATIVE_AVG_REWARD 1641.0
+CUMULATIVE_AVG_REWARD 5678.2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Seed:  50
 Enviroment_id SpaceInvaders-v0
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
   warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
-2020-04-01 20:04:28.650262: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+2020-04-13 07:41:39.043168: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
 name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
 pciBusID: 0000:41:00.0
-2020-04-01 20:04:28.650389: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
-2020-04-01 20:04:28.650407: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
-2020-04-01 20:04:28.650422: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
-2020-04-01 20:04:28.650435: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
-2020-04-01 20:04:28.650446: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
-2020-04-01 20:04:28.650458: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
-2020-04-01 20:04:28.650540: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
-2020-04-01 20:04:28.650549: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
-2020-04-01 20:04:28.650565: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
-2020-04-01 20:04:28.650571: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
-2020-04-01 20:04:28.650576: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-13 07:41:39.043262: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-13 07:41:39.043277: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-13 07:41:39.043289: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-13 07:41:39.043302: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-13 07:41:39.043313: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-13 07:41:39.043324: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-13 07:41:39.043337: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-04-13 07:41:39.044800: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-04-13 07:41:39.044827: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-13 07:41:39.044833: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-13 07:41:39.044838: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-13 07:41:39.046619: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7945 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc80020b8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc80020b8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc807b6d8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc807b6d8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc807b908>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc807b908>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc81bc080>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc81bc080>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc807b710>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc807b710>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc27111d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc27111d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc844e4e0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc844e4e0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc26d8be0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc26d8be0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc26d8be0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc26d8be0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc26d87f0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc26d87f0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc844e240>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc844e240>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc26d8128>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc26d8128>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc26090b8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc26090b8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc8305048>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc8305048>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f3bc8370510>, 'value': <function CNN.__init__.<locals>.value at 0x7f3bc8370158>}
 Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
-{'reward': -1, 'episode_length': -1, 'total_reward': 3490.0, 'total_episode_length': 1210}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2735.0, 'total_episode_length': 790}
 Episode: 1
-{'reward': -1, 'episode_length': -1, 'total_reward': 950.0, 'total_episode_length': 269}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6255.0, 'total_episode_length': 1473}
 Episode: 2
-{'reward': -1, 'episode_length': -1, 'total_reward': 1375.0, 'total_episode_length': 451}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4315.0, 'total_episode_length': 1113}
 Episode: 3
-{'reward': -1, 'episode_length': -1, 'total_reward': 1265.0, 'total_episode_length': 535}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4715.0, 'total_episode_length': 1177}
 Episode: 4
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 755}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6295.0, 'total_episode_length': 1570}
 Episode: 5
-{'reward': -1, 'episode_length': -1, 'total_reward': 1905.0, 'total_episode_length': 783}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8140.0, 'total_episode_length': 1975}
 Episode: 6
-{'reward': -1, 'episode_length': -1, 'total_reward': 1835.0, 'total_episode_length': 686}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1725.0, 'total_episode_length': 498}
 Episode: 7
-{'reward': -1, 'episode_length': -1, 'total_reward': 1960.0, 'total_episode_length': 724}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3010.0, 'total_episode_length': 851}
 Episode: 8
-{'reward': -1, 'episode_length': -1, 'total_reward': 2135.0, 'total_episode_length': 853}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10740.0, 'total_episode_length': 2492}
 Episode: 9
-{'reward': -1, 'episode_length': -1, 'total_reward': 1815.0, 'total_episode_length': 786}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6005.0, 'total_episode_length': 1425}
 Episode: 10
-{'reward': -1, 'episode_length': -1, 'total_reward': 975.0, 'total_episode_length': 389}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11255.0, 'total_episode_length': 2493}
 Episode: 11
-{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 245}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10745.0, 'total_episode_length': 2493}
 Episode: 12
-{'reward': -1, 'episode_length': -1, 'total_reward': 1695.0, 'total_episode_length': 669}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11150.0, 'total_episode_length': 2421}
 Episode: 13
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 290}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 427}
 Episode: 14
-{'reward': -1, 'episode_length': -1, 'total_reward': 1375.0, 'total_episode_length': 535}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3965.0, 'total_episode_length': 1016}
 Episode: 15
-{'reward': -1, 'episode_length': -1, 'total_reward': 1585.0, 'total_episode_length': 701}
+{'reward': -1, 'episode_length': -1, 'total_reward': 9125.0, 'total_episode_length': 2148}
 Episode: 16
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 806}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4680.0, 'total_episode_length': 1176}
 Episode: 17
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 291}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7085.0, 'total_episode_length': 1732}
 Episode: 18
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 257}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4705.0, 'total_episode_length': 1209}
 Episode: 19
-{'reward': -1, 'episode_length': -1, 'total_reward': 1155.0, 'total_episode_length': 568}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5300.0, 'total_episode_length': 1225}
 Episode: 20
-{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 521}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6405.0, 'total_episode_length': 1515}
 Episode: 21
-{'reward': -1, 'episode_length': -1, 'total_reward': 3430.0, 'total_episode_length': 1215}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11325.0, 'total_episode_length': 2498}
 Episode: 22
-{'reward': -1, 'episode_length': -1, 'total_reward': 2695.0, 'total_episode_length': 1062}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2560.0, 'total_episode_length': 749}
 Episode: 23
-{'reward': -1, 'episode_length': -1, 'total_reward': 1290.0, 'total_episode_length': 478}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2475.0, 'total_episode_length': 785}
 Episode: 24
-{'reward': -1, 'episode_length': -1, 'total_reward': 2280.0, 'total_episode_length': 820}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2205.0, 'total_episode_length': 705}
 Episode: 25
-{'reward': -1, 'episode_length': -1, 'total_reward': 2790.0, 'total_episode_length': 1085}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3305.0, 'total_episode_length': 911}
 Episode: 26
-{'reward': -1, 'episode_length': -1, 'total_reward': 2465.0, 'total_episode_length': 999}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4470.0, 'total_episode_length': 1110}
 Episode: 27
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 532}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2175.0, 'total_episode_length': 711}
 Episode: 28
-{'reward': -1, 'episode_length': -1, 'total_reward': 1440.0, 'total_episode_length': 504}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6025.0, 'total_episode_length': 1412}
 Episode: 29
-{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 710}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4665.0, 'total_episode_length': 1219}
 Episode: 30
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 545}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2935.0, 'total_episode_length': 803}
 Episode: 31
-{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 777}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2765.0, 'total_episode_length': 759}
 Episode: 32
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 307}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6170.0, 'total_episode_length': 1564}
 Episode: 33
-{'reward': -1, 'episode_length': -1, 'total_reward': 895.0, 'total_episode_length': 428}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3350.0, 'total_episode_length': 968}
 Episode: 34
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 232}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4390.0, 'total_episode_length': 1180}
 Episode: 35
-{'reward': -1, 'episode_length': -1, 'total_reward': 1780.0, 'total_episode_length': 709}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4655.0, 'total_episode_length': 1163}
 Episode: 36
-{'reward': -1, 'episode_length': -1, 'total_reward': 2380.0, 'total_episode_length': 983}
+{'reward': -1, 'episode_length': -1, 'total_reward': 9220.0, 'total_episode_length': 2000}
 Episode: 37
-{'reward': -1, 'episode_length': -1, 'total_reward': 3430.0, 'total_episode_length': 1164}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2250.0, 'total_episode_length': 715}
 Episode: 38
-{'reward': -1, 'episode_length': -1, 'total_reward': 2650.0, 'total_episode_length': 1057}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3585.0, 'total_episode_length': 922}
 Episode: 39
-{'reward': -1, 'episode_length': -1, 'total_reward': 1560.0, 'total_episode_length': 632}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8310.0, 'total_episode_length': 1862}
 Episode: 40
-{'reward': -1, 'episode_length': -1, 'total_reward': 2460.0, 'total_episode_length': 973}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7695.0, 'total_episode_length': 1864}
 Episode: 41
-{'reward': -1, 'episode_length': -1, 'total_reward': 1670.0, 'total_episode_length': 691}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4185.0, 'total_episode_length': 1078}
 Episode: 42
-{'reward': -1, 'episode_length': -1, 'total_reward': 1350.0, 'total_episode_length': 573}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1475.0, 'total_episode_length': 457}
 Episode: 43
-{'reward': -1, 'episode_length': -1, 'total_reward': 1420.0, 'total_episode_length': 590}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8025.0, 'total_episode_length': 1938}
 Episode: 44
-{'reward': -1, 'episode_length': -1, 'total_reward': 1410.0, 'total_episode_length': 677}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4010.0, 'total_episode_length': 1045}
 Episode: 45
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 224}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3575.0, 'total_episode_length': 935}
 Episode: 46
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 547}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8230.0, 'total_episode_length': 1885}
 Episode: 47
-{'reward': -1, 'episode_length': -1, 'total_reward': 1305.0, 'total_episode_length': 445}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6285.0, 'total_episode_length': 1409}
 Episode: 48
-{'reward': -1, 'episode_length': -1, 'total_reward': 2065.0, 'total_episode_length': 711}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7265.0, 'total_episode_length': 1819}
 Episode: 49
-{'reward': -1, 'episode_length': -1, 'total_reward': 2230.0, 'total_episode_length': 808}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2935.0, 'total_episode_length': 766}
 Episode: 50
-{'reward': -1, 'episode_length': -1, 'total_reward': 475.0, 'total_episode_length': 242}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3090.0, 'total_episode_length': 818}
 Episode: 51
-{'reward': -1, 'episode_length': -1, 'total_reward': 2410.0, 'total_episode_length': 889}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5755.0, 'total_episode_length': 1365}
 Episode: 52
-{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 208}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3490.0, 'total_episode_length': 932}
 Episode: 53
-{'reward': -1, 'episode_length': -1, 'total_reward': 615.0, 'total_episode_length': 212}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3895.0, 'total_episode_length': 1095}
 Episode: 54
-{'reward': -1, 'episode_length': -1, 'total_reward': 1765.0, 'total_episode_length': 649}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6085.0, 'total_episode_length': 1336}
 Episode: 55
-{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 546}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3560.0, 'total_episode_length': 923}
 Episode: 56
-{'reward': -1, 'episode_length': -1, 'total_reward': 1965.0, 'total_episode_length': 695}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7035.0, 'total_episode_length': 1679}
 Episode: 57
-{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 392}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11635.0, 'total_episode_length': 2492}
 Episode: 58
-{'reward': -1, 'episode_length': -1, 'total_reward': 2140.0, 'total_episode_length': 898}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3465.0, 'total_episode_length': 976}
 Episode: 59
-{'reward': -1, 'episode_length': -1, 'total_reward': 2605.0, 'total_episode_length': 965}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11265.0, 'total_episode_length': 2432}
 Episode: 60
-{'reward': -1, 'episode_length': -1, 'total_reward': 2345.0, 'total_episode_length': 778}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3445.0, 'total_episode_length': 898}
 Episode: 61
-{'reward': -1, 'episode_length': -1, 'total_reward': 2690.0, 'total_episode_length': 950}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1440.0, 'total_episode_length': 471}
 Episode: 62
-{'reward': -1, 'episode_length': -1, 'total_reward': 770.0, 'total_episode_length': 215}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1015.0, 'total_episode_length': 364}
 Episode: 63
-{'reward': -1, 'episode_length': -1, 'total_reward': 2080.0, 'total_episode_length': 843}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11545.0, 'total_episode_length': 2494}
 Episode: 64
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 254}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1645.0, 'total_episode_length': 501}
 Episode: 65
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 810}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6955.0, 'total_episode_length': 1617}
 Episode: 66
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 749}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2445.0, 'total_episode_length': 782}
 Episode: 67
-{'reward': -1, 'episode_length': -1, 'total_reward': 1580.0, 'total_episode_length': 646}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1775.0, 'total_episode_length': 679}
 Episode: 68
-{'reward': -1, 'episode_length': -1, 'total_reward': 2260.0, 'total_episode_length': 777}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2690.0, 'total_episode_length': 736}
 Episode: 69
-{'reward': -1, 'episode_length': -1, 'total_reward': 1145.0, 'total_episode_length': 518}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3980.0, 'total_episode_length': 1069}
 Episode: 70
-{'reward': -1, 'episode_length': -1, 'total_reward': 515.0, 'total_episode_length': 270}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2440.0, 'total_episode_length': 793}
 Episode: 71
-{'reward': -1, 'episode_length': -1, 'total_reward': 1265.0, 'total_episode_length': 567}
+{'reward': -1, 'episode_length': -1, 'total_reward': 770.0, 'total_episode_length': 226}
 Episode: 72
-{'reward': -1, 'episode_length': -1, 'total_reward': 3360.0, 'total_episode_length': 1195}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10925.0, 'total_episode_length': 2414}
 Episode: 73
-{'reward': -1, 'episode_length': -1, 'total_reward': 1075.0, 'total_episode_length': 418}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4825.0, 'total_episode_length': 1127}
 Episode: 74
-{'reward': -1, 'episode_length': -1, 'total_reward': 1935.0, 'total_episode_length': 864}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3780.0, 'total_episode_length': 1001}
 Episode: 75
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 303}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2900.0, 'total_episode_length': 772}
 Episode: 76
-{'reward': -1, 'episode_length': -1, 'total_reward': 610.0, 'total_episode_length': 273}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2495.0, 'total_episode_length': 878}
 Episode: 77
-{'reward': -1, 'episode_length': -1, 'total_reward': 2395.0, 'total_episode_length': 848}
+{'reward': -1, 'episode_length': -1, 'total_reward': 9015.0, 'total_episode_length': 1990}
 Episode: 78
-{'reward': -1, 'episode_length': -1, 'total_reward': 1210.0, 'total_episode_length': 544}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1970.0, 'total_episode_length': 600}
 Episode: 79
-{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 267}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8175.0, 'total_episode_length': 1826}
 Episode: 80
-{'reward': -1, 'episode_length': -1, 'total_reward': 1800.0, 'total_episode_length': 771}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8970.0, 'total_episode_length': 2045}
 Episode: 81
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 488}
-Episode: 82
-{'reward': -1, 'episode_length': -1, 'total_reward': 1570.0, 'total_episode_length': 678}
-Episode: 83
-{'reward': -1, 'episode_length': -1, 'total_reward': 1835.0, 'total_episode_length': 767}
-Episode: 84
-{'reward': -1, 'episode_length': -1, 'total_reward': 1670.0, 'total_episode_length': 622}
-Episode: 85
 {'reward': -1, 'episode_length': -1, 'total_reward': 545.0, 'total_episode_length': 230}
+Episode: 82
+{'reward': -1, 'episode_length': -1, 'total_reward': 3265.0, 'total_episode_length': 917}
+Episode: 83
+{'reward': -1, 'episode_length': -1, 'total_reward': 9705.0, 'total_episode_length': 2156}
+Episode: 84
+{'reward': -1, 'episode_length': -1, 'total_reward': 9595.0, 'total_episode_length': 2123}
+Episode: 85
+{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 695}
 Episode: 86
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 777}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10435.0, 'total_episode_length': 2359}
 Episode: 87
-{'reward': -1, 'episode_length': -1, 'total_reward': 540.0, 'total_episode_length': 243}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10465.0, 'total_episode_length': 2227}
 Episode: 88
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 492}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4790.0, 'total_episode_length': 1161}
 Episode: 89
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 293}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5760.0, 'total_episode_length': 1344}
 Episode: 90
-{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 806}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3795.0, 'total_episode_length': 984}
 Episode: 91
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 555}
+{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 247}
 Episode: 92
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 298}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3200.0, 'total_episode_length': 863}
 Episode: 93
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 496}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2000.0, 'total_episode_length': 658}
 Episode: 94
-{'reward': -1, 'episode_length': -1, 'total_reward': 2375.0, 'total_episode_length': 941}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6440.0, 'total_episode_length': 1647}
 Episode: 95
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 791}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11480.0, 'total_episode_length': 2493}
 Episode: 96
-{'reward': -1, 'episode_length': -1, 'total_reward': 2305.0, 'total_episode_length': 898}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7960.0, 'total_episode_length': 1882}
 Episode: 97
-{'reward': -1, 'episode_length': -1, 'total_reward': 1400.0, 'total_episode_length': 461}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3840.0, 'total_episode_length': 1083}
 Episode: 98
-{'reward': -1, 'episode_length': -1, 'total_reward': 2630.0, 'total_episode_length': 996}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3170.0, 'total_episode_length': 816}
 Episode: 99
-{'reward': -1, 'episode_length': -1, 'total_reward': 1835.0, 'total_episode_length': 834}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5930.0, 'total_episode_length': 1351}
 Episode: 100
 *************************************************************
-CUMULATIVE_AVG_REWARD 1590.15
+CUMULATIVE_AVG_REWARD 5275.7
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Seed:  100
 Enviroment_id SpaceInvaders-v0
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
   warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
-2020-04-01 20:10:51.551324: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+2020-04-13 07:49:25.788203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
 name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
 pciBusID: 0000:41:00.0
-2020-04-01 20:10:51.551504: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
-2020-04-01 20:10:51.551533: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
-2020-04-01 20:10:51.551555: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
-2020-04-01 20:10:51.551575: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
-2020-04-01 20:10:51.551593: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
-2020-04-01 20:10:51.551613: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
-2020-04-01 20:10:51.551719: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
-2020-04-01 20:10:51.551735: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
-2020-04-01 20:10:51.551756: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
-2020-04-01 20:10:51.551766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
-2020-04-01 20:10:51.551774: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-13 07:49:25.788294: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-13 07:49:25.788309: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-13 07:49:25.788321: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-13 07:49:25.788333: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-13 07:49:25.788344: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-13 07:49:25.788355: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-13 07:49:25.788367: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-04-13 07:49:25.789828: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-04-13 07:49:25.789855: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-13 07:49:25.789862: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-13 07:49:25.789867: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-13 07:49:25.791669: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7945 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22d44a8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22d44a8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22bf8d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22bf8d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22bf8d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22bf8d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc8538748>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc8538748>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc8017160>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc8017160>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc27ba9e8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc27ba9e8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc27ba9e8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc27ba9e8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22d4518>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22d4518>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22d4518>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22d4518>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22d4518>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22d4518>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc8538f28>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc8538f28>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc22d4518>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc22d4518>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc83588d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc83588d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc83588d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc83588d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f3bdc02f6a8>, 'value': <function CNN.__init__.<locals>.value at 0x7f3bdc02fd08>}
 Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
-{'reward': -1, 'episode_length': -1, 'total_reward': 770.0, 'total_episode_length': 292}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11135.0, 'total_episode_length': 2493}
 Episode: 1
-{'reward': -1, 'episode_length': -1, 'total_reward': 1835.0, 'total_episode_length': 724}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10915.0, 'total_episode_length': 2394}
 Episode: 2
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 526}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11575.0, 'total_episode_length': 2492}
 Episode: 3
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 568}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2090.0, 'total_episode_length': 678}
 Episode: 4
-{'reward': -1, 'episode_length': -1, 'total_reward': 1565.0, 'total_episode_length': 582}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1615.0, 'total_episode_length': 487}
 Episode: 5
-{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 256}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3265.0, 'total_episode_length': 841}
 Episode: 6
-{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 446}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4745.0, 'total_episode_length': 1183}
 Episode: 7
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 798}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3355.0, 'total_episode_length': 906}
 Episode: 8
-{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 532}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3935.0, 'total_episode_length': 1009}
 Episode: 9
-{'reward': -1, 'episode_length': -1, 'total_reward': 1360.0, 'total_episode_length': 581}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11375.0, 'total_episode_length': 2496}
 Episode: 10
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 534}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2730.0, 'total_episode_length': 771}
 Episode: 11
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 316}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7680.0, 'total_episode_length': 1700}
 Episode: 12
-{'reward': -1, 'episode_length': -1, 'total_reward': 1325.0, 'total_episode_length': 584}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1375.0, 'total_episode_length': 427}
 Episode: 13
-{'reward': -1, 'episode_length': -1, 'total_reward': 1150.0, 'total_episode_length': 518}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3230.0, 'total_episode_length': 963}
 Episode: 14
-{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 826}
+{'reward': -1, 'episode_length': -1, 'total_reward': 9160.0, 'total_episode_length': 2072}
 Episode: 15
-{'reward': -1, 'episode_length': -1, 'total_reward': 1345.0, 'total_episode_length': 598}
+{'reward': -1, 'episode_length': -1, 'total_reward': 9425.0, 'total_episode_length': 1983}
 Episode: 16
-{'reward': -1, 'episode_length': -1, 'total_reward': 580.0, 'total_episode_length': 294}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5350.0, 'total_episode_length': 1348}
 Episode: 17
-{'reward': -1, 'episode_length': -1, 'total_reward': 2860.0, 'total_episode_length': 898}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11735.0, 'total_episode_length': 2487}
 Episode: 18
-{'reward': -1, 'episode_length': -1, 'total_reward': 1865.0, 'total_episode_length': 781}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5900.0, 'total_episode_length': 1439}
 Episode: 19
-{'reward': -1, 'episode_length': -1, 'total_reward': 1535.0, 'total_episode_length': 550}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2180.0, 'total_episode_length': 651}
 Episode: 20
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 270}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3980.0, 'total_episode_length': 1035}
 Episode: 21
-{'reward': -1, 'episode_length': -1, 'total_reward': 1965.0, 'total_episode_length': 567}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2175.0, 'total_episode_length': 710}
 Episode: 22
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 726}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4740.0, 'total_episode_length': 1120}
 Episode: 23
-{'reward': -1, 'episode_length': -1, 'total_reward': 3235.0, 'total_episode_length': 1128}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5075.0, 'total_episode_length': 1226}
 Episode: 24
-{'reward': -1, 'episode_length': -1, 'total_reward': 3125.0, 'total_episode_length': 1153}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10125.0, 'total_episode_length': 2284}
 Episode: 25
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 207}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7265.0, 'total_episode_length': 1675}
 Episode: 26
-{'reward': -1, 'episode_length': -1, 'total_reward': 3790.0, 'total_episode_length': 1274}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1995.0, 'total_episode_length': 647}
 Episode: 27
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 500}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3120.0, 'total_episode_length': 908}
 Episode: 28
-{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 258}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4985.0, 'total_episode_length': 1273}
 Episode: 29
-{'reward': -1, 'episode_length': -1, 'total_reward': 1935.0, 'total_episode_length': 782}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11740.0, 'total_episode_length': 2495}
 Episode: 30
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 252}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5360.0, 'total_episode_length': 1345}
 Episode: 31
-{'reward': -1, 'episode_length': -1, 'total_reward': 1150.0, 'total_episode_length': 488}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5260.0, 'total_episode_length': 1246}
 Episode: 32
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 288}
+{'reward': -1, 'episode_length': -1, 'total_reward': 9540.0, 'total_episode_length': 2174}
 Episode: 33
-{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 227}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4070.0, 'total_episode_length': 1052}
 Episode: 34
-{'reward': -1, 'episode_length': -1, 'total_reward': 2165.0, 'total_episode_length': 811}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2495.0, 'total_episode_length': 813}
 Episode: 35
-{'reward': -1, 'episode_length': -1, 'total_reward': 1805.0, 'total_episode_length': 709}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11625.0, 'total_episode_length': 2492}
 Episode: 36
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 338}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5455.0, 'total_episode_length': 1276}
 Episode: 37
-{'reward': -1, 'episode_length': -1, 'total_reward': 1270.0, 'total_episode_length': 462}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2875.0, 'total_episode_length': 855}
 Episode: 38
-{'reward': -1, 'episode_length': -1, 'total_reward': 1270.0, 'total_episode_length': 546}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2855.0, 'total_episode_length': 874}
 Episode: 39
-{'reward': -1, 'episode_length': -1, 'total_reward': 2335.0, 'total_episode_length': 884}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2735.0, 'total_episode_length': 774}
 Episode: 40
-{'reward': -1, 'episode_length': -1, 'total_reward': 1485.0, 'total_episode_length': 540}
+{'reward': -1, 'episode_length': -1, 'total_reward': 745.0, 'total_episode_length': 243}
 Episode: 41
-{'reward': -1, 'episode_length': -1, 'total_reward': 1175.0, 'total_episode_length': 536}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4255.0, 'total_episode_length': 1131}
 Episode: 42
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 278}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1405.0, 'total_episode_length': 480}
 Episode: 43
-{'reward': -1, 'episode_length': -1, 'total_reward': 800.0, 'total_episode_length': 316}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10020.0, 'total_episode_length': 2112}
 Episode: 44
-{'reward': -1, 'episode_length': -1, 'total_reward': 1300.0, 'total_episode_length': 622}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3940.0, 'total_episode_length': 1043}
 Episode: 45
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 522}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3695.0, 'total_episode_length': 928}
 Episode: 46
-{'reward': -1, 'episode_length': -1, 'total_reward': 2165.0, 'total_episode_length': 889}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3475.0, 'total_episode_length': 971}
 Episode: 47
-{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 507}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1355.0, 'total_episode_length': 499}
 Episode: 48
-{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 772}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3925.0, 'total_episode_length': 973}
 Episode: 49
-{'reward': -1, 'episode_length': -1, 'total_reward': 2205.0, 'total_episode_length': 768}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4075.0, 'total_episode_length': 1075}
 Episode: 50
-{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 526}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4115.0, 'total_episode_length': 1106}
 Episode: 51
-{'reward': -1, 'episode_length': -1, 'total_reward': 2040.0, 'total_episode_length': 816}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 440}
 Episode: 52
-{'reward': -1, 'episode_length': -1, 'total_reward': 2385.0, 'total_episode_length': 983}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6195.0, 'total_episode_length': 1612}
 Episode: 53
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 793}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6030.0, 'total_episode_length': 1429}
 Episode: 54
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 239}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2310.0, 'total_episode_length': 671}
 Episode: 55
-{'reward': -1, 'episode_length': -1, 'total_reward': 2220.0, 'total_episode_length': 905}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7970.0, 'total_episode_length': 1848}
 Episode: 56
-{'reward': -1, 'episode_length': -1, 'total_reward': 1400.0, 'total_episode_length': 537}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5270.0, 'total_episode_length': 1234}
 Episode: 57
-{'reward': -1, 'episode_length': -1, 'total_reward': 545.0, 'total_episode_length': 208}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7225.0, 'total_episode_length': 1617}
 Episode: 58
-{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 550}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4270.0, 'total_episode_length': 1078}
 Episode: 59
-{'reward': -1, 'episode_length': -1, 'total_reward': 2435.0, 'total_episode_length': 902}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6715.0, 'total_episode_length': 1573}
 Episode: 60
-{'reward': -1, 'episode_length': -1, 'total_reward': 1805.0, 'total_episode_length': 672}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2360.0, 'total_episode_length': 731}
 Episode: 61
-{'reward': -1, 'episode_length': -1, 'total_reward': 2010.0, 'total_episode_length': 732}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5815.0, 'total_episode_length': 1422}
 Episode: 62
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 537}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1675.0, 'total_episode_length': 592}
 Episode: 63
-{'reward': -1, 'episode_length': -1, 'total_reward': 1550.0, 'total_episode_length': 670}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5255.0, 'total_episode_length': 1328}
 Episode: 64
-{'reward': -1, 'episode_length': -1, 'total_reward': 2350.0, 'total_episode_length': 958}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10575.0, 'total_episode_length': 2266}
 Episode: 65
-{'reward': -1, 'episode_length': -1, 'total_reward': 1785.0, 'total_episode_length': 679}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3500.0, 'total_episode_length': 963}
 Episode: 66
-{'reward': -1, 'episode_length': -1, 'total_reward': 3720.0, 'total_episode_length': 1215}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8700.0, 'total_episode_length': 2020}
 Episode: 67
-{'reward': -1, 'episode_length': -1, 'total_reward': 2550.0, 'total_episode_length': 876}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3975.0, 'total_episode_length': 1090}
 Episode: 68
-{'reward': -1, 'episode_length': -1, 'total_reward': 1995.0, 'total_episode_length': 811}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2050.0, 'total_episode_length': 637}
 Episode: 69
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 269}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3575.0, 'total_episode_length': 965}
 Episode: 70
-{'reward': -1, 'episode_length': -1, 'total_reward': 1940.0, 'total_episode_length': 673}
+{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 220}
 Episode: 71
-{'reward': -1, 'episode_length': -1, 'total_reward': 3065.0, 'total_episode_length': 1120}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3935.0, 'total_episode_length': 1027}
 Episode: 72
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 269}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3900.0, 'total_episode_length': 1023}
 Episode: 73
-{'reward': -1, 'episode_length': -1, 'total_reward': 2285.0, 'total_episode_length': 769}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10205.0, 'total_episode_length': 2143}
 Episode: 74
-{'reward': -1, 'episode_length': -1, 'total_reward': 410.0, 'total_episode_length': 192}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6560.0, 'total_episode_length': 1511}
 Episode: 75
-{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 843}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3640.0, 'total_episode_length': 1039}
 Episode: 76
-{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 526}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3380.0, 'total_episode_length': 872}
 Episode: 77
-{'reward': -1, 'episode_length': -1, 'total_reward': 805.0, 'total_episode_length': 306}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2890.0, 'total_episode_length': 868}
 Episode: 78
-{'reward': -1, 'episode_length': -1, 'total_reward': 770.0, 'total_episode_length': 252}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10370.0, 'total_episode_length': 2377}
 Episode: 79
-{'reward': -1, 'episode_length': -1, 'total_reward': 2030.0, 'total_episode_length': 772}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4590.0, 'total_episode_length': 1221}
 Episode: 80
-{'reward': -1, 'episode_length': -1, 'total_reward': 2450.0, 'total_episode_length': 867}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5715.0, 'total_episode_length': 1416}
 Episode: 81
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 272}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3500.0, 'total_episode_length': 905}
 Episode: 82
-{'reward': -1, 'episode_length': -1, 'total_reward': 1370.0, 'total_episode_length': 587}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6655.0, 'total_episode_length': 1597}
 Episode: 83
-{'reward': -1, 'episode_length': -1, 'total_reward': 2690.0, 'total_episode_length': 999}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5825.0, 'total_episode_length': 1427}
 Episode: 84
-{'reward': -1, 'episode_length': -1, 'total_reward': 1125.0, 'total_episode_length': 501}
+{'reward': -1, 'episode_length': -1, 'total_reward': 9300.0, 'total_episode_length': 2012}
 Episode: 85
-{'reward': -1, 'episode_length': -1, 'total_reward': 3095.0, 'total_episode_length': 1100}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7255.0, 'total_episode_length': 1596}
 Episode: 86
-{'reward': -1, 'episode_length': -1, 'total_reward': 1040.0, 'total_episode_length': 404}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11465.0, 'total_episode_length': 2498}
 Episode: 87
-{'reward': -1, 'episode_length': -1, 'total_reward': 2885.0, 'total_episode_length': 1090}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4625.0, 'total_episode_length': 1196}
 Episode: 88
-{'reward': -1, 'episode_length': -1, 'total_reward': 1530.0, 'total_episode_length': 622}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7595.0, 'total_episode_length': 1751}
 Episode: 89
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 503}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5885.0, 'total_episode_length': 1428}
 Episode: 90
-{'reward': -1, 'episode_length': -1, 'total_reward': 1115.0, 'total_episode_length': 418}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3365.0, 'total_episode_length': 936}
 Episode: 91
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 526}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10710.0, 'total_episode_length': 2497}
 Episode: 92
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 510}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6305.0, 'total_episode_length': 1448}
 Episode: 93
-{'reward': -1, 'episode_length': -1, 'total_reward': 2345.0, 'total_episode_length': 869}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4675.0, 'total_episode_length': 1151}
 Episode: 94
-{'reward': -1, 'episode_length': -1, 'total_reward': 1115.0, 'total_episode_length': 488}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2750.0, 'total_episode_length': 783}
 Episode: 95
-{'reward': -1, 'episode_length': -1, 'total_reward': 1365.0, 'total_episode_length': 596}
+{'reward': -1, 'episode_length': -1, 'total_reward': 12030.0, 'total_episode_length': 2492}
 Episode: 96
-{'reward': -1, 'episode_length': -1, 'total_reward': 1150.0, 'total_episode_length': 571}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2655.0, 'total_episode_length': 848}
 Episode: 97
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 296}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5755.0, 'total_episode_length': 1373}
 Episode: 98
-{'reward': -1, 'episode_length': -1, 'total_reward': 2040.0, 'total_episode_length': 887}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6375.0, 'total_episode_length': 1505}
 Episode: 99
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 541}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4470.0, 'total_episode_length': 1135}
 Episode: 100
 *************************************************************
-CUMULATIVE_AVG_REWARD 1545.2
+CUMULATIVE_AVG_REWARD 5428.95
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Seed:  200
 Enviroment_id SpaceInvaders-v0
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
   warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
-2020-04-01 20:17:05.149472: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+2020-04-13 07:57:14.664530: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
 name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
 pciBusID: 0000:41:00.0
-2020-04-01 20:17:05.149573: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
-2020-04-01 20:17:05.149592: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
-2020-04-01 20:17:05.149605: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
-2020-04-01 20:17:05.149618: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
-2020-04-01 20:17:05.149631: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
-2020-04-01 20:17:05.149643: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
-2020-04-01 20:17:05.149720: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
-2020-04-01 20:17:05.149730: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
-2020-04-01 20:17:05.149746: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
-2020-04-01 20:17:05.149754: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
-2020-04-01 20:17:05.149760: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-13 07:57:14.664623: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-13 07:57:14.664635: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-13 07:57:14.664646: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-13 07:57:14.664656: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-13 07:57:14.664665: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-13 07:57:14.664674: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-13 07:57:14.664686: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-04-13 07:57:14.666149: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-04-13 07:57:14.666177: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-13 07:57:14.666184: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-13 07:57:14.666190: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-13 07:57:14.667988: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7945 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc82bf550>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc82bf550>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc828ba90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc828ba90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc828ba90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc828ba90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc81ddfd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc81ddfd0>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc828ba90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc828ba90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc83943c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc83943c8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc83943c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc83943c8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc839a8d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc839a8d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc8394940>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc8394940>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22b3b70>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc22b3b70>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc2711b38>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc2711b38>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc22b3b70>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc22b3b70>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc20ce278>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc20ce278>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3be013ca90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3be013ca90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f3bc8370c80>, 'value': <function CNN.__init__.<locals>.value at 0x7f3bc8370e18>}
 Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
-{'reward': -1, 'episode_length': -1, 'total_reward': 220.0, 'total_episode_length': 154}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11405.0, 'total_episode_length': 2491}
 Episode: 1
-{'reward': -1, 'episode_length': -1, 'total_reward': 1210.0, 'total_episode_length': 425}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6545.0, 'total_episode_length': 1518}
 Episode: 2
-{'reward': -1, 'episode_length': -1, 'total_reward': 2010.0, 'total_episode_length': 837}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5085.0, 'total_episode_length': 1267}
 Episode: 3
-{'reward': -1, 'episode_length': -1, 'total_reward': 2440.0, 'total_episode_length': 978}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8725.0, 'total_episode_length': 1907}
 Episode: 4
-{'reward': -1, 'episode_length': -1, 'total_reward': 580.0, 'total_episode_length': 244}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4245.0, 'total_episode_length': 1038}
 Episode: 5
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 249}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2900.0, 'total_episode_length': 780}
 Episode: 6
-{'reward': -1, 'episode_length': -1, 'total_reward': 1990.0, 'total_episode_length': 809}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5950.0, 'total_episode_length': 1400}
 Episode: 7
-{'reward': -1, 'episode_length': -1, 'total_reward': 2075.0, 'total_episode_length': 830}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8175.0, 'total_episode_length': 1829}
 Episode: 8
-{'reward': -1, 'episode_length': -1, 'total_reward': 2410.0, 'total_episode_length': 989}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4005.0, 'total_episode_length': 1048}
 Episode: 9
-{'reward': -1, 'episode_length': -1, 'total_reward': 1405.0, 'total_episode_length': 577}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2760.0, 'total_episode_length': 864}
 Episode: 10
-{'reward': -1, 'episode_length': -1, 'total_reward': 1820.0, 'total_episode_length': 711}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5355.0, 'total_episode_length': 1387}
 Episode: 11
-{'reward': -1, 'episode_length': -1, 'total_reward': 3065.0, 'total_episode_length': 1061}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8460.0, 'total_episode_length': 1913}
 Episode: 12
-{'reward': -1, 'episode_length': -1, 'total_reward': 2690.0, 'total_episode_length': 977}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4750.0, 'total_episode_length': 1232}
 Episode: 13
-{'reward': -1, 'episode_length': -1, 'total_reward': 2435.0, 'total_episode_length': 933}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5260.0, 'total_episode_length': 1264}
 Episode: 14
-{'reward': -1, 'episode_length': -1, 'total_reward': 2700.0, 'total_episode_length': 855}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5285.0, 'total_episode_length': 1310}
 Episode: 15
-{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 862}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 541}
 Episode: 16
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 481}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1840.0, 'total_episode_length': 635}
 Episode: 17
-{'reward': -1, 'episode_length': -1, 'total_reward': 1285.0, 'total_episode_length': 601}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5175.0, 'total_episode_length': 1304}
 Episode: 18
-{'reward': -1, 'episode_length': -1, 'total_reward': 2635.0, 'total_episode_length': 899}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1995.0, 'total_episode_length': 607}
 Episode: 19
-{'reward': -1, 'episode_length': -1, 'total_reward': 890.0, 'total_episode_length': 422}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5420.0, 'total_episode_length': 1304}
 Episode: 20
-{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 439}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2795.0, 'total_episode_length': 803}
 Episode: 21
-{'reward': -1, 'episode_length': -1, 'total_reward': 2055.0, 'total_episode_length': 810}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5050.0, 'total_episode_length': 1332}
 Episode: 22
-{'reward': -1, 'episode_length': -1, 'total_reward': 2625.0, 'total_episode_length': 1083}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2690.0, 'total_episode_length': 739}
 Episode: 23
-{'reward': -1, 'episode_length': -1, 'total_reward': 705.0, 'total_episode_length': 324}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5330.0, 'total_episode_length': 1285}
 Episode: 24
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 452}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4280.0, 'total_episode_length': 1121}
 Episode: 25
-{'reward': -1, 'episode_length': -1, 'total_reward': 1965.0, 'total_episode_length': 813}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2355.0, 'total_episode_length': 721}
 Episode: 26
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 503}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5590.0, 'total_episode_length': 1338}
 Episode: 27
-{'reward': -1, 'episode_length': -1, 'total_reward': 1925.0, 'total_episode_length': 821}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2675.0, 'total_episode_length': 814}
 Episode: 28
-{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 243}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8195.0, 'total_episode_length': 1902}
 Episode: 29
-{'reward': -1, 'episode_length': -1, 'total_reward': 495.0, 'total_episode_length': 230}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7370.0, 'total_episode_length': 1601}
 Episode: 30
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 279}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8525.0, 'total_episode_length': 2055}
 Episode: 31
-{'reward': -1, 'episode_length': -1, 'total_reward': 2465.0, 'total_episode_length': 1002}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11355.0, 'total_episode_length': 2464}
 Episode: 32
-{'reward': -1, 'episode_length': -1, 'total_reward': 2355.0, 'total_episode_length': 873}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5505.0, 'total_episode_length': 1372}
 Episode: 33
-{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 252}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11190.0, 'total_episode_length': 2491}
 Episode: 34
-{'reward': -1, 'episode_length': -1, 'total_reward': 1360.0, 'total_episode_length': 582}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7265.0, 'total_episode_length': 1802}
 Episode: 35
-{'reward': -1, 'episode_length': -1, 'total_reward': 2070.0, 'total_episode_length': 809}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1540.0, 'total_episode_length': 521}
 Episode: 36
-{'reward': -1, 'episode_length': -1, 'total_reward': 3205.0, 'total_episode_length': 1159}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2120.0, 'total_episode_length': 645}
 Episode: 37
-{'reward': -1, 'episode_length': -1, 'total_reward': 2290.0, 'total_episode_length': 831}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2175.0, 'total_episode_length': 675}
 Episode: 38
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 260}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7960.0, 'total_episode_length': 1808}
 Episode: 39
-{'reward': -1, 'episode_length': -1, 'total_reward': 1935.0, 'total_episode_length': 737}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3935.0, 'total_episode_length': 1037}
 Episode: 40
-{'reward': -1, 'episode_length': -1, 'total_reward': 2065.0, 'total_episode_length': 826}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1845.0, 'total_episode_length': 580}
 Episode: 41
-{'reward': -1, 'episode_length': -1, 'total_reward': 1800.0, 'total_episode_length': 694}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8140.0, 'total_episode_length': 1782}
 Episode: 42
-{'reward': -1, 'episode_length': -1, 'total_reward': 3885.0, 'total_episode_length': 1347}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5390.0, 'total_episode_length': 1469}
 Episode: 43
-{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 814}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8515.0, 'total_episode_length': 1962}
 Episode: 44
-{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 292}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7955.0, 'total_episode_length': 1829}
 Episode: 45
-{'reward': -1, 'episode_length': -1, 'total_reward': 1270.0, 'total_episode_length': 586}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7730.0, 'total_episode_length': 1777}
 Episode: 46
-{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 235}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6435.0, 'total_episode_length': 1665}
 Episode: 47
-{'reward': -1, 'episode_length': -1, 'total_reward': 2350.0, 'total_episode_length': 847}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 373}
 Episode: 48
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 239}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1750.0, 'total_episode_length': 547}
 Episode: 49
-{'reward': -1, 'episode_length': -1, 'total_reward': 2490.0, 'total_episode_length': 964}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5995.0, 'total_episode_length': 1418}
 Episode: 50
-{'reward': -1, 'episode_length': -1, 'total_reward': 985.0, 'total_episode_length': 431}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11110.0, 'total_episode_length': 2493}
 Episode: 51
-{'reward': -1, 'episode_length': -1, 'total_reward': 2725.0, 'total_episode_length': 865}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7735.0, 'total_episode_length': 1801}
 Episode: 52
-{'reward': -1, 'episode_length': -1, 'total_reward': 1780.0, 'total_episode_length': 698}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2150.0, 'total_episode_length': 663}
 Episode: 53
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 746}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8630.0, 'total_episode_length': 1908}
 Episode: 54
-{'reward': -1, 'episode_length': -1, 'total_reward': 2065.0, 'total_episode_length': 691}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1970.0, 'total_episode_length': 613}
 Episode: 55
-{'reward': -1, 'episode_length': -1, 'total_reward': 1040.0, 'total_episode_length': 428}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 455}
 Episode: 56
-{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 541}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3155.0, 'total_episode_length': 828}
 Episode: 57
-{'reward': -1, 'episode_length': -1, 'total_reward': 1805.0, 'total_episode_length': 758}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5175.0, 'total_episode_length': 1315}
 Episode: 58
-{'reward': -1, 'episode_length': -1, 'total_reward': 1170.0, 'total_episode_length': 548}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2765.0, 'total_episode_length': 754}
 Episode: 59
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 483}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4160.0, 'total_episode_length': 1049}
 Episode: 60
-{'reward': -1, 'episode_length': -1, 'total_reward': 2895.0, 'total_episode_length': 1027}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7590.0, 'total_episode_length': 1646}
 Episode: 61
-{'reward': -1, 'episode_length': -1, 'total_reward': 3045.0, 'total_episode_length': 1069}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1800.0, 'total_episode_length': 547}
 Episode: 62
-{'reward': -1, 'episode_length': -1, 'total_reward': 1685.0, 'total_episode_length': 675}
+{'reward': -1, 'episode_length': -1, 'total_reward': 9405.0, 'total_episode_length': 1928}
 Episode: 63
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 278}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2155.0, 'total_episode_length': 620}
 Episode: 64
-{'reward': -1, 'episode_length': -1, 'total_reward': 2000.0, 'total_episode_length': 802}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6205.0, 'total_episode_length': 1385}
 Episode: 65
-{'reward': -1, 'episode_length': -1, 'total_reward': 1940.0, 'total_episode_length': 661}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1245.0, 'total_episode_length': 431}
 Episode: 66
-{'reward': -1, 'episode_length': -1, 'total_reward': 580.0, 'total_episode_length': 308}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5225.0, 'total_episode_length': 1313}
 Episode: 67
-{'reward': -1, 'episode_length': -1, 'total_reward': 2950.0, 'total_episode_length': 1152}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 460}
 Episode: 68
-{'reward': -1, 'episode_length': -1, 'total_reward': 2335.0, 'total_episode_length': 931}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3195.0, 'total_episode_length': 905}
 Episode: 69
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 253}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5590.0, 'total_episode_length': 1366}
 Episode: 70
-{'reward': -1, 'episode_length': -1, 'total_reward': 995.0, 'total_episode_length': 444}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2535.0, 'total_episode_length': 752}
 Episode: 71
-{'reward': -1, 'episode_length': -1, 'total_reward': 2465.0, 'total_episode_length': 941}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1545.0, 'total_episode_length': 528}
 Episode: 72
-{'reward': -1, 'episode_length': -1, 'total_reward': 805.0, 'total_episode_length': 319}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4165.0, 'total_episode_length': 1034}
 Episode: 73
-{'reward': -1, 'episode_length': -1, 'total_reward': 2835.0, 'total_episode_length': 955}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7540.0, 'total_episode_length': 1729}
 Episode: 74
-{'reward': -1, 'episode_length': -1, 'total_reward': 545.0, 'total_episode_length': 203}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8675.0, 'total_episode_length': 1901}
 Episode: 75
-{'reward': -1, 'episode_length': -1, 'total_reward': 715.0, 'total_episode_length': 246}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5935.0, 'total_episode_length': 1361}
 Episode: 76
-{'reward': -1, 'episode_length': -1, 'total_reward': 2000.0, 'total_episode_length': 694}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7670.0, 'total_episode_length': 1796}
 Episode: 77
-{'reward': -1, 'episode_length': -1, 'total_reward': 2700.0, 'total_episode_length': 1054}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6230.0, 'total_episode_length': 1506}
 Episode: 78
-{'reward': -1, 'episode_length': -1, 'total_reward': 1800.0, 'total_episode_length': 795}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7190.0, 'total_episode_length': 1659}
 Episode: 79
-{'reward': -1, 'episode_length': -1, 'total_reward': 2360.0, 'total_episode_length': 845}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1995.0, 'total_episode_length': 637}
 Episode: 80
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 510}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1665.0, 'total_episode_length': 540}
 Episode: 81
-{'reward': -1, 'episode_length': -1, 'total_reward': 1985.0, 'total_episode_length': 685}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10710.0, 'total_episode_length': 2493}
 Episode: 82
-{'reward': -1, 'episode_length': -1, 'total_reward': 2240.0, 'total_episode_length': 843}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6515.0, 'total_episode_length': 1498}
 Episode: 83
-{'reward': -1, 'episode_length': -1, 'total_reward': 1185.0, 'total_episode_length': 496}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11350.0, 'total_episode_length': 2491}
 Episode: 84
-{'reward': -1, 'episode_length': -1, 'total_reward': 2250.0, 'total_episode_length': 827}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1700.0, 'total_episode_length': 591}
 Episode: 85
-{'reward': -1, 'episode_length': -1, 'total_reward': 1620.0, 'total_episode_length': 701}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4395.0, 'total_episode_length': 1016}
 Episode: 86
-{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 216}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6980.0, 'total_episode_length': 1547}
 Episode: 87
-{'reward': -1, 'episode_length': -1, 'total_reward': 800.0, 'total_episode_length': 272}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11255.0, 'total_episode_length': 2495}
 Episode: 88
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 517}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3895.0, 'total_episode_length': 998}
 Episode: 89
-{'reward': -1, 'episode_length': -1, 'total_reward': 1505.0, 'total_episode_length': 558}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6980.0, 'total_episode_length': 1652}
 Episode: 90
-{'reward': -1, 'episode_length': -1, 'total_reward': 1865.0, 'total_episode_length': 843}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11080.0, 'total_episode_length': 2343}
 Episode: 91
-{'reward': -1, 'episode_length': -1, 'total_reward': 2015.0, 'total_episode_length': 795}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7175.0, 'total_episode_length': 1720}
 Episode: 92
-{'reward': -1, 'episode_length': -1, 'total_reward': 2185.0, 'total_episode_length': 839}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 607}
 Episode: 93
-{'reward': -1, 'episode_length': -1, 'total_reward': 2035.0, 'total_episode_length': 728}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4380.0, 'total_episode_length': 1235}
 Episode: 94
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 525}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10365.0, 'total_episode_length': 2422}
 Episode: 95
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 292}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2905.0, 'total_episode_length': 776}
 Episode: 96
-{'reward': -1, 'episode_length': -1, 'total_reward': 3035.0, 'total_episode_length': 1126}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8025.0, 'total_episode_length': 1839}
 Episode: 97
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 272}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5055.0, 'total_episode_length': 1362}
 Episode: 98
-{'reward': -1, 'episode_length': -1, 'total_reward': 1635.0, 'total_episode_length': 559}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6720.0, 'total_episode_length': 1606}
 Episode: 99
-{'reward': -1, 'episode_length': -1, 'total_reward': 2610.0, 'total_episode_length': 979}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11890.0, 'total_episode_length': 2482}
 Episode: 100
 *************************************************************
-CUMULATIVE_AVG_REWARD 1690.5
+CUMULATIVE_AVG_REWARD 5480.5
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Seed:  500
 Enviroment_id SpaceInvaders-v0
-/home/shariq/anaconda3/envs/ikostri/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
   warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
-2020-04-01 20:23:45.689743: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+2020-04-13 08:05:11.062509: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
 name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
 pciBusID: 0000:41:00.0
-2020-04-01 20:23:45.689912: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
-2020-04-01 20:23:45.689930: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
-2020-04-01 20:23:45.689946: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
-2020-04-01 20:23:45.689959: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
-2020-04-01 20:23:45.689971: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
-2020-04-01 20:23:45.689982: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
-2020-04-01 20:23:45.690062: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
-2020-04-01 20:23:45.690071: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
-2020-04-01 20:23:45.690086: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
-2020-04-01 20:23:45.690093: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
-2020-04-01 20:23:45.690100: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-13 08:05:11.062607: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-13 08:05:11.062623: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-13 08:05:11.062638: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-13 08:05:11.062652: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-13 08:05:11.062664: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-13 08:05:11.062677: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-13 08:05:11.062690: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-04-13 08:05:11.064175: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-04-13 08:05:11.064202: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-13 08:05:11.064209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-13 08:05:11.064214: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-13 08:05:11.066017: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7945 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc23734a8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc23734a8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc2373668>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc2373668>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc26014a8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc26014a8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc260cc18>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc260cc18>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc2341710>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc2341710>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc2746390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc2746390>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc8394fd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc8394fd0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc23a6128>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc23a6128>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc23a6128>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc23a6128>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc81ffef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3bc81ffef0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc274fe80>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3bc274fe80>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc81ffef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc81ffef0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc252e278>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc252e278>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc20ceda0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3bc20ceda0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f3bdc02f378>, 'value': <function CNN.__init__.<locals>.value at 0x7f3bdc02f510>}
 Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
-{'reward': -1, 'episode_length': -1, 'total_reward': 805.0, 'total_episode_length': 235}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2405.0, 'total_episode_length': 795}
 Episode: 1
-{'reward': -1, 'episode_length': -1, 'total_reward': 3120.0, 'total_episode_length': 1169}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4845.0, 'total_episode_length': 1247}
 Episode: 2
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 565}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11110.0, 'total_episode_length': 2496}
 Episode: 3
-{'reward': -1, 'episode_length': -1, 'total_reward': 610.0, 'total_episode_length': 310}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6225.0, 'total_episode_length': 1474}
 Episode: 4
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 541}
+{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 212}
 Episode: 5
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 546}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2725.0, 'total_episode_length': 785}
 Episode: 6
-{'reward': -1, 'episode_length': -1, 'total_reward': 3145.0, 'total_episode_length': 1086}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10970.0, 'total_episode_length': 2491}
 Episode: 7
-{'reward': -1, 'episode_length': -1, 'total_reward': 3015.0, 'total_episode_length': 1008}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3395.0, 'total_episode_length': 966}
 Episode: 8
-{'reward': -1, 'episode_length': -1, 'total_reward': 2595.0, 'total_episode_length': 1040}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4330.0, 'total_episode_length': 1051}
 Episode: 9
-{'reward': -1, 'episode_length': -1, 'total_reward': 1320.0, 'total_episode_length': 509}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6025.0, 'total_episode_length': 1404}
 Episode: 10
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 524}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2675.0, 'total_episode_length': 826}
 Episode: 11
-{'reward': -1, 'episode_length': -1, 'total_reward': 875.0, 'total_episode_length': 349}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5900.0, 'total_episode_length': 1408}
 Episode: 12
-{'reward': -1, 'episode_length': -1, 'total_reward': 1865.0, 'total_episode_length': 762}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7630.0, 'total_episode_length': 1776}
 Episode: 13
-{'reward': -1, 'episode_length': -1, 'total_reward': 705.0, 'total_episode_length': 360}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4490.0, 'total_episode_length': 1205}
 Episode: 14
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 263}
+{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 214}
 Episode: 15
-{'reward': -1, 'episode_length': -1, 'total_reward': 2425.0, 'total_episode_length': 1002}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5140.0, 'total_episode_length': 1279}
 Episode: 16
-{'reward': -1, 'episode_length': -1, 'total_reward': 2425.0, 'total_episode_length': 966}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2910.0, 'total_episode_length': 902}
 Episode: 17
-{'reward': -1, 'episode_length': -1, 'total_reward': 1480.0, 'total_episode_length': 637}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5125.0, 'total_episode_length': 1319}
 Episode: 18
-{'reward': -1, 'episode_length': -1, 'total_reward': 1210.0, 'total_episode_length': 430}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5345.0, 'total_episode_length': 1281}
 Episode: 19
-{'reward': -1, 'episode_length': -1, 'total_reward': 2120.0, 'total_episode_length': 935}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2610.0, 'total_episode_length': 753}
 Episode: 20
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 759}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1090.0, 'total_episode_length': 350}
 Episode: 21
-{'reward': -1, 'episode_length': -1, 'total_reward': 1430.0, 'total_episode_length': 474}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4285.0, 'total_episode_length': 1089}
 Episode: 22
-{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 207}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6730.0, 'total_episode_length': 1542}
 Episode: 23
-{'reward': -1, 'episode_length': -1, 'total_reward': 1620.0, 'total_episode_length': 658}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1145.0, 'total_episode_length': 415}
 Episode: 24
-{'reward': -1, 'episode_length': -1, 'total_reward': 515.0, 'total_episode_length': 246}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3955.0, 'total_episode_length': 1014}
 Episode: 25
-{'reward': -1, 'episode_length': -1, 'total_reward': 1375.0, 'total_episode_length': 515}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11745.0, 'total_episode_length': 2497}
 Episode: 26
-{'reward': -1, 'episode_length': -1, 'total_reward': 2925.0, 'total_episode_length': 1090}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8575.0, 'total_episode_length': 2112}
 Episode: 27
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 564}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2845.0, 'total_episode_length': 822}
 Episode: 28
-{'reward': -1, 'episode_length': -1, 'total_reward': 1405.0, 'total_episode_length': 587}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3365.0, 'total_episode_length': 967}
 Episode: 29
-{'reward': -1, 'episode_length': -1, 'total_reward': 1955.0, 'total_episode_length': 797}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8240.0, 'total_episode_length': 1877}
 Episode: 30
-{'reward': -1, 'episode_length': -1, 'total_reward': 3095.0, 'total_episode_length': 1142}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4420.0, 'total_episode_length': 1068}
 Episode: 31
-{'reward': -1, 'episode_length': -1, 'total_reward': 2390.0, 'total_episode_length': 1002}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4870.0, 'total_episode_length': 1115}
 Episode: 32
-{'reward': -1, 'episode_length': -1, 'total_reward': 1435.0, 'total_episode_length': 524}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 476}
 Episode: 33
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 816}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2585.0, 'total_episode_length': 838}
 Episode: 34
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 243}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7005.0, 'total_episode_length': 1702}
 Episode: 35
-{'reward': -1, 'episode_length': -1, 'total_reward': 1435.0, 'total_episode_length': 604}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11400.0, 'total_episode_length': 2493}
 Episode: 36
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 257}
+{'reward': -1, 'episode_length': -1, 'total_reward': 770.0, 'total_episode_length': 198}
 Episode: 37
-{'reward': -1, 'episode_length': -1, 'total_reward': 2260.0, 'total_episode_length': 882}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5385.0, 'total_episode_length': 1320}
 Episode: 38
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 455}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2270.0, 'total_episode_length': 634}
 Episode: 39
-{'reward': -1, 'episode_length': -1, 'total_reward': 2625.0, 'total_episode_length': 1067}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3305.0, 'total_episode_length': 956}
 Episode: 40
-{'reward': -1, 'episode_length': -1, 'total_reward': 2210.0, 'total_episode_length': 768}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1480.0, 'total_episode_length': 573}
 Episode: 41
-{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 254}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7975.0, 'total_episode_length': 1844}
 Episode: 42
-{'reward': -1, 'episode_length': -1, 'total_reward': 2060.0, 'total_episode_length': 740}
+{'reward': -1, 'episode_length': -1, 'total_reward': 9770.0, 'total_episode_length': 2149}
 Episode: 43
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 505}
+{'reward': -1, 'episode_length': -1, 'total_reward': 9685.0, 'total_episode_length': 2122}
 Episode: 44
-{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 551}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8365.0, 'total_episode_length': 2110}
 Episode: 45
-{'reward': -1, 'episode_length': -1, 'total_reward': 1950.0, 'total_episode_length': 717}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4525.0, 'total_episode_length': 1140}
 Episode: 46
-{'reward': -1, 'episode_length': -1, 'total_reward': 1945.0, 'total_episode_length': 783}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2900.0, 'total_episode_length': 852}
 Episode: 47
-{'reward': -1, 'episode_length': -1, 'total_reward': 950.0, 'total_episode_length': 260}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3935.0, 'total_episode_length': 1039}
 Episode: 48
-{'reward': -1, 'episode_length': -1, 'total_reward': 2520.0, 'total_episode_length': 887}
+{'reward': -1, 'episode_length': -1, 'total_reward': 12110.0, 'total_episode_length': 2491}
 Episode: 49
-{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 507}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10910.0, 'total_episode_length': 2494}
 Episode: 50
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 516}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5615.0, 'total_episode_length': 1388}
 Episode: 51
-{'reward': -1, 'episode_length': -1, 'total_reward': 1750.0, 'total_episode_length': 786}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6025.0, 'total_episode_length': 1436}
 Episode: 52
-{'reward': -1, 'episode_length': -1, 'total_reward': 1375.0, 'total_episode_length': 594}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1285.0, 'total_episode_length': 389}
 Episode: 53
-{'reward': -1, 'episode_length': -1, 'total_reward': 2425.0, 'total_episode_length': 856}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5235.0, 'total_episode_length': 1258}
 Episode: 54
-{'reward': -1, 'episode_length': -1, 'total_reward': 1815.0, 'total_episode_length': 664}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11040.0, 'total_episode_length': 2492}
 Episode: 55
-{'reward': -1, 'episode_length': -1, 'total_reward': 1985.0, 'total_episode_length': 783}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5425.0, 'total_episode_length': 1369}
 Episode: 56
-{'reward': -1, 'episode_length': -1, 'total_reward': 2845.0, 'total_episode_length': 941}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2125.0, 'total_episode_length': 652}
 Episode: 57
-{'reward': -1, 'episode_length': -1, 'total_reward': 2095.0, 'total_episode_length': 788}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7130.0, 'total_episode_length': 1714}
 Episode: 58
-{'reward': -1, 'episode_length': -1, 'total_reward': 1830.0, 'total_episode_length': 744}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2845.0, 'total_episode_length': 779}
 Episode: 59
-{'reward': -1, 'episode_length': -1, 'total_reward': 2030.0, 'total_episode_length': 743}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2740.0, 'total_episode_length': 834}
 Episode: 60
-{'reward': -1, 'episode_length': -1, 'total_reward': 610.0, 'total_episode_length': 230}
+{'reward': -1, 'episode_length': -1, 'total_reward': 6805.0, 'total_episode_length': 1565}
 Episode: 61
-{'reward': -1, 'episode_length': -1, 'total_reward': 545.0, 'total_episode_length': 221}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5020.0, 'total_episode_length': 1142}
 Episode: 62
-{'reward': -1, 'episode_length': -1, 'total_reward': 2580.0, 'total_episode_length': 889}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3375.0, 'total_episode_length': 916}
 Episode: 63
-{'reward': -1, 'episode_length': -1, 'total_reward': 1790.0, 'total_episode_length': 536}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2740.0, 'total_episode_length': 803}
 Episode: 64
-{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 690}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5255.0, 'total_episode_length': 1197}
 Episode: 65
-{'reward': -1, 'episode_length': -1, 'total_reward': 2035.0, 'total_episode_length': 722}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4785.0, 'total_episode_length': 1136}
 Episode: 66
-{'reward': -1, 'episode_length': -1, 'total_reward': 1160.0, 'total_episode_length': 497}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4410.0, 'total_episode_length': 1136}
 Episode: 67
-{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 252}
+{'reward': -1, 'episode_length': -1, 'total_reward': 8740.0, 'total_episode_length': 1954}
 Episode: 68
-{'reward': -1, 'episode_length': -1, 'total_reward': 2035.0, 'total_episode_length': 843}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2285.0, 'total_episode_length': 693}
 Episode: 69
-{'reward': -1, 'episode_length': -1, 'total_reward': 605.0, 'total_episode_length': 255}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1145.0, 'total_episode_length': 383}
 Episode: 70
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 250}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10775.0, 'total_episode_length': 2491}
 Episode: 71
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 570}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4875.0, 'total_episode_length': 1199}
 Episode: 72
-{'reward': -1, 'episode_length': -1, 'total_reward': 1350.0, 'total_episode_length': 513}
+{'reward': -1, 'episode_length': -1, 'total_reward': 895.0, 'total_episode_length': 331}
 Episode: 73
-{'reward': -1, 'episode_length': -1, 'total_reward': 1205.0, 'total_episode_length': 527}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3395.0, 'total_episode_length': 933}
 Episode: 74
-{'reward': -1, 'episode_length': -1, 'total_reward': 1270.0, 'total_episode_length': 565}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2765.0, 'total_episode_length': 792}
 Episode: 75
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 523}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5845.0, 'total_episode_length': 1428}
 Episode: 76
-{'reward': -1, 'episode_length': -1, 'total_reward': 1270.0, 'total_episode_length': 553}
+{'reward': -1, 'episode_length': -1, 'total_reward': 10605.0, 'total_episode_length': 2375}
 Episode: 77
-{'reward': -1, 'episode_length': -1, 'total_reward': 1715.0, 'total_episode_length': 754}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5845.0, 'total_episode_length': 1415}
 Episode: 78
-{'reward': -1, 'episode_length': -1, 'total_reward': 1650.0, 'total_episode_length': 722}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3580.0, 'total_episode_length': 943}
 Episode: 79
-{'reward': -1, 'episode_length': -1, 'total_reward': 800.0, 'total_episode_length': 306}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3795.0, 'total_episode_length': 922}
 Episode: 80
-{'reward': -1, 'episode_length': -1, 'total_reward': 2435.0, 'total_episode_length': 948}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11725.0, 'total_episode_length': 2492}
 Episode: 81
-{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 598}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1865.0, 'total_episode_length': 639}
 Episode: 82
-{'reward': -1, 'episode_length': -1, 'total_reward': 2130.0, 'total_episode_length': 838}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4195.0, 'total_episode_length': 996}
 Episode: 83
-{'reward': -1, 'episode_length': -1, 'total_reward': 1955.0, 'total_episode_length': 724}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5355.0, 'total_episode_length': 1282}
 Episode: 84
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 530}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2875.0, 'total_episode_length': 791}
 Episode: 85
-{'reward': -1, 'episode_length': -1, 'total_reward': 2155.0, 'total_episode_length': 851}
+{'reward': -1, 'episode_length': -1, 'total_reward': 11370.0, 'total_episode_length': 2498}
 Episode: 86
-{'reward': -1, 'episode_length': -1, 'total_reward': 1985.0, 'total_episode_length': 822}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1720.0, 'total_episode_length': 553}
 Episode: 87
-{'reward': -1, 'episode_length': -1, 'total_reward': 2870.0, 'total_episode_length': 1057}
+{'reward': -1, 'episode_length': -1, 'total_reward': 5240.0, 'total_episode_length': 1279}
 Episode: 88
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 313}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2495.0, 'total_episode_length': 800}
 Episode: 89
-{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 235}
+{'reward': -1, 'episode_length': -1, 'total_reward': 4130.0, 'total_episode_length': 1174}
 Episode: 90
-{'reward': -1, 'episode_length': -1, 'total_reward': 2575.0, 'total_episode_length': 962}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1420.0, 'total_episode_length': 513}
 Episode: 91
-{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 559}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2365.0, 'total_episode_length': 641}
 Episode: 92
-{'reward': -1, 'episode_length': -1, 'total_reward': 550.0, 'total_episode_length': 217}
+{'reward': -1, 'episode_length': -1, 'total_reward': 3950.0, 'total_episode_length': 1017}
 Episode: 93
-{'reward': -1, 'episode_length': -1, 'total_reward': 2615.0, 'total_episode_length': 1050}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1870.0, 'total_episode_length': 623}
 Episode: 94
-{'reward': -1, 'episode_length': -1, 'total_reward': 820.0, 'total_episode_length': 400}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2675.0, 'total_episode_length': 803}
 Episode: 95
-{'reward': -1, 'episode_length': -1, 'total_reward': 3105.0, 'total_episode_length': 1002}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2655.0, 'total_episode_length': 876}
 Episode: 96
-{'reward': -1, 'episode_length': -1, 'total_reward': 2105.0, 'total_episode_length': 823}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1935.0, 'total_episode_length': 590}
 Episode: 97
-{'reward': -1, 'episode_length': -1, 'total_reward': 600.0, 'total_episode_length': 271}
+{'reward': -1, 'episode_length': -1, 'total_reward': 2925.0, 'total_episode_length': 872}
 Episode: 98
-{'reward': -1, 'episode_length': -1, 'total_reward': 2185.0, 'total_episode_length': 904}
+{'reward': -1, 'episode_length': -1, 'total_reward': 1375.0, 'total_episode_length': 389}
 Episode: 99
-{'reward': -1, 'episode_length': -1, 'total_reward': 2240.0, 'total_episode_length': 817}
+{'reward': -1, 'episode_length': -1, 'total_reward': 7220.0, 'total_episode_length': 1606}
 Episode: 100
 *************************************************************
-CUMULATIVE_AVG_REWARD 1621.75
+CUMULATIVE_AVG_REWARD 4876.35
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Final score:  1617.72
+Final score:  5347.94
