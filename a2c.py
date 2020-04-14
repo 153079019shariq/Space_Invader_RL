@@ -5,6 +5,9 @@ import tensorflow as tf
 import os
 import time
 
+
+MODEL_PATH = 'models_nstep_8'
+
 start_time = time.time()
 def set_global_seeds(i):
     tf.set_random_seed(i)
@@ -198,7 +201,6 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
 
     nenvs = env.num_envs
     env_id = env.env_id
-    save_name = os.path.join('models', "Space_inv_A2C_LSTM_{}".format(start_time))
     ob_space = env.observation_space
     ac_space = env.action_space
     agent = Agent(Network=network, ob_space=ob_space, ac_space=ac_space, nenvs=nenvs,
@@ -207,10 +209,11 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
                   max_grad_norm=max_grad_norm,
                   lr=lr, alpha=alpha, epsilon=epsilon, total_timesteps=total_timesteps)
     
+    """
     if os.path.exists("models/Space_inv_A2C_LSTM_MAX_avg_rew_145"):
         agent.load("models/Space_inv_A2C_LSTM_MAX_avg_rew_145")
         print("Loaded_the_model")
-    
+    """
 
     #run 5 step of the enviroment for each worker in parallel,collect data and pass it to the Agent for training
     #Eg : if we have 16 worker and each worker has takes 5 steps ,providing <s,a,r,s'> tuple for each step then the batch size is 16*5 =80
@@ -246,10 +249,11 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
                 print("avg total reward (last 100):", np.mean(tr))
                 print("max (last 100):", np.max(tr))
                 if(max_rew < np.mean(tr)):
-                   savepath = os.path.join("models", "Space_inv_A2C_LSTM_MAX_{}".format(start_time))
+                   savepath = os.path.join(MODEL_PATH,"Space_inv_A2C_LSTM_nstep8_MAX_{}".format(start_time))
                    agent.save(savepath)
                    max_rew  = np.mean(tr)
                    print("Saved_the_max_model") 
+            save_name = os.path.join(MODEL_PATH,"Space_inv_A2C_LSTM_nstep8_{}".format(start_time))
             agent.save(save_name)
             print("Saved_the_model")
 
