@@ -36,11 +36,13 @@ from tensorflow import set_random_seed
 
 
 
-wandb.init(project="restore")
+wandb.init(project="supp")
 config = wandb.config
-wandb.save("SpaceInvaders-v0_good.save")
-print("Saved_the_model")
-best_model = wandb.restore("SpaceInvaders-v0_good.save",run_path="shaq/restore/runs/1lrgfbrf")
+#save_path = os.path.join('models_nstep_8', "Space_inv_A2C_LSTM_nstep8_MAX_avg_rew_139")
+#wandb.save(save_path)
+#print("Saved_the_model")
+
+best_model = wandb.restore("Space_inv_A2C_LSTM_nstep8_MAX_avg_rew_139",run_path="shaq/supp/runs/1ezt2kof")
 
 def get_args():
     # Get some basic command line arguements
@@ -127,8 +129,8 @@ def main():
     state_size = env.observation_space.shape[0]
     action_size = env.action_space.n
     agent = get_agent(env)
-    save_path = os.path.join('models', 'SpaceInvaders-v0_good.save')
     agent.load(best_model.name)
+    lstm_state = np.zeros((1,256),dtype=np.float32)
  
     print("Actions available(%d): %r"%(env.action_space.n, env.env.get_action_meanings()))
   
@@ -145,10 +147,12 @@ def main():
       count   = 0
       action_count = 0
       done = False
+      done1 = np.array([int(done)])
       while not done:
           obs = np.expand_dims(obs.__array__(), axis=0)
-          a, v = agent.step(obs)
+          a, v,lstm_state = agent.step(obs,S_=lstm_state,M_=done1)
           obs, reward, done, info = env.step(a)
+          done1 = np.array([int(done)])
           #env.render()
           action_count += 1
           if(done):
