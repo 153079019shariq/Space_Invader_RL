@@ -116,7 +116,8 @@ def main():
     state_size = env.observation_space.shape[0]
     action_size = env.action_space.n
     agent = get_agent(env)
-    save_path = os.path.join('models_nstep_8', "Space_inv_A2C_LSTM_nstep8_MAX_avg_rew_139")
+    #save_path = os.path.join('models_nstep_8', "Space_inv_A2C_LSTM_nstep8_MAX_avg_rew_139")
+    save_path = os.path.join('models_nstep_12', "Space_inv_A2C_LSTM_nstep12_MAX_avg_rew_114")
     lstm_state = np.zeros((1,256),dtype=np.float32)
     agent.load(save_path)
  

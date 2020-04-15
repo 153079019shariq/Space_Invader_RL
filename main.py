@@ -4,6 +4,7 @@ from atari_wrappers import make_atari, wrap_deepmind, Monitor
 from neural_network import CNN
 from a2c import learn
 
+import multiprocessing
 import os
 
 import gym
@@ -12,16 +13,18 @@ import logging
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Mute missing instructions errors
 
-MODEL_PATH = 'models_nstep_8'
 SEED = 0
 
+
+no_of_cpu = multiprocessing.cpu_count()
+print("Total_no_of_cpu_count",no_of_cpu)
 
 def get_args():
     # Get some basic command line arguements
     parser = argparse.ArgumentParser()
     parser.add_argument('-e', '--env', help='environment ID', default='SpaceInvaders-v0')
     parser.add_argument('-s', '--steps', help='training steps', type=int, default=int(80e6))
-    parser.add_argument('--nenv', help='No. of environments', type=int, default=24)
+    parser.add_argument('--nenv', help='No. of environments', type=int, default=no_of_cpu)
     return parser.parse_args()
 
 
@@ -40,14 +43,13 @@ def train(env_id, num_timesteps, num_cpu):
 
     env = SubprocVecEnv([make_env(i) for i in range(num_cpu)])
     print("##########################No_of_enviroments###############",env)
-    learn(CNN, env, SEED,nsteps=8, total_timesteps=int(num_timesteps * 1.1))
+    learn(CNN, env, SEED,nsteps=12, total_timesteps=int(num_timesteps * 1.1))
     env.close()
     pass
 
 
 def main():
     args = get_args()
-    os.makedirs(MODEL_PATH, exist_ok=True)
     train(args.env, args.steps, num_cpu=args.nenv)
 
 

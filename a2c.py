@@ -6,7 +6,7 @@ import os
 import time
 
 
-MODEL_PATH = 'models_nstep_8'
+MODEL_PATH = 'models_nstep_12'
 
 start_time = time.time()
 def set_global_seeds(i):
@@ -249,11 +249,11 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
                 print("avg total reward (last 100):", np.mean(tr))
                 print("max (last 100):", np.max(tr))
                 if(max_rew < np.mean(tr)):
-                   savepath = os.path.join(MODEL_PATH,"Space_inv_A2C_LSTM_nstep8_MAX_{}".format(start_time))
+                   savepath = os.path.join(MODEL_PATH,"Space_inv_A2C_LSTM_nstep12_MAX_{}".format(start_time))
                    agent.save(savepath)
                    max_rew  = np.mean(tr)
                    print("Saved_the_max_model") 
-            save_name = os.path.join(MODEL_PATH,"Space_inv_A2C_LSTM_nstep8_{}".format(start_time))
+            save_name = os.path.join(MODEL_PATH,"Space_inv_A2C_LSTM_nstep12_{}".format(start_time))
             agent.save(save_name)
             print("Saved_the_model")
 
