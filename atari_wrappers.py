@@ -1,8 +1,3 @@
-# Eg : In the orignal breakout game, an episode is  terminated when you lose 5 lives.
-#One warpper changes this so that one episode = one life
-#Ex : reward cliping is also done (-1,1)
-
-
 import numpy as np
 from collections import deque
 import gym
