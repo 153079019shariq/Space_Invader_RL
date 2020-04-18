@@ -10,7 +10,7 @@ import gym
 import argparse
 import logging
 
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Mute missing instructions errors
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  
 
 MODEL_PATH = 'models_nstep_8'
 SEED = 0
