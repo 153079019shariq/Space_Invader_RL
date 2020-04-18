@@ -59,7 +59,7 @@ class FireResetEnv(gym.Wrapper):
 
 
 
-#Actually the done =True when the agent loses 5 life in the game BREAKOUT but here we have made changes so
+#Actually the done =True when the agent loses 3 life in the game SpaceInvader but here we have made changes so
 #that the done become after 1 life.  
 class EpisodicLifeEnv(gym.Wrapper):
     def __init__(self, env):
