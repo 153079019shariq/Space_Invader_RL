@@ -5,10 +5,16 @@ import tensorflow as tf
 import os
 import time
 
+import mlflow
+import mlflow.tensorflow
+import datetime
+my_dt_ob  = datetime.datetime.now()
+date_list = [my_dt_ob.year, my_dt_ob.month, my_dt_ob.day, my_dt_ob.hour, my_dt_ob.minute, my_dt_ob.second]
+date_list = [str(i) for i in date_list]
+start_time = "_".join(date_list)
 
-MODEL_PATH = 'models_nstep_8'
+MODEL_PATH = 'model_hyper_lr'
 
-start_time = time.time()
 def set_global_seeds(i):
     tf.set_random_seed(i)
     np.random.seed(i)
@@ -199,6 +205,21 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
     tf.reset_default_graph()
     set_global_seeds(seed)
 
+
+
+    #-----------------Added the ML_flow_param------------------------------------------------
+    mlflow.log_param("nsteps",nsteps)
+    mlflow.log_param("vf_coef",vf_coef)
+    mlflow.log_param("ent_coef",ent_coef)
+    mlflow.log_param("max_grad_norm",max_grad_norm)
+    mlflow.log_param("learning_rate",lr)
+    mlflow.log_param("epsilon",epsilon)
+    mlflow.log_param("alpha",alpha)
+    mlflow.log_param("gamma",gamma)
+
+    #-----------------------------------------------------------------------------------------
+
+
     nenvs = env.num_envs
     env_id = env.env_id
     ob_space = env.observation_space
@@ -244,16 +265,20 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
             r = runner.total_rewards[-100:] # get last 100
             tr = runner.real_total_rewards[-100:]
             if len(r) == 100:
+                mlflow.log_metric("avg_reward_last_100", np.mean(r))
                 print("avg reward (last 100):", np.mean(r))
             if len(tr) == 100:
+                mlflow.log_metric("avg_total_reward_last_100 ",np.mean(tr))
+                mlflow.log_metric("max_last_100", np.max(tr))
                 print("avg total reward (last 100):", np.mean(tr))
                 print("max (last 100):", np.max(tr))
                 if(max_rew < np.mean(tr)):
-                   savepath = os.path.join(MODEL_PATH,"Space_inv_A2C_LSTM_nstep8_MAX_{}".format(start_time))
+
+                   savepath = os.path.join(MODEL_PATH,"Space_inv_A2C_LSTM_nstep8_MAX_hyper_lr_{}".format(start_time))
                    agent.save(savepath)
                    max_rew  = np.mean(tr)
-                   print("Saved_the_max_model") 
-            save_name = os.path.join(MODEL_PATH,"Space_inv_A2C_LSTM_nstep8_{}".format(start_time))
+                   print("Saved_the_max_model")
+            save_name = os.path.join(MODEL_PATH,"Space_inv_A2C_LSTM_nstep8_hyper_lr_{}".format(start_time))
             agent.save(save_name)
             print("Saved_the_model")
 
