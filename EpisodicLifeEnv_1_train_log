@@ -1,0 +1,1522 @@
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+Enviroment_id SpaceInvaders-v0
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+##########################No_of_enviroments############### <subproc_vec_env.SubprocVecEnv object at 0x7f156894b630>
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:203: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:17: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ########### 1
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:55: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:58: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:61: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/neural_network.py:13: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f160498d0f0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f160498d0f0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f16044969b0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f16044969b0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f16044969b0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f16044969b0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/neural_network.py:129: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1604496e48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1604496e48>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/neural_network.py:18: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f162d0893c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f162d0893c8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 24 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(24, 1, 512), dtype=float32)
+nbatch 24 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(24, 1, 1), dtype=float32)
+shape_of_snew (24, 256)
+Shape_of_h4 (24, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(24,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(24, 256), dtype=float32)
+Shape_of_xs 1 (24, 128)
+Shape_of_ms 1 (24, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1568044a20>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1568044a20>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f16044567b8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f16044567b8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1568032160>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1568032160>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1568032160>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1568032160>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1568032518>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1568032518>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1568017d30>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1568017d30>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1568032518>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1568032518>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 24 nsteps 8
+batch_to_seq Tensor("model_1/Reshape:0", shape=(24, 8, 512), dtype=float32)
+nbatch 24 nsteps 8
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(24, 8, 1), dtype=float32)
+shape_of_snew (24, 256)
+Shape_of_h4 (192, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(192,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(24, 256), dtype=float32)
+Shape_of_xs 8 (24, 128)
+Shape_of_ms 8 (24, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1550700710>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1550700710>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1550700710>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1550700710>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(192, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(192,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(24, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(192, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(192, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f1568178c80>, 'value': <function CNN.__init__.<locals>.value at 0x7f1568178620>}
+WARNING:tensorflow:From /home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:286: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:92: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From /home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/tensorflow/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 1
+current_timesteps 1
+fps 134
+policy_entropy 1.7913509607315063
+value_loss 0.1520794779062271
+total_no 114584
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 1000
+current_timesteps 1000
+fps 1144
+policy_entropy 1.233289122581482
+value_loss 0.3643645942211151
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 4.54
+max (last 100): 18.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 2000
+current_timesteps 2000
+fps 1151
+policy_entropy 1.5034900903701782
+value_loss 0.5734690427780151
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 4.91
+max (last 100): 25.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 3000
+current_timesteps 3000
+fps 1161
+policy_entropy 1.307475209236145
+value_loss 0.13348518311977386
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 4.4
+max (last 100): 9.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 4000
+current_timesteps 4000
+fps 1174
+policy_entropy 1.2473982572555542
+value_loss 0.0879964604973793
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 4.49
+max (last 100): 8.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 5000
+current_timesteps 5000
+fps 1184
+policy_entropy 1.4826478958129883
+value_loss 0.10288714617490768
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 4.26
+max (last 100): 12.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 6000
+current_timesteps 6000
+fps 1188
+policy_entropy 1.4075746536254883
+value_loss 0.16234102845191956
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 5.6
+max (last 100): 19.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 7000
+current_timesteps 7000
+fps 1191
+policy_entropy 1.2974947690963745
+value_loss 0.3144325315952301
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 5.05
+max (last 100): 20.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 8000
+current_timesteps 8000
+fps 1195
+policy_entropy 1.1673802137374878
+value_loss 0.5920685529708862
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 6.95
+max (last 100): 29.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 9000
+current_timesteps 9000
+fps 1198
+policy_entropy 1.27312433719635
+value_loss 0.17074961960315704
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 6.8
+max (last 100): 20.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 10000
+current_timesteps 10000
+fps 1201
+policy_entropy 0.8115606307983398
+value_loss 0.8171012997627258
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 7.1
+max (last 100): 27.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 11000
+current_timesteps 11000
+fps 1206
+policy_entropy 0.9241147041320801
+value_loss 0.2580401599407196
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 7.25
+max (last 100): 23.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 12000
+current_timesteps 12000
+fps 1209
+policy_entropy 0.9097700119018555
+value_loss 0.2857452929019928
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.86
+max (last 100): 33.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 13000
+current_timesteps 13000
+fps 1213
+policy_entropy 0.5961084961891174
+value_loss 0.29786065220832825
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 6.4
+max (last 100): 40.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 14000
+current_timesteps 14000
+fps 1215
+policy_entropy 1.029488205909729
+value_loss 0.2055911421775818
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 6.0
+max (last 100): 21.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 15000
+current_timesteps 15000
+fps 1217
+policy_entropy 0.8097335696220398
+value_loss 0.7327085137367249
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 5.43
+max (last 100): 23.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 16000
+current_timesteps 16000
+fps 1218
+policy_entropy 0.6342142224311829
+value_loss 0.14858536422252655
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 8.47
+max (last 100): 25.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 17000
+current_timesteps 17000
+fps 1221
+policy_entropy 0.6511548161506653
+value_loss 0.20517337322235107
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 8.93
+max (last 100): 29.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 18000
+current_timesteps 18000
+fps 1222
+policy_entropy 0.7151445746421814
+value_loss 0.4791839122772217
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 7.99
+max (last 100): 25.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 19000
+current_timesteps 19000
+fps 1223
+policy_entropy 0.6647526621818542
+value_loss 0.39980348944664
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 7.84
+max (last 100): 35.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 20000
+current_timesteps 20000
+fps 1225
+policy_entropy 0.8373691439628601
+value_loss 0.5601393580436707
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.67
+max (last 100): 29.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 21000
+current_timesteps 21000
+fps 1226
+policy_entropy 0.8283867239952087
+value_loss 0.8322508335113525
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 7.06
+max (last 100): 24.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 22000
+current_timesteps 22000
+fps 1227
+policy_entropy 0.8033263683319092
+value_loss 0.4673577845096588
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.51
+max (last 100): 32.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 23000
+current_timesteps 23000
+fps 1229
+policy_entropy 0.878869354724884
+value_loss 0.40234461426734924
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.69
+max (last 100): 33.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 24000
+current_timesteps 24000
+fps 1230
+policy_entropy 0.8641104102134705
+value_loss 0.34286054968833923
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.38
+max (last 100): 31.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 25000
+current_timesteps 25000
+fps 1231
+policy_entropy 0.7565768361091614
+value_loss 0.8776277899742126
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.52
+max (last 100): 36.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 26000
+current_timesteps 26000
+fps 1232
+policy_entropy 0.9345095157623291
+value_loss 0.14225579798221588
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.02
+max (last 100): 35.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 27000
+current_timesteps 27000
+fps 1234
+policy_entropy 1.0821057558059692
+value_loss 0.2746419608592987
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.91
+max (last 100): 33.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 28000
+current_timesteps 28000
+fps 1235
+policy_entropy 1.0612870454788208
+value_loss 0.1808154582977295
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.83
+max (last 100): 35.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 29000
+current_timesteps 29000
+fps 1236
+policy_entropy 0.979565441608429
+value_loss 0.1646115779876709
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.84
+max (last 100): 32.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 30000
+current_timesteps 30000
+fps 1237
+policy_entropy 1.1816502809524536
+value_loss 1.3051393032073975
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.27
+max (last 100): 32.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 31000
+current_timesteps 31000
+fps 1238
+policy_entropy 0.8709201216697693
+value_loss 0.2771497070789337
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 10.78
+max (last 100): 35.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 32000
+current_timesteps 32000
+fps 1239
+policy_entropy 0.9262687563896179
+value_loss 0.21802771091461182
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 10.55
+max (last 100): 34.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 33000
+current_timesteps 33000
+fps 1240
+policy_entropy 0.8802793622016907
+value_loss 0.21263796091079712
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 10.33
+max (last 100): 32.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 34000
+current_timesteps 34000
+fps 1241
+policy_entropy 1.0348068475723267
+value_loss 0.21021895110607147
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 10.26
+max (last 100): 33.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 35000
+current_timesteps 35000
+fps 1242
+policy_entropy 0.8673126101493835
+value_loss 0.30911985039711
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.03
+max (last 100): 33.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 36000
+current_timesteps 36000
+fps 1242
+policy_entropy 1.051322102546692
+value_loss 1.3401023149490356
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.9
+max (last 100): 46.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 37000
+current_timesteps 37000
+fps 1243
+policy_entropy 0.7266645431518555
+value_loss 1.255378246307373
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 9.73
+max (last 100): 35.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 38000
+current_timesteps 38000
+fps 1243
+policy_entropy 0.9303553700447083
+value_loss 0.5300969481468201
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 8.95
+max (last 100): 32.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 39000
+current_timesteps 39000
+fps 1244
+policy_entropy 0.9730072021484375
+value_loss 0.2094547003507614
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 10.76
+max (last 100): 36.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 40000
+current_timesteps 40000
+fps 1245
+policy_entropy 1.1054250001907349
+value_loss 1.0038561820983887
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 10.11
+max (last 100): 32.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 41000
+current_timesteps 41000
+fps 1246
+policy_entropy 0.8812153935432434
+value_loss 1.1674692630767822
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 10.15
+max (last 100): 34.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 42000
+current_timesteps 42000
+fps 1247
+policy_entropy 1.012278437614441
+value_loss 0.49309584498405457
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 11.75
+max (last 100): 44.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 43000
+current_timesteps 43000
+fps 1248
+policy_entropy 0.9727439880371094
+value_loss 0.18635952472686768
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 10.58
+max (last 100): 35.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 44000
+current_timesteps 44000
+fps 1249
+policy_entropy 0.8820047378540039
+value_loss 0.3335123360157013
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 12.97
+max (last 100): 45.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 45000
+current_timesteps 45000
+fps 1250
+policy_entropy 0.9065493941307068
+value_loss 0.5605205297470093
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 12.59
+max (last 100): 38.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 46000
+current_timesteps 46000
+fps 1251
+policy_entropy 0.8137753009796143
+value_loss 0.8933437466621399
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 11.68
+max (last 100): 53.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 47000
+current_timesteps 47000
+fps 1253
+policy_entropy 0.7464970946311951
+value_loss 0.47401323914527893
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 12.49
+max (last 100): 36.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 48000
+current_timesteps 48000
+fps 1254
+policy_entropy 0.6505218148231506
+value_loss 0.23574239015579224
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 12.06
+max (last 100): 45.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 49000
+current_timesteps 49000
+fps 1255
+policy_entropy 0.9631336331367493
+value_loss 0.30938616394996643
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 11.86
+max (last 100): 54.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 50000
+current_timesteps 50000
+fps 1255
+policy_entropy 0.747603178024292
+value_loss 0.6598882675170898
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 13.04
+max (last 100): 36.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 51000
+current_timesteps 51000
+fps 1256
+policy_entropy 0.762584388256073
+value_loss 0.6014849543571472
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 14.25
+max (last 100): 48.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 52000
+current_timesteps 52000
+fps 1257
+policy_entropy 0.6928535103797913
+value_loss 0.2356729656457901
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 16.95
+max (last 100): 55.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 53000
+current_timesteps 53000
+fps 1258
+policy_entropy 0.6867272853851318
+value_loss 0.192526176571846
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 15.37
+max (last 100): 59.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 54000
+current_timesteps 54000
+fps 1259
+policy_entropy 0.8232486844062805
+value_loss 0.24685262143611908
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 15.2
+max (last 100): 49.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 55000
+current_timesteps 55000
+fps 1260
+policy_entropy 0.8511333465576172
+value_loss 0.5029585957527161
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 15.45
+max (last 100): 46.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 56000
+current_timesteps 56000
+fps 1261
+policy_entropy 0.7032589316368103
+value_loss 0.27560850977897644
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 15.86
+max (last 100): 59.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 57000
+current_timesteps 57000
+fps 1262
+policy_entropy 0.7712462544441223
+value_loss 0.2894096076488495
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 18.3
+max (last 100): 60.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 58000
+current_timesteps 58000
+fps 1263
+policy_entropy 0.7847936749458313
+value_loss 0.12706802785396576
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 19.1
+max (last 100): 61.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 59000
+current_timesteps 59000
+fps 1264
+policy_entropy 0.6739434599876404
+value_loss 0.1401265561580658
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 15.46
+max (last 100): 57.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 60000
+current_timesteps 60000
+fps 1264
+policy_entropy 0.5889005064964294
+value_loss 0.21222536265850067
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 17.75
+max (last 100): 59.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 61000
+current_timesteps 61000
+fps 1265
+policy_entropy 0.7522252202033997
+value_loss 0.3969060182571411
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 14.78
+max (last 100): 67.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 62000
+current_timesteps 62000
+fps 1266
+policy_entropy 0.7380828857421875
+value_loss 0.9649707674980164
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 18.88
+max (last 100): 71.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 63000
+current_timesteps 63000
+fps 1267
+policy_entropy 0.8702508807182312
+value_loss 0.15908952057361603
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 17.43
+max (last 100): 71.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 64000
+current_timesteps 64000
+fps 1268
+policy_entropy 0.824650764465332
+value_loss 0.5702541470527649
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 17.42
+max (last 100): 35.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 65000
+current_timesteps 65000
+fps 1269
+policy_entropy 0.6105818152427673
+value_loss 0.1571940928697586
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 17.27
+max (last 100): 43.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 66000
+current_timesteps 66000
+fps 1269
+policy_entropy 0.5725963115692139
+value_loss 1.0801390409469604
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 18.46
+max (last 100): 72.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 67000
+current_timesteps 67000
+fps 1271
+policy_entropy 0.6199753880500793
+value_loss 0.1127375140786171
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 19.51
+max (last 100): 70.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 68000
+current_timesteps 68000
+fps 1271
+policy_entropy 0.5545444488525391
+value_loss 0.17283296585083008
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 21.9
+max (last 100): 71.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 69000
+current_timesteps 69000
+fps 1272
+policy_entropy 0.686408519744873
+value_loss 0.6934425234794617
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 21.57
+max (last 100): 68.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 70000
+current_timesteps 70000
+fps 1273
+policy_entropy 0.7678289413452148
+value_loss 1.1306630373001099
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 18.62
+max (last 100): 67.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 71000
+current_timesteps 71000
+fps 1274
+policy_entropy 0.7796266674995422
+value_loss 1.3602937459945679
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 19.3
+max (last 100): 71.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 72000
+current_timesteps 72000
+fps 1275
+policy_entropy 0.883375346660614
+value_loss 0.07800067216157913
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 20.4
+max (last 100): 70.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 73000
+current_timesteps 73000
+fps 1276
+policy_entropy 0.7009822726249695
+value_loss 0.3569992482662201
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 19.53
+max (last 100): 72.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 74000
+current_timesteps 74000
+fps 1277
+policy_entropy 0.5926061272621155
+value_loss 0.5418875217437744
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 17.92
+max (last 100): 79.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 75000
+current_timesteps 75000
+fps 1278
+policy_entropy 0.722938597202301
+value_loss 0.39201095700263977
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 20.42
+max (last 100): 77.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 76000
+current_timesteps 76000
+fps 1279
+policy_entropy 0.7138765454292297
+value_loss 0.39057135581970215
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 18.61
+max (last 100): 70.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 77000
+current_timesteps 77000
+fps 1280
+policy_entropy 0.6800199151039124
+value_loss 0.2770307660102844
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 21.56
+max (last 100): 71.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 78000
+current_timesteps 78000
+fps 1281
+policy_entropy 0.5590834617614746
+value_loss 0.3169025480747223
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 22.15
+max (last 100): 87.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 79000
+current_timesteps 79000
+fps 1282
+policy_entropy 0.7909612059593201
+value_loss 0.3825194537639618
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 24.15
+max (last 100): 83.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 80000
+current_timesteps 80000
+fps 1282
+policy_entropy 0.6817620396614075
+value_loss 0.4994666874408722
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 22.65
+max (last 100): 71.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 81000
+current_timesteps 81000
+fps 1283
+policy_entropy 0.5354569554328918
+value_loss 1.646725058555603
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 22.39
+max (last 100): 83.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 82000
+current_timesteps 82000
+fps 1284
+policy_entropy 0.5611701607704163
+value_loss 0.18152417242527008
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 21.48
+max (last 100): 72.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 83000
+current_timesteps 83000
+fps 1285
+policy_entropy 0.6682378649711609
+value_loss 0.16877657175064087
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 21.54
+max (last 100): 70.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 84000
+current_timesteps 84000
+fps 1286
+policy_entropy 0.6849506497383118
+value_loss 0.845947265625
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 21.72
+max (last 100): 90.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 85000
+current_timesteps 85000
+fps 1286
+policy_entropy 0.6742277145385742
+value_loss 1.7558878660202026
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 22.45
+max (last 100): 71.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 86000
+current_timesteps 86000
+fps 1287
+policy_entropy 0.8831558227539062
+value_loss 0.7410741448402405
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 25.89
+max (last 100): 91.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 87000
+current_timesteps 87000
+fps 1288
+policy_entropy 0.5806127190589905
+value_loss 0.46322929859161377
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 24.68
+max (last 100): 69.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 88000
+current_timesteps 88000
+fps 1289
+policy_entropy 0.6755664944648743
+value_loss 0.3905719518661499
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 24.82
+max (last 100): 102.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 89000
+current_timesteps 89000
+fps 1289
+policy_entropy 0.688116729259491
+value_loss 1.790108323097229
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 23.37
+max (last 100): 83.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 90000
+current_timesteps 90000
+fps 1290
+policy_entropy 0.6281533241271973
+value_loss 1.4656782150268555
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 27.64
+max (last 100): 107.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 91000
+current_timesteps 91000
+fps 1291
+policy_entropy 0.6044893860816956
+value_loss 0.7791225910186768
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 28.29
+max (last 100): 102.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 92000
+current_timesteps 92000
+fps 1292
+policy_entropy 0.5831285119056702
+value_loss 0.2643725872039795
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 24.98
+max (last 100): 73.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 93000
+current_timesteps 93000
+fps 1292
+policy_entropy 0.5390556454658508
+value_loss 0.3173026442527771
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 26.7
+max (last 100): 122.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 94000
+current_timesteps 94000
+fps 1293
+policy_entropy 0.5703136324882507
+value_loss 0.40316513180732727
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 23.08
+max (last 100): 81.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 95000
+current_timesteps 95000
+fps 1294
+policy_entropy 0.6159831881523132
+value_loss 0.2261248230934143
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 28.21
+max (last 100): 110.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 96000
+current_timesteps 96000
+fps 1295
+policy_entropy 0.6517952084541321
+value_loss 0.2946977913379669
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 25.16
+max (last 100): 109.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 97000
+current_timesteps 97000
+fps 1295
+policy_entropy 0.5320334434509277
+value_loss 4.441224098205566
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 27.88
+max (last 100): 87.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 98000
+current_timesteps 98000
+fps 1296
+policy_entropy 0.6600505709648132
+value_loss 0.2891712486743927
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 27.53
+max (last 100): 108.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 99000
+current_timesteps 99000
+fps 1297
+policy_entropy 0.593787670135498
+value_loss 0.3724595308303833
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 24.14
+max (last 100): 101.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 100000
+current_timesteps 100000
+fps 1298
+policy_entropy 0.641882598400116
+value_loss 1.1785894632339478
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 27.82
+max (last 100): 113.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 101000
+current_timesteps 101000
+fps 1298
+policy_entropy 0.557904064655304
+value_loss 3.6902129650115967
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 30.99
+max (last 100): 126.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 102000
+current_timesteps 102000
+fps 1299
+policy_entropy 0.5712205767631531
+value_loss 0.3098176419734955
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 26.24
+max (last 100): 127.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 103000
+current_timesteps 103000
+fps 1300
+policy_entropy 0.7225184440612793
+value_loss 3.5268971920013428
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 24.93
+max (last 100): 76.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 104000
+current_timesteps 104000
+fps 1301
+policy_entropy 0.687352180480957
+value_loss 0.49280664324760437
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 28.06
+max (last 100): 93.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 105000
+current_timesteps 105000
+fps 1302
+policy_entropy 0.7009922862052917
+value_loss 0.14314915239810944
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 29.57
+max (last 100): 108.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 106000
+current_timesteps 106000
+fps 1302
+policy_entropy 0.6213818192481995
+value_loss 0.2746875584125519
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 32.42
+max (last 100): 120.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 107000
+current_timesteps 107000
+fps 1303
+policy_entropy 0.7315859198570251
+value_loss 1.4219504594802856
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 30.92
+max (last 100): 101.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 108000
+current_timesteps 108000
+fps 1304
+policy_entropy 0.5910778641700745
+value_loss 1.0701279640197754
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 28.54
+max (last 100): 107.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 109000
+current_timesteps 109000
+fps 1304
+policy_entropy 0.5149027705192566
+value_loss 4.1087517738342285
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 34.46
+max (last 100): 138.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 110000
+current_timesteps 110000
+fps 1305
+policy_entropy 0.44325152039527893
+value_loss 0.3987889587879181
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 31.26
+max (last 100): 107.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 111000
+current_timesteps 111000
+fps 1306
+policy_entropy 0.6431025862693787
+value_loss 0.16311441361904144
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 35.79
+max (last 100): 137.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 112000
+current_timesteps 112000
+fps 1307
+policy_entropy 0.7190256714820862
+value_loss 0.22405743598937988
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 33.53
+max (last 100): 143.0
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 113000
+current_timesteps 113000
+fps 1307
+policy_entropy 0.7272639274597168
+value_loss 0.14287450909614563
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 37.03
+max (last 100): 113.0
+Saved_the_max_model
+Saved_the_model
+No_of_times_loop_run 114583
+ - - - - - - - 
+nupdates 114000
+current_timesteps 114000
+fps 1308
+policy_entropy 0.5592671632766724
+value_loss 0.3380856513977051
+total_no 114584
+avg reward (last 100): -1.0
+avg total reward (last 100): 33.5
+max (last 100): 154.0
+Saved_the_model

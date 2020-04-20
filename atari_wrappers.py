@@ -224,6 +224,7 @@ class LazyFrames:
 
 def make_atari(env_id):
     env = gym.make(env_id)
+    env.seed(0)
     #assert 'NoFrameskip' in env.spec.id
     print("Enviroment_id",env.spec.id)
     env = NoopResetEnv(env, noop_max=30)
@@ -234,6 +235,7 @@ def make_atari(env_id):
 def wrap_deepmind(env, episode_life=True, clip_rewards=True, frame_stack=False):
     """Configure environment for DeepMind-style Atari.
     """
+    print("!!!!!!!!!!!!!!!!!EpisodicLifeEnv {} ###########",episode_life)
     if episode_life:
         env = EpisodicLifeEnv(env)
 
