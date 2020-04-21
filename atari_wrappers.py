@@ -16,6 +16,9 @@ class NoopResetEnv(gym.Wrapper):
         self.noop_max = noop_max
         self.override_num_noops = None
         self.noop_action = 0
+        self.max_episode_steps = env._max_episode_steps
+        self.elapsed_steps     =  env._elapsed_steps
+
         assert env.unwrapped.get_action_meanings()[0] == 'NOOP'
 
     def reset(self, **kwargs):
@@ -106,6 +109,7 @@ class MaxAndSkipEnv(gym.Wrapper):
         gym.Wrapper.__init__(self, env)
         # most recent raw observations (for max pooling across time steps)
         self._obs_buffer = np.zeros((2,) + env.observation_space.shape, dtype='uint8')
+        self.ale     = env.ale.lives()
         self._skip = skip
 
     def step(self, action):
@@ -124,7 +128,6 @@ class MaxAndSkipEnv(gym.Wrapper):
         # Note that the observation on the done=True frame
         # doesn't matter
         max_frame = self._obs_buffer.max(axis=0)
-
         return max_frame, total_reward, done, info
 
     def reset(self, **kwargs):
@@ -227,7 +230,7 @@ def make_atari(env_id):
     #assert 'NoFrameskip' in env.spec.id
     print("Enviroment_id",env.spec.id)
     env = NoopResetEnv(env, noop_max=30)
-    env = MaxAndSkipEnv(env,4)
+    env = MaxAndSkipEnv(env,3)
     return env
 
 

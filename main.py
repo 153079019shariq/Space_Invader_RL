@@ -40,7 +40,7 @@ def train(env_id, num_timesteps, num_cpu):
 
     env = SubprocVecEnv([make_env(i) for i in range(num_cpu)])
     print("##########################No_of_enviroments###############",env)
-    learn(CNN, env, SEED,nsteps=8, total_timesteps=int(num_timesteps * 1.1))
+    learn(CNN, env, SEED,nsteps=8, total_timesteps=int(num_timesteps * 1.1),lr=0.001,max_grad_norm=1)
     env.close()
     pass
 

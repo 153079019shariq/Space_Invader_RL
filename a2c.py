@@ -5,10 +5,17 @@ import tensorflow as tf
 import os
 import time
 
+import mlflow
+import mlflow.tensorflow
+import datetime
+my_dt_ob  = datetime.datetime.now()
+date_list = [my_dt_ob.year, my_dt_ob.month, my_dt_ob.day, my_dt_ob.hour, my_dt_ob.minute, my_dt_ob.second]
+date_list = [str(i) for i in date_list]
+start_time = "_".join(date_list)
 
-MODEL_PATH = 'models_nstep_8'
 
-start_time = time.time()
+MODEL_PATH = 'models_SkipFrame3'
+
 def set_global_seeds(i):
     tf.set_random_seed(i)
     np.random.seed(i)
@@ -208,7 +215,24 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
                   ent_coef=ent_coef, vf_coef=vf_coef,
                   max_grad_norm=max_grad_norm,
                   lr=lr, alpha=alpha, epsilon=epsilon, total_timesteps=total_timesteps)
+  
+
     
+
+
+    #-----------------Added the ML_flow_param------------------------------------------------
+    mlflow.log_param("nsteps",nsteps)
+    mlflow.log_param("vf_coef",vf_coef)
+    mlflow.log_param("ent_coef",ent_coef)
+    mlflow.log_param("max_grad_norm",max_grad_norm)
+    mlflow.log_param("lr",lr)
+    mlflow.log_param("epsilon",epsilon)
+    mlflow.log_param("alpha",alpha)
+    mlflow.log_param("gamma",gamma)
+    #-----------------------------------------------------------------------------------------
+
+
+    print("@@@@@@@@@@@@@@@@@@@@@@@_Learning_rate_{} max_grad_norm_{}".format(lr,max_grad_norm))
     """
     if os.path.exists("models/Space_inv_A2C_LSTM_MAX_avg_rew_145"):
         agent.load("models/Space_inv_A2C_LSTM_MAX_avg_rew_145")
@@ -245,7 +269,10 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
             tr = runner.real_total_rewards[-100:]
             if len(r) == 100:
                 print("avg reward (last 100):", np.mean(r))
+                mlflow.log_metric("avg_reward_last_100", np.mean(r))
             if len(tr) == 100:
+                mlflow.log_metric("avg_total_reward_last_100 ",np.mean(tr))
+                mlflow.log_metric("max_last_100", np.max(tr))
                 print("avg total reward (last 100):", np.mean(tr))
                 print("max (last 100):", np.max(tr))
                 if(max_rew < np.mean(tr)):
