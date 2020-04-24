@@ -16,6 +16,8 @@ class NoopResetEnv(gym.Wrapper):
         self.noop_max = noop_max
         self.override_num_noops = None
         self.noop_action = 0
+        self.max_episode_steps = env._max_episode_steps
+        self.elapsed_steps     = env._elapsed_steps
         assert env.unwrapped.get_action_meanings()[0] == 'NOOP'
 
     def reset(self, **kwargs):
@@ -225,6 +227,7 @@ class LazyFrames:
 def make_atari(env_id):
     env = gym.make(env_id)
     #assert 'NoFrameskip' in env.spec.id
+    env._max_episode_steps =1000000
     print("Enviroment_id",env.spec.id)
     env = NoopResetEnv(env, noop_max=30)
     env = MaxAndSkipEnv(env,4)
@@ -234,6 +237,7 @@ def make_atari(env_id):
 def wrap_deepmind(env, episode_life=True, clip_rewards=True, frame_stack=False):
     """Configure environment for DeepMind-style Atari.
     """
+    print("episode_life {} clip_rewards {}  frame_stack {}",episode_life, clip_rewards,frame_stack)
     if episode_life:
         env = EpisodicLifeEnv(env)
 

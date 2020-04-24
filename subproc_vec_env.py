@@ -1,7 +1,5 @@
 import numpy as np
 from multiprocessing import Process, Pipe
-
-
 def worker(remote, parent_remote, env_fn_wrapper):
     parent_remote.close()
     env = env_fn_wrapper.x()
@@ -52,8 +50,8 @@ class SubprocVecEnv():
         envs: list of gym environments to run in subprocesses
         """
         self.closed = False
-        nenvs = len(env_fns)
-        self.remotes, self.work_remotes = zip(*[Pipe() for _ in range(nenvs)])
+        self.nenvs = len(env_fns)
+        self.remotes, self.work_remotes = zip(*[Pipe() for _ in range(self.nenvs)])
         self.ps = [Process(target=worker, args=(work_remote, remote, CloudpickleWrapper(env_fn)))
                    for (work_remote, remote, env_fn) in zip(self.work_remotes, self.remotes, env_fns)]
         for p in self.ps:
@@ -67,17 +65,26 @@ class SubprocVecEnv():
 
         self.remotes[0].send(('get_id', None))
         self.env_id = self.remotes[0].recv()
+        self.do     = np.zeros((self.nenvs)) 
 
-    def step(self, actions):
-        for remote, action in zip(self.remotes, actions):
+    def when_done(self): 
+     return np.zeros((84,84,4)),0.0,False, {}    
+         
+    def step(self, actions,done1=0,cond="train"):
+        
+        if(cond=="eval"):
+          self.do = np.logical_or(self.do,done1)
+          for remote, action,done in zip(self.remotes, actions,self.do):
+            if(not done):
+              remote.send(('step', action))
+          results = [remote.recv() if not(done) else self.when_done() for remote,done in zip(self.remotes,self.do)]  
+          if(np.all(self.do)):
+            self.do   = np.zeros((self.nenvs))
+        else:
+          for remote, action in zip(self.remotes, actions):
             remote.send(('step', action))
-        results = [remote.recv() for remote in self.remotes]
-        obs, rews, dones, infos = zip(*results)
-        # print("Infos:", infos)
-        # for done, info in zip(dones, infos):
-        #     if done:
-        #         # print("Total reward:", info['reward'], "Num steps:", info['episode_length'])
-        #         print("Returned info:", info, "Done:", done)
+          results = [remote.recv() for remote in self.remotes]
+        obs, rews, dones, infos = zip(*results)  
         return np.stack(obs), np.stack(rews), np.stack(dones), infos
 
     def reset(self):
