@@ -1,0 +1,308 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@LOADED_THE_AGENT_SUCCESFULLY&&&&&&&&&&&&&&&&&&&&&&&&&
+##############################CHECKING_THE_WORKFLOW**************************************
+2020-04-24 19:50:32.065630: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-24 19:50:32.233425: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+episodic_reward 15160.0
+Episode: 1 15160.0 15160.0
+Time_difference 26.85645055770874
+episodic_reward 14615.0
+Episode: 2 14887.5 14615.0
+Time_difference 24.930769681930542
+episodic_reward 15105.0
+Episode: 3 14960.0 15105.0
+Time_difference 25.368654489517212
+episodic_reward 22885.0
+Episode: 4 16941.25 22885.0
+Time_difference 33.93425130844116
+episodic_reward 22425.0
+Episode: 5 18038.0 22425.0
+Time_difference 34.32631158828735
+episodic_reward 24305.0
+Episode: 6 19082.5 24305.0
+Time_difference 37.03355097770691
+episodic_reward 12780.0
+Episode: 7 18182.14285714286 12780.0
+Time_difference 21.72218918800354
+episodic_reward 21115.0
+Episode: 8 18548.75 21115.0
+Time_difference 31.96496605873108
+episodic_reward 23790.0
+Episode: 9 19131.11111111111 23790.0
+Time_difference 36.255292654037476
+episodic_reward 18245.0
+Episode: 10 19042.5 18245.0
+Time_difference 29.815834045410156
+episodic_reward 12545.0
+Episode: 11 18451.81818181818 12545.0
+Time_difference 21.362250089645386
+episodic_reward 22880.0
+Episode: 12 18820.833333333332 22880.0
+Time_difference 33.57301211357117
+episodic_reward 25445.0
+Episode: 13 19330.384615384617 25445.0
+Time_difference 38.02272844314575
+episodic_reward 20630.0
+Episode: 14 19423.214285714286 20630.0
+Time_difference 30.69114089012146
+episodic_reward 29310.0
+Episode: 15 20082.333333333332 29310.0
+Time_difference 41.463865756988525
+episodic_reward 17935.0
+Episode: 16 19948.125 17935.0
+Time_difference 28.044177770614624
+episodic_reward 21745.0
+Episode: 17 20053.823529411766 21745.0
+Time_difference 32.06333827972412
+episodic_reward 20200.0
+Episode: 18 20061.944444444445 20200.0
+Time_difference 32.49904656410217
+episodic_reward 15835.0
+Episode: 19 19839.473684210527 15835.0
+Time_difference 27.608371019363403
+episodic_reward 25335.0
+Episode: 20 20114.25 25335.0
+Time_difference 38.75618600845337
+episodic_reward 14975.0
+Episode: 21 19869.52380952381 14975.0
+Time_difference 24.96697497367859
+episodic_reward 30640.0
+Episode: 22 20359.090909090908 30640.0
+Time_difference 44.971843004226685
+episodic_reward 18270.0
+Episode: 23 20268.260869565216 18270.0
+Time_difference 29.89201283454895
+episodic_reward 27955.0
+Episode: 24 20588.541666666668 27955.0
+Time_difference 40.51839733123779
+episodic_reward 19155.0
+Episode: 25 20531.2 19155.0
+Time_difference 30.26088285446167
+episodic_reward 11160.0
+Episode: 26 20170.76923076923 11160.0
+Time_difference 19.806336879730225
+episodic_reward 28450.0
+Episode: 27 20477.40740740741 28450.0
+Time_difference 39.54110026359558
+episodic_reward 16415.0
+Episode: 28 20332.321428571428 16415.0
+Time_difference 27.259624242782593
+episodic_reward 13630.0
+Episode: 29 20101.206896551725 13630.0
+Time_difference 23.252490997314453
+episodic_reward 25545.0
+Episode: 30 20282.666666666668 25545.0
+Time_difference 38.464176177978516
+episodic_reward 24090.0
+Episode: 31 20405.483870967742 24090.0
+Time_difference 35.702558755874634
+episodic_reward 23290.0
+Episode: 32 20495.625 23290.0
+Time_difference 34.08273696899414
+episodic_reward 12945.0
+Episode: 33 20266.81818181818 12945.0
+Time_difference 21.26287603378296
+episodic_reward 16390.0
+Episode: 34 20152.79411764706 16390.0
+Time_difference 27.750463724136353
+episodic_reward 18765.0
+Episode: 35 20113.14285714286 18765.0
+Time_difference 28.79103684425354
+episodic_reward 14535.0
+Episode: 36 19958.194444444445 14535.0
+Time_difference 24.967490196228027
+episodic_reward 16095.0
+Episode: 37 19853.783783783783 16095.0
+Time_difference 26.47618341445923
+episodic_reward 14315.0
+Episode: 38 19708.026315789473 14315.0
+Time_difference 24.162506818771362
+episodic_reward 14870.0
+Episode: 39 19583.97435897436 14870.0
+Time_difference 22.79593586921692
+episodic_reward 19730.0
+Episode: 40 19587.625 19730.0
+Time_difference 28.660542488098145
+episodic_reward 18425.0
+Episode: 41 19559.268292682926 18425.0
+Time_difference 27.93120551109314
+episodic_reward 21665.0
+Episode: 42 19609.404761904763 21665.0
+Time_difference 31.608723640441895
+episodic_reward 17040.0
+Episode: 43 19549.6511627907 17040.0
+Time_difference 27.424118757247925
+episodic_reward 21240.0
+Episode: 44 19588.06818181818 21240.0
+Time_difference 30.862313270568848
+episodic_reward 16505.0
+Episode: 45 19519.555555555555 16505.0
+Time_difference 25.271278858184814
+episodic_reward 18735.0
+Episode: 46 19502.5 18735.0
+Time_difference 29.881463289260864
+episodic_reward 14060.0
+Episode: 47 19386.702127659573 14060.0
+Time_difference 22.478442192077637
+episodic_reward 17360.0
+Episode: 48 19344.479166666668 17360.0
+Time_difference 28.04323649406433
+episodic_reward 16480.0
+Episode: 49 19286.020408163266 16480.0
+Time_difference 26.141913175582886
+episodic_reward 17080.0
+Episode: 50 19241.9 17080.0
+Time_difference 26.90204620361328
+episodic_reward 16355.0
+Episode: 51 19185.29411764706 16355.0
+Time_difference 25.911212921142578
+episodic_reward 18480.0
+Episode: 52 19171.73076923077 18480.0
+Time_difference 29.166123390197754
+episodic_reward 12770.0
+Episode: 53 19050.943396226416 12770.0
+Time_difference 22.463736534118652
+episodic_reward 16535.0
+Episode: 54 19004.35185185185 16535.0
+Time_difference 27.092819690704346
+episodic_reward 30015.0
+Episode: 55 19204.545454545456 30015.0
+Time_difference 46.307382345199585
+episodic_reward 10565.0
+Episode: 56 19050.26785714286 10565.0
+Time_difference 19.174537897109985
+episodic_reward 14390.0
+Episode: 57 18968.508771929824 14390.0
+Time_difference 25.17612099647522
+episodic_reward 18870.0
+Episode: 58 18966.810344827587 18870.0
+Time_difference 31.134531259536743
+episodic_reward 20455.0
+Episode: 59 18992.033898305086 20455.0
+Time_difference 34.521777868270874
+episodic_reward 29050.0
+Episode: 60 19159.666666666668 29050.0
+Time_difference 43.653671741485596
+episodic_reward 14830.0
+Episode: 61 19088.688524590165 14830.0
+Time_difference 24.322242498397827
+episodic_reward 16630.0
+Episode: 62 19049.032258064515 16630.0
+Time_difference 27.400908946990967
+episodic_reward 11600.0
+Episode: 63 18930.79365079365 11600.0
+Time_difference 19.974963426589966
+episodic_reward 14665.0
+Episode: 64 18864.140625 14665.0
+Time_difference 25.74478816986084
+episodic_reward 26830.0
+Episode: 65 18986.69230769231 26830.0
+Time_difference 44.35492277145386
+episodic_reward 23585.0
+Episode: 66 19056.363636363636 23585.0
+Time_difference 39.373472452163696
+episodic_reward 14670.0
+Episode: 67 18990.89552238806 14670.0
+Time_difference 26.228872537612915
+episodic_reward 21890.0
+Episode: 68 19033.529411764706 21890.0
+Time_difference 34.880619525909424
+episodic_reward 20125.0
+Episode: 69 19049.347826086956 20125.0
+Time_difference 32.12482404708862
+episodic_reward 17635.0
+Episode: 70 19029.14285714286 17635.0
+Time_difference 30.544082641601562
+episodic_reward 15595.0
+Episode: 71 18980.774647887323 15595.0
+Time_difference 27.29268527030945
+episodic_reward 13890.0
+Episode: 72 18910.069444444445 13890.0
+Time_difference 23.53238582611084
+episodic_reward 15590.0
+Episode: 73 18864.58904109589 15590.0
+Time_difference 25.578194856643677
+episodic_reward 12980.0
+Episode: 74 18785.067567567567 12980.0
+Time_difference 23.611149072647095
+episodic_reward 21545.0
+Episode: 75 18821.866666666665 21545.0
+Time_difference 33.771976947784424
+episodic_reward 20105.0
+Episode: 76 18838.75 20105.0
+Time_difference 33.48555946350098
+episodic_reward 14320.0
+Episode: 77 18780.064935064936 14320.0
+Time_difference 24.932227849960327
+episodic_reward 22985.0
+Episode: 78 18833.97435897436 22985.0
+Time_difference 36.20057773590088
+episodic_reward 18320.0
+Episode: 79 18827.46835443038 18320.0
+Time_difference 30.40714168548584
+episodic_reward 13705.0
+Episode: 80 18763.4375 13705.0
+Time_difference 23.852556467056274
+episodic_reward 19395.0
+Episode: 81 18771.234567901236 19395.0
+Time_difference 31.289977312088013
+episodic_reward 17025.0
+Episode: 82 18749.939024390245 17025.0
+Time_difference 28.737276554107666
+episodic_reward 15080.0
+Episode: 83 18705.722891566264 15080.0
+Time_difference 26.53379511833191
+episodic_reward 11745.0
+Episode: 84 18622.85714285714 11745.0
+Time_difference 20.716644763946533
+episodic_reward 21170.0
+Episode: 85 18652.823529411766 21170.0
+Time_difference 36.09359931945801
+episodic_reward 17380.0
+Episode: 86 18638.023255813954 17380.0
+Time_difference 31.069544792175293
+episodic_reward 18595.0
+Episode: 87 18637.528735632182 18595.0
+Time_difference 30.123908758163452
+episodic_reward 21195.0
+Episode: 88 18666.590909090908 21195.0
+Time_difference 34.059568881988525
+episodic_reward 16565.0
+Episode: 89 18642.977528089887 16565.0
+Time_difference 28.08526611328125
+episodic_reward 38330.0
+Episode: 90 18861.722222222223 38330.0
+Time_difference 56.39706802368164
+episodic_reward 30995.0
+Episode: 91 18995.054945054944 30995.0
+Time_difference 47.351771116256714
+episodic_reward 12815.0
+Episode: 92 18927.880434782608 12815.0
+Time_difference 22.18588089942932
+episodic_reward 30355.0
+Episode: 93 19050.752688172044 30355.0
+Time_difference 46.89046239852905
+episodic_reward 14525.0
+Episode: 94 19002.606382978724 14525.0
+Time_difference 24.388752222061157
+episodic_reward 20730.0
+Episode: 95 19020.78947368421 20730.0
+Time_difference 34.720288038253784
+episodic_reward 25840.0
+Episode: 96 19091.822916666668 25840.0
+Time_difference 40.368212938308716
+episodic_reward 24760.0
+Episode: 97 19150.25773195876 24760.0
+Time_difference 41.53923416137695
+episodic_reward 23130.0
+Episode: 98 19190.867346938776 23130.0
+Time_difference 37.262237310409546
+episodic_reward 20425.0
+Episode: 99 19203.333333333332 20425.0
+Time_difference 32.22202467918396
+episodic_reward 18660.0
+Episode: 100 19197.9 18660.0
+Time_difference 31.279451608657837
+*************************************************************
+CUMULATIVE_AVG_REWARD 19197.9
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Final score:  19197.9
