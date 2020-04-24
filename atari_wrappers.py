@@ -228,7 +228,6 @@ def make_atari(env_id):
     env = gym.make(env_id)
     #assert 'NoFrameskip' in env.spec.id
     env._max_episode_steps =1000000
-    print("Enviroment_id",env.spec.id)
     env = NoopResetEnv(env, noop_max=30)
     env = MaxAndSkipEnv(env,4)
     return env
@@ -237,7 +236,6 @@ def make_atari(env_id):
 def wrap_deepmind(env, episode_life=True, clip_rewards=True, frame_stack=False):
     """Configure environment for DeepMind-style Atari.
     """
-    print("episode_life {} clip_rewards {}  frame_stack {}",episode_life, clip_rewards,frame_stack)
     if episode_life:
         env = EpisodicLifeEnv(env)
 
