@@ -1,0 +1,1396 @@
+Seed:  10
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:51: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 23:36:19.358692: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 23:36:19.364770: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-04-24 23:36:19.490998: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56551bd96110 executing computations on platform CUDA. Devices:
+2020-04-24 23:36:19.491044: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+2020-04-24 23:36:19.511750: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3493100000 Hz
+2020-04-24 23:36:19.513421: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56551be6cd80 executing computations on platform Host. Devices:
+2020-04-24 23:36:19.513458: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 23:36:19.514699: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-04-24 23:36:19.515125: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-24 23:36:19.516378: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-24 23:36:19.517921: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-24 23:36:19.518261: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-24 23:36:19.519770: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-24 23:36:19.521106: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-24 23:36:19.524754: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-04-24 23:36:19.526448: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-04-24 23:36:19.526592: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-24 23:36:19.527766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-24 23:36:19.527801: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-24 23:36:19.527811: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-24 23:36:19.529444: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3498 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:57: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/neural_network.py:125: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/neural_network.py:13: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d727953c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d727953c8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d727953c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d727953c8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d703d45c0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d703d45c0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/neural_network.py:129: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1dbe69d7f0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1dbe69d7f0>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/neural_network.py:18: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d703d45c0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d703d45c0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d702e64e0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d702e64e0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d702e64e0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d702e64e0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d70265d30>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d70265d30>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d702c1e48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d702c1e48>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d70265208>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d70265208>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d70265828>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d70265828>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d70265208>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d70265208>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d70211240>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d70211240>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d703a02b0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d703a02b0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f1d70336510>, 'value': <function CNN.__init__.<locals>.value at 0x7f1d70336268>}
+WARNING:tensorflow:From /home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:286: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:88: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From /home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/tensorflow/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+2020-04-24 23:36:23.532929: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-24 23:36:23.762673: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+{'reward': -1, 'episode_length': -1, 'total_reward': 7625.0, 'total_episode_length': 2155}
+Episode: 1
+{'reward': -1, 'episode_length': -1, 'total_reward': 8365.0, 'total_episode_length': 2566}
+Episode: 2
+{'reward': -1, 'episode_length': -1, 'total_reward': 7735.0, 'total_episode_length': 2332}
+Episode: 3
+{'reward': -1, 'episode_length': -1, 'total_reward': 1985.0, 'total_episode_length': 832}
+Episode: 4
+{'reward': -1, 'episode_length': -1, 'total_reward': 5955.0, 'total_episode_length': 1880}
+Episode: 5
+{'reward': -1, 'episode_length': -1, 'total_reward': 17280.0, 'total_episode_length': 5000}
+Episode: 6
+{'reward': -1, 'episode_length': -1, 'total_reward': 8010.0, 'total_episode_length': 2285}
+Episode: 7
+{'reward': -1, 'episode_length': -1, 'total_reward': 5480.0, 'total_episode_length': 1749}
+Episode: 8
+{'reward': -1, 'episode_length': -1, 'total_reward': 3695.0, 'total_episode_length': 1465}
+Episode: 9
+{'reward': -1, 'episode_length': -1, 'total_reward': 8805.0, 'total_episode_length': 2499}
+Episode: 10
+{'reward': -1, 'episode_length': -1, 'total_reward': 3345.0, 'total_episode_length': 1162}
+Episode: 11
+{'reward': -1, 'episode_length': -1, 'total_reward': 9495.0, 'total_episode_length': 2821}
+Episode: 12
+{'reward': -1, 'episode_length': -1, 'total_reward': 14430.0, 'total_episode_length': 3868}
+Episode: 13
+{'reward': -1, 'episode_length': -1, 'total_reward': 4275.0, 'total_episode_length': 1532}
+Episode: 14
+{'reward': -1, 'episode_length': -1, 'total_reward': 8135.0, 'total_episode_length': 2453}
+Episode: 15
+{'reward': -1, 'episode_length': -1, 'total_reward': 13145.0, 'total_episode_length': 3802}
+Episode: 16
+{'reward': -1, 'episode_length': -1, 'total_reward': 1180.0, 'total_episode_length': 514}
+Episode: 17
+{'reward': -1, 'episode_length': -1, 'total_reward': 2680.0, 'total_episode_length': 1006}
+Episode: 18
+{'reward': -1, 'episode_length': -1, 'total_reward': 4190.0, 'total_episode_length': 1376}
+Episode: 19
+{'reward': -1, 'episode_length': -1, 'total_reward': 945.0, 'total_episode_length': 476}
+Episode: 20
+{'reward': -1, 'episode_length': -1, 'total_reward': 2335.0, 'total_episode_length': 872}
+Episode: 21
+{'reward': -1, 'episode_length': -1, 'total_reward': 11145.0, 'total_episode_length': 3085}
+Episode: 22
+{'reward': -1, 'episode_length': -1, 'total_reward': 2505.0, 'total_episode_length': 873}
+Episode: 23
+{'reward': -1, 'episode_length': -1, 'total_reward': 10605.0, 'total_episode_length': 3199}
+Episode: 24
+{'reward': -1, 'episode_length': -1, 'total_reward': 7205.0, 'total_episode_length': 2314}
+Episode: 25
+{'reward': -1, 'episode_length': -1, 'total_reward': 3990.0, 'total_episode_length': 1366}
+Episode: 26
+{'reward': -1, 'episode_length': -1, 'total_reward': 5705.0, 'total_episode_length': 1786}
+Episode: 27
+{'reward': -1, 'episode_length': -1, 'total_reward': 10260.0, 'total_episode_length': 2980}
+Episode: 28
+{'reward': -1, 'episode_length': -1, 'total_reward': 6230.0, 'total_episode_length': 2056}
+Episode: 29
+{'reward': -1, 'episode_length': -1, 'total_reward': 8860.0, 'total_episode_length': 2642}
+Episode: 30
+{'reward': -1, 'episode_length': -1, 'total_reward': 1360.0, 'total_episode_length': 622}
+Episode: 31
+{'reward': -1, 'episode_length': -1, 'total_reward': 2095.0, 'total_episode_length': 926}
+Episode: 32
+{'reward': -1, 'episode_length': -1, 'total_reward': 1925.0, 'total_episode_length': 736}
+Episode: 33
+{'reward': -1, 'episode_length': -1, 'total_reward': 7510.0, 'total_episode_length': 2357}
+Episode: 34
+{'reward': -1, 'episode_length': -1, 'total_reward': 6170.0, 'total_episode_length': 1839}
+Episode: 35
+{'reward': -1, 'episode_length': -1, 'total_reward': 8735.0, 'total_episode_length': 2724}
+Episode: 36
+{'reward': -1, 'episode_length': -1, 'total_reward': 5075.0, 'total_episode_length': 1627}
+Episode: 37
+{'reward': -1, 'episode_length': -1, 'total_reward': 14480.0, 'total_episode_length': 3995}
+Episode: 38
+{'reward': -1, 'episode_length': -1, 'total_reward': 5085.0, 'total_episode_length': 1744}
+Episode: 39
+{'reward': -1, 'episode_length': -1, 'total_reward': 5875.0, 'total_episode_length': 1926}
+Episode: 40
+{'reward': -1, 'episode_length': -1, 'total_reward': 12955.0, 'total_episode_length': 3670}
+Episode: 41
+{'reward': -1, 'episode_length': -1, 'total_reward': 9785.0, 'total_episode_length': 2870}
+Episode: 42
+{'reward': -1, 'episode_length': -1, 'total_reward': 540.0, 'total_episode_length': 261}
+Episode: 43
+{'reward': -1, 'episode_length': -1, 'total_reward': 6665.0, 'total_episode_length': 2052}
+Episode: 44
+{'reward': -1, 'episode_length': -1, 'total_reward': 8945.0, 'total_episode_length': 2707}
+Episode: 45
+{'reward': -1, 'episode_length': -1, 'total_reward': 4490.0, 'total_episode_length': 1509}
+Episode: 46
+{'reward': -1, 'episode_length': -1, 'total_reward': 5765.0, 'total_episode_length': 1828}
+Episode: 47
+{'reward': -1, 'episode_length': -1, 'total_reward': 2335.0, 'total_episode_length': 1024}
+Episode: 48
+{'reward': -1, 'episode_length': -1, 'total_reward': 7345.0, 'total_episode_length': 2462}
+Episode: 49
+{'reward': -1, 'episode_length': -1, 'total_reward': 20130.0, 'total_episode_length': 5639}
+Episode: 50
+{'reward': -1, 'episode_length': -1, 'total_reward': 16120.0, 'total_episode_length': 4378}
+Episode: 51
+{'reward': -1, 'episode_length': -1, 'total_reward': 545.0, 'total_episode_length': 249}
+Episode: 52
+{'reward': -1, 'episode_length': -1, 'total_reward': 3190.0, 'total_episode_length': 1113}
+Episode: 53
+{'reward': -1, 'episode_length': -1, 'total_reward': 2110.0, 'total_episode_length': 849}
+Episode: 54
+{'reward': -1, 'episode_length': -1, 'total_reward': 5730.0, 'total_episode_length': 1835}
+Episode: 55
+{'reward': -1, 'episode_length': -1, 'total_reward': 1905.0, 'total_episode_length': 822}
+Episode: 56
+{'reward': -1, 'episode_length': -1, 'total_reward': 5190.0, 'total_episode_length': 1621}
+Episode: 57
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 599}
+Episode: 58
+{'reward': -1, 'episode_length': -1, 'total_reward': 7855.0, 'total_episode_length': 2234}
+Episode: 59
+{'reward': -1, 'episode_length': -1, 'total_reward': 7410.0, 'total_episode_length': 2182}
+Episode: 60
+{'reward': -1, 'episode_length': -1, 'total_reward': 4590.0, 'total_episode_length': 1510}
+Episode: 61
+{'reward': -1, 'episode_length': -1, 'total_reward': 9900.0, 'total_episode_length': 2817}
+Episode: 62
+{'reward': -1, 'episode_length': -1, 'total_reward': 17420.0, 'total_episode_length': 4885}
+Episode: 63
+{'reward': -1, 'episode_length': -1, 'total_reward': 7805.0, 'total_episode_length': 2389}
+Episode: 64
+{'reward': -1, 'episode_length': -1, 'total_reward': 2975.0, 'total_episode_length': 1078}
+Episode: 65
+{'reward': -1, 'episode_length': -1, 'total_reward': 11245.0, 'total_episode_length': 3303}
+Episode: 66
+{'reward': -1, 'episode_length': -1, 'total_reward': 1245.0, 'total_episode_length': 516}
+Episode: 67
+{'reward': -1, 'episode_length': -1, 'total_reward': 15845.0, 'total_episode_length': 4563}
+Episode: 68
+{'reward': -1, 'episode_length': -1, 'total_reward': 11380.0, 'total_episode_length': 3166}
+Episode: 69
+{'reward': -1, 'episode_length': -1, 'total_reward': 12380.0, 'total_episode_length': 3663}
+Episode: 70
+{'reward': -1, 'episode_length': -1, 'total_reward': 20825.0, 'total_episode_length': 5864}
+Episode: 71
+{'reward': -1, 'episode_length': -1, 'total_reward': 4150.0, 'total_episode_length': 1307}
+Episode: 72
+{'reward': -1, 'episode_length': -1, 'total_reward': 3760.0, 'total_episode_length': 1295}
+Episode: 73
+{'reward': -1, 'episode_length': -1, 'total_reward': 2955.0, 'total_episode_length': 1156}
+Episode: 74
+{'reward': -1, 'episode_length': -1, 'total_reward': 4800.0, 'total_episode_length': 1601}
+Episode: 75
+{'reward': -1, 'episode_length': -1, 'total_reward': 9430.0, 'total_episode_length': 2848}
+Episode: 76
+{'reward': -1, 'episode_length': -1, 'total_reward': 11900.0, 'total_episode_length': 3477}
+Episode: 77
+{'reward': -1, 'episode_length': -1, 'total_reward': 4155.0, 'total_episode_length': 1363}
+Episode: 78
+{'reward': -1, 'episode_length': -1, 'total_reward': 2210.0, 'total_episode_length': 898}
+Episode: 79
+{'reward': -1, 'episode_length': -1, 'total_reward': 11535.0, 'total_episode_length': 3303}
+Episode: 80
+{'reward': -1, 'episode_length': -1, 'total_reward': 5600.0, 'total_episode_length': 1718}
+Episode: 81
+{'reward': -1, 'episode_length': -1, 'total_reward': 3150.0, 'total_episode_length': 1157}
+Episode: 82
+{'reward': -1, 'episode_length': -1, 'total_reward': 5250.0, 'total_episode_length': 1723}
+Episode: 83
+{'reward': -1, 'episode_length': -1, 'total_reward': 18880.0, 'total_episode_length': 5189}
+Episode: 84
+{'reward': -1, 'episode_length': -1, 'total_reward': 5920.0, 'total_episode_length': 1976}
+Episode: 85
+{'reward': -1, 'episode_length': -1, 'total_reward': 17675.0, 'total_episode_length': 4814}
+Episode: 86
+{'reward': -1, 'episode_length': -1, 'total_reward': 1470.0, 'total_episode_length': 574}
+Episode: 87
+{'reward': -1, 'episode_length': -1, 'total_reward': 15825.0, 'total_episode_length': 4290}
+Episode: 88
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 552}
+Episode: 89
+{'reward': -1, 'episode_length': -1, 'total_reward': 4660.0, 'total_episode_length': 1495}
+Episode: 90
+{'reward': -1, 'episode_length': -1, 'total_reward': 16940.0, 'total_episode_length': 4581}
+Episode: 91
+{'reward': -1, 'episode_length': -1, 'total_reward': 7085.0, 'total_episode_length': 2188}
+Episode: 92
+{'reward': -1, 'episode_length': -1, 'total_reward': 4000.0, 'total_episode_length': 1505}
+Episode: 93
+{'reward': -1, 'episode_length': -1, 'total_reward': 2895.0, 'total_episode_length': 1100}
+Episode: 94
+{'reward': -1, 'episode_length': -1, 'total_reward': 13115.0, 'total_episode_length': 3702}
+Episode: 95
+{'reward': -1, 'episode_length': -1, 'total_reward': 17430.0, 'total_episode_length': 4921}
+Episode: 96
+{'reward': -1, 'episode_length': -1, 'total_reward': 2880.0, 'total_episode_length': 1090}
+Episode: 97
+{'reward': -1, 'episode_length': -1, 'total_reward': 8750.0, 'total_episode_length': 2606}
+Episode: 98
+{'reward': -1, 'episode_length': -1, 'total_reward': 6165.0, 'total_episode_length': 1827}
+Episode: 99
+{'reward': -1, 'episode_length': -1, 'total_reward': 21545.0, 'total_episode_length': 5980}
+Episode: 100
+*************************************************************
+CUMULATIVE_AVG_REWARD 7451.1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Seed:  50
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-04-24 23:52:55.102976: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-04-24 23:52:55.103094: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-24 23:52:55.103115: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-24 23:52:55.103132: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-24 23:52:55.103150: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-24 23:52:55.103171: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-24 23:52:55.103190: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-24 23:52:55.103211: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-04-24 23:52:55.104719: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-04-24 23:52:55.104763: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-24 23:52:55.104773: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-24 23:52:55.104781: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-24 23:52:55.106726: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3498 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d686429b0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d686429b0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d686429b0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d686429b0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d68642a90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d68642a90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d73057320>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d73057320>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d7028ae48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d7028ae48>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68556898>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68556898>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68556898>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68556898>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d68516f60>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d68516f60>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d68516f60>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d68516f60>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d68516f60>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d68516f60>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d68516860>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d68516860>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68516f60>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68516f60>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d684b8358>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d684b8358>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d70211c88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d70211c88>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f1d703366a8>, 'value': <function CNN.__init__.<locals>.value at 0x7f1d70336c80>}
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+{'reward': -1, 'episode_length': -1, 'total_reward': 8250.0, 'total_episode_length': 2593}
+Episode: 1
+{'reward': -1, 'episode_length': -1, 'total_reward': 10250.0, 'total_episode_length': 2866}
+Episode: 2
+{'reward': -1, 'episode_length': -1, 'total_reward': 9650.0, 'total_episode_length': 2874}
+Episode: 3
+{'reward': -1, 'episode_length': -1, 'total_reward': 2705.0, 'total_episode_length': 1007}
+Episode: 4
+{'reward': -1, 'episode_length': -1, 'total_reward': 6445.0, 'total_episode_length': 1951}
+Episode: 5
+{'reward': -1, 'episode_length': -1, 'total_reward': 1905.0, 'total_episode_length': 856}
+Episode: 6
+{'reward': -1, 'episode_length': -1, 'total_reward': 13845.0, 'total_episode_length': 4042}
+Episode: 7
+{'reward': -1, 'episode_length': -1, 'total_reward': 6280.0, 'total_episode_length': 2049}
+Episode: 8
+{'reward': -1, 'episode_length': -1, 'total_reward': 4550.0, 'total_episode_length': 1523}
+Episode: 9
+{'reward': -1, 'episode_length': -1, 'total_reward': 7545.0, 'total_episode_length': 2255}
+Episode: 10
+{'reward': -1, 'episode_length': -1, 'total_reward': 1265.0, 'total_episode_length': 682}
+Episode: 11
+{'reward': -1, 'episode_length': -1, 'total_reward': 17855.0, 'total_episode_length': 4751}
+Episode: 12
+{'reward': -1, 'episode_length': -1, 'total_reward': 1960.0, 'total_episode_length': 823}
+Episode: 13
+{'reward': -1, 'episode_length': -1, 'total_reward': 8390.0, 'total_episode_length': 2448}
+Episode: 14
+{'reward': -1, 'episode_length': -1, 'total_reward': 4935.0, 'total_episode_length': 1590}
+Episode: 15
+{'reward': -1, 'episode_length': -1, 'total_reward': 7735.0, 'total_episode_length': 2330}
+Episode: 16
+{'reward': -1, 'episode_length': -1, 'total_reward': 8785.0, 'total_episode_length': 2558}
+Episode: 17
+{'reward': -1, 'episode_length': -1, 'total_reward': 3650.0, 'total_episode_length': 1316}
+Episode: 18
+{'reward': -1, 'episode_length': -1, 'total_reward': 5150.0, 'total_episode_length': 1556}
+Episode: 19
+{'reward': -1, 'episode_length': -1, 'total_reward': 2250.0, 'total_episode_length': 883}
+Episode: 20
+{'reward': -1, 'episode_length': -1, 'total_reward': 10335.0, 'total_episode_length': 3063}
+Episode: 21
+{'reward': -1, 'episode_length': -1, 'total_reward': 4555.0, 'total_episode_length': 1534}
+Episode: 22
+{'reward': -1, 'episode_length': -1, 'total_reward': 5240.0, 'total_episode_length': 1685}
+Episode: 23
+{'reward': -1, 'episode_length': -1, 'total_reward': 13405.0, 'total_episode_length': 3968}
+Episode: 24
+{'reward': -1, 'episode_length': -1, 'total_reward': 3435.0, 'total_episode_length': 1266}
+Episode: 25
+{'reward': -1, 'episode_length': -1, 'total_reward': 2460.0, 'total_episode_length': 933}
+Episode: 26
+{'reward': -1, 'episode_length': -1, 'total_reward': 3430.0, 'total_episode_length': 1277}
+Episode: 27
+{'reward': -1, 'episode_length': -1, 'total_reward': 21970.0, 'total_episode_length': 6024}
+Episode: 28
+{'reward': -1, 'episode_length': -1, 'total_reward': 2520.0, 'total_episode_length': 972}
+Episode: 29
+{'reward': -1, 'episode_length': -1, 'total_reward': 7630.0, 'total_episode_length': 2452}
+Episode: 30
+{'reward': -1, 'episode_length': -1, 'total_reward': 4390.0, 'total_episode_length': 1369}
+Episode: 31
+{'reward': -1, 'episode_length': -1, 'total_reward': 8555.0, 'total_episode_length': 2627}
+Episode: 32
+{'reward': -1, 'episode_length': -1, 'total_reward': 10085.0, 'total_episode_length': 2991}
+Episode: 33
+{'reward': -1, 'episode_length': -1, 'total_reward': 16275.0, 'total_episode_length': 4566}
+Episode: 34
+{'reward': -1, 'episode_length': -1, 'total_reward': 3330.0, 'total_episode_length': 1207}
+Episode: 35
+{'reward': -1, 'episode_length': -1, 'total_reward': 6025.0, 'total_episode_length': 1880}
+Episode: 36
+{'reward': -1, 'episode_length': -1, 'total_reward': 2285.0, 'total_episode_length': 998}
+Episode: 37
+{'reward': -1, 'episode_length': -1, 'total_reward': 4115.0, 'total_episode_length': 1500}
+Episode: 38
+{'reward': -1, 'episode_length': -1, 'total_reward': 2375.0, 'total_episode_length': 885}
+Episode: 39
+{'reward': -1, 'episode_length': -1, 'total_reward': 7430.0, 'total_episode_length': 2250}
+Episode: 40
+{'reward': -1, 'episode_length': -1, 'total_reward': 10075.0, 'total_episode_length': 2866}
+Episode: 41
+{'reward': -1, 'episode_length': -1, 'total_reward': 3980.0, 'total_episode_length': 1389}
+Episode: 42
+{'reward': -1, 'episode_length': -1, 'total_reward': 11635.0, 'total_episode_length': 3170}
+Episode: 43
+{'reward': -1, 'episode_length': -1, 'total_reward': 8250.0, 'total_episode_length': 2580}
+Episode: 44
+{'reward': -1, 'episode_length': -1, 'total_reward': 6225.0, 'total_episode_length': 2023}
+Episode: 45
+{'reward': -1, 'episode_length': -1, 'total_reward': 10105.0, 'total_episode_length': 2919}
+Episode: 46
+{'reward': -1, 'episode_length': -1, 'total_reward': 8985.0, 'total_episode_length': 2530}
+Episode: 47
+{'reward': -1, 'episode_length': -1, 'total_reward': 16160.0, 'total_episode_length': 4670}
+Episode: 48
+{'reward': -1, 'episode_length': -1, 'total_reward': 5155.0, 'total_episode_length': 1622}
+Episode: 49
+{'reward': -1, 'episode_length': -1, 'total_reward': 2895.0, 'total_episode_length': 1022}
+Episode: 50
+{'reward': -1, 'episode_length': -1, 'total_reward': 5120.0, 'total_episode_length': 1674}
+Episode: 51
+{'reward': -1, 'episode_length': -1, 'total_reward': 4565.0, 'total_episode_length': 1480}
+Episode: 52
+{'reward': -1, 'episode_length': -1, 'total_reward': 6650.0, 'total_episode_length': 1979}
+Episode: 53
+{'reward': -1, 'episode_length': -1, 'total_reward': 3330.0, 'total_episode_length': 1168}
+Episode: 54
+{'reward': -1, 'episode_length': -1, 'total_reward': 2170.0, 'total_episode_length': 892}
+Episode: 55
+{'reward': -1, 'episode_length': -1, 'total_reward': 11665.0, 'total_episode_length': 3297}
+Episode: 56
+{'reward': -1, 'episode_length': -1, 'total_reward': 1610.0, 'total_episode_length': 755}
+Episode: 57
+{'reward': -1, 'episode_length': -1, 'total_reward': 9420.0, 'total_episode_length': 2706}
+Episode: 58
+{'reward': -1, 'episode_length': -1, 'total_reward': 2740.0, 'total_episode_length': 1063}
+Episode: 59
+{'reward': -1, 'episode_length': -1, 'total_reward': 13465.0, 'total_episode_length': 3856}
+Episode: 60
+{'reward': -1, 'episode_length': -1, 'total_reward': 6110.0, 'total_episode_length': 1905}
+Episode: 61
+{'reward': -1, 'episode_length': -1, 'total_reward': 5085.0, 'total_episode_length': 1599}
+Episode: 62
+{'reward': -1, 'episode_length': -1, 'total_reward': 570.0, 'total_episode_length': 256}
+Episode: 63
+{'reward': -1, 'episode_length': -1, 'total_reward': 17240.0, 'total_episode_length': 4688}
+Episode: 64
+{'reward': -1, 'episode_length': -1, 'total_reward': 10885.0, 'total_episode_length': 3279}
+Episode: 65
+{'reward': -1, 'episode_length': -1, 'total_reward': 7845.0, 'total_episode_length': 2445}
+Episode: 66
+{'reward': -1, 'episode_length': -1, 'total_reward': 3935.0, 'total_episode_length': 1229}
+Episode: 67
+{'reward': -1, 'episode_length': -1, 'total_reward': 14585.0, 'total_episode_length': 3994}
+Episode: 68
+{'reward': -1, 'episode_length': -1, 'total_reward': 13155.0, 'total_episode_length': 3750}
+Episode: 69
+{'reward': -1, 'episode_length': -1, 'total_reward': 11250.0, 'total_episode_length': 3299}
+Episode: 70
+{'reward': -1, 'episode_length': -1, 'total_reward': 5350.0, 'total_episode_length': 1662}
+Episode: 71
+{'reward': -1, 'episode_length': -1, 'total_reward': 15280.0, 'total_episode_length': 4256}
+Episode: 72
+{'reward': -1, 'episode_length': -1, 'total_reward': 1925.0, 'total_episode_length': 860}
+Episode: 73
+{'reward': -1, 'episode_length': -1, 'total_reward': 4305.0, 'total_episode_length': 1488}
+Episode: 74
+{'reward': -1, 'episode_length': -1, 'total_reward': 715.0, 'total_episode_length': 414}
+Episode: 75
+{'reward': -1, 'episode_length': -1, 'total_reward': 3410.0, 'total_episode_length': 1250}
+Episode: 76
+{'reward': -1, 'episode_length': -1, 'total_reward': 9085.0, 'total_episode_length': 2708}
+Episode: 77
+{'reward': -1, 'episode_length': -1, 'total_reward': 2495.0, 'total_episode_length': 942}
+Episode: 78
+{'reward': -1, 'episode_length': -1, 'total_reward': 12300.0, 'total_episode_length': 3670}
+Episode: 79
+{'reward': -1, 'episode_length': -1, 'total_reward': 850.0, 'total_episode_length': 424}
+Episode: 80
+{'reward': -1, 'episode_length': -1, 'total_reward': 15320.0, 'total_episode_length': 4460}
+Episode: 81
+{'reward': -1, 'episode_length': -1, 'total_reward': 1270.0, 'total_episode_length': 600}
+Episode: 82
+{'reward': -1, 'episode_length': -1, 'total_reward': 9600.0, 'total_episode_length': 2958}
+Episode: 83
+{'reward': -1, 'episode_length': -1, 'total_reward': 3195.0, 'total_episode_length': 1180}
+Episode: 84
+{'reward': -1, 'episode_length': -1, 'total_reward': 11370.0, 'total_episode_length': 3112}
+Episode: 85
+{'reward': -1, 'episode_length': -1, 'total_reward': 3635.0, 'total_episode_length': 1230}
+Episode: 86
+{'reward': -1, 'episode_length': -1, 'total_reward': 6375.0, 'total_episode_length': 2076}
+Episode: 87
+{'reward': -1, 'episode_length': -1, 'total_reward': 2405.0, 'total_episode_length': 967}
+Episode: 88
+{'reward': -1, 'episode_length': -1, 'total_reward': 4175.0, 'total_episode_length': 1293}
+Episode: 89
+{'reward': -1, 'episode_length': -1, 'total_reward': 425.0, 'total_episode_length': 240}
+Episode: 90
+{'reward': -1, 'episode_length': -1, 'total_reward': 4025.0, 'total_episode_length': 1428}
+Episode: 91
+{'reward': -1, 'episode_length': -1, 'total_reward': 3825.0, 'total_episode_length': 1304}
+Episode: 92
+{'reward': -1, 'episode_length': -1, 'total_reward': 8045.0, 'total_episode_length': 2611}
+Episode: 93
+{'reward': -1, 'episode_length': -1, 'total_reward': 4440.0, 'total_episode_length': 1354}
+Episode: 94
+{'reward': -1, 'episode_length': -1, 'total_reward': 1180.0, 'total_episode_length': 496}
+Episode: 95
+{'reward': -1, 'episode_length': -1, 'total_reward': 9620.0, 'total_episode_length': 2921}
+Episode: 96
+{'reward': -1, 'episode_length': -1, 'total_reward': 6720.0, 'total_episode_length': 2092}
+Episode: 97
+{'reward': -1, 'episode_length': -1, 'total_reward': 7650.0, 'total_episode_length': 2455}
+Episode: 98
+{'reward': -1, 'episode_length': -1, 'total_reward': 19085.0, 'total_episode_length': 5309}
+Episode: 99
+{'reward': -1, 'episode_length': -1, 'total_reward': 5820.0, 'total_episode_length': 1946}
+Episode: 100
+*************************************************************
+CUMULATIVE_AVG_REWARD 6920.0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Seed:  100
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-04-25 00:08:38.686921: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-04-25 00:08:38.687043: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-25 00:08:38.687061: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-25 00:08:38.687077: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-25 00:08:38.687092: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-25 00:08:38.687105: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-25 00:08:38.687118: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-25 00:08:38.687133: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-04-25 00:08:38.688539: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-04-25 00:08:38.688573: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-25 00:08:38.688580: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-25 00:08:38.688586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-25 00:08:38.690203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3498 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d680fbe80>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d680fbe80>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d680fbe80>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d680fbe80>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d68126d68>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d68126d68>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d68126fd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d68126fd0>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d681265f8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d681265f8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68072a90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68072a90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68072a90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68072a90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c740b70>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c740b70>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c740b70>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c740b70>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c740b70>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c740b70>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d5c7407f0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d5c7407f0>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d5c740eb8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d5c740eb8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d5c6bd630>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d5c6bd630>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d5c6bd630>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d5c6bd630>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f1d68423400>, 'value': <function CNN.__init__.<locals>.value at 0x7f1d684237b8>}
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+{'reward': -1, 'episode_length': -1, 'total_reward': 15610.0, 'total_episode_length': 4154}
+Episode: 1
+{'reward': -1, 'episode_length': -1, 'total_reward': 11430.0, 'total_episode_length': 3380}
+Episode: 2
+{'reward': -1, 'episode_length': -1, 'total_reward': 8160.0, 'total_episode_length': 2570}
+Episode: 3
+{'reward': -1, 'episode_length': -1, 'total_reward': 5875.0, 'total_episode_length': 1822}
+Episode: 4
+{'reward': -1, 'episode_length': -1, 'total_reward': 20285.0, 'total_episode_length': 5748}
+Episode: 5
+{'reward': -1, 'episode_length': -1, 'total_reward': 8690.0, 'total_episode_length': 2567}
+Episode: 6
+{'reward': -1, 'episode_length': -1, 'total_reward': 17965.0, 'total_episode_length': 5083}
+Episode: 7
+{'reward': -1, 'episode_length': -1, 'total_reward': 19315.0, 'total_episode_length': 5570}
+Episode: 8
+{'reward': -1, 'episode_length': -1, 'total_reward': 11920.0, 'total_episode_length': 3564}
+Episode: 9
+{'reward': -1, 'episode_length': -1, 'total_reward': 7655.0, 'total_episode_length': 2373}
+Episode: 10
+{'reward': -1, 'episode_length': -1, 'total_reward': 4475.0, 'total_episode_length': 1452}
+Episode: 11
+{'reward': -1, 'episode_length': -1, 'total_reward': 12085.0, 'total_episode_length': 3475}
+Episode: 12
+{'reward': -1, 'episode_length': -1, 'total_reward': 8715.0, 'total_episode_length': 2553}
+Episode: 13
+{'reward': -1, 'episode_length': -1, 'total_reward': 7730.0, 'total_episode_length': 2203}
+Episode: 14
+{'reward': -1, 'episode_length': -1, 'total_reward': 1615.0, 'total_episode_length': 703}
+Episode: 15
+{'reward': -1, 'episode_length': -1, 'total_reward': 6910.0, 'total_episode_length': 2060}
+Episode: 16
+{'reward': -1, 'episode_length': -1, 'total_reward': 3590.0, 'total_episode_length': 1233}
+Episode: 17
+{'reward': -1, 'episode_length': -1, 'total_reward': 10005.0, 'total_episode_length': 2899}
+Episode: 18
+{'reward': -1, 'episode_length': -1, 'total_reward': 5460.0, 'total_episode_length': 1885}
+Episode: 19
+{'reward': -1, 'episode_length': -1, 'total_reward': 4145.0, 'total_episode_length': 1367}
+Episode: 20
+{'reward': -1, 'episode_length': -1, 'total_reward': 3510.0, 'total_episode_length': 1242}
+Episode: 21
+{'reward': -1, 'episode_length': -1, 'total_reward': 1950.0, 'total_episode_length': 844}
+Episode: 22
+{'reward': -1, 'episode_length': -1, 'total_reward': 11745.0, 'total_episode_length': 3403}
+Episode: 23
+{'reward': -1, 'episode_length': -1, 'total_reward': 3215.0, 'total_episode_length': 1119}
+Episode: 24
+{'reward': -1, 'episode_length': -1, 'total_reward': 7735.0, 'total_episode_length': 2445}
+Episode: 25
+{'reward': -1, 'episode_length': -1, 'total_reward': 9865.0, 'total_episode_length': 2865}
+Episode: 26
+{'reward': -1, 'episode_length': -1, 'total_reward': 4175.0, 'total_episode_length': 1318}
+Episode: 27
+{'reward': -1, 'episode_length': -1, 'total_reward': 2075.0, 'total_episode_length': 875}
+Episode: 28
+{'reward': -1, 'episode_length': -1, 'total_reward': 7870.0, 'total_episode_length': 2426}
+Episode: 29
+{'reward': -1, 'episode_length': -1, 'total_reward': 9605.0, 'total_episode_length': 2747}
+Episode: 30
+{'reward': -1, 'episode_length': -1, 'total_reward': 13065.0, 'total_episode_length': 3832}
+Episode: 31
+{'reward': -1, 'episode_length': -1, 'total_reward': 4270.0, 'total_episode_length': 1333}
+Episode: 32
+{'reward': -1, 'episode_length': -1, 'total_reward': 9405.0, 'total_episode_length': 2861}
+Episode: 33
+{'reward': -1, 'episode_length': -1, 'total_reward': 11540.0, 'total_episode_length': 3345}
+Episode: 34
+{'reward': -1, 'episode_length': -1, 'total_reward': 10235.0, 'total_episode_length': 3142}
+Episode: 35
+{'reward': -1, 'episode_length': -1, 'total_reward': 10565.0, 'total_episode_length': 3184}
+Episode: 36
+{'reward': -1, 'episode_length': -1, 'total_reward': 10575.0, 'total_episode_length': 2905}
+Episode: 37
+{'reward': -1, 'episode_length': -1, 'total_reward': 4890.0, 'total_episode_length': 1524}
+Episode: 38
+{'reward': -1, 'episode_length': -1, 'total_reward': 1230.0, 'total_episode_length': 525}
+Episode: 39
+{'reward': -1, 'episode_length': -1, 'total_reward': 4335.0, 'total_episode_length': 1466}
+Episode: 40
+{'reward': -1, 'episode_length': -1, 'total_reward': 17075.0, 'total_episode_length': 4792}
+Episode: 41
+{'reward': -1, 'episode_length': -1, 'total_reward': 5055.0, 'total_episode_length': 1636}
+Episode: 42
+{'reward': -1, 'episode_length': -1, 'total_reward': 10375.0, 'total_episode_length': 3094}
+Episode: 43
+{'reward': -1, 'episode_length': -1, 'total_reward': 19530.0, 'total_episode_length': 5356}
+Episode: 44
+{'reward': -1, 'episode_length': -1, 'total_reward': 12035.0, 'total_episode_length': 3330}
+Episode: 45
+{'reward': -1, 'episode_length': -1, 'total_reward': 43360.0, 'total_episode_length': 11500}
+Episode: 46
+{'reward': -1, 'episode_length': -1, 'total_reward': 6475.0, 'total_episode_length': 2124}
+Episode: 47
+{'reward': -1, 'episode_length': -1, 'total_reward': 5685.0, 'total_episode_length': 1724}
+Episode: 48
+{'reward': -1, 'episode_length': -1, 'total_reward': 8855.0, 'total_episode_length': 2723}
+Episode: 49
+{'reward': -1, 'episode_length': -1, 'total_reward': 4635.0, 'total_episode_length': 1606}
+Episode: 50
+{'reward': -1, 'episode_length': -1, 'total_reward': 3930.0, 'total_episode_length': 1336}
+Episode: 51
+{'reward': -1, 'episode_length': -1, 'total_reward': 26715.0, 'total_episode_length': 7361}
+Episode: 52
+{'reward': -1, 'episode_length': -1, 'total_reward': 13240.0, 'total_episode_length': 3788}
+Episode: 53
+{'reward': -1, 'episode_length': -1, 'total_reward': 14975.0, 'total_episode_length': 4181}
+Episode: 54
+{'reward': -1, 'episode_length': -1, 'total_reward': 10005.0, 'total_episode_length': 2957}
+Episode: 55
+{'reward': -1, 'episode_length': -1, 'total_reward': 8485.0, 'total_episode_length': 2480}
+Episode: 56
+{'reward': -1, 'episode_length': -1, 'total_reward': 3680.0, 'total_episode_length': 1289}
+Episode: 57
+{'reward': -1, 'episode_length': -1, 'total_reward': 18355.0, 'total_episode_length': 5187}
+Episode: 58
+{'reward': -1, 'episode_length': -1, 'total_reward': 4335.0, 'total_episode_length': 1402}
+Episode: 59
+{'reward': -1, 'episode_length': -1, 'total_reward': 4585.0, 'total_episode_length': 1551}
+Episode: 60
+{'reward': -1, 'episode_length': -1, 'total_reward': 1920.0, 'total_episode_length': 932}
+Episode: 61
+{'reward': -1, 'episode_length': -1, 'total_reward': 1905.0, 'total_episode_length': 834}
+Episode: 62
+{'reward': -1, 'episode_length': -1, 'total_reward': 5395.0, 'total_episode_length': 1813}
+Episode: 63
+{'reward': -1, 'episode_length': -1, 'total_reward': 2930.0, 'total_episode_length': 1085}
+Episode: 64
+{'reward': -1, 'episode_length': -1, 'total_reward': 14155.0, 'total_episode_length': 3942}
+Episode: 65
+{'reward': -1, 'episode_length': -1, 'total_reward': 3570.0, 'total_episode_length': 1120}
+Episode: 66
+{'reward': -1, 'episode_length': -1, 'total_reward': 5265.0, 'total_episode_length': 1809}
+Episode: 67
+{'reward': -1, 'episode_length': -1, 'total_reward': 6500.0, 'total_episode_length': 2075}
+Episode: 68
+{'reward': -1, 'episode_length': -1, 'total_reward': 19245.0, 'total_episode_length': 5158}
+Episode: 69
+{'reward': -1, 'episode_length': -1, 'total_reward': 8625.0, 'total_episode_length': 2699}
+Episode: 70
+{'reward': -1, 'episode_length': -1, 'total_reward': 5820.0, 'total_episode_length': 1841}
+Episode: 71
+{'reward': -1, 'episode_length': -1, 'total_reward': 5025.0, 'total_episode_length': 1699}
+Episode: 72
+{'reward': -1, 'episode_length': -1, 'total_reward': 8040.0, 'total_episode_length': 2429}
+Episode: 73
+{'reward': -1, 'episode_length': -1, 'total_reward': 7810.0, 'total_episode_length': 2553}
+Episode: 74
+{'reward': -1, 'episode_length': -1, 'total_reward': 3015.0, 'total_episode_length': 1109}
+Episode: 75
+{'reward': -1, 'episode_length': -1, 'total_reward': 5710.0, 'total_episode_length': 1833}
+Episode: 76
+{'reward': -1, 'episode_length': -1, 'total_reward': 2930.0, 'total_episode_length': 1086}
+Episode: 77
+{'reward': -1, 'episode_length': -1, 'total_reward': 3435.0, 'total_episode_length': 1234}
+Episode: 78
+{'reward': -1, 'episode_length': -1, 'total_reward': 17610.0, 'total_episode_length': 4876}
+Episode: 79
+{'reward': -1, 'episode_length': -1, 'total_reward': 24325.0, 'total_episode_length': 6782}
+Episode: 80
+{'reward': -1, 'episode_length': -1, 'total_reward': 5705.0, 'total_episode_length': 1877}
+Episode: 81
+{'reward': -1, 'episode_length': -1, 'total_reward': 10800.0, 'total_episode_length': 2976}
+Episode: 82
+{'reward': -1, 'episode_length': -1, 'total_reward': 2750.0, 'total_episode_length': 1012}
+Episode: 83
+{'reward': -1, 'episode_length': -1, 'total_reward': 3645.0, 'total_episode_length': 1343}
+Episode: 84
+{'reward': -1, 'episode_length': -1, 'total_reward': 540.0, 'total_episode_length': 278}
+Episode: 85
+{'reward': -1, 'episode_length': -1, 'total_reward': 8230.0, 'total_episode_length': 2262}
+Episode: 86
+{'reward': -1, 'episode_length': -1, 'total_reward': 4460.0, 'total_episode_length': 1488}
+Episode: 87
+{'reward': -1, 'episode_length': -1, 'total_reward': 4410.0, 'total_episode_length': 1425}
+Episode: 88
+{'reward': -1, 'episode_length': -1, 'total_reward': 5670.0, 'total_episode_length': 1854}
+Episode: 89
+{'reward': -1, 'episode_length': -1, 'total_reward': 13870.0, 'total_episode_length': 3823}
+Episode: 90
+{'reward': -1, 'episode_length': -1, 'total_reward': 37955.0, 'total_episode_length': 10381}
+Episode: 91
+{'reward': -1, 'episode_length': -1, 'total_reward': 17505.0, 'total_episode_length': 4896}
+Episode: 92
+{'reward': -1, 'episode_length': -1, 'total_reward': 17050.0, 'total_episode_length': 4936}
+Episode: 93
+{'reward': -1, 'episode_length': -1, 'total_reward': 11715.0, 'total_episode_length': 3388}
+Episode: 94
+{'reward': -1, 'episode_length': -1, 'total_reward': 12440.0, 'total_episode_length': 3635}
+Episode: 95
+{'reward': -1, 'episode_length': -1, 'total_reward': 11660.0, 'total_episode_length': 3285}
+Episode: 96
+{'reward': -1, 'episode_length': -1, 'total_reward': 2605.0, 'total_episode_length': 1012}
+Episode: 97
+{'reward': -1, 'episode_length': -1, 'total_reward': 6860.0, 'total_episode_length': 2106}
+Episode: 98
+{'reward': -1, 'episode_length': -1, 'total_reward': 5475.0, 'total_episode_length': 1904}
+Episode: 99
+{'reward': -1, 'episode_length': -1, 'total_reward': 17460.0, 'total_episode_length': 4894}
+Episode: 100
+*************************************************************
+CUMULATIVE_AVG_REWARD 9289.1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Seed:  200
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-04-25 00:28:27.224118: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-04-25 00:28:27.224212: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-25 00:28:27.224229: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-25 00:28:27.224242: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-25 00:28:27.224255: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-25 00:28:27.224266: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-25 00:28:27.224279: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-25 00:28:27.224296: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-04-25 00:28:27.225626: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-04-25 00:28:27.225655: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-25 00:28:27.225663: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-25 00:28:27.225669: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-25 00:28:27.227247: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3498 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c382f60>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c382f60>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c39bef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c39bef0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c3a9cc0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c3a9cc0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d5c3a9c88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d5c3a9c88>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d5c3a9f98>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d5c3a9f98>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d703b7240>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d703b7240>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d6852bcf8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d6852bcf8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d70386ef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d70386ef0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d70386ef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d70386ef0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d70386ef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d70386ef0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d5c768470>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d5c768470>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d5c768470>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d5c768470>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68260860>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68260860>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68260860>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68260860>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f1d70336ea0>, 'value': <function CNN.__init__.<locals>.value at 0x7f1d70336d08>}
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+{'reward': -1, 'episode_length': -1, 'total_reward': 3830.0, 'total_episode_length': 1416}
+Episode: 1
+{'reward': -1, 'episode_length': -1, 'total_reward': 6735.0, 'total_episode_length': 2113}
+Episode: 2
+{'reward': -1, 'episode_length': -1, 'total_reward': 11125.0, 'total_episode_length': 3144}
+Episode: 3
+{'reward': -1, 'episode_length': -1, 'total_reward': 4305.0, 'total_episode_length': 1399}
+Episode: 4
+{'reward': -1, 'episode_length': -1, 'total_reward': 12295.0, 'total_episode_length': 3510}
+Episode: 5
+{'reward': -1, 'episode_length': -1, 'total_reward': 15245.0, 'total_episode_length': 4387}
+Episode: 6
+{'reward': -1, 'episode_length': -1, 'total_reward': 12405.0, 'total_episode_length': 3539}
+Episode: 7
+{'reward': -1, 'episode_length': -1, 'total_reward': 8750.0, 'total_episode_length': 2439}
+Episode: 8
+{'reward': -1, 'episode_length': -1, 'total_reward': 14785.0, 'total_episode_length': 4106}
+Episode: 9
+{'reward': -1, 'episode_length': -1, 'total_reward': 7345.0, 'total_episode_length': 2252}
+Episode: 10
+{'reward': -1, 'episode_length': -1, 'total_reward': 16920.0, 'total_episode_length': 4463}
+Episode: 11
+{'reward': -1, 'episode_length': -1, 'total_reward': 2175.0, 'total_episode_length': 837}
+Episode: 12
+{'reward': -1, 'episode_length': -1, 'total_reward': 16785.0, 'total_episode_length': 4873}
+Episode: 13
+{'reward': -1, 'episode_length': -1, 'total_reward': 18035.0, 'total_episode_length': 5146}
+Episode: 14
+{'reward': -1, 'episode_length': -1, 'total_reward': 4925.0, 'total_episode_length': 1650}
+Episode: 15
+{'reward': -1, 'episode_length': -1, 'total_reward': 1085.0, 'total_episode_length': 521}
+Episode: 16
+{'reward': -1, 'episode_length': -1, 'total_reward': 4810.0, 'total_episode_length': 1521}
+Episode: 17
+{'reward': -1, 'episode_length': -1, 'total_reward': 15205.0, 'total_episode_length': 4297}
+Episode: 18
+{'reward': -1, 'episode_length': -1, 'total_reward': 2550.0, 'total_episode_length': 970}
+Episode: 19
+{'reward': -1, 'episode_length': -1, 'total_reward': 2500.0, 'total_episode_length': 937}
+Episode: 20
+{'reward': -1, 'episode_length': -1, 'total_reward': 15445.0, 'total_episode_length': 4381}
+Episode: 21
+{'reward': -1, 'episode_length': -1, 'total_reward': 7940.0, 'total_episode_length': 2442}
+Episode: 22
+{'reward': -1, 'episode_length': -1, 'total_reward': 12205.0, 'total_episode_length': 3514}
+Episode: 23
+{'reward': -1, 'episode_length': -1, 'total_reward': 1295.0, 'total_episode_length': 556}
+Episode: 24
+{'reward': -1, 'episode_length': -1, 'total_reward': 5650.0, 'total_episode_length': 1916}
+Episode: 25
+{'reward': -1, 'episode_length': -1, 'total_reward': 4850.0, 'total_episode_length': 1539}
+Episode: 26
+{'reward': -1, 'episode_length': -1, 'total_reward': 2415.0, 'total_episode_length': 933}
+Episode: 27
+{'reward': -1, 'episode_length': -1, 'total_reward': 18500.0, 'total_episode_length': 5263}
+Episode: 28
+{'reward': -1, 'episode_length': -1, 'total_reward': 6365.0, 'total_episode_length': 2089}
+Episode: 29
+{'reward': -1, 'episode_length': -1, 'total_reward': 11960.0, 'total_episode_length': 3535}
+Episode: 30
+{'reward': -1, 'episode_length': -1, 'total_reward': 2675.0, 'total_episode_length': 1024}
+Episode: 31
+{'reward': -1, 'episode_length': -1, 'total_reward': 1700.0, 'total_episode_length': 701}
+Episode: 32
+{'reward': -1, 'episode_length': -1, 'total_reward': 7480.0, 'total_episode_length': 2241}
+Episode: 33
+{'reward': -1, 'episode_length': -1, 'total_reward': 7485.0, 'total_episode_length': 2322}
+Episode: 34
+{'reward': -1, 'episode_length': -1, 'total_reward': 10475.0, 'total_episode_length': 3171}
+Episode: 35
+{'reward': -1, 'episode_length': -1, 'total_reward': 5600.0, 'total_episode_length': 1899}
+Episode: 36
+{'reward': -1, 'episode_length': -1, 'total_reward': 8470.0, 'total_episode_length': 2557}
+Episode: 37
+{'reward': -1, 'episode_length': -1, 'total_reward': 24570.0, 'total_episode_length': 6894}
+Episode: 38
+{'reward': -1, 'episode_length': -1, 'total_reward': 4190.0, 'total_episode_length': 1428}
+Episode: 39
+{'reward': -1, 'episode_length': -1, 'total_reward': 4550.0, 'total_episode_length': 1472}
+Episode: 40
+{'reward': -1, 'episode_length': -1, 'total_reward': 5905.0, 'total_episode_length': 1802}
+Episode: 41
+{'reward': -1, 'episode_length': -1, 'total_reward': 14190.0, 'total_episode_length': 4200}
+Episode: 42
+{'reward': -1, 'episode_length': -1, 'total_reward': 7605.0, 'total_episode_length': 2345}
+Episode: 43
+{'reward': -1, 'episode_length': -1, 'total_reward': 12015.0, 'total_episode_length': 3472}
+Episode: 44
+{'reward': -1, 'episode_length': -1, 'total_reward': 18140.0, 'total_episode_length': 5198}
+Episode: 45
+{'reward': -1, 'episode_length': -1, 'total_reward': 23950.0, 'total_episode_length': 6661}
+Episode: 46
+{'reward': -1, 'episode_length': -1, 'total_reward': 21095.0, 'total_episode_length': 5906}
+Episode: 47
+{'reward': -1, 'episode_length': -1, 'total_reward': 11880.0, 'total_episode_length': 3581}
+Episode: 48
+{'reward': -1, 'episode_length': -1, 'total_reward': 4000.0, 'total_episode_length': 1518}
+Episode: 49
+{'reward': -1, 'episode_length': -1, 'total_reward': 17435.0, 'total_episode_length': 4837}
+Episode: 50
+{'reward': -1, 'episode_length': -1, 'total_reward': 5250.0, 'total_episode_length': 1589}
+Episode: 51
+{'reward': -1, 'episode_length': -1, 'total_reward': 6345.0, 'total_episode_length': 2003}
+Episode: 52
+{'reward': -1, 'episode_length': -1, 'total_reward': 9930.0, 'total_episode_length': 2931}
+Episode: 53
+{'reward': -1, 'episode_length': -1, 'total_reward': 12045.0, 'total_episode_length': 3435}
+Episode: 54
+{'reward': -1, 'episode_length': -1, 'total_reward': 2990.0, 'total_episode_length': 1167}
+Episode: 55
+{'reward': -1, 'episode_length': -1, 'total_reward': 11940.0, 'total_episode_length': 3603}
+Episode: 56
+{'reward': -1, 'episode_length': -1, 'total_reward': 4320.0, 'total_episode_length': 1370}
+Episode: 57
+{'reward': -1, 'episode_length': -1, 'total_reward': 56690.0, 'total_episode_length': 15225}
+Episode: 58
+{'reward': -1, 'episode_length': -1, 'total_reward': 4965.0, 'total_episode_length': 1699}
+Episode: 59
+{'reward': -1, 'episode_length': -1, 'total_reward': 18025.0, 'total_episode_length': 4954}
+Episode: 60
+{'reward': -1, 'episode_length': -1, 'total_reward': 13495.0, 'total_episode_length': 3911}
+Episode: 61
+{'reward': -1, 'episode_length': -1, 'total_reward': 15185.0, 'total_episode_length': 4174}
+Episode: 62
+{'reward': -1, 'episode_length': -1, 'total_reward': 11240.0, 'total_episode_length': 3346}
+Episode: 63
+{'reward': -1, 'episode_length': -1, 'total_reward': 6230.0, 'total_episode_length': 1961}
+Episode: 64
+{'reward': -1, 'episode_length': -1, 'total_reward': 9955.0, 'total_episode_length': 2906}
+Episode: 65
+{'reward': -1, 'episode_length': -1, 'total_reward': 1130.0, 'total_episode_length': 565}
+Episode: 66
+{'reward': -1, 'episode_length': -1, 'total_reward': 1580.0, 'total_episode_length': 665}
+Episode: 67
+{'reward': -1, 'episode_length': -1, 'total_reward': 14780.0, 'total_episode_length': 4119}
+Episode: 68
+{'reward': -1, 'episode_length': -1, 'total_reward': 5850.0, 'total_episode_length': 1679}
+Episode: 69
+{'reward': -1, 'episode_length': -1, 'total_reward': 10350.0, 'total_episode_length': 3109}
+Episode: 70
+{'reward': -1, 'episode_length': -1, 'total_reward': 10690.0, 'total_episode_length': 3076}
+Episode: 71
+{'reward': -1, 'episode_length': -1, 'total_reward': 4305.0, 'total_episode_length': 1431}
+Episode: 72
+{'reward': -1, 'episode_length': -1, 'total_reward': 19375.0, 'total_episode_length': 5568}
+Episode: 73
+{'reward': -1, 'episode_length': -1, 'total_reward': 9425.0, 'total_episode_length': 2920}
+Episode: 74
+{'reward': -1, 'episode_length': -1, 'total_reward': 1235.0, 'total_episode_length': 611}
+Episode: 75
+{'reward': -1, 'episode_length': -1, 'total_reward': 14430.0, 'total_episode_length': 4125}
+Episode: 76
+{'reward': -1, 'episode_length': -1, 'total_reward': 13180.0, 'total_episode_length': 3702}
+Episode: 77
+{'reward': -1, 'episode_length': -1, 'total_reward': 7270.0, 'total_episode_length': 2196}
+Episode: 78
+{'reward': -1, 'episode_length': -1, 'total_reward': 6190.0, 'total_episode_length': 1944}
+Episode: 79
+{'reward': -1, 'episode_length': -1, 'total_reward': 4385.0, 'total_episode_length': 1544}
+Episode: 80
+{'reward': -1, 'episode_length': -1, 'total_reward': 10925.0, 'total_episode_length': 3179}
+Episode: 81
+{'reward': -1, 'episode_length': -1, 'total_reward': 16395.0, 'total_episode_length': 4676}
+Episode: 82
+{'reward': -1, 'episode_length': -1, 'total_reward': 3620.0, 'total_episode_length': 1239}
+Episode: 83
+{'reward': -1, 'episode_length': -1, 'total_reward': 1745.0, 'total_episode_length': 768}
+Episode: 84
+{'reward': -1, 'episode_length': -1, 'total_reward': 3180.0, 'total_episode_length': 1055}
+Episode: 85
+{'reward': -1, 'episode_length': -1, 'total_reward': 2065.0, 'total_episode_length': 736}
+Episode: 86
+{'reward': -1, 'episode_length': -1, 'total_reward': 7420.0, 'total_episode_length': 2298}
+Episode: 87
+{'reward': -1, 'episode_length': -1, 'total_reward': 9695.0, 'total_episode_length': 2962}
+Episode: 88
+{'reward': -1, 'episode_length': -1, 'total_reward': 4170.0, 'total_episode_length': 1486}
+Episode: 89
+{'reward': -1, 'episode_length': -1, 'total_reward': 9685.0, 'total_episode_length': 2763}
+Episode: 90
+{'reward': -1, 'episode_length': -1, 'total_reward': 4765.0, 'total_episode_length': 1498}
+Episode: 91
+{'reward': -1, 'episode_length': -1, 'total_reward': 6510.0, 'total_episode_length': 1866}
+Episode: 92
+{'reward': -1, 'episode_length': -1, 'total_reward': 6430.0, 'total_episode_length': 2058}
+Episode: 93
+{'reward': -1, 'episode_length': -1, 'total_reward': 7170.0, 'total_episode_length': 2258}
+Episode: 94
+{'reward': -1, 'episode_length': -1, 'total_reward': 13065.0, 'total_episode_length': 3534}
+Episode: 95
+{'reward': -1, 'episode_length': -1, 'total_reward': 16590.0, 'total_episode_length': 4418}
+Episode: 96
+{'reward': -1, 'episode_length': -1, 'total_reward': 1360.0, 'total_episode_length': 679}
+Episode: 97
+{'reward': -1, 'episode_length': -1, 'total_reward': 13210.0, 'total_episode_length': 3743}
+Episode: 98
+{'reward': -1, 'episode_length': -1, 'total_reward': 3845.0, 'total_episode_length': 1394}
+Episode: 99
+{'reward': -1, 'episode_length': -1, 'total_reward': 8255.0, 'total_episode_length': 2417}
+Episode: 100
+*************************************************************
+CUMULATIVE_AVG_REWARD 9447.25
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Seed:  500
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-04-25 00:47:02.573643: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-04-25 00:47:02.573745: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-04-25 00:47:02.573762: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-04-25 00:47:02.573775: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-04-25 00:47:02.573788: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-04-25 00:47:02.573799: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-04-25 00:47:02.573812: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-04-25 00:47:02.573826: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-04-25 00:47:02.575159: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-04-25 00:47:02.575190: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-25 00:47:02.575197: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-04-25 00:47:02.575203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-04-25 00:47:02.576923: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3498 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d68563e80>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d68563e80>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c382710>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d5c382710>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d681e0d68>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d681e0d68>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d681e0d30>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d681e0d30>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d681e0dd8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d681e0dd8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68211a90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68211a90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68211a90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d68211a90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d702aa438>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d702aa438>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d702aa438>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d702aa438>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d702aa438>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f1d702aa438>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d702aa908>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1d702aa908>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d702aa438>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d702aa438>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d685de5f8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d685de5f8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d685de5f8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f1d685de5f8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f1d684237b8>, 'value': <function CNN.__init__.<locals>.value at 0x7f1d68423ae8>}
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+{'reward': -1, 'episode_length': -1, 'total_reward': 9080.0, 'total_episode_length': 2808}
+Episode: 1
+{'reward': -1, 'episode_length': -1, 'total_reward': 1265.0, 'total_episode_length': 505}
+Episode: 2
+{'reward': -1, 'episode_length': -1, 'total_reward': 18280.0, 'total_episode_length': 4962}
+Episode: 3
+{'reward': -1, 'episode_length': -1, 'total_reward': 5865.0, 'total_episode_length': 1894}
+Episode: 4
+{'reward': -1, 'episode_length': -1, 'total_reward': 16035.0, 'total_episode_length': 4421}
+Episode: 5
+{'reward': -1, 'episode_length': -1, 'total_reward': 5575.0, 'total_episode_length': 1811}
+Episode: 6
+{'reward': -1, 'episode_length': -1, 'total_reward': 3260.0, 'total_episode_length': 1147}
+Episode: 7
+{'reward': -1, 'episode_length': -1, 'total_reward': 6595.0, 'total_episode_length': 2050}
+Episode: 8
+{'reward': -1, 'episode_length': -1, 'total_reward': 13630.0, 'total_episode_length': 3874}
+Episode: 9
+{'reward': -1, 'episode_length': -1, 'total_reward': 1750.0, 'total_episode_length': 758}
+Episode: 10
+{'reward': -1, 'episode_length': -1, 'total_reward': 5260.0, 'total_episode_length': 1785}
+Episode: 11
+{'reward': -1, 'episode_length': -1, 'total_reward': 7775.0, 'total_episode_length': 2424}
+Episode: 12
+{'reward': -1, 'episode_length': -1, 'total_reward': 4295.0, 'total_episode_length': 1440}
+Episode: 13
+{'reward': -1, 'episode_length': -1, 'total_reward': 1265.0, 'total_episode_length': 616}
+Episode: 14
+{'reward': -1, 'episode_length': -1, 'total_reward': 4065.0, 'total_episode_length': 1451}
+Episode: 15
+{'reward': -1, 'episode_length': -1, 'total_reward': 6550.0, 'total_episode_length': 2006}
+Episode: 16
+{'reward': -1, 'episode_length': -1, 'total_reward': 5310.0, 'total_episode_length': 1792}
+Episode: 17
+{'reward': -1, 'episode_length': -1, 'total_reward': 3130.0, 'total_episode_length': 1256}
+Episode: 18
+{'reward': -1, 'episode_length': -1, 'total_reward': 8870.0, 'total_episode_length': 2754}
+Episode: 19
+{'reward': -1, 'episode_length': -1, 'total_reward': 10995.0, 'total_episode_length': 3230}
+Episode: 20
+{'reward': -1, 'episode_length': -1, 'total_reward': 4785.0, 'total_episode_length': 1647}
+Episode: 21
+{'reward': -1, 'episode_length': -1, 'total_reward': 2430.0, 'total_episode_length': 973}
+Episode: 22
+{'reward': -1, 'episode_length': -1, 'total_reward': 8810.0, 'total_episode_length': 2548}
+Episode: 23
+{'reward': -1, 'episode_length': -1, 'total_reward': 8300.0, 'total_episode_length': 2539}
+Episode: 24
+{'reward': -1, 'episode_length': -1, 'total_reward': 4500.0, 'total_episode_length': 1441}
+Episode: 25
+{'reward': -1, 'episode_length': -1, 'total_reward': 6420.0, 'total_episode_length': 1980}
+Episode: 26
+{'reward': -1, 'episode_length': -1, 'total_reward': 4205.0, 'total_episode_length': 1450}
+Episode: 27
+{'reward': -1, 'episode_length': -1, 'total_reward': 15160.0, 'total_episode_length': 4431}
+Episode: 28
+{'reward': -1, 'episode_length': -1, 'total_reward': 10140.0, 'total_episode_length': 2956}
+Episode: 29
+{'reward': -1, 'episode_length': -1, 'total_reward': 25385.0, 'total_episode_length': 6687}
+Episode: 30
+{'reward': -1, 'episode_length': -1, 'total_reward': 14740.0, 'total_episode_length': 4129}
+Episode: 31
+{'reward': -1, 'episode_length': -1, 'total_reward': 2570.0, 'total_episode_length': 1026}
+Episode: 32
+{'reward': -1, 'episode_length': -1, 'total_reward': 15810.0, 'total_episode_length': 4322}
+Episode: 33
+{'reward': -1, 'episode_length': -1, 'total_reward': 8780.0, 'total_episode_length': 2730}
+Episode: 34
+{'reward': -1, 'episode_length': -1, 'total_reward': 3005.0, 'total_episode_length': 1081}
+Episode: 35
+{'reward': -1, 'episode_length': -1, 'total_reward': 5645.0, 'total_episode_length': 1828}
+Episode: 36
+{'reward': -1, 'episode_length': -1, 'total_reward': 11525.0, 'total_episode_length': 3146}
+Episode: 37
+{'reward': -1, 'episode_length': -1, 'total_reward': 1875.0, 'total_episode_length': 879}
+Episode: 38
+{'reward': -1, 'episode_length': -1, 'total_reward': 21825.0, 'total_episode_length': 5925}
+Episode: 39
+{'reward': -1, 'episode_length': -1, 'total_reward': 3215.0, 'total_episode_length': 1129}
+Episode: 40
+{'reward': -1, 'episode_length': -1, 'total_reward': 6515.0, 'total_episode_length': 1939}
+Episode: 41
+{'reward': -1, 'episode_length': -1, 'total_reward': 10550.0, 'total_episode_length': 3096}
+Episode: 42
+{'reward': -1, 'episode_length': -1, 'total_reward': 7155.0, 'total_episode_length': 2347}
+Episode: 43
+{'reward': -1, 'episode_length': -1, 'total_reward': 3510.0, 'total_episode_length': 1336}
+Episode: 44
+{'reward': -1, 'episode_length': -1, 'total_reward': 1085.0, 'total_episode_length': 508}
+Episode: 45
+{'reward': -1, 'episode_length': -1, 'total_reward': 5545.0, 'total_episode_length': 1762}
+Episode: 46
+{'reward': -1, 'episode_length': -1, 'total_reward': 4980.0, 'total_episode_length': 1664}
+Episode: 47
+{'reward': -1, 'episode_length': -1, 'total_reward': 2905.0, 'total_episode_length': 1180}
+Episode: 48
+{'reward': -1, 'episode_length': -1, 'total_reward': 5235.0, 'total_episode_length': 1692}
+Episode: 49
+{'reward': -1, 'episode_length': -1, 'total_reward': 17035.0, 'total_episode_length': 4572}
+Episode: 50
+{'reward': -1, 'episode_length': -1, 'total_reward': 11005.0, 'total_episode_length': 3149}
+Episode: 51
+{'reward': -1, 'episode_length': -1, 'total_reward': 2375.0, 'total_episode_length': 906}
+Episode: 52
+{'reward': -1, 'episode_length': -1, 'total_reward': 1200.0, 'total_episode_length': 631}
+Episode: 53
+{'reward': -1, 'episode_length': -1, 'total_reward': 3825.0, 'total_episode_length': 1389}
+Episode: 54
+{'reward': -1, 'episode_length': -1, 'total_reward': 11175.0, 'total_episode_length': 3158}
+Episode: 55
+{'reward': -1, 'episode_length': -1, 'total_reward': 3070.0, 'total_episode_length': 1167}
+Episode: 56
+{'reward': -1, 'episode_length': -1, 'total_reward': 4505.0, 'total_episode_length': 1624}
+Episode: 57
+{'reward': -1, 'episode_length': -1, 'total_reward': 4935.0, 'total_episode_length': 1621}
+Episode: 58
+{'reward': -1, 'episode_length': -1, 'total_reward': 5085.0, 'total_episode_length': 1864}
+Episode: 59
+{'reward': -1, 'episode_length': -1, 'total_reward': 10470.0, 'total_episode_length': 3024}
+Episode: 60
+{'reward': -1, 'episode_length': -1, 'total_reward': 6780.0, 'total_episode_length': 2068}
+Episode: 61
+{'reward': -1, 'episode_length': -1, 'total_reward': 9120.0, 'total_episode_length': 2770}
+Episode: 62
+{'reward': -1, 'episode_length': -1, 'total_reward': 7630.0, 'total_episode_length': 2275}
+Episode: 63
+{'reward': -1, 'episode_length': -1, 'total_reward': 8745.0, 'total_episode_length': 2622}
+Episode: 64
+{'reward': -1, 'episode_length': -1, 'total_reward': 9200.0, 'total_episode_length': 2699}
+Episode: 65
+{'reward': -1, 'episode_length': -1, 'total_reward': 6160.0, 'total_episode_length': 2049}
+Episode: 66
+{'reward': -1, 'episode_length': -1, 'total_reward': 7575.0, 'total_episode_length': 2315}
+Episode: 67
+{'reward': -1, 'episode_length': -1, 'total_reward': 2810.0, 'total_episode_length': 1108}
+Episode: 68
+{'reward': -1, 'episode_length': -1, 'total_reward': 13265.0, 'total_episode_length': 3914}
+Episode: 69
+{'reward': -1, 'episode_length': -1, 'total_reward': 5195.0, 'total_episode_length': 1764}
+Episode: 70
+{'reward': -1, 'episode_length': -1, 'total_reward': 7485.0, 'total_episode_length': 2293}
+Episode: 71
+{'reward': -1, 'episode_length': -1, 'total_reward': 13015.0, 'total_episode_length': 3946}
+Episode: 72
+{'reward': -1, 'episode_length': -1, 'total_reward': 2150.0, 'total_episode_length': 839}
+Episode: 73
+{'reward': -1, 'episode_length': -1, 'total_reward': 910.0, 'total_episode_length': 417}
+Episode: 74
+{'reward': -1, 'episode_length': -1, 'total_reward': 20090.0, 'total_episode_length': 5420}
+Episode: 75
+{'reward': -1, 'episode_length': -1, 'total_reward': 500.0, 'total_episode_length': 316}
+Episode: 76
+{'reward': -1, 'episode_length': -1, 'total_reward': 4965.0, 'total_episode_length': 1692}
+Episode: 77
+{'reward': -1, 'episode_length': -1, 'total_reward': 6270.0, 'total_episode_length': 2008}
+Episode: 78
+{'reward': -1, 'episode_length': -1, 'total_reward': 4305.0, 'total_episode_length': 1548}
+Episode: 79
+{'reward': -1, 'episode_length': -1, 'total_reward': 12665.0, 'total_episode_length': 3633}
+Episode: 80
+{'reward': -1, 'episode_length': -1, 'total_reward': 1295.0, 'total_episode_length': 588}
+Episode: 81
+{'reward': -1, 'episode_length': -1, 'total_reward': 575.0, 'total_episode_length': 248}
+Episode: 82
+{'reward': -1, 'episode_length': -1, 'total_reward': 6970.0, 'total_episode_length': 2151}
+Episode: 83
+{'reward': -1, 'episode_length': -1, 'total_reward': 6910.0, 'total_episode_length': 2172}
+Episode: 84
+{'reward': -1, 'episode_length': -1, 'total_reward': 10465.0, 'total_episode_length': 3294}
+Episode: 85
+{'reward': -1, 'episode_length': -1, 'total_reward': 5470.0, 'total_episode_length': 1880}
+Episode: 86
+{'reward': -1, 'episode_length': -1, 'total_reward': 8715.0, 'total_episode_length': 2669}
+Episode: 87
+{'reward': -1, 'episode_length': -1, 'total_reward': 16055.0, 'total_episode_length': 4686}
+Episode: 88
+{'reward': -1, 'episode_length': -1, 'total_reward': 12145.0, 'total_episode_length': 3457}
+Episode: 89
+{'reward': -1, 'episode_length': -1, 'total_reward': 5525.0, 'total_episode_length': 1729}
+Episode: 90
+{'reward': -1, 'episode_length': -1, 'total_reward': 10320.0, 'total_episode_length': 3034}
+Episode: 91
+{'reward': -1, 'episode_length': -1, 'total_reward': 8915.0, 'total_episode_length': 2610}
+Episode: 92
+{'reward': -1, 'episode_length': -1, 'total_reward': 12835.0, 'total_episode_length': 3786}
+Episode: 93
+{'reward': -1, 'episode_length': -1, 'total_reward': 1000.0, 'total_episode_length': 422}
+Episode: 94
+{'reward': -1, 'episode_length': -1, 'total_reward': 25235.0, 'total_episode_length': 6761}
+Episode: 95
+{'reward': -1, 'episode_length': -1, 'total_reward': 7010.0, 'total_episode_length': 2190}
+Episode: 96
+{'reward': -1, 'episode_length': -1, 'total_reward': 13325.0, 'total_episode_length': 3752}
+Episode: 97
+{'reward': -1, 'episode_length': -1, 'total_reward': 1860.0, 'total_episode_length': 812}
+Episode: 98
+{'reward': -1, 'episode_length': -1, 'total_reward': 2495.0, 'total_episode_length': 1032}
+Episode: 99
+{'reward': -1, 'episode_length': -1, 'total_reward': 8085.0, 'total_episode_length': 2428}
+Episode: 100
+*************************************************************
+CUMULATIVE_AVG_REWARD 7541.75
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Final score:  8129.839999999999
