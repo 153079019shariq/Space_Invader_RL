@@ -16,8 +16,7 @@ start_time = "_".join(date_list)
 
 ptitle('a2c.py_{}'.format(start_time))
 
-MODEL_PATH = 'models_entropy_coeff'
-
+MODEL_PATH = 'models_entropy_coeff1'
 def set_global_seeds(i):
     tf.set_random_seed(i)
     np.random.seed(i)
@@ -219,8 +218,8 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
                   lr=lr, alpha=alpha, epsilon=epsilon, total_timesteps=total_timesteps)
     
     
-    if os.path.exists("models_entropy_coeff/Space_inv_A2C_LSTM_nstep8_MAX_rew_211"):
-        agent.load("models_entropy_coeff/Space_inv_A2C_LSTM_nstep8_MAX_rew_211")
+    if os.path.exists("models_entropy_coeff/Space_inv_A2C_LSTM_nstep8_MAX_rew_546"):
+        agent.load("models_entropy_coeff/Space_inv_A2C_LSTM_nstep8_MAX_rew_546")
         print("Loaded_the_model")
     
 

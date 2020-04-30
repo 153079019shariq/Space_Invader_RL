@@ -1,0 +1,900 @@
+Space_inv_A2C_LSTM_nstep8_MAX_avg_rew_641_max_rew_4144 Final score:  25315.01
+
+WARNING:tensorflow:From wandb_test.py:31: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+Seed:  10
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:60: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:63: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-05-07 18:20:25.763544: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-05-07 18:20:25.771973: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-05-07 18:20:25.960897: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e290b7eea0 executing computations on platform CUDA. Devices:
+2020-05-07 18:20:25.960941: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+2020-05-07 18:20:25.982611: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3493045000 Hz
+2020-05-07 18:20:25.983956: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e290c55b00 executing computations on platform Host. Devices:
+2020-05-07 18:20:25.983992: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-05-07 18:20:25.985531: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-05-07 18:20:25.985893: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-05-07 18:20:25.987258: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-05-07 18:20:25.988425: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-05-07 18:20:25.988718: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-05-07 18:20:25.990054: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-05-07 18:20:25.991042: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-05-07 18:20:25.994103: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-05-07 18:20:25.997118: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-05-07 18:20:25.997208: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-05-07 18:20:25.998650: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-05-07 18:20:25.998730: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-05-07 18:20:25.998794: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-05-07 18:20:26.001437: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8114 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:66: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/neural_network.py:125: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/neural_network.py:13: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f9789edf6a0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f9789edf6a0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f9789edf6a0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f9789edf6a0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f9789edfdd8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f9789edfdd8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/neural_network.py:129: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f9789ebf668>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f9789ebf668>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/neural_network.py:18: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9856bc43c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9856bc43c8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9780216470>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9780216470>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9780216470>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9780216470>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f978018ab70>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f978018ab70>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f978018ab70>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f978018ab70>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f978018ab70>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f978018ab70>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f978018a390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f978018a390>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f978018acc0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f978018acc0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9780123128>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9780123128>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f978023e390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f978023e390>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f97802392f0>, 'value': <function CNN.__init__.<locals>.value at 0x7f9780239c80>}
+WARNING:tensorflow:From /home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:286: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/shariq/Desktop/a2c_LSTM/a2c.py:97: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From /home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/tensorflow/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+2020-05-07 18:20:29.074891: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-05-07 18:20:29.298718: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+Episode 1 Episodic_reward 6760.0 Cumulative_avg_reward 6760.0 
+Episode 2 Episodic_reward 1865.0 Cumulative_avg_reward 4312.5 
+Episode 3 Episodic_reward 9885.0 Cumulative_avg_reward 6170.0 
+Episode 4 Episodic_reward 69335.0 Cumulative_avg_reward 21961.25 
+Episode 5 Episodic_reward 25590.0 Cumulative_avg_reward 22687.0 
+Episode 6 Episodic_reward 44940.0 Cumulative_avg_reward 26395.833333333332 
+Episode 7 Episodic_reward 6345.0 Cumulative_avg_reward 23531.428571428572 
+Episode 8 Episodic_reward 20010.0 Cumulative_avg_reward 23091.25 
+Episode 9 Episodic_reward 85420.0 Cumulative_avg_reward 30016.666666666668 
+Episode 10 Episodic_reward 24380.0 Cumulative_avg_reward 29453.0 
+Episode 11 Episodic_reward 18645.0 Cumulative_avg_reward 28470.454545454544 
+Episode 12 Episodic_reward 57395.0 Cumulative_avg_reward 30880.833333333332 
+Episode 13 Episodic_reward 19985.0 Cumulative_avg_reward 30042.69230769231 
+Episode 14 Episodic_reward 10765.0 Cumulative_avg_reward 28665.714285714286 
+Episode 15 Episodic_reward 13015.0 Cumulative_avg_reward 27622.333333333332 
+Episode 16 Episodic_reward 17425.0 Cumulative_avg_reward 26985.0 
+Episode 17 Episodic_reward 600.0 Cumulative_avg_reward 25432.941176470587 
+Episode 18 Episodic_reward 33495.0 Cumulative_avg_reward 25880.833333333332 
+Episode 19 Episodic_reward 24965.0 Cumulative_avg_reward 25832.63157894737 
+Episode 20 Episodic_reward 14385.0 Cumulative_avg_reward 25260.25 
+Episode 21 Episodic_reward 1235.0 Cumulative_avg_reward 24116.190476190477 
+Episode 22 Episodic_reward 3960.0 Cumulative_avg_reward 23200.0 
+Episode 23 Episodic_reward 39605.0 Cumulative_avg_reward 23913.260869565216 
+Episode 24 Episodic_reward 4335.0 Cumulative_avg_reward 23097.5 
+Episode 25 Episodic_reward 8145.0 Cumulative_avg_reward 22499.4 
+Episode 26 Episodic_reward 32375.0 Cumulative_avg_reward 22879.23076923077 
+Episode 27 Episodic_reward 27985.0 Cumulative_avg_reward 23068.333333333332 
+Episode 28 Episodic_reward 25255.0 Cumulative_avg_reward 23146.428571428572 
+Episode 29 Episodic_reward 20855.0 Cumulative_avg_reward 23067.41379310345 
+Episode 30 Episodic_reward 12400.0 Cumulative_avg_reward 22711.833333333332 
+Episode 31 Episodic_reward 4515.0 Cumulative_avg_reward 22124.83870967742 
+Episode 32 Episodic_reward 17200.0 Cumulative_avg_reward 21970.9375 
+Episode 33 Episodic_reward 39965.0 Cumulative_avg_reward 22516.21212121212 
+Episode 34 Episodic_reward 1765.0 Cumulative_avg_reward 21905.882352941175 
+Episode 35 Episodic_reward 6015.0 Cumulative_avg_reward 21451.85714285714 
+Episode 36 Episodic_reward 43980.0 Cumulative_avg_reward 22077.63888888889 
+Episode 37 Episodic_reward 16185.0 Cumulative_avg_reward 21918.37837837838 
+Episode 38 Episodic_reward 20495.0 Cumulative_avg_reward 21880.92105263158 
+Episode 39 Episodic_reward 21910.0 Cumulative_avg_reward 21881.666666666668 
+Episode 40 Episodic_reward 61330.0 Cumulative_avg_reward 22867.875 
+Episode 41 Episodic_reward 15335.0 Cumulative_avg_reward 22684.146341463416 
+Episode 42 Episodic_reward 19110.0 Cumulative_avg_reward 22599.04761904762 
+Episode 43 Episodic_reward 78735.0 Cumulative_avg_reward 23904.53488372093 
+Episode 44 Episodic_reward 6900.0 Cumulative_avg_reward 23518.06818181818 
+Episode 45 Episodic_reward 24945.0 Cumulative_avg_reward 23549.777777777777 
+Episode 46 Episodic_reward 22460.0 Cumulative_avg_reward 23526.08695652174 
+Episode 47 Episodic_reward 22135.0 Cumulative_avg_reward 23496.489361702126 
+Episode 48 Episodic_reward 9640.0 Cumulative_avg_reward 23207.8125 
+Episode 49 Episodic_reward 98205.0 Cumulative_avg_reward 24738.367346938776 
+Episode 50 Episodic_reward 99525.0 Cumulative_avg_reward 26234.1 
+Episode 51 Episodic_reward 28560.0 Cumulative_avg_reward 26279.70588235294 
+Episode 52 Episodic_reward 44085.0 Cumulative_avg_reward 26622.115384615383 
+Episode 53 Episodic_reward 13390.0 Cumulative_avg_reward 26372.45283018868 
+Episode 54 Episodic_reward 19075.0 Cumulative_avg_reward 26237.314814814814 
+Episode 55 Episodic_reward 12180.0 Cumulative_avg_reward 25981.727272727272 
+Episode 56 Episodic_reward 54745.0 Cumulative_avg_reward 26495.35714285714 
+Episode 57 Episodic_reward 1590.0 Cumulative_avg_reward 26058.42105263158 
+Episode 58 Episodic_reward 4765.0 Cumulative_avg_reward 25691.293103448275 
+Episode 59 Episodic_reward 22495.0 Cumulative_avg_reward 25637.118644067796 
+Episode 60 Episodic_reward 31050.0 Cumulative_avg_reward 25727.333333333332 
+Episode 61 Episodic_reward 20395.0 Cumulative_avg_reward 25639.918032786885 
+Episode 62 Episodic_reward 5715.0 Cumulative_avg_reward 25318.548387096773 
+Episode 63 Episodic_reward 35155.0 Cumulative_avg_reward 25474.68253968254 
+Episode 64 Episodic_reward 16760.0 Cumulative_avg_reward 25338.515625 
+Episode 65 Episodic_reward 35220.0 Cumulative_avg_reward 25490.53846153846 
+Episode 66 Episodic_reward 48050.0 Cumulative_avg_reward 25832.348484848484 
+Episode 67 Episodic_reward 5650.0 Cumulative_avg_reward 25531.119402985074 
+Episode 68 Episodic_reward 20130.0 Cumulative_avg_reward 25451.691176470587 
+Episode 69 Episodic_reward 12495.0 Cumulative_avg_reward 25263.91304347826 
+Episode 70 Episodic_reward 7165.0 Cumulative_avg_reward 25005.35714285714 
+Episode 71 Episodic_reward 20350.0 Cumulative_avg_reward 24939.788732394365 
+Episode 72 Episodic_reward 51110.0 Cumulative_avg_reward 25303.26388888889 
+Episode 73 Episodic_reward 34215.0 Cumulative_avg_reward 25425.342465753423 
+Episode 74 Episodic_reward 50835.0 Cumulative_avg_reward 25768.716216216217 
+Episode 75 Episodic_reward 10275.0 Cumulative_avg_reward 25562.133333333335 
+Episode 76 Episodic_reward 12500.0 Cumulative_avg_reward 25390.263157894737 
+Episode 77 Episodic_reward 51280.0 Cumulative_avg_reward 25726.493506493505 
+Episode 78 Episodic_reward 9825.0 Cumulative_avg_reward 25522.628205128207 
+Episode 79 Episodic_reward 72730.0 Cumulative_avg_reward 26120.189873417723 
+Episode 80 Episodic_reward 69245.0 Cumulative_avg_reward 26659.25 
+Episode 81 Episodic_reward 17055.0 Cumulative_avg_reward 26540.679012345678 
+Episode 82 Episodic_reward 27810.0 Cumulative_avg_reward 26556.158536585364 
+Episode 83 Episodic_reward 24630.0 Cumulative_avg_reward 26532.951807228917 
+Episode 84 Episodic_reward 42765.0 Cumulative_avg_reward 26726.190476190477 
+Episode 85 Episodic_reward 10285.0 Cumulative_avg_reward 26532.764705882353 
+Episode 86 Episodic_reward 21965.0 Cumulative_avg_reward 26479.6511627907 
+Episode 87 Episodic_reward 16170.0 Cumulative_avg_reward 26361.149425287356 
+Episode 88 Episodic_reward 30310.0 Cumulative_avg_reward 26406.022727272728 
+Episode 89 Episodic_reward 17455.0 Cumulative_avg_reward 26305.449438202246 
+Episode 90 Episodic_reward 20835.0 Cumulative_avg_reward 26244.666666666668 
+Episode 91 Episodic_reward 5900.0 Cumulative_avg_reward 26021.0989010989 
+Episode 92 Episodic_reward 52115.0 Cumulative_avg_reward 26304.728260869564 
+Episode 93 Episodic_reward 42845.0 Cumulative_avg_reward 26482.58064516129 
+Episode 94 Episodic_reward 19510.0 Cumulative_avg_reward 26408.40425531915 
+Episode 95 Episodic_reward 17325.0 Cumulative_avg_reward 26312.78947368421 
+Episode 96 Episodic_reward 9605.0 Cumulative_avg_reward 26138.75 
+Episode 97 Episodic_reward 34315.0 Cumulative_avg_reward 26223.0412371134 
+Episode 98 Episodic_reward 27335.0 Cumulative_avg_reward 26234.38775510204 
+Episode 99 Episodic_reward 11190.0 Cumulative_avg_reward 26082.424242424244 
+Episode 100 Episodic_reward 6975.0 Cumulative_avg_reward 25891.35 
+*************************************************************
+CUMULATIVE_AVG_REWARD 25891.35
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Seed:  50
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-05-07 19:02:53.707292: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-05-07 19:02:53.707447: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-05-07 19:02:53.707472: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-05-07 19:02:53.707496: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-05-07 19:02:53.707521: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-05-07 19:02:53.707541: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-05-07 19:02:53.707559: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-05-07 19:02:53.707578: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-05-07 19:02:53.709530: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-05-07 19:02:53.709590: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-05-07 19:02:53.709607: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-05-07 19:02:53.709619: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-05-07 19:02:53.711764: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8114 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f9770543ef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f9770543ef0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97880482e8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97880482e8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97880482e8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97880482e8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f9788063390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f9788063390>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9788048080>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9788048080>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f97704b8b70>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f97704b8b70>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f97704b8ef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f97704b8ef0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f977043f128>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f977043f128>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f977043f128>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f977043f128>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f977043f128>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f977043f128>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f977043f160>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f977043f160>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f977043f128>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f977043f128>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f97703bb6d8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f97703bb6d8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f97703bb6d8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f97703bb6d8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f9780239e18>, 'value': <function CNN.__init__.<locals>.value at 0x7f9780239268>}
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+Episode 1 Episodic_reward 17230.0 Cumulative_avg_reward 17230.0 
+Episode 2 Episodic_reward 13730.0 Cumulative_avg_reward 15480.0 
+Episode 3 Episodic_reward 7540.0 Cumulative_avg_reward 12833.333333333334 
+Episode 4 Episodic_reward 3590.0 Cumulative_avg_reward 10522.5 
+Episode 5 Episodic_reward 2430.0 Cumulative_avg_reward 8904.0 
+Episode 6 Episodic_reward 4605.0 Cumulative_avg_reward 8187.5 
+Episode 7 Episodic_reward 33380.0 Cumulative_avg_reward 11786.42857142857 
+Episode 8 Episodic_reward 11615.0 Cumulative_avg_reward 11765.0 
+Episode 9 Episodic_reward 5285.0 Cumulative_avg_reward 11045.0 
+Episode 10 Episodic_reward 46115.0 Cumulative_avg_reward 14552.0 
+Episode 11 Episodic_reward 21420.0 Cumulative_avg_reward 15176.363636363636 
+Episode 12 Episodic_reward 27545.0 Cumulative_avg_reward 16207.083333333334 
+Episode 13 Episodic_reward 22290.0 Cumulative_avg_reward 16675.0 
+Episode 14 Episodic_reward 34315.0 Cumulative_avg_reward 17935.0 
+Episode 15 Episodic_reward 18455.0 Cumulative_avg_reward 17969.666666666668 
+Episode 16 Episodic_reward 29225.0 Cumulative_avg_reward 18673.125 
+Episode 17 Episodic_reward 14870.0 Cumulative_avg_reward 18449.41176470588 
+Episode 18 Episodic_reward 62575.0 Cumulative_avg_reward 20900.833333333332 
+Episode 19 Episodic_reward 19775.0 Cumulative_avg_reward 20841.57894736842 
+Episode 20 Episodic_reward 34035.0 Cumulative_avg_reward 21501.25 
+Episode 21 Episodic_reward 17870.0 Cumulative_avg_reward 21328.333333333332 
+Episode 22 Episodic_reward 43470.0 Cumulative_avg_reward 22334.772727272728 
+Episode 23 Episodic_reward 10080.0 Cumulative_avg_reward 21801.956521739132 
+Episode 24 Episodic_reward 31110.0 Cumulative_avg_reward 22189.791666666668 
+Episode 25 Episodic_reward 7995.0 Cumulative_avg_reward 21622.0 
+Episode 26 Episodic_reward 9050.0 Cumulative_avg_reward 21138.46153846154 
+Episode 27 Episodic_reward 26250.0 Cumulative_avg_reward 21327.777777777777 
+Episode 28 Episodic_reward 72180.0 Cumulative_avg_reward 23143.928571428572 
+Episode 29 Episodic_reward 10935.0 Cumulative_avg_reward 22722.931034482757 
+Episode 30 Episodic_reward 550.0 Cumulative_avg_reward 21983.833333333332 
+Episode 31 Episodic_reward 6905.0 Cumulative_avg_reward 21497.41935483871 
+Episode 32 Episodic_reward 3565.0 Cumulative_avg_reward 20937.03125 
+Episode 33 Episodic_reward 25250.0 Cumulative_avg_reward 21067.727272727272 
+Episode 34 Episodic_reward 31535.0 Cumulative_avg_reward 21375.58823529412 
+Episode 35 Episodic_reward 6680.0 Cumulative_avg_reward 20955.714285714286 
+Episode 36 Episodic_reward 29105.0 Cumulative_avg_reward 21182.083333333332 
+Episode 37 Episodic_reward 42645.0 Cumulative_avg_reward 21762.162162162163 
+Episode 38 Episodic_reward 49980.0 Cumulative_avg_reward 22504.736842105263 
+Episode 39 Episodic_reward 3380.0 Cumulative_avg_reward 22014.358974358973 
+Episode 40 Episodic_reward 37895.0 Cumulative_avg_reward 22411.375 
+Episode 41 Episodic_reward 51045.0 Cumulative_avg_reward 23109.756097560974 
+Episode 42 Episodic_reward 22105.0 Cumulative_avg_reward 23085.833333333332 
+Episode 43 Episodic_reward 14815.0 Cumulative_avg_reward 22893.488372093023 
+Episode 44 Episodic_reward 10690.0 Cumulative_avg_reward 22616.136363636364 
+Episode 45 Episodic_reward 38580.0 Cumulative_avg_reward 22970.88888888889 
+Episode 46 Episodic_reward 43985.0 Cumulative_avg_reward 23427.717391304348 
+Episode 47 Episodic_reward 37580.0 Cumulative_avg_reward 23728.82978723404 
+Episode 48 Episodic_reward 16495.0 Cumulative_avg_reward 23578.125 
+Episode 49 Episodic_reward 6390.0 Cumulative_avg_reward 23227.34693877551 
+Episode 50 Episodic_reward 31770.0 Cumulative_avg_reward 23398.2 
+Episode 51 Episodic_reward 24265.0 Cumulative_avg_reward 23415.196078431374 
+Episode 52 Episodic_reward 12295.0 Cumulative_avg_reward 23201.346153846152 
+Episode 53 Episodic_reward 68195.0 Cumulative_avg_reward 24050.283018867925 
+Episode 54 Episodic_reward 1235.0 Cumulative_avg_reward 23627.777777777777 
+Episode 55 Episodic_reward 59570.0 Cumulative_avg_reward 24281.272727272728 
+Episode 56 Episodic_reward 17605.0 Cumulative_avg_reward 24162.053571428572 
+Episode 57 Episodic_reward 17885.0 Cumulative_avg_reward 24051.929824561405 
+Episode 58 Episodic_reward 1830.0 Cumulative_avg_reward 23668.793103448275 
+Episode 59 Episodic_reward 82055.0 Cumulative_avg_reward 24658.389830508473 
+Episode 60 Episodic_reward 54600.0 Cumulative_avg_reward 25157.416666666668 
+Episode 61 Episodic_reward 39240.0 Cumulative_avg_reward 25388.27868852459 
+Episode 62 Episodic_reward 2745.0 Cumulative_avg_reward 25023.064516129034 
+Episode 63 Episodic_reward 41265.0 Cumulative_avg_reward 25280.873015873014 
+Episode 64 Episodic_reward 52290.0 Cumulative_avg_reward 25702.890625 
+Episode 65 Episodic_reward 23625.0 Cumulative_avg_reward 25670.923076923078 
+Episode 66 Episodic_reward 28295.0 Cumulative_avg_reward 25710.68181818182 
+Episode 67 Episodic_reward 79795.0 Cumulative_avg_reward 26517.910447761195 
+Episode 68 Episodic_reward 18910.0 Cumulative_avg_reward 26406.029411764706 
+Episode 69 Episodic_reward 25390.0 Cumulative_avg_reward 26391.304347826088 
+Episode 70 Episodic_reward 29980.0 Cumulative_avg_reward 26442.571428571428 
+Episode 71 Episodic_reward 30225.0 Cumulative_avg_reward 26495.845070422536 
+Episode 72 Episodic_reward 20575.0 Cumulative_avg_reward 26413.61111111111 
+Episode 73 Episodic_reward 13010.0 Cumulative_avg_reward 26230.0 
+Episode 74 Episodic_reward 42410.0 Cumulative_avg_reward 26448.64864864865 
+Episode 75 Episodic_reward 15100.0 Cumulative_avg_reward 26297.333333333332 
+Episode 76 Episodic_reward 20780.0 Cumulative_avg_reward 26224.736842105263 
+Episode 77 Episodic_reward 17025.0 Cumulative_avg_reward 26105.25974025974 
+Episode 78 Episodic_reward 6345.0 Cumulative_avg_reward 25851.923076923078 
+Episode 79 Episodic_reward 61325.0 Cumulative_avg_reward 26300.949367088608 
+Episode 80 Episodic_reward 34295.0 Cumulative_avg_reward 26400.875 
+Episode 81 Episodic_reward 19310.0 Cumulative_avg_reward 26313.333333333332 
+Episode 82 Episodic_reward 7890.0 Cumulative_avg_reward 26088.658536585364 
+Episode 83 Episodic_reward 55250.0 Cumulative_avg_reward 26440.0 
+Episode 84 Episodic_reward 42890.0 Cumulative_avg_reward 26635.833333333332 
+Episode 85 Episodic_reward 15015.0 Cumulative_avg_reward 26499.117647058825 
+Episode 86 Episodic_reward 9650.0 Cumulative_avg_reward 26303.197674418603 
+Episode 87 Episodic_reward 8660.0 Cumulative_avg_reward 26100.402298850575 
+Episode 88 Episodic_reward 28200.0 Cumulative_avg_reward 26124.261363636364 
+Episode 89 Episodic_reward 20575.0 Cumulative_avg_reward 26061.91011235955 
+Episode 90 Episodic_reward 8885.0 Cumulative_avg_reward 25871.055555555555 
+Episode 91 Episodic_reward 32150.0 Cumulative_avg_reward 25940.054945054944 
+Episode 92 Episodic_reward 19425.0 Cumulative_avg_reward 25869.239130434784 
+Episode 93 Episodic_reward 20990.0 Cumulative_avg_reward 25816.774193548386 
+Episode 94 Episodic_reward 12430.0 Cumulative_avg_reward 25674.36170212766 
+Episode 95 Episodic_reward 66410.0 Cumulative_avg_reward 26103.157894736843 
+Episode 96 Episodic_reward 61895.0 Cumulative_avg_reward 26475.989583333332 
+Episode 97 Episodic_reward 6685.0 Cumulative_avg_reward 26271.9587628866 
+Episode 98 Episodic_reward 43320.0 Cumulative_avg_reward 26445.918367346938 
+Episode 99 Episodic_reward 11320.0 Cumulative_avg_reward 26293.131313131315 
+Episode 100 Episodic_reward 25390.0 Cumulative_avg_reward 26284.1 
+*************************************************************
+CUMULATIVE_AVG_REWARD 26284.1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Seed:  100
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-05-07 19:45:57.280595: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-05-07 19:45:57.280752: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-05-07 19:45:57.280776: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-05-07 19:45:57.280800: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-05-07 19:45:57.280823: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-05-07 19:45:57.280846: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-05-07 19:45:57.280872: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-05-07 19:45:57.280895: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-05-07 19:45:57.282603: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-05-07 19:45:57.282641: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-05-07 19:45:57.282654: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-05-07 19:45:57.282663: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-05-07 19:45:57.285096: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8114 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c7c73c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c7c73c8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c7c73c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c7c73c8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c7e0da0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c7e0da0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f973c7e0dd8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f973c7e0dd8>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c77fdd8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c77fdd8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c6c2128>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c6c2128>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f977044e208>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f977044e208>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c695ef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c695ef0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c695ef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c695ef0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c695ef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c695ef0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f9770516b38>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f9770516b38>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9770516b00>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9770516b00>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c6388d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c6388d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c6388d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c6388d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f9770327d90>, 'value': <function CNN.__init__.<locals>.value at 0x7f9770327c80>}
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+Episode 1 Episodic_reward 1870.0 Cumulative_avg_reward 1870.0 
+Episode 2 Episodic_reward 5910.0 Cumulative_avg_reward 3890.0 
+Episode 3 Episodic_reward 28180.0 Cumulative_avg_reward 11986.666666666666 
+Episode 4 Episodic_reward 29910.0 Cumulative_avg_reward 16467.5 
+Episode 5 Episodic_reward 47865.0 Cumulative_avg_reward 22747.0 
+Episode 6 Episodic_reward 50295.0 Cumulative_avg_reward 27338.333333333332 
+Episode 7 Episodic_reward 29790.0 Cumulative_avg_reward 27688.571428571428 
+Episode 8 Episodic_reward 8405.0 Cumulative_avg_reward 25278.125 
+Episode 9 Episodic_reward 41345.0 Cumulative_avg_reward 27063.333333333332 
+Episode 10 Episodic_reward 17010.0 Cumulative_avg_reward 26058.0 
+Episode 11 Episodic_reward 26740.0 Cumulative_avg_reward 26120.0 
+Episode 12 Episodic_reward 21230.0 Cumulative_avg_reward 25712.5 
+Episode 13 Episodic_reward 20700.0 Cumulative_avg_reward 25326.923076923078 
+Episode 14 Episodic_reward 65900.0 Cumulative_avg_reward 28225.0 
+Episode 15 Episodic_reward 3400.0 Cumulative_avg_reward 26570.0 
+Episode 16 Episodic_reward 44285.0 Cumulative_avg_reward 27677.1875 
+Episode 17 Episodic_reward 26520.0 Cumulative_avg_reward 27609.117647058825 
+Episode 18 Episodic_reward 15370.0 Cumulative_avg_reward 26929.166666666668 
+Episode 19 Episodic_reward 1805.0 Cumulative_avg_reward 25606.842105263157 
+Episode 20 Episodic_reward 16640.0 Cumulative_avg_reward 25158.5 
+Episode 21 Episodic_reward 9995.0 Cumulative_avg_reward 24436.428571428572 
+Episode 22 Episodic_reward 4155.0 Cumulative_avg_reward 23514.545454545456 
+Episode 23 Episodic_reward 8420.0 Cumulative_avg_reward 22858.260869565216 
+Episode 24 Episodic_reward 5520.0 Cumulative_avg_reward 22135.833333333332 
+Episode 25 Episodic_reward 44915.0 Cumulative_avg_reward 23047.0 
+Episode 26 Episodic_reward 71790.0 Cumulative_avg_reward 24921.73076923077 
+Episode 27 Episodic_reward 31745.0 Cumulative_avg_reward 25174.444444444445 
+Episode 28 Episodic_reward 29845.0 Cumulative_avg_reward 25341.25 
+Episode 29 Episodic_reward 4645.0 Cumulative_avg_reward 24627.58620689655 
+Episode 30 Episodic_reward 37925.0 Cumulative_avg_reward 25070.833333333332 
+Episode 31 Episodic_reward 77075.0 Cumulative_avg_reward 26748.387096774193 
+Episode 32 Episodic_reward 20480.0 Cumulative_avg_reward 26552.5 
+Episode 33 Episodic_reward 43520.0 Cumulative_avg_reward 27066.666666666668 
+Episode 34 Episodic_reward 38935.0 Cumulative_avg_reward 27415.735294117647 
+Episode 35 Episodic_reward 2210.0 Cumulative_avg_reward 26695.571428571428 
+Episode 36 Episodic_reward 13985.0 Cumulative_avg_reward 26342.5 
+Episode 37 Episodic_reward 9220.0 Cumulative_avg_reward 25879.72972972973 
+Episode 38 Episodic_reward 15885.0 Cumulative_avg_reward 25616.71052631579 
+Episode 39 Episodic_reward 5120.0 Cumulative_avg_reward 25091.153846153848 
+Episode 40 Episodic_reward 26075.0 Cumulative_avg_reward 25115.75 
+Episode 41 Episodic_reward 23010.0 Cumulative_avg_reward 25064.39024390244 
+Episode 42 Episodic_reward 53165.0 Cumulative_avg_reward 25733.45238095238 
+Episode 43 Episodic_reward 14285.0 Cumulative_avg_reward 25467.20930232558 
+Episode 44 Episodic_reward 28455.0 Cumulative_avg_reward 25535.113636363636 
+Episode 45 Episodic_reward 8865.0 Cumulative_avg_reward 25164.666666666668 
+Episode 46 Episodic_reward 24065.0 Cumulative_avg_reward 25140.760869565216 
+Episode 47 Episodic_reward 57295.0 Cumulative_avg_reward 25824.893617021276 
+Episode 48 Episodic_reward 45550.0 Cumulative_avg_reward 26235.833333333332 
+Episode 49 Episodic_reward 73975.0 Cumulative_avg_reward 27210.102040816328 
+Episode 50 Episodic_reward 2955.0 Cumulative_avg_reward 26725.0 
+Episode 51 Episodic_reward 25085.0 Cumulative_avg_reward 26692.843137254902 
+Episode 52 Episodic_reward 43285.0 Cumulative_avg_reward 27011.923076923078 
+Episode 53 Episodic_reward 31630.0 Cumulative_avg_reward 27099.056603773584 
+Episode 54 Episodic_reward 51180.0 Cumulative_avg_reward 27545.0 
+Episode 55 Episodic_reward 33010.0 Cumulative_avg_reward 27644.363636363636 
+Episode 56 Episodic_reward 28580.0 Cumulative_avg_reward 27661.071428571428 
+Episode 57 Episodic_reward 3855.0 Cumulative_avg_reward 27243.42105263158 
+Episode 58 Episodic_reward 21270.0 Cumulative_avg_reward 27140.431034482757 
+Episode 59 Episodic_reward 61285.0 Cumulative_avg_reward 27719.15254237288 
+Episode 60 Episodic_reward 6520.0 Cumulative_avg_reward 27365.833333333332 
+Episode 61 Episodic_reward 1780.0 Cumulative_avg_reward 26946.39344262295 
+Episode 62 Episodic_reward 23815.0 Cumulative_avg_reward 26895.887096774193 
+Episode 63 Episodic_reward 20565.0 Cumulative_avg_reward 26795.396825396827 
+Episode 64 Episodic_reward 22025.0 Cumulative_avg_reward 26720.859375 
+Episode 65 Episodic_reward 25590.0 Cumulative_avg_reward 26703.46153846154 
+Episode 66 Episodic_reward 31930.0 Cumulative_avg_reward 26782.651515151516 
+Episode 67 Episodic_reward 32255.0 Cumulative_avg_reward 26864.328358208953 
+Episode 68 Episodic_reward 49595.0 Cumulative_avg_reward 27198.602941176472 
+Episode 69 Episodic_reward 23805.0 Cumulative_avg_reward 27149.420289855072 
+Episode 70 Episodic_reward 16795.0 Cumulative_avg_reward 27001.5 
+Episode 71 Episodic_reward 4035.0 Cumulative_avg_reward 26678.028169014084 
+Episode 72 Episodic_reward 40035.0 Cumulative_avg_reward 26863.541666666668 
+Episode 73 Episodic_reward 17010.0 Cumulative_avg_reward 26728.561643835616 
+Episode 74 Episodic_reward 41640.0 Cumulative_avg_reward 26930.067567567567 
+Episode 75 Episodic_reward 19700.0 Cumulative_avg_reward 26833.666666666668 
+Episode 76 Episodic_reward 22805.0 Cumulative_avg_reward 26780.657894736843 
+Episode 77 Episodic_reward 5745.0 Cumulative_avg_reward 26507.467532467534 
+Episode 78 Episodic_reward 62635.0 Cumulative_avg_reward 26970.641025641027 
+Episode 79 Episodic_reward 17060.0 Cumulative_avg_reward 26845.189873417723 
+Episode 80 Episodic_reward 45965.0 Cumulative_avg_reward 27084.1875 
+Episode 81 Episodic_reward 10260.0 Cumulative_avg_reward 26876.48148148148 
+Episode 82 Episodic_reward 15495.0 Cumulative_avg_reward 26737.682926829268 
+Episode 83 Episodic_reward 34225.0 Cumulative_avg_reward 26827.89156626506 
+Episode 84 Episodic_reward 13095.0 Cumulative_avg_reward 26664.404761904763 
+Episode 85 Episodic_reward 8600.0 Cumulative_avg_reward 26451.882352941175 
+Episode 86 Episodic_reward 41215.0 Cumulative_avg_reward 26623.54651162791 
+Episode 87 Episodic_reward 20605.0 Cumulative_avg_reward 26554.367816091955 
+Episode 88 Episodic_reward 34400.0 Cumulative_avg_reward 26643.522727272728 
+Episode 89 Episodic_reward 35295.0 Cumulative_avg_reward 26740.73033707865 
+Episode 90 Episodic_reward 11325.0 Cumulative_avg_reward 26569.444444444445 
+Episode 91 Episodic_reward 12220.0 Cumulative_avg_reward 26411.75824175824 
+Episode 92 Episodic_reward 18350.0 Cumulative_avg_reward 26324.130434782608 
+Episode 93 Episodic_reward 24865.0 Cumulative_avg_reward 26308.440860215054 
+Episode 94 Episodic_reward 10790.0 Cumulative_avg_reward 26143.35106382979 
+Episode 95 Episodic_reward 22610.0 Cumulative_avg_reward 26106.157894736843 
+Episode 96 Episodic_reward 2225.0 Cumulative_avg_reward 25857.395833333332 
+Episode 97 Episodic_reward 7360.0 Cumulative_avg_reward 25666.701030927834 
+Episode 98 Episodic_reward 4390.0 Cumulative_avg_reward 25449.591836734693 
+Episode 99 Episodic_reward 47635.0 Cumulative_avg_reward 25673.68686868687 
+Episode 100 Episodic_reward 40875.0 Cumulative_avg_reward 25825.7 
+*************************************************************
+CUMULATIVE_AVG_REWARD 25825.7
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Seed:  200
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-05-07 20:28:02.396803: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-05-07 20:28:02.396912: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-05-07 20:28:02.396929: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-05-07 20:28:02.396944: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-05-07 20:28:02.396957: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-05-07 20:28:02.396970: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-05-07 20:28:02.396983: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-05-07 20:28:02.396996: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-05-07 20:28:02.398545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-05-07 20:28:02.398578: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-05-07 20:28:02.398586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-05-07 20:28:02.398592: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-05-07 20:28:02.401044: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8114 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c288128>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c288128>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c288128>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c288128>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f984b85cfd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f984b85cfd0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f9856bc43c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f9856bc43c8>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c2ba828>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c2ba828>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9780225198>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9780225198>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9780225198>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9780225198>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f9788063940>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f9788063940>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c695c88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c695c88>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c695c88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f973c695c88>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f97802258d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f97802258d0>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c695c88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c695c88>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f977046b828>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f977046b828>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9789efd6a0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9789efd6a0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f9780239510>, 'value': <function CNN.__init__.<locals>.value at 0x7f97802399d8>}
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+Episode 1 Episodic_reward 55885.0 Cumulative_avg_reward 55885.0 
+Episode 2 Episodic_reward 38435.0 Cumulative_avg_reward 47160.0 
+Episode 3 Episodic_reward 7685.0 Cumulative_avg_reward 34001.666666666664 
+Episode 4 Episodic_reward 66595.0 Cumulative_avg_reward 42150.0 
+Episode 5 Episodic_reward 7980.0 Cumulative_avg_reward 35316.0 
+Episode 6 Episodic_reward 8360.0 Cumulative_avg_reward 30823.333333333332 
+Episode 7 Episodic_reward 8610.0 Cumulative_avg_reward 27650.0 
+Episode 8 Episodic_reward 63430.0 Cumulative_avg_reward 32122.5 
+Episode 9 Episodic_reward 23985.0 Cumulative_avg_reward 31218.333333333332 
+Episode 10 Episodic_reward 27930.0 Cumulative_avg_reward 30889.5 
+Episode 11 Episodic_reward 31020.0 Cumulative_avg_reward 30901.363636363636 
+Episode 12 Episodic_reward 20590.0 Cumulative_avg_reward 30042.083333333332 
+Episode 13 Episodic_reward 46855.0 Cumulative_avg_reward 31335.384615384617 
+Episode 14 Episodic_reward 11390.0 Cumulative_avg_reward 29910.714285714286 
+Episode 15 Episodic_reward 38475.0 Cumulative_avg_reward 30481.666666666668 
+Episode 16 Episodic_reward 54940.0 Cumulative_avg_reward 32010.3125 
+Episode 17 Episodic_reward 54875.0 Cumulative_avg_reward 33355.294117647056 
+Episode 18 Episodic_reward 16985.0 Cumulative_avg_reward 32445.833333333332 
+Episode 19 Episodic_reward 98235.0 Cumulative_avg_reward 35908.42105263158 
+Episode 20 Episodic_reward 30985.0 Cumulative_avg_reward 35662.25 
+Episode 21 Episodic_reward 46415.0 Cumulative_avg_reward 36174.28571428572 
+Episode 22 Episodic_reward 62695.0 Cumulative_avg_reward 37379.77272727273 
+Episode 23 Episodic_reward 9660.0 Cumulative_avg_reward 36174.565217391304 
+Episode 24 Episodic_reward 7840.0 Cumulative_avg_reward 34993.958333333336 
+Episode 25 Episodic_reward 12435.0 Cumulative_avg_reward 34091.6 
+Episode 26 Episodic_reward 23815.0 Cumulative_avg_reward 33696.346153846156 
+Episode 27 Episodic_reward 49590.0 Cumulative_avg_reward 34285.0 
+Episode 28 Episodic_reward 20685.0 Cumulative_avg_reward 33799.28571428572 
+Episode 29 Episodic_reward 14070.0 Cumulative_avg_reward 33118.96551724138 
+Episode 30 Episodic_reward 32805.0 Cumulative_avg_reward 33108.5 
+Episode 31 Episodic_reward 23870.0 Cumulative_avg_reward 32810.48387096774 
+Episode 32 Episodic_reward 9020.0 Cumulative_avg_reward 32067.03125 
+Episode 33 Episodic_reward 88875.0 Cumulative_avg_reward 33788.48484848485 
+Episode 34 Episodic_reward 7020.0 Cumulative_avg_reward 33001.17647058824 
+Episode 35 Episodic_reward 12190.0 Cumulative_avg_reward 32406.571428571428 
+Episode 36 Episodic_reward 18950.0 Cumulative_avg_reward 32032.777777777777 
+Episode 37 Episodic_reward 19670.0 Cumulative_avg_reward 31698.64864864865 
+Episode 38 Episodic_reward 40220.0 Cumulative_avg_reward 31922.894736842107 
+Episode 39 Episodic_reward 19305.0 Cumulative_avg_reward 31599.358974358973 
+Episode 40 Episodic_reward 2060.0 Cumulative_avg_reward 30860.875 
+Episode 41 Episodic_reward 27095.0 Cumulative_avg_reward 30769.024390243903 
+Episode 42 Episodic_reward 22895.0 Cumulative_avg_reward 30581.54761904762 
+Episode 43 Episodic_reward 1250.0 Cumulative_avg_reward 29899.418604651164 
+Episode 44 Episodic_reward 35125.0 Cumulative_avg_reward 30018.18181818182 
+Episode 45 Episodic_reward 12255.0 Cumulative_avg_reward 29623.444444444445 
+Episode 46 Episodic_reward 45575.0 Cumulative_avg_reward 29970.217391304348 
+Episode 47 Episodic_reward 24375.0 Cumulative_avg_reward 29851.17021276596 
+Episode 48 Episodic_reward 2080.0 Cumulative_avg_reward 29272.604166666668 
+Episode 49 Episodic_reward 34280.0 Cumulative_avg_reward 29374.79591836735 
+Episode 50 Episodic_reward 39585.0 Cumulative_avg_reward 29579.0 
+Episode 51 Episodic_reward 22975.0 Cumulative_avg_reward 29449.50980392157 
+Episode 52 Episodic_reward 17005.0 Cumulative_avg_reward 29210.19230769231 
+Episode 53 Episodic_reward 26775.0 Cumulative_avg_reward 29164.245283018867 
+Episode 54 Episodic_reward 8340.0 Cumulative_avg_reward 28778.61111111111 
+Episode 55 Episodic_reward 27200.0 Cumulative_avg_reward 28749.909090909092 
+Episode 56 Episodic_reward 12815.0 Cumulative_avg_reward 28465.35714285714 
+Episode 57 Episodic_reward 6720.0 Cumulative_avg_reward 28083.859649122805 
+Episode 58 Episodic_reward 26735.0 Cumulative_avg_reward 28060.603448275862 
+Episode 59 Episodic_reward 4620.0 Cumulative_avg_reward 27663.305084745763 
+Episode 60 Episodic_reward 27700.0 Cumulative_avg_reward 27663.916666666668 
+Episode 61 Episodic_reward 29075.0 Cumulative_avg_reward 27687.049180327867 
+Episode 62 Episodic_reward 8975.0 Cumulative_avg_reward 27385.24193548387 
+Episode 63 Episodic_reward 7690.0 Cumulative_avg_reward 27072.619047619046 
+Episode 64 Episodic_reward 37060.0 Cumulative_avg_reward 27228.671875 
+Episode 65 Episodic_reward 26205.0 Cumulative_avg_reward 27212.923076923078 
+Episode 66 Episodic_reward 10490.0 Cumulative_avg_reward 26959.545454545456 
+Episode 67 Episodic_reward 11555.0 Cumulative_avg_reward 26729.626865671642 
+Episode 68 Episodic_reward 31505.0 Cumulative_avg_reward 26799.852941176472 
+Episode 69 Episodic_reward 27445.0 Cumulative_avg_reward 26809.202898550724 
+Episode 70 Episodic_reward 3370.0 Cumulative_avg_reward 26474.35714285714 
+Episode 71 Episodic_reward 9810.0 Cumulative_avg_reward 26239.647887323943 
+Episode 72 Episodic_reward 2750.0 Cumulative_avg_reward 25913.402777777777 
+Episode 73 Episodic_reward 18345.0 Cumulative_avg_reward 25809.72602739726 
+Episode 74 Episodic_reward 4640.0 Cumulative_avg_reward 25523.64864864865 
+Episode 75 Episodic_reward 44355.0 Cumulative_avg_reward 25774.733333333334 
+Episode 76 Episodic_reward 3225.0 Cumulative_avg_reward 25478.026315789473 
+Episode 77 Episodic_reward 32780.0 Cumulative_avg_reward 25572.85714285714 
+Episode 78 Episodic_reward 1720.0 Cumulative_avg_reward 25267.05128205128 
+Episode 79 Episodic_reward 9895.0 Cumulative_avg_reward 25072.46835443038 
+Episode 80 Episodic_reward 16970.0 Cumulative_avg_reward 24971.1875 
+Episode 81 Episodic_reward 13680.0 Cumulative_avg_reward 24831.79012345679 
+Episode 82 Episodic_reward 41875.0 Cumulative_avg_reward 25039.634146341465 
+Episode 83 Episodic_reward 20760.0 Cumulative_avg_reward 24988.072289156626 
+Episode 84 Episodic_reward 7140.0 Cumulative_avg_reward 24775.595238095237 
+Episode 85 Episodic_reward 98000.0 Cumulative_avg_reward 25637.058823529413 
+Episode 86 Episodic_reward 13430.0 Cumulative_avg_reward 25495.116279069767 
+Episode 87 Episodic_reward 58805.0 Cumulative_avg_reward 25877.988505747126 
+Episode 88 Episodic_reward 22530.0 Cumulative_avg_reward 25839.94318181818 
+Episode 89 Episodic_reward 16855.0 Cumulative_avg_reward 25738.988764044945 
+Episode 90 Episodic_reward 2720.0 Cumulative_avg_reward 25483.222222222223 
+Episode 91 Episodic_reward 77835.0 Cumulative_avg_reward 26058.516483516483 
+Episode 92 Episodic_reward 18310.0 Cumulative_avg_reward 25974.293478260868 
+Episode 93 Episodic_reward 19705.0 Cumulative_avg_reward 25906.88172043011 
+Episode 94 Episodic_reward 62375.0 Cumulative_avg_reward 26294.840425531915 
+Episode 95 Episodic_reward 31990.0 Cumulative_avg_reward 26354.78947368421 
+Episode 96 Episodic_reward 13410.0 Cumulative_avg_reward 26219.947916666668 
+Episode 97 Episodic_reward 13770.0 Cumulative_avg_reward 26091.59793814433 
+Episode 98 Episodic_reward 12980.0 Cumulative_avg_reward 25957.80612244898 
+Episode 99 Episodic_reward 21665.0 Cumulative_avg_reward 25914.444444444445 
+Episode 100 Episodic_reward 5965.0 Cumulative_avg_reward 25714.95 
+*************************************************************
+CUMULATIVE_AVG_REWARD 25714.95
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Seed:  500
+/home/shariq/anaconda3/envs/reinforcement/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-05-07 21:10:36.764079: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:41:00.0
+2020-05-07 21:10:36.764260: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-05-07 21:10:36.764290: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-05-07 21:10:36.764314: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-05-07 21:10:36.764341: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-05-07 21:10:36.764364: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-05-07 21:10:36.764385: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-05-07 21:10:36.764405: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-05-07 21:10:36.766210: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-05-07 21:10:36.766280: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-05-07 21:10:36.766291: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-05-07 21:10:36.766299: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-05-07 21:10:36.768198: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8114 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:41:00.0, compute capability: 7.5)
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97705383c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97705383c8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97705383c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97705383c8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f977043fcc0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f977043fcc0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f977043f240>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f977043f240>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f97705170f0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f97705170f0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape:0", shape=(1, 1, 512), dtype=float32)
+nbatch 1 nsteps 1
+batch_to_seq Tensor("model/Reshape_1:0", shape=(1, 1, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (1, 512)
+Shape_of_M Tensor("Placeholder_5:0", shape=(1,), dtype=float32)
+Shape_of_S Tensor("Placeholder_6:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 1 (1, 128)
+Shape_of_ms 1 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9770130128>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9770130128>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f978009e710>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f978009e710>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97801296d8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97801296d8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97801296d8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97801296d8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97801296d8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f97801296d8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f9780129898>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f9780129898>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9780129cc0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f9780129cc0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape:0", shape=(1, 5, 512), dtype=float32)
+nbatch 1 nsteps 5
+batch_to_seq Tensor("model_1/Reshape_1:0", shape=(1, 5, 1), dtype=float32)
+shape_of_snew (1, 256)
+Shape_of_h4 (5, 512)
+Shape_of_M Tensor("Placeholder_8:0", shape=(5,), dtype=float32)
+Shape_of_S Tensor("Placeholder_9:0", shape=(1, 256), dtype=float32)
+Shape_of_xs 5 (1, 128)
+Shape_of_ms 5 (1, 1)
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c2728d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c2728d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c2728d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f973c2728d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+Dictionory_of_train {'state': <tf.Tensor 'Const_2:0' shape=(0,) dtype=float32>, 'lstm_states': <tf.Tensor 'Const_3:0' shape=(0,) dtype=float32>, 'initial_state': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]), 'X': <tf.Tensor 'Placeholder_7:0' shape=(5, 84, 84, 4) dtype=uint8>, 'M': <tf.Tensor 'Placeholder_8:0' shape=(5,) dtype=float32>, 'S': <tf.Tensor 'Placeholder_9:0' shape=(1, 256) dtype=float32>, 'pi': <tf.Tensor 'model_1/dense_1/BiasAdd:0' shape=(5, 6) dtype=float32>, 'vf': <tf.Tensor 'model_1/dense_2/BiasAdd:0' shape=(5, 1) dtype=float32>, 'step': <function CNN.__init__.<locals>.step at 0x7f97703276a8>, 'value': <function CNN.__init__.<locals>.value at 0x7f9770327ea0>}
+Actions available(6): ['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+Episode 1 Episodic_reward 24815.0 Cumulative_avg_reward 24815.0 
+Episode 2 Episodic_reward 40515.0 Cumulative_avg_reward 32665.0 
+Episode 3 Episodic_reward 12265.0 Cumulative_avg_reward 25865.0 
+Episode 4 Episodic_reward 15735.0 Cumulative_avg_reward 23332.5 
+Episode 5 Episodic_reward 9420.0 Cumulative_avg_reward 20550.0 
+Episode 6 Episodic_reward 10990.0 Cumulative_avg_reward 18956.666666666668 
+Episode 7 Episodic_reward 16795.0 Cumulative_avg_reward 18647.85714285714 
+Episode 8 Episodic_reward 2085.0 Cumulative_avg_reward 16577.5 
+Episode 9 Episodic_reward 20145.0 Cumulative_avg_reward 16973.88888888889 
+Episode 10 Episodic_reward 20205.0 Cumulative_avg_reward 17297.0 
+Episode 11 Episodic_reward 21180.0 Cumulative_avg_reward 17650.0 
+Episode 12 Episodic_reward 11430.0 Cumulative_avg_reward 17131.666666666668 
+Episode 13 Episodic_reward 31780.0 Cumulative_avg_reward 18258.46153846154 
+Episode 14 Episodic_reward 8625.0 Cumulative_avg_reward 17570.35714285714 
+Episode 15 Episodic_reward 38545.0 Cumulative_avg_reward 18968.666666666668 
+Episode 16 Episodic_reward 43465.0 Cumulative_avg_reward 20499.6875 
+Episode 17 Episodic_reward 5020.0 Cumulative_avg_reward 19589.117647058825 
+Episode 18 Episodic_reward 13210.0 Cumulative_avg_reward 19234.722222222223 
+Episode 19 Episodic_reward 24950.0 Cumulative_avg_reward 19535.526315789473 
+Episode 20 Episodic_reward 29535.0 Cumulative_avg_reward 20035.5 
+Episode 21 Episodic_reward 15350.0 Cumulative_avg_reward 19812.380952380954 
+Episode 22 Episodic_reward 34465.0 Cumulative_avg_reward 20478.409090909092 
+Episode 23 Episodic_reward 63690.0 Cumulative_avg_reward 22357.17391304348 
+Episode 24 Episodic_reward 47575.0 Cumulative_avg_reward 23407.916666666668 
+Episode 25 Episodic_reward 3560.0 Cumulative_avg_reward 22614.0 
+Episode 26 Episodic_reward 23090.0 Cumulative_avg_reward 22632.30769230769 
+Episode 27 Episodic_reward 25300.0 Cumulative_avg_reward 22731.11111111111 
+Episode 28 Episodic_reward 2485.0 Cumulative_avg_reward 22008.035714285714 
+Episode 29 Episodic_reward 13590.0 Cumulative_avg_reward 21717.758620689656 
+Episode 30 Episodic_reward 575.0 Cumulative_avg_reward 21013.0 
+Episode 31 Episodic_reward 20410.0 Cumulative_avg_reward 20993.548387096773 
+Episode 32 Episodic_reward 29460.0 Cumulative_avg_reward 21258.125 
+Episode 33 Episodic_reward 16625.0 Cumulative_avg_reward 21117.727272727272 
+Episode 34 Episodic_reward 17915.0 Cumulative_avg_reward 21023.529411764706 
+Episode 35 Episodic_reward 32145.0 Cumulative_avg_reward 21341.285714285714 
+Episode 36 Episodic_reward 20775.0 Cumulative_avg_reward 21325.555555555555 
+Episode 37 Episodic_reward 14525.0 Cumulative_avg_reward 21141.756756756757 
+Episode 38 Episodic_reward 6595.0 Cumulative_avg_reward 20758.947368421053 
+Episode 39 Episodic_reward 1875.0 Cumulative_avg_reward 20274.74358974359 
+Episode 40 Episodic_reward 44445.0 Cumulative_avg_reward 20879.0 
+Episode 41 Episodic_reward 12330.0 Cumulative_avg_reward 20670.48780487805 
+Episode 42 Episodic_reward 81290.0 Cumulative_avg_reward 22113.809523809523 
+Episode 43 Episodic_reward 45825.0 Cumulative_avg_reward 22665.232558139534 
+Episode 44 Episodic_reward 9030.0 Cumulative_avg_reward 22355.340909090908 
+Episode 45 Episodic_reward 11130.0 Cumulative_avg_reward 22105.88888888889 
+Episode 46 Episodic_reward 25645.0 Cumulative_avg_reward 22182.82608695652 
+Episode 47 Episodic_reward 29275.0 Cumulative_avg_reward 22333.72340425532 
+Episode 48 Episodic_reward 46205.0 Cumulative_avg_reward 22831.041666666668 
+Episode 49 Episodic_reward 32940.0 Cumulative_avg_reward 23037.34693877551 
+Episode 50 Episodic_reward 14735.0 Cumulative_avg_reward 22871.3 
+Episode 51 Episodic_reward 53595.0 Cumulative_avg_reward 23473.725490196077 
+Episode 52 Episodic_reward 16170.0 Cumulative_avg_reward 23333.26923076923 
+Episode 53 Episodic_reward 47285.0 Cumulative_avg_reward 23785.188679245282 
+Episode 54 Episodic_reward 6090.0 Cumulative_avg_reward 23457.5 
+Episode 55 Episodic_reward 13030.0 Cumulative_avg_reward 23267.909090909092 
+Episode 56 Episodic_reward 17185.0 Cumulative_avg_reward 23159.285714285714 
+Episode 57 Episodic_reward 3960.0 Cumulative_avg_reward 22822.456140350878 
+Episode 58 Episodic_reward 10300.0 Cumulative_avg_reward 22606.55172413793 
+Episode 59 Episodic_reward 30125.0 Cumulative_avg_reward 22733.98305084746 
+Episode 60 Episodic_reward 36035.0 Cumulative_avg_reward 22955.666666666668 
+Episode 61 Episodic_reward 33560.0 Cumulative_avg_reward 23129.508196721312 
+Episode 62 Episodic_reward 24150.0 Cumulative_avg_reward 23145.967741935485 
+Episode 63 Episodic_reward 10450.0 Cumulative_avg_reward 22944.444444444445 
+Episode 64 Episodic_reward 31040.0 Cumulative_avg_reward 23070.9375 
+Episode 65 Episodic_reward 38565.0 Cumulative_avg_reward 23309.30769230769 
+Episode 66 Episodic_reward 46095.0 Cumulative_avg_reward 23654.545454545456 
+Episode 67 Episodic_reward 570.0 Cumulative_avg_reward 23310.0 
+Episode 68 Episodic_reward 29385.0 Cumulative_avg_reward 23399.33823529412 
+Episode 69 Episodic_reward 54825.0 Cumulative_avg_reward 23854.782608695652 
+Episode 70 Episodic_reward 9600.0 Cumulative_avg_reward 23651.14285714286 
+Episode 71 Episodic_reward 12835.0 Cumulative_avg_reward 23498.802816901407 
+Episode 72 Episodic_reward 31185.0 Cumulative_avg_reward 23605.555555555555 
+Episode 73 Episodic_reward 41735.0 Cumulative_avg_reward 23853.904109589042 
+Episode 74 Episodic_reward 11605.0 Cumulative_avg_reward 23688.37837837838 
+Episode 75 Episodic_reward 24410.0 Cumulative_avg_reward 23698.0 
+Episode 76 Episodic_reward 40765.0 Cumulative_avg_reward 23922.565789473683 
+Episode 77 Episodic_reward 2470.0 Cumulative_avg_reward 23643.96103896104 
+Episode 78 Episodic_reward 17295.0 Cumulative_avg_reward 23562.5641025641 
+Episode 79 Episodic_reward 8610.0 Cumulative_avg_reward 23373.291139240508 
+Episode 80 Episodic_reward 4000.0 Cumulative_avg_reward 23131.125 
+Episode 81 Episodic_reward 7450.0 Cumulative_avg_reward 22937.53086419753 
+Episode 82 Episodic_reward 24020.0 Cumulative_avg_reward 22950.731707317074 
+Episode 83 Episodic_reward 13635.0 Cumulative_avg_reward 22838.493975903613 
+Episode 84 Episodic_reward 42505.0 Cumulative_avg_reward 23072.619047619046 
+Episode 85 Episodic_reward 33635.0 Cumulative_avg_reward 23196.882352941175 
+Episode 86 Episodic_reward 1155.0 Cumulative_avg_reward 22940.581395348836 
+Episode 87 Episodic_reward 39590.0 Cumulative_avg_reward 23131.954022988506 
+Episode 88 Episodic_reward 11560.0 Cumulative_avg_reward 23000.454545454544 
+Episode 89 Episodic_reward 9990.0 Cumulative_avg_reward 22854.26966292135 
+Episode 90 Episodic_reward 54225.0 Cumulative_avg_reward 23202.833333333332 
+Episode 91 Episodic_reward 8290.0 Cumulative_avg_reward 23038.956043956045 
+Episode 92 Episodic_reward 41630.0 Cumulative_avg_reward 23241.032608695652 
+Episode 93 Episodic_reward 20595.0 Cumulative_avg_reward 23212.58064516129 
+Episode 94 Episodic_reward 17640.0 Cumulative_avg_reward 23153.297872340427 
+Episode 95 Episodic_reward 29135.0 Cumulative_avg_reward 23216.263157894737 
+Episode 96 Episodic_reward 2320.0 Cumulative_avg_reward 22998.59375 
+Episode 97 Episodic_reward 7175.0 Cumulative_avg_reward 22835.463917525773 
+Episode 98 Episodic_reward 21345.0 Cumulative_avg_reward 22820.255102040817 
+Episode 99 Episodic_reward 1265.0 Cumulative_avg_reward 22602.52525252525 
+Episode 100 Episodic_reward 48245.0 Cumulative_avg_reward 22858.95 
+*************************************************************
+CUMULATIVE_AVG_REWARD 22858.95
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Final score:  25315.01
