@@ -38,7 +38,7 @@ from tensorflow import set_random_seed
 
 wandb.init(project="supp")
 config = wandb.config
-save_path = os.path.join('models_entropy_coeff', "Space_inv_A2C_LSTM_nstep8_MAX_rew_546")
+save_path = os.path.join('models_entropy_coeff1', "Space_inv_A2C_LSTM_nstep8_MAX_rew_546")
 print("Saved_the_model")
 
 
@@ -111,7 +111,7 @@ def main():
 
 
   cumulative_avg_rewards = []
-  for seed_ in [50]: #[10, 50, 100, 200, 500]:
+  for seed_ in [10, 50, 100, 200, 500]:
     seed(seed_)
     set_random_seed(seed_)
     print("Seed: ",seed_)

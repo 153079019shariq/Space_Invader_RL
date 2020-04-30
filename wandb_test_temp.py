@@ -44,7 +44,7 @@ def get_agent(env, nsteps=8, nstack=1, total_timesteps=int(80e6),
               epsilon=1e-5, alpha=0.99):
     # Note: nstack=1 since frame_stack=True, during training frame_stack=False
     agent = Agent(Network=CNN, ob_space=env.observation_space,
-                  ac_space=env.action_space, nenvs=8, nsteps=nsteps, nstack=nstack,  #24
+                  ac_space=env.action_space, nenvs=6, nsteps=nsteps, nstack=nstack,  #24
                   ent_coef=ent_coef, vf_coef=vf_coef, max_grad_norm=max_grad_norm,
                   lr=lr, alpha=alpha, epsilon=epsilon, total_timesteps=total_timesteps)
     print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@LOADED_THE_AGENT_SUCCESFULLY&&&&&&&&&&&&&&&&&&&&&&&&&")
@@ -98,11 +98,11 @@ def evaluate(episodic_reward, reset=False):
 
 SEED = 0
 
-def make_env(rank):
+def make_env(seed,rank):
         global env_id
         def _thunk():
             env = make_atari(get_args().env)
-            env.seed(SEED + rank)
+            env.seed(seed + rank)
             env = wrap_deepmind(env,frame_stack=True, clip_rewards=False, episode_life=False)
             env = Monitor(env, rank)
             return env
@@ -112,7 +112,7 @@ def make_env(rank):
 def update_state(env,obs):
         nh, nw, nc = env.observation_space.shape
         nstack  =4
-        nenv    =8  #24
+        nenv    =6  #24
         state = np.zeros((nenv, nh, nw, nc * nstack), dtype=np.uint8)
         #print("Shape_of_state",state.shape)
         #print(nc) 
@@ -124,20 +124,20 @@ def update_state(env,obs):
 def main():
   
   
-  for seed_ in [10]:#, 50, 100, 200, 500]:
+  cumulative_avg_rewards = []
+  for seed_ in [500,100]:
     seed(seed_)
     set_random_seed(seed_)
     print("Seed: ",seed_)
     episode = 0
   
-    cumulative_avg_rewards = []
     # initialize environment
     env_id = get_args().env
     #env = make_atari(env_id)
     #env = wrap_deepmind(env, frame_stack=True, clip_rewards=False, episode_life=False)
     #env = Monitor(env)
     
-    env = SubprocVecEnv([make_env(i) for i in range(8)]) #24
+    env = SubprocVecEnv([make_env(seed_,i) for i in range(6)]) #24
     print("CHECK_ENV",env.reset().__array__().shape)
     state_size = env.observation_space.shape[0]
     action_size = env.action_space.n
@@ -145,7 +145,7 @@ def main():
 
     save_path = os.path.join('models_entropy_coeff1', "Space_inv_A2C_LSTM_nstep8_MAX_avg_rew_641_max_rew_4144")
     agent.load(save_path)
-    lstm_state = np.zeros((8,256),dtype=np.float32) #24
+    lstm_state = np.zeros((6,256),dtype=np.float32) #24
     
     print("##############################CHECKING_THE_WORKFLOW**************************************")
     #print("Actions available(%d): %r"%(env.action_space.n, env.env.get_action_meanings()))
@@ -158,8 +158,8 @@ def main():
     for i in range(100):
       # Set reward received in this episode = 0 at the start of the episode
       start_time = time.time()
-      episodic_reward = np.zeros((8))    #24
-      episodic_reward_m = np.zeros((8))  #24
+      episodic_reward = np.zeros((6))    #24
+      episodic_reward_m = np.zeros((6))  #24
 
       reset = False
   
@@ -170,8 +170,8 @@ def main():
       count   = 0
       action_count = 0
       done = False
-      done1 = np.zeros(8) #24
-      done2 = np.zeros(8) #24
+      done1 = np.zeros(6) #24
+      done2 = np.zeros(6) #24
       while not done:
           a, v,lstm_state = agent.step(obs,S_=lstm_state,M_=done1)
           obs, reward, done1, info = env.step(a,done1,cond="eval")
@@ -186,13 +186,14 @@ def main():
                     episodic_reward[j] = 0
           episodic_reward += reward      
           done2 = np.logical_or(done1,done2)
-      cumulative_avg_reward = evaluate(episodic_reward_m1, reset)
 
       end_time =time.time()
       print("Time_difference",end_time-start_time)
       if(i==0):
+        print("Reset_called seed",seed_)
         reset = True
 
+      cumulative_avg_reward = evaluate(episodic_reward_m1, reset)
     
     tf.reset_default_graph()
     env.close() 
