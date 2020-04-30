@@ -119,7 +119,7 @@ def main():
     state_size = env.observation_space.shape[0]
     action_size = env.action_space.n
     agent = get_agent(env)
-    save_path = os.path.join('models_entropy_coeff', "Space_inv_A2C_LSTM_nstep8_2020_4_29_23_41_16_CH2")
+    save_path = os.path.join('models_entropy_coeff', "Space_inv_A2C_LSTM_nstep8_MAX_rew_546")
     lstm_state = np.zeros((1,256),dtype=np.float32)
     agent.load(save_path)
  
