@@ -4,11 +4,20 @@ import numpy as np
 import tensorflow as tf
 import os
 import time
+import datetime
+from setproctitle import setproctitle as ptitle
 
 
-MODEL_PATH = 'models_nstep_8'
 
-start_time = time.time()
+my_dt_ob  = datetime.datetime.now()
+date_list = [my_dt_ob.year, my_dt_ob.month, my_dt_ob.day, my_dt_ob.hour, my_dt_ob.minute, my_dt_ob.second]
+date_list = [str(i) for i in date_list]
+start_time = "_".join(date_list)
+
+ptitle('a2c.py_{}'.format(start_time))
+
+MODEL_PATH = 'models_entropy_coeff'
+
 def set_global_seeds(i):
     tf.set_random_seed(i)
     np.random.seed(i)
@@ -194,8 +203,8 @@ class Runner:
 
 
 def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_timesteps=int(80e6),
-          vf_coef=0.5, ent_coef=0.01, max_grad_norm=0.5, lr=7e-4,
-          epsilon=1e-5, alpha=0.99, gamma=0.99, log_interval=1000):
+          vf_coef=0.5, ent_coef=0.0005, max_grad_norm=5, lr=1e-4,
+          epsilon=1e-5, alpha=0.99, gamma=0.99, log_interval=250):
     tf.reset_default_graph()
     set_global_seeds(seed)
 
@@ -209,11 +218,11 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
                   max_grad_norm=max_grad_norm,
                   lr=lr, alpha=alpha, epsilon=epsilon, total_timesteps=total_timesteps)
     
-    """
-    if os.path.exists("models/Space_inv_A2C_LSTM_MAX_avg_rew_145"):
-        agent.load("models/Space_inv_A2C_LSTM_MAX_avg_rew_145")
+    
+    if os.path.exists("models_entropy_coeff/Space_inv_A2C_LSTM_nstep8_MAX_rew_211"):
+        agent.load("models_entropy_coeff/Space_inv_A2C_LSTM_nstep8_MAX_rew_211")
         print("Loaded_the_model")
-    """
+    
 
     #run 5 step of the enviroment for each worker in parallel,collect data and pass it to the Agent for training
     #Eg : if we have 16 worker and each worker has takes 5 steps ,providing <s,a,r,s'> tuple for each step then the batch size is 16*5 =80
@@ -232,19 +241,10 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
         nseconds = time.time() - tstart
         fps = int((update * nbatch) / nseconds)
         if update % log_interval == 0 or update == 1:
-            print("No_of_times_loop_run",total_timesteps // nbatch)
-            print(' - - - - - - - ')
-            print("nupdates", update)
-            print("current_timesteps", update  )
-            print("fps", fps)
-            print("policy_entropy", float(policy_entropy))
-            print("value_loss", float(value_loss))
-            print("total_no",total_timesteps // nbatch + 1)
+            print("No_of_times_loop_run {} current_timesteps {} policy_entropy {} value_loss {} ".format(total_timesteps // nbatch,update,float(policy_entropy),float(value_loss)))
             # total reward
             r = runner.total_rewards[-100:] # get last 100
             tr = runner.real_total_rewards[-100:]
-            if len(r) == 100:
-                print("avg reward (last 100):", np.mean(r))
             if len(tr) == 100:
                 print("avg total reward (last 100):", np.mean(tr))
                 print("max (last 100):", np.max(tr))
@@ -255,7 +255,7 @@ def learn(network, env, seed, new_session=True,  nsteps=5, nstack=4, total_times
                    print("Saved_the_max_model") 
             save_name = os.path.join(MODEL_PATH,"Space_inv_A2C_LSTM_nstep8_{}".format(start_time))
             agent.save(save_name)
-            print("Saved_the_model")
+            #print("Saved_the_model")
 
     env.close()
     agent.save(save_name)

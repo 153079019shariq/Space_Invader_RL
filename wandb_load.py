@@ -38,11 +38,12 @@ from tensorflow import set_random_seed
 
 wandb.init(project="supp")
 config = wandb.config
-#save_path = os.path.join('models_nstep_8', "Space_inv_A2C_LSTM_nstep8_MAX_avg_rew_139")
-#wandb.save(save_path)
-#print("Saved_the_model")
 
-best_model = wandb.restore("Space_inv_A2C_LSTM_nstep8_MAX_avg_rew_139",run_path="shaq/supp/runs/1ezt2kof")
+save_path = os.path.join('models_entropy_coeff', "Space_inv_A2C_LSTM_nstep8_2020_4_29_23_41_16_CH2")
+wandb.save(save_path)
+print("Saved_the_model")
+
+
 
 def get_args():
     # Get some basic command line arguements
@@ -88,7 +89,6 @@ def evaluate(episodic_reward, reset=False):
     episode = 0
     
   episode += 1
-  print("Episode: %d"%(episode))
 
   # your models will be evaluated on 100-episode average reward
   # therefore, we stop logging after 100 episodes
@@ -104,7 +104,7 @@ def evaluate(episodic_reward, reset=False):
   # this is the metric your models will be evaluated on
   cumulative_avg_reward = cumulative_reward/episode
   wandb.log({'cumulative_avg_reward': cumulative_avg_reward})
-
+  print("Episode {} Episodic_reward {} Cumulative_avg_reward {}".format(episode,episodic_reward,cumulative_avg_reward))
   return cumulative_avg_reward
 
 
@@ -113,7 +113,7 @@ def main():
 
 
   cumulative_avg_rewards = []
-  for seed_ in [10, 50, 100, 200, 500]:
+  for seed_ in [10]: #[10, 50, 100, 200, 500]:
     seed(seed_)
     set_random_seed(seed_)
     print("Seed: ",seed_)
@@ -125,11 +125,11 @@ def main():
     env_id = get_args().env
     env = make_atari(env_id)
     env = wrap_deepmind(env, frame_stack=True, clip_rewards=False, episode_life=False)
-    
+    env.seed(seed_) 
     state_size = env.observation_space.shape[0]
     action_size = env.action_space.n
     agent = get_agent(env)
-    agent.load(best_model.name)
+    agent.load(save_path)
     lstm_state = np.zeros((1,256),dtype=np.float32)
  
     print("Actions available(%d): %r"%(env.action_space.n, env.env.get_action_meanings()))
@@ -187,3 +187,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+

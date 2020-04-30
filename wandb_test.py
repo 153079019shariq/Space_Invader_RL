@@ -29,6 +29,9 @@ import imageio
 import time
 from numpy.random import seed
 from tensorflow import set_random_seed
+from setproctitle import setproctitle as ptitle
+
+ptitle('wandb_test')
 
 
 def get_args():
@@ -75,7 +78,6 @@ def evaluate(episodic_reward, reset=False):
     episode = 0
     
   episode += 1
-  print("Episode: %d"%(episode))
 
   # your models will be evaluated on 100-episode average reward
   # therefore, we stop logging after 100 episodes
@@ -91,7 +93,7 @@ def evaluate(episodic_reward, reset=False):
   # this is the metric your models will be evaluated on
   cumulative_avg_reward = cumulative_reward/episode
 
-
+  print("Episode {} Episodic_reward {} Cumulative_avg_reward {} ".format(episode,episodic_reward,cumulative_avg_reward))
   return cumulative_avg_reward
 
 
@@ -106,17 +108,18 @@ def main():
     set_random_seed(seed_)
     print("Seed: ",seed_)
     episode = 0
-  
+     
     # initialize environment
     env_id = get_args().env
     env = make_atari(env_id)
     env = wrap_deepmind(env, frame_stack=True, clip_rewards=False, episode_life=False)
-    env = Monitor(env)
+    env.seed(seed_)
+    #env = Monitor(env)
     
     state_size = env.observation_space.shape[0]
     action_size = env.action_space.n
     agent = get_agent(env)
-    save_path = os.path.join('models_nstep_8', "Space_inv_A2C_LSTM_nstep8_MAX_avg_rew_139")
+    save_path = os.path.join('models_entropy_coeff', "Space_inv_A2C_LSTM_nstep8_2020_4_29_23_41_16_CH2")
     lstm_state = np.zeros((1,256),dtype=np.float32)
     agent.load(save_path)
  
@@ -148,7 +151,7 @@ def main():
           action_count += 1
           if(done):
           #  print(action_count)
-            print(info)
+            #print(info)
             break
           
           #if(action_count == 50):

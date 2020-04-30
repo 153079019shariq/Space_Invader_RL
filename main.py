@@ -24,12 +24,12 @@ def get_args():
     parser.add_argument('--nenv', help='No. of environments', type=int, default=24)
     return parser.parse_args()
 
-
+lis =[10,50,100,200,500,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
 def train(env_id, num_timesteps, num_cpu):
     def make_env(rank):
         def _thunk():
             env = make_atari(env_id)
-            env.seed(SEED + rank)
+            env.seed(SEED + lis[rank])
             gym.logger.setLevel(logging.WARN)
             env = wrap_deepmind(env)
 
