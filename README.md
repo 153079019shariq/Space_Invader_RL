@@ -2,7 +2,8 @@
 
 
 
-To run in a single enviroment:
+To run in a single enviroment
+  
   python wandb_load.py   
   
   This achieves a reward of 25000 +/- 1000 over 100 episodes
