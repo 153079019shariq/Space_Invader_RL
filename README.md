@@ -2,7 +2,7 @@
 
 
 
-To run in a single enviroment use the following command 
+To run the trained RL agent  use the following command 
   
   python wandb_load.py   
   
