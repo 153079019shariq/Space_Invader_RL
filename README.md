@@ -16,7 +16,7 @@ To run in a single enviroment use the following command
  
  
  
- The link to the Space Invader video is given below :
+ The link to the Space Invader video is given below 
    https://drive.google.com/file/d/1FNSIYbhTAXMM1zMGlEXbrt8lBt3Cw5mW/view?usp=sharing
  
  In this video the RL agent achieves a reward of 69335 before losing all the 3 ale lives
